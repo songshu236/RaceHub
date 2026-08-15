@@ -42,12 +42,12 @@ class CS2Panel(SeriesPanel):
         p.rowconfigure(1, weight=1)
         SectionHeader(p, "赛事日历", subtitle="大型线下赛 / 联赛 / Major", accent=self.accent).grid(
             row=0, column=0, sticky="ew")
-        self.cal_tree, _ = make_tree(p, [
+        self.cal_tree, self.cal_tree_frame = make_tree(p, [
             ("start", "开始"), ("end", "结束"), ("status", "状态"), ("name", "赛事"),
             ("venue", "地点"), ("prize", "奖金"), ("countdown", "倒计时"),
         ], widths={"start": 90, "end": 90, "status": 70, "name": 230, "venue": 150,
                    "prize": 110, "countdown": 80})
-        self.cal_tree.grid(row=1, column=0, sticky="nsew")
+        self.cal_tree_frame.grid(row=1, column=0, sticky="nsew")
 
     def _build_results_page(self):
         p = self.res_page
@@ -55,12 +55,12 @@ class CS2Panel(SeriesPanel):
         p.rowconfigure(2, weight=1)
         SectionHeader(p, "对阵表与赛果", subtitle="包含各局比分；点击比赛查看详情", accent=self.accent).grid(
             row=0, column=0, sticky="ew")
-        self.match_tree, _ = make_tree(p, [
+        self.match_tree, self.match_tree_frame = make_tree(p, [
             ("date", "日期"), ("status", "状态"), ("event", "赛事"), ("match", "对阵"),
             ("score", "比分"), ("maps", "各局比分"),
         ], widths={"date": 90, "status": 65, "event": 210, "match": 210, "score": 60, "maps": 300},
             stretch=("maps",))
-        self.match_tree.grid(row=1, column=0, sticky="nsew")
+        self.match_tree_frame.grid(row=1, column=0, sticky="nsew")
         self.match_tree.bind("<<TreeviewSelect>>", self._on_match_select)
 
         detail = ttk.Frame(p, style="Panel.TFrame")
@@ -152,10 +152,10 @@ class CS2Panel(SeriesPanel):
             row=0, column=0, sticky="ew")
         self.sta_info = KeyValueRow(p, "说明", "排名基于 HLTV 世界排名页", key_width=10)
         self.sta_info.grid(row=1, column=0, sticky="ew")
-        self.rank_tree, _ = make_tree(p, [
+        self.rank_tree, self.rank_tree_frame = make_tree(p, [
             ("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("change", "变化"),
         ], widths={"pos": 55, "name": 240, "points": 80, "change": 70})
-        self.rank_tree.grid(row=2, column=0, sticky="nsew")
+        self.rank_tree_frame.grid(row=2, column=0, sticky="nsew")
 
     def _on_kind_updated(self, kind):
         if kind == "calendar":

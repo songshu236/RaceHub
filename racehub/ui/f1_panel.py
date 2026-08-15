@@ -23,11 +23,11 @@ class F1Panel(SeriesPanel):
         p.rowconfigure(1, weight=1)
         SectionHeader(p, "2026 赛季赛程", subtitle="点击某站查看该站比赛结果", accent=self.accent).grid(
             row=0, column=0, sticky="ew")
-        self.cal_tree, _ = make_tree(p, [
+        self.cal_tree, self.cal_tree_frame = make_tree(p, [
             ("round", "轮次"), ("date", "日期"), ("status", "状态"),
             ("name", "大奖赛"), ("venue", "赛道"), ("countdown", "倒计时"),
         ], widths={"round": 50, "date": 90, "status": 70, "name": 180, "venue": 200, "countdown": 80})
-        self.cal_tree.grid(row=1, column=0, sticky="nsew")
+        self.cal_tree_frame.grid(row=1, column=0, sticky="nsew")
         self.cal_tree.bind("<<TreeviewSelect>>", self._on_cal_select)
 
     def _on_cal_select(self, _evt=None):
@@ -61,11 +61,11 @@ class F1Panel(SeriesPanel):
         self.round_combo.bind("<<ComboboxSelected>>", lambda e: self._render_results_for_round(self.round_combo.get()))
         self.res_info = KeyValueRow(p, "比赛", "", key_width=10)
         self.res_info.grid(row=3, column=0, sticky="ew")
-        self.res_tree, _ = make_tree(p, [
+        self.res_tree, self.res_tree_frame = make_tree(p, [
             ("pos", "名次"), ("driver", "车手"), ("team", "车队"), ("laps", "圈数"),
             ("time", "用时"), ("points", "积分"), ("fl", "最快圈"),
         ], widths={"pos": 45, "driver": 170, "team": 130, "laps": 50, "time": 110, "points": 55, "fl": 90})
-        self.res_tree.grid(row=2, column=0, sticky="nsew")
+        self.res_tree_frame.grid(row=2, column=0, sticky="nsew")
 
     def _render_results_for_round(self, rnd):
         payload = self.store.get("F1", "results") or {"rows": []}
@@ -97,11 +97,11 @@ class F1Panel(SeriesPanel):
         self.stand_combo.bind("<<ComboboxSelected>>", lambda e: self._render_standings(self.stand_combo.get()))
         self.sta_info = KeyValueRow(p, "赛季", "", key_width=10)
         self.sta_info.grid(row=3, column=0, sticky="ew")
-        self.stand_tree, _ = make_tree(p, [
+        self.stand_tree, self.stand_tree_frame = make_tree(p, [
             ("pos", "名次"), ("name", "车手 / 车队"), ("team", "车队"),
             ("points", "积分"), ("wins", "胜场"),
         ], widths={"pos": 50, "name": 200, "team": 140, "points": 70, "wins": 55})
-        self.stand_tree.grid(row=2, column=0, sticky="nsew")
+        self.stand_tree_frame.grid(row=2, column=0, sticky="nsew")
 
     def _render_standings(self, title):
         payload = self.store.get("F1", "standings") or {"tables": []}

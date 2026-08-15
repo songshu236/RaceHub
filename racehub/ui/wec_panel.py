@@ -22,11 +22,11 @@ class WECPanel(SeriesPanel):
         p.rowconfigure(1, weight=1)
         SectionHeader(p, "2026 赛季赛程", subtitle="点击某站查看该站最终成绩", accent=self.accent).grid(
             row=0, column=0, sticky="ew")
-        self.cal_tree, _ = make_tree(p, [
+        self.cal_tree, self.cal_tree_frame = make_tree(p, [
             ("date", "日期"), ("status", "状态"), ("name", "赛事"),
             ("country", "国家"), ("countdown", "倒计时"),
         ], widths={"date": 105, "status": 70, "name": 260, "country": 90, "countdown": 80})
-        self.cal_tree.grid(row=1, column=0, sticky="nsew")
+        self.cal_tree_frame.grid(row=1, column=0, sticky="nsew")
         self.cal_tree.bind("<<TreeviewSelect>>", self._on_cal_select)
 
     def _on_cal_select(self, _evt=None):
@@ -60,13 +60,13 @@ class WECPanel(SeriesPanel):
                               lambda e: self._render_results_for_event(self.event_combo.get()))
         self.res_info = KeyValueRow(p, "比赛", "", key_width=10)
         self.res_info.grid(row=3, column=0, sticky="ew")
-        self.res_tree, _ = make_tree(p, [
+        self.res_tree, self.res_tree_frame = make_tree(p, [
             ("pos", "名次"), ("no", "车号"), ("team", "车队"), ("drivers", "车手"),
             ("car", "赛车"), ("cls", "组别"), ("laps", "圈数"), ("time", "用时"),
             ("gap", "差距"), ("fl", "最快圈"),
         ], widths={"pos": 42, "no": 45, "team": 170, "drivers": 230, "car": 150,
                    "cls": 70, "laps": 45, "time": 105, "gap": 85, "fl": 90})
-        self.res_tree.grid(row=2, column=0, sticky="nsew")
+        self.res_tree_frame.grid(row=2, column=0, sticky="nsew")
 
     def _render_results_for_event(self, ev):
         payload = self.store.get("WEC", "results") or {"rows": []}
@@ -99,10 +99,10 @@ class WECPanel(SeriesPanel):
                               lambda e: self._render_standings(self.stand_combo.get()))
         self.sta_info = KeyValueRow(p, "赛季", "", key_width=10)
         self.sta_info.grid(row=3, column=0, sticky="ew")
-        self.stand_tree, _ = make_tree(p, [
+        self.stand_tree, self.stand_tree_frame = make_tree(p, [
             ("pos", "名次"), ("name", "车队 / 车手"), ("race_pts", "各站积分"), ("points", "总分"),
         ], widths={"pos": 48, "name": 250, "race_pts": 260, "points": 65})
-        self.stand_tree.grid(row=2, column=0, sticky="nsew")
+        self.stand_tree_frame.grid(row=2, column=0, sticky="nsew")
 
     def _render_standings(self, title):
         payload = self.store.get("WEC", "standings") or {"tables": []}
