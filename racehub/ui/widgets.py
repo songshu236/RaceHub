@@ -29,8 +29,8 @@ def make_tree(parent, columns, widths=None, stretch=None, height=10, style=None)
     return tree, frame
 
 
-def fill_tree(tree: ttk.Treeview, rows: list, fn, tags=None):
-    """清空并填充 tree。fn(row) -> (iid, values)。tags(row) 可选。"""
+def fill_tree(tree: ttk.Treeview, rows: list, fn, tags=None, empty_text="（暂无数据，请点击右上角「🔄 刷新」）"):
+    """清空并填充 tree。fn(row) -> (iid, values)。tags(row) 可选。空列表时插入提示行。"""
     tree.delete(*tree.get_children())
     for row in rows:
         iid, values = fn(row)
@@ -38,6 +38,12 @@ def fill_tree(tree: ttk.Treeview, rows: list, fn, tags=None):
         if isinstance(tag, str):
             tag = (tag,)
         tree.insert("", "end", iid=iid, values=values, tags=tag)
+    if not rows:
+        cols = len(tree["columns"]) if tree["columns"] else 1
+        vals = [""] * cols
+        if cols:
+            vals[0] = empty_text
+        tree.insert("", "end", iid="__empty__", values=vals, tags=("st_empty",))
 
 
 def status_tag(status: str) -> str:
@@ -48,6 +54,7 @@ def apply_tree_tags(tree: ttk.Treeview):
     tree.tag_configure("st_upcoming", foreground=theme.SERIES_ACCENT["CS2"])
     tree.tag_configure("st_ongoing", foreground=theme.WARN)
     tree.tag_configure("st_done", foreground=theme.MUTED)
+    tree.tag_configure("st_empty", foreground=theme.MUTED, background=theme.PANEL)
     tree.tag_configure("row_odd", background=theme.PANEL)
     tree.tag_configure("row_even", background=theme.PANEL2)
     tree.tag_configure("leader", foreground=theme.OK, font=(theme.FONT_FAMILY, 9, "bold"))

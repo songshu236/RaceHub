@@ -1,0 +1,268 @@
+{
+ "payload": {
+  "series": "F1",
+  "title": "积分榜",
+  "tables": [
+   {
+    "title": "车手积分榜",
+    "season": "2026",
+    "round": "11",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Andrea Kimi Antonelli",
+      "code": "ANT",
+      "points": "219",
+      "wins": "6",
+      "team": "Mercedes"
+     },
+     {
+      "pos": "2",
+      "name": "Lewis Hamilton",
+      "code": "HAM",
+      "points": "169",
+      "wins": "1",
+      "team": "Ferrari"
+     },
+     {
+      "pos": "3",
+      "name": "George Russell",
+      "code": "RUS",
+      "points": "160",
+      "wins": "2",
+      "team": "Mercedes"
+     },
+     {
+      "pos": "4",
+      "name": "Charles Leclerc",
+      "code": "LEC",
+      "points": "138",
+      "wins": "1",
+      "team": "Ferrari"
+     },
+     {
+      "pos": "5",
+      "name": "Lando Norris",
+      "code": "NOR",
+      "points": "128",
+      "wins": "1",
+      "team": "McLaren"
+     },
+     {
+      "pos": "6",
+      "name": "Max Verstappen",
+      "code": "VER",
+      "points": "109",
+      "wins": "0",
+      "team": "Red Bull"
+     },
+     {
+      "pos": "7",
+      "name": "Oscar Piastri",
+      "code": "PIA",
+      "points": "92",
+      "wins": "0",
+      "team": "McLaren"
+     },
+     {
+      "pos": "8",
+      "name": "Isack Hadjar",
+      "code": "HAD",
+      "points": "68",
+      "wins": "0",
+      "team": "Red Bull"
+     },
+     {
+      "pos": "9",
+      "name": "Liam Lawson",
+      "code": "LAW",
+      "points": "43",
+      "wins": "0",
+      "team": "RB F1 Team"
+     },
+     {
+      "pos": "10",
+      "name": "Pierre Gasly",
+      "code": "GAS",
+      "points": "42",
+      "wins": "0",
+      "team": "Alpine F1 Team"
+     },
+     {
+      "pos": "11",
+      "name": "Arvid Lindblad",
+      "code": "LIN",
+      "points": "23",
+      "wins": "0",
+      "team": "RB F1 Team"
+     },
+     {
+      "pos": "12",
+      "name": "Franco Colapinto",
+      "code": "COL",
+      "points": "19",
+      "wins": "0",
+      "team": "Alpine F1 Team"
+     },
+     {
+      "pos": "13",
+      "name": "Oliver Bearman",
+      "code": "BEA",
+      "points": "18",
+      "wins": "0",
+      "team": "Haas F1 Team"
+     },
+     {
+      "pos": "14",
+      "name": "Gabriel Bortoleto",
+      "code": "BOR",
+      "points": "10",
+      "wins": "0",
+      "team": "Audi"
+     },
+     {
+      "pos": "15",
+      "name": "Carlos Sainz",
+      "code": "SAI",
+      "points": "6",
+      "wins": "0",
+      "team": "Williams"
+     },
+     {
+      "pos": "16",
+      "name": "Alexander Albon",
+      "code": "ALB",
+      "points": "5",
+      "wins": "0",
+      "team": "Williams"
+     },
+     {
+      "pos": "17",
+      "name": "Esteban Ocon",
+      "code": "OCO",
+      "points": "3",
+      "wins": "0",
+      "team": "Haas F1 Team"
+     },
+     {
+      "pos": "18",
+      "name": "Nico Hülkenberg",
+      "code": "HUL",
+      "points": "2",
+      "wins": "0",
+      "team": "Audi"
+     },
+     {
+      "pos": "19",
+      "name": "Fernando Alonso",
+      "code": "ALO",
+      "points": "1",
+      "wins": "0",
+      "team": "Aston Martin"
+     },
+     {
+      "pos": "20",
+      "name": "Lance Stroll",
+      "code": "STR",
+      "points": "0",
+      "wins": "0",
+      "team": "Aston Martin"
+     },
+     {
+      "pos": "21",
+      "name": "Valtteri Bottas",
+      "code": "BOT",
+      "points": "0",
+      "wins": "0",
+      "team": "Cadillac F1 Team"
+     },
+     {
+      "pos": "22",
+      "name": "Sergio Pérez",
+      "code": "PER",
+      "points": "0",
+      "wins": "0",
+      "team": "Cadillac F1 Team"
+     }
+    ],
+    "kind": "driver"
+   },
+   {
+    "title": "车队积分榜",
+    "season": "2026",
+    "round": "11",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Mercedes",
+      "points": "379",
+      "wins": "8"
+     },
+     {
+      "pos": "2",
+      "name": "Ferrari",
+      "points": "307",
+      "wins": "2"
+     },
+     {
+      "pos": "3",
+      "name": "McLaren",
+      "points": "220",
+      "wins": "1"
+     },
+     {
+      "pos": "4",
+      "name": "Red Bull",
+      "points": "177",
+      "wins": "0"
+     },
+     {
+      "pos": "5",
+      "name": "RB F1 Team",
+      "points": "66",
+      "wins": "0"
+     },
+     {
+      "pos": "6",
+      "name": "Alpine F1 Team",
+      "points": "61",
+      "wins": "0"
+     },
+     {
+      "pos": "7",
+      "name": "Haas F1 Team",
+      "points": "21",
+      "wins": "0"
+     },
+     {
+      "pos": "8",
+      "name": "Audi",
+      "points": "12",
+      "wins": "0"
+     },
+     {
+      "pos": "9",
+      "name": "Williams",
+      "points": "11",
+      "wins": "0"
+     },
+     {
+      "pos": "10",
+      "name": "Aston Martin",
+      "points": "1",
+      "wins": "0"
+     },
+     {
+      "pos": "11",
+      "name": "Cadillac F1 Team",
+      "points": "0",
+      "wins": "0"
+     }
+    ],
+    "kind": "constructor"
+   }
+  ]
+ },
+ "source": "Ergast API (api.jolpi.ca)",
+ "_fetched_at": 1786804974.327258
+}

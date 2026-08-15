@@ -1,7 +1,10 @@
-﻿"""RaceHub 主应用。"""
+"""RaceHub 主应用。"""
 from __future__ import annotations
 
+import logging
+import sys
 import tkinter as tk
+import traceback
 from datetime import datetime
 from tkinter import messagebox, ttk
 
@@ -26,11 +29,21 @@ class RaceHubApp(tk.Tk):
         theme.setup(self)
         self.store = DataStore(self.config)
         self._mini = None
+        self._setup_logging()
+        sys.excepthook = self._log_exception
+        logging.info("=== RaceHub 启动 ===")
+        logging.info("python: %s", sys.version.split()[0])
+        logging.info("config: %s", self.config)
         self._build_window()
         self._build_menubar()
         self._build_topbar()
-        self._build_tabs()
+        try:
+            self._build_tabs()
+        except Exception:
+            logging.exception("构建标签页失败")
+            traceback.print_exc()
         self._build_statusbar()
+        self._check_startup_data()
         self.protocol("WM_DELETE_WINDOW", self.on_close)
         # 迷你窗
         self.after(600, self._init_mini)
@@ -63,6 +76,7 @@ class RaceHubApp(tk.Tk):
         bar.add_cascade(label="视图", menu=m_view)
 
         m_help = tk.Menu(bar, tearoff=0)
+        m_help.add_command(label="诊断信息", command=self.show_diagnostics)
         m_help.add_command(label="关于", command=self.show_about)
         bar.add_cascade(label="帮助", menu=m_help)
         self.configure(menu=bar)
@@ -207,7 +221,48 @@ class RaceHubApp(tk.Tk):
             "说明：HLTV 有 Cloudflare 防护，如抓取失败请在设置中配置代理。",
         )
 
+    def _check_startup_data(self):
+        """启动时校验数据是否为空；为空则显示醒目提示并写日志，便于排查。"""
+        total = 0
+        for series in ("F1", "WEC", "CS2"):
+            for kind in ("calendar", "results", "standings", "matches", "ranking"):
+                p = self.store.get(series, kind)
+                if p is None:
+                    continue
+                total += len(p) if isinstance(p, list) else (len(p.get("rows", [])) or len(p.get("tables", [])))
+        logging.info("启动时数据总条数: %d", total)
+        if total == 0:
+            logging.warning("启动时没有任何数据！请运行: python scripts\\gen_demo.py 重新生成示例数据")
+            banner = tk.Label(self, text="⚠ 未加载到任何数据：请点击右上角「🔄 全部刷新」，"
+                                          "或关闭后在项目目录运行  python scripts\\gen_demo.py",
+                              bg="#3a1f1f", fg="#ffb3a7", font=(theme.FONT_FAMILY, 11, "bold"), pady=6)
+            banner.pack(side="top", fill="x", padx=10)
+
+    def _setup_logging(self):
+        from .config import LOG_DIR
+        try:
+            LOG_DIR.mkdir(parents=True, exist_ok=True)
+            logging.basicConfig(
+                filename=LOG_DIR / "app.log",
+                level=logging.INFO,
+                format="%(asctime)s %(levelname)s %(message)s",
+                encoding="utf-8",
+            )
+        except Exception:
+            pass
+
+    def _log_exception(self, etype, value, tb):
+        logging.error("未捕获异常: %s", "".join(traceback.format_exception(etype, value, tb)))
+        try:
+            messagebox.showerror("程序错误", f"发生未捕获异常：\n{etype.__name__}: {value}")
+        except Exception:
+            pass
+
+    def show_diagnostics(self):
+        DiagnosticsDialog(self)
+
     def on_close(self):
+        logging.info("=== RaceHub 退出 ===")
         save_config(self.config)
         self.destroy()
 
@@ -278,3 +333,50 @@ class SettingsDialog(tk.Toplevel):
         self.app._update_online_badge()
         self.destroy()
 
+
+
+class DiagnosticsDialog(tk.Toplevel):
+    """显示各项目数据条数 / 错误 / 运行环境，便于排查空窗口等问题。"""
+
+    def __init__(self, app):
+        super().__init__(app)
+        self.app = app
+        self.title("诊断信息")
+        self.geometry("640x520")
+        self.configure(bg=theme.BG)
+        self.transient(app)
+        self._build()
+
+    def _build(self):
+        lines = []
+        lines.append(f"应用版本: {__version__}")
+        lines.append(f"Python: {sys.version.split()[0]}")
+        lines.append(f"Tk: {self.app.tk.call('info', 'patchlevel')}")
+        lines.append(f"主题: {self.app.tk.call('ttk::style', 'theme', 'use')}")
+        lines.append("")
+        lines.append("数据加载情况:")
+        for series in ("F1", "WEC", "CS2"):
+            for kind, m in self.app.store.all_meta(series).items():
+                p = self.app.store.get(series, kind)
+                n = len(p) if isinstance(p, list) else (len(p.get("rows", [])) or len(p.get("tables", [])))
+                src = m.get("source", "")
+                err = m.get("error", "")
+                lines.append(f"  {series}/{kind}: {n} 条  [{src}]" + (f"  错误:{err}" if err else ""))
+        lines.append("")
+        lines.append("日志文件: logs/app.log")
+        lines.append("数据目录: data/")
+
+        txt = tk.Text(self, bg=theme.PANEL, fg=theme.TEXT, font=("Consolas", 9),
+                      relief="flat", padx=10, pady=10, wrap="none")
+        txt.insert("1.0", "\n".join(lines))
+        txt.config(state="disabled")
+        txt.pack(fill="both", expand=True, padx=10, pady=10)
+        bar = ttk.Frame(self)
+        bar.pack(fill="x", padx=10, pady=(0, 10))
+        ttk.Button(bar, text="打开数据目录", command=self._open_data).pack(side="left")
+        ttk.Button(bar, text="关闭", command=self.destroy).pack(side="right")
+
+    def _open_data(self):
+        import os
+        from .config import DATA_DIR
+        os.startfile(DATA_DIR)  # type: ignore[attr-defined]

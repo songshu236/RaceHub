@@ -1,6 +1,23 @@
-﻿@echo off
+@echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-echo Starting RaceHub 赛事日历...
-python main.py
-if errorlevel 1 pause
+echo Starting RaceHub ????...
+where python >nul 2>nul
+if %errorlevel%==0 (
+  python main.py
+) else (
+  where py >nul 2>nul
+  if %errorlevel%==0 (
+    py -3 main.py
+  ) else (
+    echo [??] ??? Python????? Python 3.10+ ??? "Add to PATH"?
+    echo ??????????:  python main.py
+    pause
+    exit /b 1
+  )
+)
+if errorlevel 1 (
+  echo.
+  echo ?????????? ??-???? ??? logs\app.log ????
+  pause
+)

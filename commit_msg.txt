@@ -1,0 +1,8 @@
+﻿fix: 空窗口排查与加固
+
+- 表格为空时显示明确提示（不再静默空白）
+- 启动日志 logs/app.log + 未捕获异常记录
+- 帮助菜单新增“诊断信息”对话框
+- 新增 python main.py --selftest 无界面自检
+- 检测 Windows 高对比度模式自动切换浅色主题
+- run.bat 增加 python 缺失检测与 py -3 回退

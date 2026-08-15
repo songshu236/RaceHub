@@ -1,4 +1,4 @@
-﻿"""深色主题与 ttk 样式。"""
+"""深色主题与 ttk 样式。"""
 from __future__ import annotations
 
 import tkinter as tk
@@ -21,11 +21,49 @@ ERR = "#f85149"
 SERIES_ACCENT = {"F1": "#e10600", "WEC": "#f5b301", "CS2": "#3b82f6"}
 STATUS_COLOR = {"upcoming": "#4c8bf5", "ongoing": "#f5b301", "completed": "#57606a"}
 
+# 浅色主题（用于 Windows 高对比度等场景，避免深色背景导致文字不可见）
+LIGHT = {
+    "BG": "#f5f7fa", "PANEL": "#ffffff", "PANEL2": "#eef1f5", "BORDER": "#c8d1dc",
+    "INPUT": "#eef1f5", "TEXT": "#1c2733", "MUTED": "#5a6b7d",
+}
+
 FONT_FAMILY = "Microsoft YaHei UI"
+
+
+def detect_high_contrast() -> bool:
+    """检测 Windows 高对比度模式（该模式下强制覆盖颜色，深色主题会变不可读）。"""
+    try:
+        import ctypes
+
+        class HIGHCONTRASTW(ctypes.Structure):
+            _fields_ = [("cbSize", ctypes.c_uint), ("dwFlags", ctypes.c_uint),
+                        ("lpszDefaultScheme", ctypes.c_wchar_p)]
+
+        hc = HIGHCONTRASTW()
+        hc.cbSize = ctypes.sizeof(HIGHCONTRASTW)
+        ok = ctypes.windll.user32.SystemParametersInfoW(
+            0x0043, ctypes.sizeof(HIGHCONTRASTW), ctypes.byref(hc), 0)
+        return bool(ok) and bool(hc.dwFlags & 0x1)  # HCF_HIGHCONTRASTON
+    except Exception:
+        return False
+
+
+def apply_palette(palette: dict) -> None:
+    """按调色板切换全局颜色（在 setup() 之前调用）。"""
+    global BG, PANEL, PANEL2, BORDER, INPUT, TEXT, MUTED, ACCENT, OK, WARN, ERR
+    BG = palette.get("BG", BG)
+    PANEL = palette.get("PANEL", PANEL)
+    PANEL2 = palette.get("PANEL2", PANEL2)
+    BORDER = palette.get("BORDER", BORDER)
+    INPUT = palette.get("INPUT", INPUT)
+    TEXT = palette.get("TEXT", TEXT)
+    MUTED = palette.get("MUTED", MUTED)
 
 
 def setup(root: tk.Tk) -> None:
     """初始化全局 ttk 样式。"""
+    if detect_high_contrast():
+        apply_palette(LIGHT)
     try:
         fam = tkfont.families(root)
         if "Microsoft YaHei UI" not in fam and "Microsoft YaHei" in fam:
