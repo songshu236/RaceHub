@@ -225,50 +225,6 @@
   {
    "series": "CS2",
    "event": "Esports World Cup 2026",
-   "date": "2026-08-12",
-   "team1": {
-    "name": "FUT",
-    "logo": "https://img-cdn.hltv.org/teamlogo/Os71GAOy8KDuQFc0M8HE6O.png?ixlib=java-2.1.0&w=50&s=86f2bded6bcb7c690a42a62250ed69e7"
-   },
-   "team2": {
-    "name": "TYLOO",
-    "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a"
-   },
-   "map_scores": [],
-   "best_of": 0,
-   "status": "finished",
-   "url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
-   "extra": {
-    "match_id": "2396569",
-    "score_text": "10 : 13",
-    "format": "mrg"
-   }
-  },
-  {
-   "series": "CS2",
-   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
-   "date": "2026-08-12",
-   "team1": {
-    "name": "Bushido Wildcats",
-    "logo": "https://img-cdn.hltv.org/teamlogo/TZknfdU8-79rJ1gw-_6qy5.png?ixlib=java-2.1.0&w=50&s=a0dc291e786acba7de26684befd56800"
-   },
-   "team2": {
-    "name": "ex-MANA",
-    "logo": "/dynamic-svg/teamplaceholder?letter=e"
-   },
-   "map_scores": [],
-   "best_of": 0,
-   "status": "finished",
-   "url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
-   "extra": {
-    "match_id": "2396619",
-    "score_text": "1 : 2",
-    "format": "bo3"
-   }
-  },
-  {
-   "series": "CS2",
-   "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
     "name": "Aurora",
@@ -879,6 +835,50 @@
    "extra": {
     "match_id": "2396814",
     "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "NODWIN Clutch Series 11 Closed Qualifier",
+   "date": "2026-08-14",
+   "team1": {
+    "name": "MOUZ NXT",
+    "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23"
+   },
+   "team2": {
+    "name": "Enjoy",
+    "logo": "https://img-cdn.hltv.org/teamlogo/FXtaA3TkcW1-BMD3B-p1E7.png?ixlib=java-2.1.0&w=50&s=4cfdf5a6feba3bc93db929052dabb544"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396838/mouz-nxt-vs-enjoy-nodwin-clutch-series-11-closed-qualifier",
+   "extra": {
+    "match_id": "2396838",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
+   "date": "2026-08-14",
+   "team1": {
+    "name": "Honvéd",
+    "logo": "https://img-cdn.hltv.org/teamlogo/GRDCTjbpIWDj6cS-k5j69x.png?ixlib=java-2.1.0&w=50&s=9eeb2cd0832ec343547466896a0b8f89"
+   },
+   "team2": {
+    "name": "Noir Verse",
+    "logo": "https://img-cdn.hltv.org/teamlogo/b-Io2gTRPLWPGCh3ZV8a_I.png?ixlib=java-2.1.0&w=50&s=0a149d61923d0b6f11979dddc4bdffb3"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396630/honvd-vs-noir-verse-cct-2026-europe-series-7-closed-qualifier",
+   "extra": {
+    "match_id": "2396630",
+    "score_text": "1 : 2",
     "format": "bo3"
    }
   }

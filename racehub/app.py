@@ -92,7 +92,7 @@ class RaceHubApp(tk.Tk):
         bar.add_cascade(label="视图", menu=m_view)
 
         m_help = tk.Menu(bar, tearoff=0)
-        m_help.add_command(label="🖼 下载全部 CS2 队标", command=self.download_all_cs2_logos)
+        m_help.add_command(label="🖼 下载全部 CS2 队标与赛事图标", command=self.download_all_cs2_logos)
         m_help.add_separator()
         m_help.add_command(label="生成界面截图", command=self.save_screenshot)
         m_help.add_command(label="修复显示（强制重绘）", command=self.repair_display)
@@ -234,7 +234,7 @@ class RaceHubApp(tk.Tk):
         SettingsDialog(self)
 
     def download_all_cs2_logos(self):
-        """帮助菜单：批量下载 CS2 全部真实队标（白底、本地保存）。"""
+        """帮助菜单：批量下载 CS2 全部真实队标与赛事图标（白底、本地保存）。"""
         cs2 = getattr(self, "cs2", None)
         if cs2 is None or not hasattr(cs2, "download_all_logos"):
             messagebox.showinfo("下载队标", "CS2 面板尚未创建，请稍后重试。")

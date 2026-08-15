@@ -61,7 +61,7 @@ def apply_tree_tags(tree: ttk.Treeview):
     tree.tag_configure("st_empty", foreground=theme.MUTED, background=theme.PANEL)
     tree.tag_configure("row_odd", background=theme.PANEL)
     tree.tag_configure("row_even", background=theme.PANEL2)
-    tree.tag_configure("leader", foreground=theme.OK, font=(theme.FONT_FAMILY, 11, "bold"))
+    tree.tag_configure("leader", foreground=theme.OK, font=(theme.FONT_FAMILY, 12, "bold"))
 
 
 def set_odd_even(tree: ttk.Treeview):
@@ -107,7 +107,7 @@ class KeyValueRow(ttk.Frame):
         self.value_lbl.config(text=value)
 
 
-def add_badge_column(tree: ttk.Treeview, width: int = 44, text: str = "队标"):
+def add_badge_column(tree: ttk.Treeview, width: int = 56, text: str = "队标"):
     """启用 #0 树列作为队标图片列（配合 fill_tree 的 image_fn 使用）。"""
     tree.configure(show="tree headings")
     tree.heading("#0", text=text)

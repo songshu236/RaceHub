@@ -13,7 +13,8 @@
   "url": "https://www.hltv.org/events/9306/betboom-storm-season-4",
   "extra": {
    "prize_pool": "",
-   "event_id": "9306"
+   "event_id": "9306",
+   "logo": "https://img-cdn.hltv.org/eventlogo/rhOe-MSVixYeGjpjv5PZYa.png?ixlib=java-2.1.0&w=100&s=0d073088cf0429182a36a467a78c2dee"
   }
  },
  {
@@ -30,7 +31,8 @@
   "url": "https://www.hltv.org/events/9323/cct-2026-europe-series-7-closed-qualifier",
   "extra": {
    "prize_pool": "",
-   "event_id": "9323"
+   "event_id": "9323",
+   "logo": "https://img-cdn.hltv.org/eventlogo/CZYxFG_CfcWYpUqP22qBsg.png?ixlib=java-2.1.0&w=100&s=174c742e8741e68791c652587d535b26"
   }
  },
  {
@@ -47,7 +49,8 @@
   "url": "https://www.hltv.org/events/8261/esports-world-cup-2026",
   "extra": {
    "prize_pool": "",
-   "event_id": "8261"
+   "event_id": "8261",
+   "logo": "https://img-cdn.hltv.org/eventlogo/RBx1xvPDCaVQekE7sx-S6R.png?ixlib=java-2.1.0&w=100&s=0647ea73086ebba26c91994aa1551ba7"
   }
  },
  {
@@ -64,7 +67,8 @@
   "url": "https://www.hltv.org/events/9326/exort-fiesta-series-1-closed-qualifier",
   "extra": {
    "prize_pool": "",
-   "event_id": "9326"
+   "event_id": "9326",
+   "logo": "https://img-cdn.hltv.org/eventlogo/sBZOfTLOR9HgHp6uzufJqV.png?ixlib=java-2.1.0&w=100&s=ac8fec58040d61d01bb5e3d3bc9a88d1"
   }
  },
  {
@@ -81,7 +85,8 @@
   "url": "https://www.hltv.org/events/9313/cct-2026-challengers-south-america-series-2",
   "extra": {
    "prize_pool": "",
-   "event_id": "9313"
+   "event_id": "9313",
+   "logo": "https://img-cdn.hltv.org/eventlogo/q5xvv1q5Yt3mXnSxAQRWl5.png?ixlib=java-2.1.0&w=100&s=f93f31034ef9a12c27e7c9b4419d802a"
   }
  },
  {
@@ -98,7 +103,8 @@
   "url": "https://www.hltv.org/events/9314/nodwin-clutch-series-11-closed-qualifier",
   "extra": {
    "prize_pool": "",
-   "event_id": "9314"
+   "event_id": "9314",
+   "logo": "https://img-cdn.hltv.org/eventlogo/Dt38ClGIBtrp2kGp2GOoK1.png?ixlib=java-2.1.0&w=100&s=25720a27332cf6f6dd26ec624af5eda3"
   }
  },
  {
@@ -115,7 +121,8 @@
   "url": "https://www.hltv.org/events/9261/esl-challenger-league-season-52-europe-cup-3",
   "extra": {
    "prize_pool": "",
-   "event_id": "9261"
+   "event_id": "9261",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
@@ -132,14 +139,15 @@
   "url": "https://www.hltv.org/events/9321/cct-2026-challengers-europe-series-5",
   "extra": {
    "prize_pool": "",
-   "event_id": "9321"
+   "event_id": "9321",
+   "logo": "https://img-cdn.hltv.org/eventlogo/s5us9UiZDA4-ZIkmyAFAzA.png?ixlib=java-2.1.0&w=100&s=163fda0a31a5f373b84cdbc23c922cde"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "KOKONISTER Satpayev Esports Cup 2026 Finals 2 $4,752 Local LAN Satpayev, Kazakhstan | Aug 16th Teams Prize",
-  "short_name": "KOKONISTER Satpayev Esports Cup 2026 Finals 2 $4,752 Local LAN Satpayev, Kazakhstan | Aug 16th Teams Prize",
+  "name": "KOKONISTER Satpayev Esports Cup 2026 Finals",
+  "short_name": "KOKONISTER Satpayev Esports Cup 2026 Finals",
   "venue": "",
   "country": "",
   "flag": "",
@@ -149,14 +157,15 @@
   "url": "https://www.hltv.org/events/9334/kokonister-satpayev-esports-cup-2026-finals",
   "extra": {
    "prize_pool": "$4,752",
-   "event_id": "9334"
+   "event_id": "9334",
+   "logo": "https://img-cdn.hltv.org/eventlogo/d64kkzrwwsoGkkHDXzpT_1.png?ixlib=java-2.1.0&w=100&s=5092e5522d4794e4f364d56a4da77319"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "CCT 2026 Europe Series 7 24 $25,000 Online Europe (Online) | Aug 18th - Aug 30th Teams Prize",
-  "short_name": "CCT 2026 Europe Series 7 24 $25,000 Online Europe (Online) | Aug 18th - Aug 30th Teams Prize",
+  "name": "CCT 2026 Europe Series 7",
+  "short_name": "CCT 2026 Europe Series 7",
   "venue": "",
   "country": "",
   "flag": "",
@@ -166,14 +175,15 @@
   "url": "https://www.hltv.org/events/9324/cct-2026-europe-series-7",
   "extra": {
    "prize_pool": "$25,000",
-   "event_id": "9324"
+   "event_id": "9324",
+   "logo": "https://img-cdn.hltv.org/eventlogo/CZYxFG_CfcWYpUqP22qBsg.png?ixlib=java-2.1.0&w=100&s=174c742e8741e68791c652587d535b26"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ESL Challenger League Season 52 Europe Cup 4 TBA $7,000 Online Europe (Online) | Aug 18th - Aug 20th Teams Prize",
-  "short_name": "ESL Challenger League Season 52 Europe Cup 4 TBA $7,000 Online Europe (Online) | Aug 18th - Aug 20th Teams Prize",
+  "name": "ESL Challenger League Season 52 Europe Cup 4",
+  "short_name": "ESL Challenger League Season 52 Europe Cup 4",
   "venue": "",
   "country": "",
   "flag": "",
@@ -183,14 +193,15 @@
   "url": "https://www.hltv.org/events/9262/esl-challenger-league-season-52-europe-cup-4",
   "extra": {
    "prize_pool": "$7,000",
-   "event_id": "9262"
+   "event_id": "9262",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Exort Fiesta Series 1 24 $20,000 Online Europe (Online) | Aug 18th - Aug 30th Teams Prize",
-  "short_name": "Exort Fiesta Series 1 24 $20,000 Online Europe (Online) | Aug 18th - Aug 30th Teams Prize",
+  "name": "Exort Fiesta Series 1",
+  "short_name": "Exort Fiesta Series 1",
   "venue": "",
   "country": "",
   "flag": "",
@@ -200,14 +211,15 @@
   "url": "https://www.hltv.org/events/9325/exort-fiesta-series-1",
   "extra": {
    "prize_pool": "$20,000",
-   "event_id": "9325"
+   "event_id": "9325",
+   "logo": "https://img-cdn.hltv.org/eventlogo/sBZOfTLOR9HgHp6uzufJqV.png?ixlib=java-2.1.0&w=100&s=ac8fec58040d61d01bb5e3d3bc9a88d1"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "CCT 2026 Contenders Europe Series 8 TBA $2,500 Online Europe (Online) | Aug 20th - Aug 23rd Teams Prize",
-  "short_name": "CCT 2026 Contenders Europe Series 8 TBA $2,500 Online Europe (Online) | Aug 20th - Aug 23rd Teams Prize",
+  "name": "CCT 2026 Contenders Europe Series 8",
+  "short_name": "CCT 2026 Contenders Europe Series 8",
   "venue": "",
   "country": "",
   "flag": "",
@@ -217,14 +229,15 @@
   "url": "https://www.hltv.org/events/9320/cct-2026-contenders-europe-series-8",
   "extra": {
    "prize_pool": "$2,500",
-   "event_id": "9320"
+   "event_id": "9320",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hlzSsCONdMFN17D4sfVgcW.png?ixlib=java-2.1.0&w=100&s=1fbe009639053e70c8e3b32a3e6646ce"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "UKIC Masters Fall 2026 4+ Other Online United Kingdom (Online) | Aug 20th - Aug 25th Teams Prize",
-  "short_name": "UKIC Masters Fall 2026 4+ Other Online United Kingdom (Online) | Aug 20th - Aug 25th Teams Prize",
+  "name": "UKIC Masters Fall 2026",
+  "short_name": "UKIC Masters Fall 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -234,14 +247,15 @@
   "url": "https://www.hltv.org/events/9316/ukic-masters-fall-2026",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9316"
+   "event_id": "9316",
+   "logo": "https://img-cdn.hltv.org/eventlogo/4EjZAuq6gLKuYleVVtv9d2.png?ixlib=java-2.1.0&w=100&s=34cc4736cb568e9dc335d847f12831e8"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "NODWIN Clutch Series 11 24 $50,000 Online Europe (Online) | Aug 21st - Sep 3rd Teams Prize",
-  "short_name": "NODWIN Clutch Series 11 24 $50,000 Online Europe (Online) | Aug 21st - Sep 3rd Teams Prize",
+  "name": "NODWIN Clutch Series 11",
+  "short_name": "NODWIN Clutch Series 11",
   "venue": "",
   "country": "",
   "flag": "",
@@ -251,14 +265,15 @@
   "url": "https://www.hltv.org/events/9315/nodwin-clutch-series-11",
   "extra": {
    "prize_pool": "$50,000",
-   "event_id": "9315"
+   "event_id": "9315",
+   "logo": "https://img-cdn.hltv.org/eventlogo/Dt38ClGIBtrp2kGp2GOoK1.png?ixlib=java-2.1.0&w=100&s=25720a27332cf6f6dd26ec624af5eda3"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "IEM Beijing 2026 Open Qualifier TBA Other Online Europe (Online) | Aug 23rd - Aug 24th Teams Prize",
-  "short_name": "IEM Beijing 2026 Open Qualifier TBA Other Online Europe (Online) | Aug 23rd - Aug 24th Teams Prize",
+  "name": "IEM Beijing 2026 Open Qualifier",
+  "short_name": "IEM Beijing 2026 Open Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -268,14 +283,15 @@
   "url": "https://www.hltv.org/events/9294/iem-beijing-2026-open-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9294"
+   "event_id": "9294",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ESL Challenger League Season 52 Asia-Pacific Cup 1 TBA $10,000 Online Asia (Online) | Aug 25th - Sep 1st Teams Prize",
-  "short_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1 TBA $10,000 Online Asia (Online) | Aug 25th - Sep 1st Teams Prize",
+  "name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+  "short_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
   "venue": "",
   "country": "",
   "flag": "",
@@ -285,14 +301,15 @@
   "url": "https://www.hltv.org/events/9329/esl-challenger-league-season-52-asia-pacific-cup-1",
   "extra": {
    "prize_pool": "$10,000",
-   "event_id": "9329"
+   "event_id": "9329",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ESL Challenger League Season 52 North America Cup 1 TBA $17,500 Online North America (Online) | Aug 25th - Sep 1st Teams Prize",
-  "short_name": "ESL Challenger League Season 52 North America Cup 1 TBA $17,500 Online North America (Online) | Aug 25th - Sep 1st Teams Prize",
+  "name": "ESL Challenger League Season 52 North America Cup 1",
+  "short_name": "ESL Challenger League Season 52 North America Cup 1",
   "venue": "",
   "country": "",
   "flag": "",
@@ -302,14 +319,15 @@
   "url": "https://www.hltv.org/events/9331/esl-challenger-league-season-52-north-america-cup-1",
   "extra": {
    "prize_pool": "$17,500",
-   "event_id": "9331"
+   "event_id": "9331",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ESL Challenger League Season 52 Oceania Cup 1 TBA $2,500 Online Oceania (Online) | Aug 25th - Sep 1st Teams Prize",
-  "short_name": "ESL Challenger League Season 52 Oceania Cup 1 TBA $2,500 Online Oceania (Online) | Aug 25th - Sep 1st Teams Prize",
+  "name": "ESL Challenger League Season 52 Oceania Cup 1",
+  "short_name": "ESL Challenger League Season 52 Oceania Cup 1",
   "venue": "",
   "country": "",
   "flag": "",
@@ -319,14 +337,15 @@
   "url": "https://www.hltv.org/events/9328/esl-challenger-league-season-52-oceania-cup-1",
   "extra": {
    "prize_pool": "$2,500",
-   "event_id": "9328"
+   "event_id": "9328",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ESL Challenger League Season 52 South America Cup 1 TBA $17,500 Online South America (Online) | Aug 25th - Sep 1st Teams Prize",
-  "short_name": "ESL Challenger League Season 52 South America Cup 1 TBA $17,500 Online South America (Online) | Aug 25th - Sep 1st Teams Prize",
+  "name": "ESL Challenger League Season 52 South America Cup 1",
+  "short_name": "ESL Challenger League Season 52 South America Cup 1",
   "venue": "",
   "country": "",
   "flag": "",
@@ -336,7 +355,8 @@
   "url": "https://www.hltv.org/events/9330/esl-challenger-league-season-52-south-america-cup-1",
   "extra": {
    "prize_pool": "$17,500",
-   "event_id": "9330"
+   "event_id": "9330",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
@@ -353,14 +373,15 @@
   "url": "https://www.hltv.org/events/8249/blast-open-porto-2026",
   "extra": {
    "prize_pool": "$1,100,000",
-   "event_id": "8249"
+   "event_id": "8249",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Logitech G Play Connect 2026 Closed Qualifier 24 Other Online Europe (Online) | Aug 27th - Sep 5th Teams Prize",
-  "short_name": "Logitech G Play Connect 2026 Closed Qualifier 24 Other Online Europe (Online) | Aug 27th - Sep 5th Teams Prize",
+  "name": "Logitech G Play Connect 2026 Closed Qualifier",
+  "short_name": "Logitech G Play Connect 2026 Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -370,14 +391,15 @@
   "url": "https://www.hltv.org/events/9267/logitech-g-play-connect-2026-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9267"
+   "event_id": "9267",
+   "logo": "https://img-cdn.hltv.org/eventlogo/ahGJ2UudcvD0v51J9puRWu.png?ixlib=java-2.1.0&w=100&s=a5975ffe21af95315eaa9440f8edbff7"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FRAG Midwest St. Louis 2026 TBA Other Local LAN St. Louis, IL, US | Aug 29th - Aug 30th Teams Prize",
-  "short_name": "FRAG Midwest St. Louis 2026 TBA Other Local LAN St. Louis, IL, US | Aug 29th - Aug 30th Teams Prize",
+  "name": "FRAG Midwest St. Louis 2026",
+  "short_name": "FRAG Midwest St. Louis 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -387,14 +409,15 @@
   "url": "https://www.hltv.org/events/9265/frag-midwest-st-louis-2026",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9265"
+   "event_id": "9265",
+   "logo": "https://img-cdn.hltv.org/eventlogo/fooYNV-vQ6VMb9m33ug_b_.png?ixlib=java-2.1.0&w=100&s=1dbcbcd39f3065b68f0457a547023db1"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ESL Challenger League Season 52 Europe Cup 5 TBA $7,000 Online Europe (Online) | Aug 30th - Sep 1st Teams Prize",
-  "short_name": "ESL Challenger League Season 52 Europe Cup 5 TBA $7,000 Online Europe (Online) | Aug 30th - Sep 1st Teams Prize",
+  "name": "ESL Challenger League Season 52 Europe Cup 5",
+  "short_name": "ESL Challenger League Season 52 Europe Cup 5",
   "venue": "",
   "country": "",
   "flag": "",
@@ -404,14 +427,15 @@
   "url": "https://www.hltv.org/events/9263/esl-challenger-league-season-52-europe-cup-5",
   "extra": {
    "prize_pool": "$7,000",
-   "event_id": "9263"
+   "event_id": "9263",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Playground 3 Asia Closed Qualifier TBA Other Online Asia (Online) | Aug 31st - Sep 3rd Teams Prize",
-  "short_name": "FISSURE Playground 3 Asia Closed Qualifier TBA Other Online Asia (Online) | Aug 31st - Sep 3rd Teams Prize",
+  "name": "FISSURE Playground 3 Asia Closed Qualifier",
+  "short_name": "FISSURE Playground 3 Asia Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -421,14 +445,15 @@
   "url": "https://www.hltv.org/events/9333/fissure-playground-3-asia-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9333"
+   "event_id": "9333",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "IEM Beijing 2026 Asia Closed Qualifier 8 Other Online Asia (Online) | Sep 2nd - Sep 4th Teams Prize",
-  "short_name": "IEM Beijing 2026 Asia Closed Qualifier 8 Other Online Asia (Online) | Sep 2nd - Sep 4th Teams Prize",
+  "name": "IEM Beijing 2026 Asia Closed Qualifier",
+  "short_name": "IEM Beijing 2026 Asia Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -438,14 +463,15 @@
   "url": "https://www.hltv.org/events/9295/iem-beijing-2026-asia-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9295"
+   "event_id": "9295",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "IEM Beijing 2026 Closed Qualifier 16 Other Online Europe (Online) | Sep 2nd - Sep 4th Teams Prize",
-  "short_name": "IEM Beijing 2026 Closed Qualifier 16 Other Online Europe (Online) | Sep 2nd - Sep 4th Teams Prize",
+  "name": "IEM Beijing 2026 Closed Qualifier",
+  "short_name": "IEM Beijing 2026 Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -455,14 +481,15 @@
   "url": "https://www.hltv.org/events/9293/iem-beijing-2026-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9293"
+   "event_id": "9293",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Stake Ranked Episode 4 Closed Qualifier 16 Other Online Europe (Online) | Sep 3rd - Sep 6th Teams Prize",
-  "short_name": "Stake Ranked Episode 4 Closed Qualifier 16 Other Online Europe (Online) | Sep 3rd - Sep 6th Teams Prize",
+  "name": "Stake Ranked Episode 4 Closed Qualifier",
+  "short_name": "Stake Ranked Episode 4 Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -472,7 +499,8 @@
   "url": "https://www.hltv.org/events/9281/stake-ranked-episode-4-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9281"
+   "event_id": "9281",
+   "logo": "https://img-cdn.hltv.org/eventlogo/NGotrt8Qjg3Ny35uN_LqqV.png?ixlib=java-2.1.0&w=100&s=b1ebd7c3f9a43d9ad78ca2be434b4fca"
   }
  },
  {
@@ -489,14 +517,15 @@
   "url": "https://www.hltv.org/events/8266/fissure-playground-3",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8266"
+   "event_id": "8266",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "PGL Masters Bucharest 2026 Asia Closed Qualifier 3 Other Online Asia (Online) | Sep 9th - Sep 10th Teams Prize",
-  "short_name": "PGL Masters Bucharest 2026 Asia Closed Qualifier 3 Other Online Asia (Online) | Sep 9th - Sep 10th Teams Prize",
+  "name": "PGL Masters Bucharest 2026 Asia Closed Qualifier",
+  "short_name": "PGL Masters Bucharest 2026 Asia Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -506,14 +535,15 @@
   "url": "https://www.hltv.org/events/9244/pgl-masters-bucharest-2026-asia-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9244"
+   "event_id": "9244",
+   "logo": "https://img-cdn.hltv.org/eventlogo/p_BRMRwmdTNzRE7I5Gto__.png?ixlib=java-2.1.0&w=100&s=cc5b04af5802e28a356a6a58ada04e7c"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier 8 Other Online Europe (Online) | Sep 9th - Sep 13th Teams Prize",
-  "short_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier 8 Other Online Europe (Online) | Sep 9th - Sep 13th Teams Prize",
+  "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
+  "short_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -523,14 +553,15 @@
   "url": "https://www.hltv.org/events/9241/pgl-masters-bucharest-2026-europe-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9241"
+   "event_id": "9241",
+   "logo": "https://img-cdn.hltv.org/eventlogo/p_BRMRwmdTNzRE7I5Gto__.png?ixlib=java-2.1.0&w=100&s=cc5b04af5802e28a356a6a58ada04e7c"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "PGL Masters Bucharest 2026 North America Closed Qualifier 8 Other Online North America (Online) | Sep 9th - Sep 13th Teams Prize",
-  "short_name": "PGL Masters Bucharest 2026 North America Closed Qualifier 8 Other Online North America (Online) | Sep 9th - Sep 13th Teams Prize",
+  "name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+  "short_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -540,14 +571,15 @@
   "url": "https://www.hltv.org/events/9243/pgl-masters-bucharest-2026-north-america-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9243"
+   "event_id": "9243",
+   "logo": "https://img-cdn.hltv.org/eventlogo/p_BRMRwmdTNzRE7I5Gto__.png?ixlib=java-2.1.0&w=100&s=cc5b04af5802e28a356a6a58ada04e7c"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "PGL Masters Bucharest 2026 South America Closed Qualifier 8 Other Online South America (Online) | Sep 9th - Sep 13th Teams Prize",
-  "short_name": "PGL Masters Bucharest 2026 South America Closed Qualifier 8 Other Online South America (Online) | Sep 9th - Sep 13th Teams Prize",
+  "name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
+  "short_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -557,14 +589,15 @@
   "url": "https://www.hltv.org/events/9242/pgl-masters-bucharest-2026-south-america-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9242"
+   "event_id": "9242",
+   "logo": "https://img-cdn.hltv.org/eventlogo/p_BRMRwmdTNzRE7I5Gto__.png?ixlib=java-2.1.0&w=100&s=cc5b04af5802e28a356a6a58ada04e7c"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Thunderpick World Championship 2026 Closed Qualifier 16 Other Online Europe (Online) | Sep 9th - Sep 13th Teams Prize",
-  "short_name": "Thunderpick World Championship 2026 Closed Qualifier 16 Other Online Europe (Online) | Sep 9th - Sep 13th Teams Prize",
+  "name": "Thunderpick World Championship 2026 Closed Qualifier",
+  "short_name": "Thunderpick World Championship 2026 Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -574,14 +607,15 @@
   "url": "https://www.hltv.org/events/9308/thunderpick-world-championship-2026-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9308"
+   "event_id": "9308",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hfziQY5I_Kt-PM4LpjHWaQ.png?ixlib=java-2.1.0&w=100&s=7e7bca5c57c09ec15f4c014eaae46e3e"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Radio Popular Roman Imperium Cup VIII TBA Other Intl. LAN Vila Nova de Gaia, PT | Sep 10th - Sep 13th Teams Prize",
-  "short_name": "Radio Popular Roman Imperium Cup VIII TBA Other Intl. LAN Vila Nova de Gaia, PT | Sep 10th - Sep 13th Teams Prize",
+  "name": "Radio Popular Roman Imperium Cup VIII",
+  "short_name": "Radio Popular Roman Imperium Cup VIII",
   "venue": "",
   "country": "",
   "flag": "",
@@ -591,14 +625,15 @@
   "url": "https://www.hltv.org/events/9284/radio-popular-roman-imperium-cup-viii",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9284"
+   "event_id": "9284",
+   "logo": "https://img-cdn.hltv.org/eventlogo/q4xasNcWg5V4PG3CzIPEOx.png?ixlib=java-2.1.0&w=100&s=cdfe832ab31d95ace429978d363807b3"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Logitech G Play Connect 2026 12 $100,000 Intl. LAN Warsaw, Poland | Sep 17th - Sep 23rd Teams Prize",
-  "short_name": "Logitech G Play Connect 2026 12 $100,000 Intl. LAN Warsaw, Poland | Sep 17th - Sep 23rd Teams Prize",
+  "name": "Logitech G Play Connect 2026",
+  "short_name": "Logitech G Play Connect 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -608,7 +643,8 @@
   "url": "https://www.hltv.org/events/9266/logitech-g-play-connect-2026",
   "extra": {
    "prize_pool": "$100,000",
-   "event_id": "9266"
+   "event_id": "9266",
+   "logo": "https://img-cdn.hltv.org/eventlogo/ahGJ2UudcvD0v51J9puRWu.png?ixlib=java-2.1.0&w=100&s=a5975ffe21af95315eaa9440f8edbff7"
   }
  },
  {
@@ -625,14 +661,15 @@
   "url": "https://www.hltv.org/events/8057/starladder-starseries-fall-2026",
   "extra": {
    "prize_pool": "$500,000",
-   "event_id": "8057"
+   "event_id": "8057",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "UKIC Masters Fall 2026 Finals 2 $3,366 Local LAN Sheffield, United Kingdom | Sep 19th Teams Prize",
-  "short_name": "UKIC Masters Fall 2026 Finals 2 $3,366 Local LAN Sheffield, United Kingdom | Sep 19th Teams Prize",
+  "name": "UKIC Masters Fall 2026 Finals",
+  "short_name": "UKIC Masters Fall 2026 Finals",
   "venue": "",
   "country": "",
   "flag": "",
@@ -642,14 +679,15 @@
   "url": "https://www.hltv.org/events/9317/ukic-masters-fall-2026-finals",
   "extra": {
    "prize_pool": "$3,366",
-   "event_id": "9317"
+   "event_id": "9317",
+   "logo": "https://img-cdn.hltv.org/eventlogo/4EjZAuq6gLKuYleVVtv9d2.png?ixlib=java-2.1.0&w=100&s=34cc4736cb568e9dc335d847f12831e8"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Stake Pulse Beat II 16 $60,000 Intl. LAN Stockholm, Sweden | Sep 21st - Sep 26th Teams Prize",
-  "short_name": "Stake Pulse Beat II 16 $60,000 Intl. LAN Stockholm, Sweden | Sep 21st - Sep 26th Teams Prize",
+  "name": "Stake Pulse Beat II",
+  "short_name": "Stake Pulse Beat II",
   "venue": "",
   "country": "",
   "flag": "",
@@ -659,14 +697,15 @@
   "url": "https://www.hltv.org/events/9222/stake-pulse-beat-ii",
   "extra": {
    "prize_pool": "$60,000",
-   "event_id": "9222"
+   "event_id": "9222",
+   "logo": "https://img-cdn.hltv.org/eventlogo/TCoj0-5b_HJoefX6W1qpXL.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=1e960fd53cf25773bb488fc9e73caf5d"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Tipsport Open Cup 2 TBA $12,530 Intl. LAN Prague, Czech Republic | Sep 23rd - Sep 27th Teams Prize",
-  "short_name": "Tipsport Open Cup 2 TBA $12,530 Intl. LAN Prague, Czech Republic | Sep 23rd - Sep 27th Teams Prize",
+  "name": "Tipsport Open Cup 2",
+  "short_name": "Tipsport Open Cup 2",
   "venue": "",
   "country": "",
   "flag": "",
@@ -676,14 +715,15 @@
   "url": "https://www.hltv.org/events/9272/tipsport-open-cup-2",
   "extra": {
    "prize_pool": "$12,530",
-   "event_id": "9272"
+   "event_id": "9272",
+   "logo": "https://img-cdn.hltv.org/eventlogo/VZyFf5Sg04HmGuzbuMr8zm.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=9f48c0fc94378ea7a9ec211d9311c19f"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "LeonBet Masters Season 1 TBA $34,211 Intl. LAN Vila Nova de Gaia, PT | Sep 24th - Sep 27th Teams Prize",
-  "short_name": "LeonBet Masters Season 1 TBA $34,211 Intl. LAN Vila Nova de Gaia, PT | Sep 24th - Sep 27th Teams Prize",
+  "name": "LeonBet Masters Season 1",
+  "short_name": "LeonBet Masters Season 1",
   "venue": "",
   "country": "",
   "flag": "",
@@ -693,14 +733,15 @@
   "url": "https://www.hltv.org/events/9255/leonbet-masters-season-1",
   "extra": {
    "prize_pool": "$34,211",
-   "event_id": "9255"
+   "event_id": "9255",
+   "logo": "https://img-cdn.hltv.org/eventlogo/-IJju5OujjYcAMbiNOMAc6.png?ixlib=java-2.1.0&w=100&s=0e192c27aa6d7312e1321c1397161c3c"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "1win Private Club Season 1 8 $100,000 Intl. LAN Belgrade, Serbia | Sep 25th - Sep 28th Teams Prize",
-  "short_name": "1win Private Club Season 1 8 $100,000 Intl. LAN Belgrade, Serbia | Sep 25th - Sep 28th Teams Prize",
+  "name": "1win Private Club Season 1",
+  "short_name": "1win Private Club Season 1",
   "venue": "",
   "country": "",
   "flag": "",
@@ -710,14 +751,15 @@
   "url": "https://www.hltv.org/events/9327/1win-private-club-season-1",
   "extra": {
    "prize_pool": "$100,000",
-   "event_id": "9327"
+   "event_id": "9327",
+   "logo": "https://img-cdn.hltv.org/eventlogo/P0mfD5pUOWgdo948M_Kxvo.png?ixlib=java-2.1.0&w=100&s=c4c2f14e0a37c7d1d73d3aec6de1d4b6"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "iBUYPOWER Masters FML 2026 8 $30,000 Reg. LAN Las Vegas, NV, US | Sep 25th - Sep 27th Teams Prize",
-  "short_name": "iBUYPOWER Masters FML 2026 8 $30,000 Reg. LAN Las Vegas, NV, US | Sep 25th - Sep 27th Teams Prize",
+  "name": "iBUYPOWER Masters FML 2026",
+  "short_name": "iBUYPOWER Masters FML 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -727,14 +769,15 @@
   "url": "https://www.hltv.org/events/9187/ibuypower-masters-fml-2026",
   "extra": {
    "prize_pool": "$30,000",
-   "event_id": "9187"
+   "event_id": "9187",
+   "logo": "https://img-cdn.hltv.org/eventlogo/ujec2YDT8tjfCBErU9PApu.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=e29b77af96a52299e505be069f72a6df"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Stake Ranked Episode 4 8 $100,000 Intl. LAN TBA | Oct 1st - Oct 4th Teams Prize",
-  "short_name": "Stake Ranked Episode 4 8 $100,000 Intl. LAN TBA | Oct 1st - Oct 4th Teams Prize",
+  "name": "Stake Ranked Episode 4",
+  "short_name": "Stake Ranked Episode 4",
   "venue": "",
   "country": "",
   "flag": "",
@@ -744,14 +787,15 @@
   "url": "https://www.hltv.org/events/9256/stake-ranked-episode-4",
   "extra": {
    "prize_pool": "$100,000",
-   "event_id": "9256"
+   "event_id": "9256",
+   "logo": "https://img-cdn.hltv.org/eventlogo/NGotrt8Qjg3Ny35uN_LqqV.png?ixlib=java-2.1.0&w=100&s=b1ebd7c3f9a43d9ad78ca2be434b4fca"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ROG JOURNEY Autumn 2026 TBA $20,000 Intl. LAN Skövde, Sweden | Oct 2nd - Oct 4th Teams Prize",
-  "short_name": "ROG JOURNEY Autumn 2026 TBA $20,000 Intl. LAN Skövde, Sweden | Oct 2nd - Oct 4th Teams Prize",
+  "name": "ROG JOURNEY Autumn 2026",
+  "short_name": "ROG JOURNEY Autumn 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -761,7 +805,8 @@
   "url": "https://www.hltv.org/events/9253/rog-journey-autumn-2026",
   "extra": {
    "prize_pool": "$20,000",
-   "event_id": "9253"
+   "event_id": "9253",
+   "logo": "https://img-cdn.hltv.org/eventlogo/Ych9NShBPvN4rNgic74Fxu.png?ixlib=java-2.1.0&w=100&s=e476cd01afc782f1c3f652f6efa19e71"
   }
  },
  {
@@ -778,14 +823,15 @@
   "url": "https://www.hltv.org/events/8244/esl-pro-league-season-24",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8244"
+   "event_id": "8244",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Roman Imperium Cup IX TBA Other Intl. LAN Vila Nova de Gaia, PT | Oct 7th - Oct 10th Teams Prize",
-  "short_name": "Roman Imperium Cup IX TBA Other Intl. LAN Vila Nova de Gaia, PT | Oct 7th - Oct 10th Teams Prize",
+  "name": "Roman Imperium Cup IX",
+  "short_name": "Roman Imperium Cup IX",
   "venue": "",
   "country": "",
   "flag": "",
@@ -795,14 +841,15 @@
   "url": "https://www.hltv.org/events/9318/roman-imperium-cup-ix",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9318"
+   "event_id": "9318",
+   "logo": "https://img-cdn.hltv.org/eventlogo/q4xasNcWg5V4PG3CzIPEOx.png?ixlib=java-2.1.0&w=100&s=cdfe832ab31d95ace429978d363807b3"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Stake Pulse Beat III TBA Other Intl. LAN Stockholm, Sweden | Oct 12th - Oct 17th Teams Prize",
-  "short_name": "Stake Pulse Beat III TBA Other Intl. LAN Stockholm, Sweden | Oct 12th - Oct 17th Teams Prize",
+  "name": "Stake Pulse Beat III",
+  "short_name": "Stake Pulse Beat III",
   "venue": "",
   "country": "",
   "flag": "",
@@ -812,14 +859,15 @@
   "url": "https://www.hltv.org/events/9223/stake-pulse-beat-iii",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9223"
+   "event_id": "9223",
+   "logo": "https://img-cdn.hltv.org/eventlogo/TCoj0-5b_HJoefX6W1qpXL.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=1e960fd53cf25773bb488fc9e73caf5d"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Thunderpick World Championship 2026 8 $1,000,000 Intl. LAN Malta | Oct 14th - Oct 18th Teams Prize (?) Player Share: $500,000 Club Share: $500,000",
-  "short_name": "Thunderpick World Championship 2026 8 $1,000,000 Intl. LAN Malta | Oct 14th - Oct 18th Teams Prize (?) Player Share: $500,000 Club Share: $500,000",
+  "name": "Thunderpick World Championship 2026",
+  "short_name": "Thunderpick World Championship 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -829,14 +877,15 @@
   "url": "https://www.hltv.org/events/8932/thunderpick-world-championship-2026",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8932"
+   "event_id": "8932",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hfziQY5I_Kt-PM4LpjHWaQ.png?ixlib=java-2.1.0&w=100&s=7e7bca5c57c09ec15f4c014eaae46e3e"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Elisa Esports BreakOut Series 2 8 $17,348 Intl. LAN Tampere, Finland | Oct 15th - Oct 17th Teams Prize",
-  "short_name": "Elisa Esports BreakOut Series 2 8 $17,348 Intl. LAN Tampere, Finland | Oct 15th - Oct 17th Teams Prize",
+  "name": "Elisa Esports BreakOut Series 2",
+  "short_name": "Elisa Esports BreakOut Series 2",
   "venue": "",
   "country": "",
   "flag": "",
@@ -846,14 +895,15 @@
   "url": "https://www.hltv.org/events/9332/elisa-esports-breakout-series-2",
   "extra": {
    "prize_pool": "$17,348",
-   "event_id": "9332"
+   "event_id": "9332",
+   "logo": "https://img-cdn.hltv.org/eventlogo/GFlgh44zejBpn2baoEGZAw.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=4b3b5dce8b5e4106273974ae49f633cf"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Digital Crusade DraculaN Season 7 24 $35,000 Intl. LAN Bucharest, Romania | Oct 19th - Oct 23rd Teams Prize",
-  "short_name": "Digital Crusade DraculaN Season 7 24 $35,000 Intl. LAN Bucharest, Romania | Oct 19th - Oct 23rd Teams Prize",
+  "name": "Digital Crusade DraculaN Season 7",
+  "short_name": "Digital Crusade DraculaN Season 7",
   "venue": "",
   "country": "",
   "flag": "",
@@ -863,7 +913,8 @@
   "url": "https://www.hltv.org/events/9312/digital-crusade-draculan-season-7",
   "extra": {
    "prize_pool": "$35,000",
-   "event_id": "9312"
+   "event_id": "9312",
+   "logo": "https://img-cdn.hltv.org/eventlogo/9CDH4T-w6u6qf-lp_c3qs1.png?ixlib=java-2.1.0&w=100&s=d15fc62ba3afbd7a264f797fbb27dd57"
   }
  },
  {
@@ -880,14 +931,15 @@
   "url": "https://www.hltv.org/events/8050/pgl-masters-bucharest-2026",
   "extra": {
    "prize_pool": "$1,250,000",
-   "event_id": "8050"
+   "event_id": "8050",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Stake Ranked Episode 5 TBA $100,000 Intl. LAN TBA | Oct 27th - Oct 30th Teams Prize",
-  "short_name": "Stake Ranked Episode 5 TBA $100,000 Intl. LAN TBA | Oct 27th - Oct 30th Teams Prize",
+  "name": "Stake Ranked Episode 5",
+  "short_name": "Stake Ranked Episode 5",
   "venue": "",
   "country": "",
   "flag": "",
@@ -897,14 +949,15 @@
   "url": "https://www.hltv.org/events/9257/stake-ranked-episode-5",
   "extra": {
    "prize_pool": "$100,000",
-   "event_id": "9257"
+   "event_id": "9257",
+   "logo": "https://img-cdn.hltv.org/eventlogo/NGotrt8Qjg3Ny35uN_LqqV.png?ixlib=java-2.1.0&w=100&s=b1ebd7c3f9a43d9ad78ca2be434b4fca"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Gamers Club Masters VII 8 $30,000 Reg. LAN São Paulo, Brazil | Oct 29th - Nov 1st Teams Prize",
-  "short_name": "Gamers Club Masters VII 8 $30,000 Reg. LAN São Paulo, Brazil | Oct 29th - Nov 1st Teams Prize",
+  "name": "Gamers Club Masters VII",
+  "short_name": "Gamers Club Masters VII",
   "venue": "",
   "country": "",
   "flag": "",
@@ -914,7 +967,8 @@
   "url": "https://www.hltv.org/events/9292/gamers-club-masters-vii",
   "extra": {
    "prize_pool": "$30,000",
-   "event_id": "9292"
+   "event_id": "9292",
+   "logo": "https://img-cdn.hltv.org/eventlogo/-gDC1JCEktsEfHEYheOpZS.png?ixlib=java-2.1.0&w=100&s=4764452e7decda5106efa1fd6e92e517"
   }
  },
  {
@@ -931,7 +985,8 @@
   "url": "https://www.hltv.org/events/8245/iem-beijing-2026",
   "extra": {
    "prize_pool": "$1,250,000",
-   "event_id": "8245"
+   "event_id": "8245",
+   "logo": ""
   }
  },
  {
@@ -948,14 +1003,15 @@
   "url": "https://www.hltv.org/events/8251/blast-rivals-2026-season-2",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8251"
+   "event_id": "8251",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Esports Nations Cup 2026 24 $1,320,000 Intl. LAN Riyadh, Saudi Arabia | Nov 10th - Nov 15th Teams Prize",
-  "short_name": "Esports Nations Cup 2026 24 $1,320,000 Intl. LAN Riyadh, Saudi Arabia | Nov 10th - Nov 15th Teams Prize",
+  "name": "Esports Nations Cup 2026",
+  "short_name": "Esports Nations Cup 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -965,14 +1021,15 @@
   "url": "https://www.hltv.org/events/9240/esports-nations-cup-2026",
   "extra": {
    "prize_pool": "$1,320,000",
-   "event_id": "9240"
+   "event_id": "9240",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hzhG6FzULQHUsu0Ptk3E1d.png?ixlib=java-2.1.0&w=100&s=a1235a9cf08b56a5e32a33b3fe04830c"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "PGL Cluj-Napoca 2027 Closed Qualifier 8 Other Online Europe (Online) | Nov 15th - Nov 18th Teams Prize",
-  "short_name": "PGL Cluj-Napoca 2027 Closed Qualifier 8 Other Online Europe (Online) | Nov 15th - Nov 18th Teams Prize",
+  "name": "PGL Cluj-Napoca 2027 Closed Qualifier",
+  "short_name": "PGL Cluj-Napoca 2027 Closed Qualifier",
   "venue": "",
   "country": "",
   "flag": "",
@@ -982,14 +1039,15 @@
   "url": "https://www.hltv.org/events/9135/pgl-cluj-napoca-2027-closed-qualifier",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9135"
+   "event_id": "9135",
+   "logo": "https://img-cdn.hltv.org/eventlogo/u-4VdjFWGYz_GwBxLGrr11.png?ixlib=java-2.1.0&w=100&s=d720c0ce81fe5b3e760c5b545c22e819"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Stake Ranked Episode 6 TBA $100,000 Intl. LAN TBA | Nov 17th - Nov 20th Teams Prize",
-  "short_name": "Stake Ranked Episode 6 TBA $100,000 Intl. LAN TBA | Nov 17th - Nov 20th Teams Prize",
+  "name": "Stake Ranked Episode 6",
+  "short_name": "Stake Ranked Episode 6",
   "venue": "",
   "country": "",
   "flag": "",
@@ -999,14 +1057,15 @@
   "url": "https://www.hltv.org/events/9258/stake-ranked-episode-6",
   "extra": {
    "prize_pool": "$100,000",
-   "event_id": "9258"
+   "event_id": "9258",
+   "logo": "https://img-cdn.hltv.org/eventlogo/NGotrt8Qjg3Ny35uN_LqqV.png?ixlib=java-2.1.0&w=100&s=b1ebd7c3f9a43d9ad78ca2be434b4fca"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Tipsport RUSH Brno 2026 TBA $34,208 Intl. LAN Brno, Czech Republic | Nov 20th - Nov 22nd Teams Prize",
-  "short_name": "Tipsport RUSH Brno 2026 TBA $34,208 Intl. LAN Brno, Czech Republic | Nov 20th - Nov 22nd Teams Prize",
+  "name": "Tipsport RUSH Brno 2026",
+  "short_name": "Tipsport RUSH Brno 2026",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1016,7 +1075,8 @@
   "url": "https://www.hltv.org/events/9273/tipsport-rush-brno-2026",
   "extra": {
    "prize_pool": "$34,208",
-   "event_id": "9273"
+   "event_id": "9273",
+   "logo": "https://img-cdn.hltv.org/eventlogo/VZyFf5Sg04HmGuzbuMr8zm.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=9f48c0fc94378ea7a9ec211d9311c19f"
   }
  },
  {
@@ -1033,7 +1093,8 @@
   "url": "https://www.hltv.org/events/9303/pgl-major-singapore-2026-stage-1",
   "extra": {
    "prize_pool": "",
-   "event_id": "9303"
+   "event_id": "9303",
+   "logo": ""
   }
  },
  {
@@ -1050,7 +1111,8 @@
   "url": "https://www.hltv.org/events/9304/pgl-major-singapore-2026-stage-2",
   "extra": {
    "prize_pool": "",
-   "event_id": "9304"
+   "event_id": "9304",
+   "logo": ""
   }
  },
  {
@@ -1067,14 +1129,15 @@
   "url": "https://www.hltv.org/events/8302/pgl-major-singapore-2026",
   "extra": {
    "prize_pool": "$1,250,000",
-   "event_id": "8302"
+   "event_id": "8302",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "ESL Challenger League Season 52 Europe Finals 16 $2,000 Online Europe (Online) | Dec 14th - Dec 18th Teams Prize",
-  "short_name": "ESL Challenger League Season 52 Europe Finals 16 $2,000 Online Europe (Online) | Dec 14th - Dec 18th Teams Prize",
+  "name": "ESL Challenger League Season 52 Europe Finals",
+  "short_name": "ESL Challenger League Season 52 Europe Finals",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1084,7 +1147,8 @@
   "url": "https://www.hltv.org/events/9285/esl-challenger-league-season-52-europe-finals",
   "extra": {
    "prize_pool": "$2,000",
-   "event_id": "9285"
+   "event_id": "9285",
+   "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=100&s=3c99078378cb6edf470154865cf55433"
   }
  },
  {
@@ -1101,7 +1165,8 @@
   "url": "https://www.hltv.org/events/9231/hltv-awards-2026",
   "extra": {
    "prize_pool": "",
-   "event_id": "9231"
+   "event_id": "9231",
+   "logo": ""
   }
  },
  {
@@ -1118,7 +1183,8 @@
   "url": "https://www.hltv.org/events/8295/blast-bounty-2027-season-1",
   "extra": {
    "prize_pool": "$1,250,000",
-   "event_id": "8295"
+   "event_id": "8295",
+   "logo": ""
   }
  },
  {
@@ -1135,7 +1201,8 @@
   "url": "https://www.hltv.org/events/8293/pgl-bucharest-2027",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8293"
+   "event_id": "8293",
+   "logo": ""
   }
  },
  {
@@ -1152,7 +1219,8 @@
   "url": "https://www.hltv.org/events/8318/iem-krakw-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8318"
+   "event_id": "8318",
+   "logo": ""
   }
  },
  {
@@ -1169,7 +1237,8 @@
   "url": "https://www.hltv.org/events/8365/pgl-cluj-napoca-2027",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8365"
+   "event_id": "8365",
+   "logo": ""
   }
  },
  {
@@ -1186,7 +1255,8 @@
   "url": "https://www.hltv.org/events/8319/esl-pro-league-season-25",
   "extra": {
    "prize_pool": "$1,250,000",
-   "event_id": "8319"
+   "event_id": "8319",
+   "logo": ""
   }
  },
  {
@@ -1203,7 +1273,8 @@
   "url": "https://www.hltv.org/events/8325/blast-open-singapore-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8325"
+   "event_id": "8325",
+   "logo": ""
   }
  },
  {
@@ -1220,7 +1291,8 @@
   "url": "https://www.hltv.org/events/8366/pgl-d-2027",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8366"
+   "event_id": "8366",
+   "logo": ""
   }
  },
  {
@@ -1237,14 +1309,15 @@
   "url": "https://www.hltv.org/events/8320/iem-usa-2027",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8320"
+   "event_id": "8320",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Event April 2027 TBA Other Intl. LAN TBA | Apr 15th - Apr 26th Teams Prize",
-  "short_name": "FISSURE Event April 2027 TBA Other Intl. LAN TBA | Apr 15th - Apr 26th Teams Prize",
+  "name": "FISSURE Event April 2027",
+  "short_name": "FISSURE Event April 2027",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1254,7 +1327,8 @@
   "url": "https://www.hltv.org/events/8331/fissure-event-april-2027",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8331"
+   "event_id": "8331",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
@@ -1271,7 +1345,8 @@
   "url": "https://www.hltv.org/events/8540/pgl-event-4-2027",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8540"
+   "event_id": "8540",
+   "logo": ""
   }
  },
  {
@@ -1288,7 +1363,8 @@
   "url": "https://www.hltv.org/events/8321/iem-brazil-2027",
   "extra": {
    "prize_pool": "$1,000,000",
-   "event_id": "8321"
+   "event_id": "8321",
+   "logo": ""
   }
  },
  {
@@ -1305,7 +1381,8 @@
   "url": "https://www.hltv.org/events/8328/blast-open-ulaanbaatar-2027",
   "extra": {
    "prize_pool": "$1,250,000",
-   "event_id": "8328"
+   "event_id": "8328",
+   "logo": ""
   }
  },
  {
@@ -1322,7 +1399,8 @@
   "url": "https://www.hltv.org/events/8297/firemajor-buenos-aires-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8297"
+   "event_id": "8297",
+   "logo": ""
   }
  },
  {
@@ -1339,7 +1417,8 @@
   "url": "https://www.hltv.org/events/8710/esports-world-cup-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8710"
+   "event_id": "8710",
+   "logo": ""
   }
  },
  {
@@ -1356,14 +1435,15 @@
   "url": "https://www.hltv.org/events/8322/esl-event-5-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8322"
+   "event_id": "8322",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "CS Asia Championships 2027 TBA Other Intl. LAN TBA | Aug 17th - Aug 29th Teams Prize",
-  "short_name": "CS Asia Championships 2027 TBA Other Intl. LAN TBA | Aug 17th - Aug 29th Teams Prize",
+  "name": "CS Asia Championships 2027",
+  "short_name": "CS Asia Championships 2027",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1373,14 +1453,15 @@
   "url": "https://www.hltv.org/events/8771/cs-asia-championships-2027",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8771"
+   "event_id": "8771",
+   "logo": "/img/static/event/logo/noLogo.svg"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Event August 2027 TBA Other Intl. LAN TBA | Aug 18th - Aug 30th Teams Prize",
-  "short_name": "FISSURE Event August 2027 TBA Other Intl. LAN TBA | Aug 18th - Aug 30th Teams Prize",
+  "name": "FISSURE Event August 2027",
+  "short_name": "FISSURE Event August 2027",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1390,7 +1471,8 @@
   "url": "https://www.hltv.org/events/8332/fissure-event-august-2027",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8332"
+   "event_id": "8332",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
@@ -1407,7 +1489,8 @@
   "url": "https://www.hltv.org/events/8327/blast-bounty-2027-season-2",
   "extra": {
    "prize_pool": "",
-   "event_id": "8327"
+   "event_id": "8327",
+   "logo": ""
   }
  },
  {
@@ -1424,7 +1507,8 @@
   "url": "https://www.hltv.org/events/8813/pgl-event-5-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8813"
+   "event_id": "8813",
+   "logo": ""
   }
  },
  {
@@ -1441,7 +1525,8 @@
   "url": "https://www.hltv.org/events/8323/esl-pro-league-season-26",
   "extra": {
    "prize_pool": "",
-   "event_id": "8323"
+   "event_id": "8323",
+   "logo": ""
   }
  },
  {
@@ -1458,7 +1543,8 @@
   "url": "https://www.hltv.org/events/8326/blast-open-2027-season-3",
   "extra": {
    "prize_pool": "",
-   "event_id": "8326"
+   "event_id": "8326",
+   "logo": ""
   }
  },
  {
@@ -1475,14 +1561,15 @@
   "url": "https://www.hltv.org/events/8814/pgl-event-6-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8814"
+   "event_id": "8814",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "Thunderpick World Championship 2027 TBA Other Intl. LAN TBA | Oct 18th - Oct 25th Teams Prize",
-  "short_name": "Thunderpick World Championship 2027 TBA Other Intl. LAN TBA | Oct 18th - Oct 25th Teams Prize",
+  "name": "Thunderpick World Championship 2027",
+  "short_name": "Thunderpick World Championship 2027",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1492,14 +1579,15 @@
   "url": "https://www.hltv.org/events/8907/thunderpick-world-championship-2027",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8907"
+   "event_id": "8907",
+   "logo": "https://img-cdn.hltv.org/eventlogo/aMMj7lIzuO62FFbCfR57DD.png?ixlib=java-2.1.0&w=100&s=646345cadeae420ad97f8a3395c2c503"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "StarLadder StarSeries Season 21 TBA Other Intl. LAN TBA | Oct 19th - Oct 24th Teams Prize",
-  "short_name": "StarLadder StarSeries Season 21 TBA Other Intl. LAN TBA | Oct 19th - Oct 24th Teams Prize",
+  "name": "StarLadder StarSeries Season 21",
+  "short_name": "StarLadder StarSeries Season 21",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1509,14 +1597,15 @@
   "url": "https://www.hltv.org/events/8851/starladder-starseries-season-21",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8851"
+   "event_id": "8851",
+   "logo": "https://img-cdn.hltv.org/eventlogo/bIYhaEw1Y1M2dRFAEx8Mue.png?ixlib=java-2.1.0&w=100&s=38cf6edbd2136cb7a6b65c03cffdc337"
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Event October 2027 TBA Other Intl. LAN TBA | Oct 21st - Oct 30th Teams Prize",
-  "short_name": "FISSURE Event October 2027 TBA Other Intl. LAN TBA | Oct 21st - Oct 30th Teams Prize",
+  "name": "FISSURE Event October 2027",
+  "short_name": "FISSURE Event October 2027",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1526,7 +1615,8 @@
   "url": "https://www.hltv.org/events/8333/fissure-event-october-2027",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8333"
+   "event_id": "8333",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
@@ -1543,7 +1633,8 @@
   "url": "https://www.hltv.org/events/8324/esl-event-7-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8324"
+   "event_id": "8324",
+   "logo": ""
   }
  },
  {
@@ -1560,7 +1651,8 @@
   "url": "https://www.hltv.org/events/8329/blast-rivals-2027-season-2",
   "extra": {
    "prize_pool": "",
-   "event_id": "8329"
+   "event_id": "8329",
+   "logo": ""
   }
  },
  {
@@ -1577,7 +1669,8 @@
   "url": "https://www.hltv.org/events/8298/major-2-2027",
   "extra": {
    "prize_pool": "",
-   "event_id": "8298"
+   "event_id": "8298",
+   "logo": ""
   }
  },
  {
@@ -1594,7 +1687,8 @@
   "url": "https://www.hltv.org/events/9060/blast-event-1-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "9060"
+   "event_id": "9060",
+   "logo": ""
   }
  },
  {
@@ -1611,7 +1705,8 @@
   "url": "https://www.hltv.org/events/8815/pgl-event-1-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8815"
+   "event_id": "8815",
+   "logo": ""
   }
  },
  {
@@ -1628,14 +1723,15 @@
   "url": "https://www.hltv.org/events/8783/esl-event-1-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8783"
+   "event_id": "8783",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Event #1 2028 TBA Other Intl. LAN TBA | Feb 9th - Feb 21st Teams Prize",
-  "short_name": "FISSURE Event #1 2028 TBA Other Intl. LAN TBA | Feb 9th - Feb 21st Teams Prize",
+  "name": "FISSURE Event #1 2028",
+  "short_name": "FISSURE Event #1 2028",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1645,7 +1741,8 @@
   "url": "https://www.hltv.org/events/8334/fissure-event-1-2028",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8334"
+   "event_id": "8334",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
@@ -1662,7 +1759,8 @@
   "url": "https://www.hltv.org/events/8816/pgl-event-2-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8816"
+   "event_id": "8816",
+   "logo": ""
   }
  },
  {
@@ -1679,7 +1777,8 @@
   "url": "https://www.hltv.org/events/9061/blast-event-2-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "9061"
+   "event_id": "9061",
+   "logo": ""
   }
  },
  {
@@ -1696,7 +1795,8 @@
   "url": "https://www.hltv.org/events/8784/esl-event-2-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8784"
+   "event_id": "8784",
+   "logo": ""
   }
  },
  {
@@ -1713,7 +1813,8 @@
   "url": "https://www.hltv.org/events/8817/pgl-event-3-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8817"
+   "event_id": "8817",
+   "logo": ""
   }
  },
  {
@@ -1730,7 +1831,8 @@
   "url": "https://www.hltv.org/events/9062/blast-event-3-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "9062"
+   "event_id": "9062",
+   "logo": ""
   }
  },
  {
@@ -1747,7 +1849,8 @@
   "url": "https://www.hltv.org/events/8785/esl-event-3-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8785"
+   "event_id": "8785",
+   "logo": ""
   }
  },
  {
@@ -1764,14 +1867,15 @@
   "url": "https://www.hltv.org/events/8818/pgl-event-4-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8818"
+   "event_id": "8818",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Event #2 2028 TBA Other Intl. LAN TBA | Apr 25th - May 8th Teams Prize",
-  "short_name": "FISSURE Event #2 2028 TBA Other Intl. LAN TBA | Apr 25th - May 8th Teams Prize",
+  "name": "FISSURE Event #2 2028",
+  "short_name": "FISSURE Event #2 2028",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1781,7 +1885,8 @@
   "url": "https://www.hltv.org/events/8335/fissure-event-2-2028",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8335"
+   "event_id": "8335",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
@@ -1798,14 +1903,15 @@
   "url": "https://www.hltv.org/events/9063/blast-event-4-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "9063"
+   "event_id": "9063",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "StarLadder StarSeries Season 22 TBA Other Intl. LAN TBA | May 16th - May 21st Teams Prize",
-  "short_name": "StarLadder StarSeries Season 22 TBA Other Intl. LAN TBA | May 16th - May 21st Teams Prize",
+  "name": "StarLadder StarSeries Season 22",
+  "short_name": "StarLadder StarSeries Season 22",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1815,7 +1921,8 @@
   "url": "https://www.hltv.org/events/9191/starladder-starseries-season-22",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "9191"
+   "event_id": "9191",
+   "logo": "https://img-cdn.hltv.org/eventlogo/bIYhaEw1Y1M2dRFAEx8Mue.png?ixlib=java-2.1.0&w=100&s=38cf6edbd2136cb7a6b65c03cffdc337"
   }
  },
  {
@@ -1832,14 +1939,15 @@
   "url": "https://www.hltv.org/events/8299/major-1-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8299"
+   "event_id": "8299",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Event #3 2028 TBA Other Intl. LAN TBA | Jul 18th - Jul 30th Teams Prize",
-  "short_name": "FISSURE Event #3 2028 TBA Other Intl. LAN TBA | Jul 18th - Jul 30th Teams Prize",
+  "name": "FISSURE Event #3 2028",
+  "short_name": "FISSURE Event #3 2028",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1849,7 +1957,8 @@
   "url": "https://www.hltv.org/events/8336/fissure-event-3-2028",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8336"
+   "event_id": "8336",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
@@ -1866,7 +1975,8 @@
   "url": "https://www.hltv.org/events/8786/esl-event-4-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8786"
+   "event_id": "8786",
+   "logo": ""
   }
  },
  {
@@ -1883,7 +1993,8 @@
   "url": "https://www.hltv.org/events/9115/blast-event-5-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "9115"
+   "event_id": "9115",
+   "logo": ""
   }
  },
  {
@@ -1900,7 +2011,8 @@
   "url": "https://www.hltv.org/events/8819/pgl-event-5-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8819"
+   "event_id": "8819",
+   "logo": ""
   }
  },
  {
@@ -1917,7 +2029,8 @@
   "url": "https://www.hltv.org/events/8820/pgl-event-6-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8820"
+   "event_id": "8820",
+   "logo": ""
   }
  },
  {
@@ -1934,7 +2047,8 @@
   "url": "https://www.hltv.org/events/9116/blast-event-6-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "9116"
+   "event_id": "9116",
+   "logo": ""
   }
  },
  {
@@ -1951,14 +2065,15 @@
   "url": "https://www.hltv.org/events/8787/esl-event-5-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8787"
+   "event_id": "8787",
+   "logo": ""
   }
  },
  {
   "series": "CS2",
   "round": null,
-  "name": "FISSURE Event #4 2028 TBA Other Intl. LAN TBA | Oct 3rd - Oct 15th Teams Prize",
-  "short_name": "FISSURE Event #4 2028 TBA Other Intl. LAN TBA | Oct 3rd - Oct 15th Teams Prize",
+  "name": "FISSURE Event #4 2028",
+  "short_name": "FISSURE Event #4 2028",
   "venue": "",
   "country": "",
   "flag": "",
@@ -1968,7 +2083,8 @@
   "url": "https://www.hltv.org/events/8337/fissure-event-4-2028",
   "extra": {
    "prize_pool": "Other",
-   "event_id": "8337"
+   "event_id": "8337",
+   "logo": "https://img-cdn.hltv.org/eventlogo/hkl56DmvKjTx6MTiYElX6E.png?ixlib=java-2.1.0&w=100&s=f870455a23c35dee03d9104fdecf2ecb"
   }
  },
  {
@@ -1985,7 +2101,8 @@
   "url": "https://www.hltv.org/events/8821/pgl-event-7-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8821"
+   "event_id": "8821",
+   "logo": ""
   }
  },
  {
@@ -2002,7 +2119,8 @@
   "url": "https://www.hltv.org/events/8788/esl-event-6-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8788"
+   "event_id": "8788",
+   "logo": ""
   }
  },
  {
@@ -2019,7 +2137,8 @@
   "url": "https://www.hltv.org/events/8822/pgl-event-8-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8822"
+   "event_id": "8822",
+   "logo": ""
   }
  },
  {
@@ -2036,7 +2155,8 @@
   "url": "https://www.hltv.org/events/8300/major-2-2028",
   "extra": {
    "prize_pool": "",
-   "event_id": "8300"
+   "event_id": "8300",
+   "logo": ""
   }
  }
 ]

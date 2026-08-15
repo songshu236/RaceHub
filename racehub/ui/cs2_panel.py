@@ -10,7 +10,7 @@ from . import theme
 from .base_panel import SeriesPanel
 from .widgets import SectionHeader, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
 from .badges import get_badge
-from .team_logos import collect_team_logos, logo_manager
+from .team_logos import collect_event_logos, collect_team_logos, logo_manager
 import threading
 
 
@@ -51,6 +51,7 @@ class CS2Panel(SeriesPanel):
         ], widths={"start": 100, "end": 100, "status": 80, "name": 280, "venue": 180,
                    "prize": 120, "countdown": 90})
         self.cal_tree_frame.grid(row=1, column=0, sticky="nsew")
+        add_badge_column(self.cal_tree)
 
     def _build_results_page(self):
         p = self.res_page
@@ -149,24 +150,33 @@ class CS2Panel(SeriesPanel):
             webbrowser.open(url)
 
     def _on_logos_ready(self):
-        """队标下载完成后刷新当前列表。"""
+        """队标/赛事图标下载完成后刷新当前列表。"""
         try:
+            self._render_calendar()
             self._render_matches()
             self._render_ranking()
         except Exception:
             pass
 
+    _ICON_SIZE = 40
+
     def _match_image(self, m):
         t1 = m.get("team1") or {}
         name = t1.get("name", "")
-        img = logo_manager.get(name, t1.get("logo", ""))
-        return img or get_badge(name)
+        img = logo_manager.get(name, t1.get("logo", ""), size=self._ICON_SIZE)
+        return img or get_badge(name, size=self._ICON_SIZE)
 
     def _rank_image(self, r):
         name = r.get("name", "")
         url = (r.get("extra") or {}).get("logo", "")
-        img = logo_manager.get(name, url)
-        return img or get_badge(name)
+        img = logo_manager.get(name, url, size=self._ICON_SIZE)
+        return img or get_badge(name, size=self._ICON_SIZE)
+
+    def _event_image(self, e):
+        name = e.get("name", "")
+        url = (e.get("extra") or {}).get("logo", "")
+        img = logo_manager.get(name, url, size=self._ICON_SIZE, kind="event")
+        return img or get_badge(name, size=self._ICON_SIZE)
 
     def download_all_logos(self, notify: bool = False):
         """批量下载所有缺失 CS2 队标（后台线程 + 进度），供帮助菜单调用。"""
@@ -179,16 +189,20 @@ class CS2Panel(SeriesPanel):
         except Exception:
             pass
         teams = collect_team_logos(self.store)
+        events = collect_event_logos(self.store)
 
         def worker():
-            def progress(name, ok, done, total):
+            def progress(name, ok, done, total, label):
                 try:
                     self.after(0, lambda: self.logo_progress.config(
-                        text=f"队标下载 {done}/{total}" + (" ✓" if done >= total else "")))
+                        text=f"{label} {done}/{total}" + (" ✓" if done >= total else "")))
                 except Exception:
                     pass
             logo_manager.reset_retry()
-            logo_manager.download_all_sync(teams, progress=progress)
+            logo_manager.download_all_sync(teams, progress=lambda n, ok, d, t: progress(n, ok, d, t, "队标"),
+                                           kind="team")
+            logo_manager.download_all_sync(events, progress=lambda n, ok, d, t: progress(n, ok, d, t, "赛事图标"),
+                                           kind="event")
             self.after(0, self._finish_logo_download)
 
         threading.Thread(target=worker, daemon=True).start()
@@ -204,9 +218,10 @@ class CS2Panel(SeriesPanel):
         if notify:
             try:
                 from tkinter import messagebox
-                messagebox.showinfo("下载完成", "CS2 全部队标已下载完成 ✓")
+                messagebox.showinfo("下载完成", "CS2 全部队标与赛事图标已下载完成 ✓")
             except Exception:
                 pass
+        self._render_calendar()
         self._render_matches()
         self._render_ranking()
 
@@ -280,7 +295,8 @@ class CS2Panel(SeriesPanel):
                       e.get("name", ""), e.get("venue", ""),
                       (e.get("extra") or {}).get("prize_pool", ""),
                       fmt_countdown(countdown_days(e.get("start"))))),
-                  tags=lambda e: status_tag(e.get("status")))
+                  tags=lambda e: status_tag(e.get("status")),
+                  image_fn=self._event_image)
         set_odd_even(self.cal_tree)
 
     def _render_matches(self):

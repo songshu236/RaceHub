@@ -101,7 +101,7 @@ def _color_luminance(hexcolor: str) -> float:
     return 0.299 * r + 0.587 * g + 0.114 * b
 
 
-def get_badge(name: str, size: int = 28) -> tk.PhotoImage | None:
+def get_badge(name: str, size: int = 36) -> tk.PhotoImage | None:
     """返回队伍徽章 PhotoImage（缓存）。需要 Tk 根已创建。"""
     if not name:
         return None

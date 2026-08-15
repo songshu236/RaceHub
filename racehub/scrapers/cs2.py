@@ -153,7 +153,11 @@ class CS2Scraper(Scraper):
             seen.add(eid)
             name = _norm_name(a.select_one(".big-event-name").get_text(" ", strip=True)) if a.select_one(".big-event-name") else ""
             if not name:
-                name = _norm_name(a.select_one(".event-name-small .text-ellipsis").get_text(" ", strip=True)) if a.select_one(".event-name-small .text-ellipsis") else ""
+                name_el = (a.select_one(".event-name-small .text-ellipsis")
+                           or a.select_one("td.col-value.event-col .text-ellipsis")
+                           or a.select_one("td.event-col .text-ellipsis"))
+                if name_el is not None:
+                    name = _norm_name(name_el.get_text(" ", strip=True))
             if not name:
                 name = _norm_name(a.get_text(" ", strip=True))
             if not name:
@@ -182,12 +186,17 @@ class CS2Scraper(Scraper):
                 pel = a.select_one(".prizePoolEllipsis, .prize-pool")
                 if pel:
                     prize = _norm_name(pel.get_text(" ", strip=True))
+            # 赛事图标（HLTV /events 页的方形 eventlogo，与队标同一套本地化/白底逻辑）
+            logo = ""
+            logo_img = a.select_one("img.logo.day-only") or a.select_one("img.logo")
+            if logo_img is not None:
+                logo = _best_logo_url(logo_img)
             out.append({
                 "series": "CS2", "round": None, "name": name, "short_name": name,
                 "venue": location, "country": "", "flag": "",
                 "start": start, "end": end, "status": event_status(start, end),
                 "url": HLTV + href if href.startswith("/") else href,
-                "extra": {"prize_pool": prize, "event_id": eid},
+                "extra": {"prize_pool": prize, "event_id": eid, "logo": logo},
             })
         return out
 
@@ -245,7 +254,7 @@ class CS2Scraper(Scraper):
                     "series": "CS2", "round": None, "name": name, "short_name": name,
                     "venue": "", "country": "", "flag": "",
                     "start": date, "end": date, "status": event_status(date, date),
-                    "url": HLTV, "extra": {"prize_pool": "", "event_id": eid, "derived": True},
+                    "url": HLTV, "extra": {"prize_pool": "", "event_id": eid, "derived": True, "logo": ""},
                 }
         return list(out.values())
 

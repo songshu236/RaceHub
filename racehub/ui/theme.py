@@ -107,9 +107,9 @@ def setup(root: tk.Tk) -> None:
     style.map("Sub.TNotebook.Tab", background=[("selected", PANEL)], foreground=[("selected", TEXT)])
 
     style.configure("Treeview", background=PANEL, fieldbackground=PANEL, foreground=TEXT,
-                    bordercolor=BORDER, rowheight=34, font=(FONT_FAMILY, 11))
+                    bordercolor=BORDER, rowheight=44, font=(FONT_FAMILY, 12))
     style.configure("Treeview.Heading", background=PANEL2, foreground="#c9d7e8",
-                    bordercolor=BORDER, font=(FONT_FAMILY, 11, "bold"), relief="flat")
+                    bordercolor=BORDER, font=(FONT_FAMILY, 12, "bold"), relief="flat")
     style.map("Treeview", background=[("selected", "#26435f")], foreground=[("selected", "#ffffff")])
     style.map("Treeview.Heading", background=[("active", "#223042")])
 
