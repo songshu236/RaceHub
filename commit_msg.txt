@@ -1,5 +1,0 @@
-﻿fix: 新增“生成界面截图”诊断功能
-
-- 帮助菜单新增“生成界面截图”：优先 PIL 抓取真实屏幕，回退 ctypes BMP
-- 删除之前 PrintWindow 抓取的误导性截图（无法包含 ttk 表格内容）
-- requirements 增加 pillow
