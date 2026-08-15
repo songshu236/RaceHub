@@ -76,6 +76,7 @@ class RaceHubApp(tk.Tk):
         bar.add_cascade(label="视图", menu=m_view)
 
         m_help = tk.Menu(bar, tearoff=0)
+        m_help.add_command(label="生成界面截图", command=self.save_screenshot)
         m_help.add_command(label="诊断信息", command=self.show_diagnostics)
         m_help.add_command(label="关于", command=self.show_about)
         bar.add_cascade(label="帮助", menu=m_help)
@@ -280,6 +281,23 @@ class RaceHubApp(tk.Tk):
 
     def show_diagnostics(self):
         DiagnosticsDialog(self)
+
+    def save_screenshot(self):
+        """生成界面截图并打开所在文件夹。"""
+        try:
+            from .ui.screenshot import save_screenshot as _ss
+            from .config import ROOT
+            path = _ss(self, ROOT / "docs")
+            logging.info("界面截图已保存: %s", path)
+            messagebox.showinfo("截图已保存", f"界面截图已保存到：\n{path}\n\n请打开图片查看，或直接把它发给我。")
+            try:
+                import os
+                os.startfile(path)  # type: ignore[attr-defined]
+            except Exception:
+                pass
+        except Exception as e:
+            logging.exception("生成界面截图失败")
+            messagebox.showerror("截图失败", f"生成界面截图失败：{e}\n\n请用 Win+Shift+S 手动截图后发给我。")
 
     def on_close(self):
         logging.info("=== RaceHub 退出 ===")
