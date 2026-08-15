@@ -87,6 +87,14 @@ def _clean_points(s: str) -> str:
     return m.group(1).replace(",", "") if m else ""
 
 
+# 黑底队标（展示用夜间版/白底队标）：MIBR / BIG 抓取 night-only 图标
+BLACK_BG_TEAMS = {"mibr", "big"}
+
+
+def _is_black_bg_team(name: str) -> bool:
+    return (name or "").strip().lower() in BLACK_BG_TEAMS
+
+
 class CS2Scraper(Scraper):
     series = "CS2"
     source_label = "HLTV (hltv.org)"
@@ -472,7 +480,10 @@ class CS2Scraper(Scraper):
             if not name_txt:
                 continue
             logo = ""
-            logo_el = team.select_one(".team-logo img")
+            if _is_black_bg_team(name_txt):
+                logo_el = team.select_one(".team-logo img.night-only") or team.select_one(".team-logo img")
+            else:
+                logo_el = team.select_one(".team-logo img")
             if logo_el is not None:
                 logo = _best_logo_url(logo_el)
             out["rows"].append({
@@ -503,7 +514,10 @@ class CS2Scraper(Scraper):
             if not name_txt:
                 continue
             logo = ""
-            logo_el = team.select_one(".team-logo img")
+            if _is_black_bg_team(name_txt):
+                logo_el = team.select_one(".team-logo img.night-only") or team.select_one(".team-logo img")
+            else:
+                logo_el = team.select_one(".team-logo img")
             if logo_el is not None:
                 logo = _best_logo_url(logo_el)
             out["rows"].append({

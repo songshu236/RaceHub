@@ -15,6 +15,7 @@ from pathlib import Path
 
 from ..config import DATA_DIR
 from ..fetcher import fetch_bytes
+from ..scrapers.cs2 import BLACK_BG_TEAMS
 from .badges import get_badge
 
 _logos_dir = DATA_DIR / "logos"
@@ -35,11 +36,8 @@ def _file_for(kind: str, name: str) -> Path:
 
 
 # 黑底队标（其余默认白底）：MIBR / BIG 及以后更新都保持黑底
-BLACK_BG_NAMES = {"mibr", "big"}
-
-
 def _is_black_bg(name: str) -> bool:
-    return (name or "").strip().lower() in BLACK_BG_NAMES
+    return (name or "").strip().lower() in BLACK_BG_TEAMS
 
 
 def _looks_like_image(data: bytes) -> bool:
@@ -248,7 +246,8 @@ class TeamLogoManager:
                 import fitz as pymupdf  # type: ignore
             doc = pymupdf.open(stream=pdf, filetype="pdf")
             page = doc[0]
-            pix = page.get_pixmap(matrix=pymupdf.Matrix(2, 2), alpha=False)
+            # alpha=True：透明背景，避免浅色/白色队标被白色页面吞掉
+            pix = page.get_pixmap(matrix=pymupdf.Matrix(2, 2), alpha=True)
             out = pix.tobytes("png")
             doc.close()
             return out
