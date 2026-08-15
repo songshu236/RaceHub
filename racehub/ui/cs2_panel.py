@@ -250,17 +250,20 @@ class CS2Panel(SeriesPanel):
         add_badge_column(self.rank_tree)
 
     def _rank_columns_for(self, mode: str):
-        """返回 (columns, widths, value_fn)。mode: ranking / vrs。"""
+        """返回 (columns, widths, value_fn)。mode: ranking / vrs。
+
+        排名与队伍名统一右移 2 个字符（加 2 个空格前缀，仅影响显示）。
+        """
         if mode == "vrs":
             cols = [("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("region", "地区")]
             widths = {"pos": 60, "name": 300, "points": 90, "region": 90}
             def val(r):
-                return r.get("pos", ""), r.get("name", ""), r.get("points", ""), r.get("region", "")
+                return ("  " + r.get("pos", "")), ("  " + r.get("name", "")), r.get("points", ""), r.get("region", "")
         else:
             cols = [("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("change", "变化")]
             widths = {"pos": 60, "name": 300, "points": 90, "change": 80}
             def val(r):
-                return r.get("pos", ""), r.get("name", ""), r.get("points", ""), r.get("change", "")
+                return ("  " + r.get("pos", "")), ("  " + r.get("name", "")), r.get("points", ""), r.get("change", "")
         return cols, widths, val
 
     def _set_rank_columns(self, cols, widths):
