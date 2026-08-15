@@ -19,6 +19,16 @@ def _safe(name: str) -> str:
     return re.sub(r"[^\w\u4e00-\u9fff-]+", "_", name or "").strip("_") or "team"
 
 
+def _looks_like_image(data: bytes) -> bool:
+    """PNG 签名，或可尝试转换的 SVG。"""
+    if not data:
+        return False
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return True
+    head = data.lstrip()
+    return head.startswith(b"<?xml") or head.startswith(b"<svg")
+
+
 class TeamLogoManager:
     """管理 HLTV 队标：内存缓存 + data/logos 磁盘缓存 + 后台下载。"""
 
@@ -93,9 +103,9 @@ class TeamLogoManager:
             except queue.Empty:
                 continue
             try:
-                # 整批冷却期间：跳过已排队项（下次启动再按状态决定是否重试）
-                if time.time() < self._blocked_until:
-                    continue
+                # 整批冷却期间：等待冷却结束再继续，不丢弃任务
+                while time.time() < self._blocked_until:
+                    time.sleep(1)
                 self._download(name, url, size)
             finally:
                 self._queued.discard(name)
@@ -131,23 +141,42 @@ class TeamLogoManager:
         self._q.put((name, url, size))
 
     def _download(self, name: str, url: str, size: int):
+        data = None
+        for attempt in range(2):
+            try:
+                data = fetch_bytes(url, timeout=20, use_cloudscraper=True)
+                if data and len(data) >= 100 and _looks_like_image(data):
+                    break
+                data = None
+            except Exception:
+                data = None
+            time.sleep(2)
+        if not data:
+            self._mark_attempt(name)
+            self._consec_fail += 1
+            if self._consec_fail >= self.MAX_CONSEC_FAIL:
+                self._blocked_until = time.time() + self.COOLDOWN_SECONDS
+                self._consec_fail = 0
+            return
         try:
-            data = fetch_bytes(url, timeout=20, use_cloudscraper=True)
-            if not data or len(data) < 100:
-                return
             f = _logos_dir / f"{_safe(name)}.png"
+            # HLTV 部分队标实际是 SVG：尝试转成 PNG
+            if data.lstrip().startswith((b"<?xml", b"<svg")):
+                png = self._svg_to_png(data)
+                if png:
+                    data = png
             try:
                 f.write_bytes(data)
             except Exception:
                 return
-            # HLTV 部分队标实际是 SVG：尝试转成 PNG，失败则保留原文件（回退徽章）
-            if data.lstrip().startswith((b"<?xml", b"<svg")):
-                png = self._svg_to_png(data)
-                if png:
-                    try:
-                        f.write_bytes(png)
-                    except Exception:
-                        pass
+            # 转换失败则删除无效文件，避免残留
+            if data[:8] != b"\x89PNG\r\n\x1a\n":
+                try:
+                    f.unlink(missing_ok=True)
+                except Exception:
+                    pass
+                self._mark_attempt(name)
+                return
             img = self._load_image(f, size)
             if img is not None:
                 self._mem[(name.strip(), size)] = img
@@ -183,7 +212,7 @@ class TeamLogoManager:
             import io as _io
             from svglib.svglib import svg2rlg  # type: ignore
             from reportlab.graphics import renderPDF  # type: ignore
-            drawing = svg2rlg(_io.StringIO(raw.decode("utf-8", "replace")))
+            drawing = svg2rlg(_io.BytesIO(raw))
             if drawing is None:
                 return None
             pdf = renderPDF.drawToString(drawing)
@@ -232,6 +261,106 @@ class TeamLogoManager:
             return ph
         except Exception:
             return None
+
+
+    def download_all_sync(self, teams: dict, size: int = 30, progress=None, workers: int = 4):
+        """批量下载队标（并行）。teams: {队名: logo_url}；progress(name, ok, done, total) 可选。"""
+        from concurrent.futures import ThreadPoolExecutor
+        items = [(n, u) for n, u in teams.items() if u]
+        total = len(items)
+        done = 0
+        _lock = threading.Lock()
+
+        def _one(item):
+            nonlocal done
+            name, url = item
+            f = _logos_dir / f"{_safe(name)}.png"
+            if f.exists() and self.get(name, url, size) is not None:
+                with _lock:
+                    done += 1
+                    if progress:
+                        progress(name, True, done, total)
+                return True
+            ok = False
+            data = None
+            for attempt in range(2):
+                try:
+                    data = fetch_bytes(url, timeout=15, use_cloudscraper=True)
+                    if data and len(data) >= 100 and _looks_like_image(data):
+                        ok = True
+                        break
+                    data = None
+                except Exception:
+                    data = None
+                time.sleep(1.5)
+            if ok and data:
+                try:
+                    if data.lstrip().startswith((b"<?xml", b"<svg")):
+                        png = self._svg_to_png(data)
+                        if png:
+                            data = png
+                    if data[:8] != b"\x89PNG\r\n\x1a\n":
+                        ok = False
+                        data = None
+                    else:
+                        f.write_bytes(data)
+                        img = self._load_image(f, size)
+                    with _lock:
+                        if img is not None:
+                            self._mem[(name.strip(), size)] = img
+                            self._clear_status(name)
+                except Exception:
+                    ok = False
+            if not ok:
+                self._mark_attempt(name)
+            with _lock:
+                done += 1
+                if progress:
+                    progress(name, ok, done, total)
+            return ok
+
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            list(pool.map(_one, items))
+
+    def reset_retry(self):
+        """清除 24 小时重试记录（用于“下载全部队标”强制重试）。"""
+        with self._status_lock:
+            self._status.clear()
+        self._save_status()
+        self._blocked_until = 0
+        self._consec_fail = 0
+
+
+def collect_team_logos(store=None) -> dict:
+    """从 store/示例数据汇总 {队名: logo_url}。"""
+    teams: dict = {}
+    payloads = []
+    if store is not None:
+        payloads = [store.get("CS2", "ranking"), store.get("CS2", "matches")]
+    if not any(payloads):
+        import json
+        for f in (DATA_DIR / "demo").glob("CS2_*.json"):
+            try:
+                payloads.append(json.loads(f.read_text(encoding="utf-8")))
+            except Exception:
+                pass
+    for p in payloads:
+        if not isinstance(p, dict):
+            continue
+        for r in p.get("rows", []):
+            if isinstance(r, dict) and "name" in r:
+                n = r.get("name", "")
+                u = (r.get("extra") or {}).get("logo", "")
+                if n and u:
+                    teams.setdefault(n, u)
+            elif isinstance(r, dict) and ("team1" in r or "team2" in r):
+                for side in ("team1", "team2"):
+                    t = r.get(side) or {}
+                    n = t.get("name", "")
+                    u = t.get("logo", "")
+                    if n and u:
+                        teams.setdefault(n, u)
+    return teams
 
 
 # 全局单例

@@ -10,7 +10,8 @@ from . import theme
 from .base_panel import SeriesPanel
 from .widgets import SectionHeader, KeyValueRow, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
 from .badges import get_badge
-from .team_logos import logo_manager
+from .team_logos import collect_team_logos, logo_manager
+import threading
 
 
 def _map_summary(match: dict) -> str:
@@ -167,6 +168,38 @@ class CS2Panel(SeriesPanel):
         img = logo_manager.get(name, url)
         return img or get_badge(name)
 
+    def _download_all_logos(self):
+        """批量下载所有缺失队标（后台线程 + 进度）。"""
+        if getattr(self, "_dl_all", False):
+            return
+        self._dl_all = True
+        self.logo_btn.config(state="disabled", text="下载中…")
+        self.logo_progress.config(text="正在下载缺失队标…")
+        teams = collect_team_logos(self.store)
+
+        def worker():
+            def progress(name, ok, done, total):
+                try:
+                    self.after(0, lambda: self.logo_progress.config(
+                        text=f"队标下载 {done}/{total}" + (" ✓" if done >= total else "")))
+                except Exception:
+                    pass
+            logo_manager.reset_retry()
+            logo_manager.download_all_sync(teams, progress=progress)
+            self.after(0, self._finish_logo_download)
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def _finish_logo_download(self):
+        self._dl_all = False
+        try:
+            self.logo_btn.config(state="normal", text="🖼 下载全部队标")
+            self.logo_progress.config(text="队标下载完成 ✓")
+        except Exception:
+            pass
+        self._render_matches()
+        self._render_ranking()
+
     def _build_standings_page(self):
         p = self.sta_page
         p.columnconfigure(0, weight=1)
@@ -175,10 +208,18 @@ class CS2Panel(SeriesPanel):
             row=0, column=0, sticky="ew")
         self.sta_info = KeyValueRow(p, "说明", "排名基于 HLTV 世界排名页", key_width=10)
         self.sta_info.grid(row=1, column=0, sticky="ew")
+        row = ttk.Frame(p, style="TFrame")
+        row.grid(row=2, column=0, sticky="ew", pady=4)
+        self.logo_btn = ttk.Button(row, text="🖼 下载全部队标", style="Small.TButton",
+                                   command=self._download_all_logos)
+        self.logo_btn.pack(side="left")
+        self.logo_progress = tk.Label(row, text="", bg=theme.BG, fg=theme.MUTED,
+                                      font=(theme.FONT_FAMILY, 9))
+        self.logo_progress.pack(side="left", padx=10)
         self.rank_tree, self.rank_tree_frame = make_tree(p, [
             ("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("change", "变化"),
         ], widths={"pos": 60, "name": 300, "points": 90, "change": 80})
-        self.rank_tree_frame.grid(row=2, column=0, sticky="nsew")
+        self.rank_tree_frame.grid(row=3, column=0, sticky="nsew")
         add_badge_column(self.rank_tree)
 
     def _on_kind_updated(self, kind):
