@@ -1,6 +1,0 @@
-feat: CS2 积分榜排名/队名右移2格 + 数据改为在线爬取
-
-- CS2 积分榜（HLTV 排名 / V社VRS）的排名与队伍名统一右移 2 个字符
-- 应用切回在线模式（offline_mode=false），CS2 数据启动时从 HLTV 在线爬取；
-  本机缓存已刷新为 HLTV 实时数据（calendar/matches/ranking/vrs）
-- 在线渲染补齐 40 个队伍真实队标 + 14 个赛事图标
