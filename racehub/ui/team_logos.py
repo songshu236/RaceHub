@@ -34,6 +34,14 @@ def _file_for(kind: str, name: str) -> Path:
     return _kind_dir(kind) / f"{_safe(name)}.png"
 
 
+# 黑底队标（其余默认白底）：MIBR / BIG 及以后更新都保持黑底
+BLACK_BG_NAMES = {"mibr", "big"}
+
+
+def _is_black_bg(name: str) -> bool:
+    return (name or "").strip().lower() in BLACK_BG_NAMES
+
+
 def _looks_like_image(data: bytes) -> bool:
     """PNG 签名，或可尝试转换的 SVG。"""
     if not data:
@@ -135,7 +143,7 @@ class TeamLogoManager:
             return self._mem[key]
         f = _file_for(kind, name)
         if f.exists():
-            img = self._load_image(f, size)
+            img = self._load_image(f, size, name)
             if img is not None:
                 self._mem[key] = img
                 return img
@@ -195,7 +203,7 @@ class TeamLogoManager:
                     pass
                 self._mark_attempt(name, kind)
                 return
-            img = self._load_image(f, size)
+            img = self._load_image(f, size, name)
             if img is not None:
                 self._mem[(kind, name.strip(), size)] = img
                 self._clear_status(name, kind)
@@ -248,8 +256,8 @@ class TeamLogoManager:
             return None
 
     @staticmethod
-    def _load_image(path: Path, size: int):
-        # 优先 PIL：缩放 + 白底
+    def _load_image(path: Path, size: int, name: str = ""):
+        # 优先 PIL：缩放 + 底（默认白底；MIBR/BIG 用黑底，其余不变）
         try:
             from PIL import Image, ImageDraw, ImageTk  # type: ignore
             raw = path.read_bytes()
@@ -261,17 +269,21 @@ class TeamLogoManager:
             import io as _io
             img = Image.open(_io.BytesIO(raw)).convert("RGBA")
             img.thumbnail((size - 4, size - 4), Image.LANCZOS)
-            # 白底（不用透明底），加细边框便于深色背景下区分
-            canvas = Image.new("RGBA", (size, size), (255, 255, 255, 255))
+            # 不用透明底：黑底队标（MIBR/BIG）或白底（其他），加细边框便于深色背景下区分
+            dark = _is_black_bg(name)
+            canvas = Image.new("RGBA", (size, size),
+                               (18, 18, 18, 255) if dark else (255, 255, 255, 255))
             canvas.paste(img, ((size - img.width) // 2, (size - img.height) // 2), img)
             d = ImageDraw.Draw(canvas)
-            d.rectangle((0, 0, size - 1, size - 1), outline="#c9d2dc", width=1)
+            d.rectangle((0, 0, size - 1, size - 1),
+                        outline=("#3a4657" if dark else "#c9d2dc"), width=1)
             return ImageTk.PhotoImage(canvas)
         except Exception:
             pass
-        # 回退：tk 直接读取并整数倍缩小
+        # 回退：tk 直接读取并整数倍缩小（用 data= 避免中文路径/编码问题）
         try:
-            ph = tk.PhotoImage(file=str(path))
+            import base64
+            ph = tk.PhotoImage(data=base64.b64encode(path.read_bytes()).decode("ascii"))
             w, h = ph.width(), ph.height()
             factor = max(1, w // size, h // size)
             if factor > 1:
@@ -322,7 +334,7 @@ class TeamLogoManager:
                     else:
                         f.parent.mkdir(parents=True, exist_ok=True)
                         f.write_bytes(data)
-                        img = self._load_image(f, size)
+                        img = self._load_image(f, size, name)
                     with _lock:
                         if img is not None:
                             self._mem[(kind, name.strip(), size)] = img
