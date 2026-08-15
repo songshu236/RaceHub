@@ -113,6 +113,9 @@ class TeamLogoManager:
             if img is not None:
                 self._mem[key] = img
                 return img
+            # 文件存在但无法加载（如 SVG 未能转换）-> 记录尝试，避免反复下载
+            self._mark_attempt(name)
+            return None
         if url:
             self._schedule_download(name, url, size)
         return None
@@ -137,6 +140,14 @@ class TeamLogoManager:
                 f.write_bytes(data)
             except Exception:
                 return
+            # HLTV 部分队标实际是 SVG：尝试转成 PNG，失败则保留原文件（回退徽章）
+            if data.lstrip().startswith((b"<?xml", b"<svg")):
+                png = self._svg_to_png(data)
+                if png:
+                    try:
+                        f.write_bytes(png)
+                    except Exception:
+                        pass
             img = self._load_image(f, size)
             if img is not None:
                 self._mem[(name.strip(), size)] = img
@@ -157,11 +168,51 @@ class TeamLogoManager:
                 self._consec_fail = 0
 
     @staticmethod
+    def _svg_to_png(raw: bytes):
+        """SVG -> PNG 字节。
+
+        尝试顺序：cairosvg（需系统 cairo）-> svglib+reportlab+PyMuPDF（纯 wheel）。
+        全部失败返回 None。
+        """
+        try:
+            import cairosvg  # type: ignore
+            return cairosvg.svg2png(bytestring=raw)
+        except Exception:
+            pass
+        try:
+            import io as _io
+            from svglib.svglib import svg2rlg  # type: ignore
+            from reportlab.graphics import renderPDF  # type: ignore
+            drawing = svg2rlg(_io.StringIO(raw.decode("utf-8", "replace")))
+            if drawing is None:
+                return None
+            pdf = renderPDF.drawToString(drawing)
+            try:
+                import pymupdf  # type: ignore
+            except Exception:
+                import fitz as pymupdf  # type: ignore
+            doc = pymupdf.open(stream=pdf, filetype="pdf")
+            page = doc[0]
+            pix = page.get_pixmap(matrix=pymupdf.Matrix(2, 2), alpha=False)
+            out = pix.tobytes("png")
+            doc.close()
+            return out
+        except Exception:
+            return None
+
+    @staticmethod
     def _load_image(path: Path, size: int):
-        # 优先 PIL：缩放 + 透明背景
+        # 优先 PIL：缩放 + 白底
         try:
             from PIL import Image, ImageDraw, ImageTk  # type: ignore
-            img = Image.open(path).convert("RGBA")
+            raw = path.read_bytes()
+            if raw.lstrip().startswith((b"<?xml", b"<svg")):
+                png = TeamLogoManager._svg_to_png(raw)
+                if not png:
+                    return None
+                raw = png
+            import io as _io
+            img = Image.open(_io.BytesIO(raw)).convert("RGBA")
             img.thumbnail((size - 4, size - 4), Image.LANCZOS)
             # 白底（不用透明底），加细边框便于深色背景下区分
             canvas = Image.new("RGBA", (size, size), (255, 255, 255, 255))

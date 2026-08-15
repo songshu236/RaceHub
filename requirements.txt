@@ -2,3 +2,6 @@
 beautifulsoup4>=4.12
 cloudscraper>=1.2.71
 pillow>=10.0
+svglib>=1.5
+reportlab>=4.0
+pymupdf>=1.24
