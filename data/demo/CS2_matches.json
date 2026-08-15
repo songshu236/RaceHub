@@ -1,0 +1,807 @@
+{
+ "series": "CS2",
+ "title": "近期对阵与赛果",
+ "rows": [
+  {
+   "series": "CS2",
+   "event": "DFRAG Open Series 6",
+   "date": "2026-08-11",
+   "team1": {
+    "name": "Rooster"
+   },
+   "team2": {
+    "name": "Mindfreak"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396396/rooster-vs-mindfreak-dfrag-open-series-6",
+   "extra": {
+    "match_id": "2396396",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "DFRAG Open Series 6",
+   "date": "2026-08-11",
+   "team1": {
+    "name": "Abyssal"
+   },
+   "team2": {
+    "name": "Ground Zero"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396395/abyssal-vs-ground-zero-dfrag-open-series-6",
+   "extra": {
+    "match_id": "2396395",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "BetBoom"
+   },
+   "team2": {
+    "name": "FaZe"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396565/betboom-vs-faze-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396565",
+    "score_text": "11 : 13",
+    "format": "nuke"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "PARIVISION"
+   },
+   "team2": {
+    "name": "B8"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396568/parivision-vs-b8-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396568",
+    "score_text": "11 : 13",
+    "format": "cch"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "ex-RUSTEC"
+   },
+   "team2": {
+    "name": "SAW Youngsters"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396620/ex-rustec-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
+   "extra": {
+    "match_id": "2396620",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "Falcons"
+   },
+   "team2": {
+    "name": "K27"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396563/falcons-vs-k27-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396563",
+    "score_text": "6 : 13",
+    "format": "d2"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "Ninjas in Pyjamas"
+   },
+   "team2": {
+    "name": "Legacy"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396566/ninjas-in-pyjamas-vs-legacy-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396566",
+    "score_text": "5 : 13",
+    "format": "cch"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Exort Fiesta Series 1 Closed Qualifier",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "ROUNDS"
+   },
+   "team2": {
+    "name": "Subtop De France"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396692/rounds-vs-subtop-de-france-exort-fiesta-series-1-closed-qualifier",
+   "extra": {
+    "match_id": "2396692",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "G2"
+   },
+   "team2": {
+    "name": "M80"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396561/g2-vs-m80-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396561",
+    "score_text": "11 : 13",
+    "format": "mrg"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "magic"
+   },
+   "team2": {
+    "name": "The MongolZ"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396572/magic-vs-the-mongolz-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396572",
+    "score_text": "7 : 13",
+    "format": "mrg"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "DFRAG Open Series 6",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "Ground Zero"
+   },
+   "team2": {
+    "name": "Mindfreak"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396397/ground-zero-vs-mindfreak-dfrag-open-series-6",
+   "extra": {
+    "match_id": "2396397",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "Spirit"
+   },
+   "team2": {
+    "name": "JiJieHao"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396559",
+    "score_text": "10 : 13",
+    "format": "mrg"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "FUT"
+   },
+   "team2": {
+    "name": "TYLOO"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396569",
+    "score_text": "10 : 13",
+    "format": "mrg"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "Bushido Wildcats"
+   },
+   "team2": {
+    "name": "ex-MANA"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
+   "extra": {
+    "match_id": "2396619",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "BIG"
+   },
+   "team2": {
+    "name": "Aurora"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396562",
+    "score_text": "9 : 13",
+    "format": "cch"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Exort Fiesta Series 1 Closed Qualifier",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "DONSTU"
+   },
+   "team2": {
+    "name": "FORZE Reload"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396691/donstu-vs-forze-reload-exort-fiesta-series-1-closed-qualifier",
+   "extra": {
+    "match_id": "2396691",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-12",
+   "team1": {
+    "name": "Luminosity"
+   },
+   "team2": {
+    "name": "GamerLegion"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396560",
+    "score_text": "3 : 13",
+    "format": "nuke"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Aurora"
+   },
+   "team2": {
+    "name": "M80"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396578/aurora-vs-m80-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396578",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Luminosity"
+   },
+   "team2": {
+    "name": "Spirit"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396577",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "NODWIN Clutch Series 11 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "The Last Resort"
+   },
+   "team2": {
+    "name": "HYPERSPIRIT"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396695/the-last-resort-vs-hyperspirit-nodwin-clutch-series-11-closed-qualifier",
+   "extra": {
+    "match_id": "2396695",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "GamerLegion"
+   },
+   "team2": {
+    "name": "JiJieHao"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396575/gamerlegion-vs-jijiehao-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396575",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "DFRAG Open Series 6",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Abyssal"
+   },
+   "team2": {
+    "name": "Ground Zero"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396398/abyssal-vs-ground-zero-dfrag-open-series-6",
+   "extra": {
+    "match_id": "2396398",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "BERG"
+   },
+   "team2": {
+    "name": "Endless Journey"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396624/berg-vs-endless-journey-cct-2026-europe-series-7-closed-qualifier",
+   "extra": {
+    "match_id": "2396624",
+    "score_text": "0 : 1",
+    "format": "def"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Exort Fiesta Series 1 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "DONSTU"
+   },
+   "team2": {
+    "name": "train launcher"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396836/donstu-vs-train-launcher-exort-fiesta-series-1-closed-qualifier",
+   "extra": {
+    "match_id": "2396836",
+    "score_text": "0 : 1",
+    "format": "def"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "ex-MANA"
+   },
+   "team2": {
+    "name": "SAW Youngsters"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396623/ex-mana-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
+   "extra": {
+    "match_id": "2396623",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "NODWIN Clutch Series 11 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Just Players"
+   },
+   "team2": {
+    "name": "MOUZ NXT"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396694/just-players-vs-mouz-nxt-nodwin-clutch-series-11-closed-qualifier",
+   "extra": {
+    "match_id": "2396694",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Exort Fiesta Series 1 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "FORZE Reload"
+   },
+   "team2": {
+    "name": "benched gods"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396802/forze-reload-vs-benched-gods-exort-fiesta-series-1-closed-qualifier",
+   "extra": {
+    "match_id": "2396802",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Endless Journey"
+   },
+   "team2": {
+    "name": "HAVU"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396622/endless-journey-vs-havu-cct-2026-europe-series-7-closed-qualifier",
+   "extra": {
+    "match_id": "2396622",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "9z"
+   },
+   "team2": {
+    "name": "paiN"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396573/9z-vs-pain-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396573",
+    "score_text": "3 : 13",
+    "format": "cch"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Lynn Vision"
+   },
+   "team2": {
+    "name": "MOUZ"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396570/lynn-vision-vs-mouz-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396570",
+    "score_text": "8 : 13",
+    "format": "d2"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Exort Fiesta Series 1 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "train launcher"
+   },
+   "team2": {
+    "name": "benched gods"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396797/train-launcher-vs-benched-gods-exort-fiesta-series-1-closed-qualifier",
+   "extra": {
+    "match_id": "2396797",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Vitality"
+   },
+   "team2": {
+    "name": "100 Thieves"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396567/vitality-vs-100-thieves-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396567",
+    "score_text": "4 : 13",
+    "format": "nuke"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Wildcard"
+   },
+   "team2": {
+    "name": "FURIA"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396574/wildcard-vs-furia-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396574",
+    "score_text": "10 : 13",
+    "format": "inf"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Natus Vincere"
+   },
+   "team2": {
+    "name": "3DMAX"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396571/natus-vincere-vs-3dmax-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396571",
+    "score_text": "9 : 13",
+    "format": "inf"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "CCT 2026 Europe Series 7 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "los kogutos"
+   },
+   "team2": {
+    "name": "BERG"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396621/los-kogutos-vs-berg-cct-2026-europe-series-7-closed-qualifier",
+   "extra": {
+    "match_id": "2396621",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Esports World Cup 2026",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "MIBR"
+   },
+   "team2": {
+    "name": "Astralis"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396564/mibr-vs-astralis-esports-world-cup-2026",
+   "extra": {
+    "match_id": "2396564",
+    "score_text": "6 : 13",
+    "format": "inf"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Exort Fiesta Series 1 Closed Qualifier",
+   "date": "2026-08-13",
+   "team1": {
+    "name": "Vexar"
+   },
+   "team2": {
+    "name": "Raccoons"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396693/vexar-vs-raccoons-exort-fiesta-series-1-closed-qualifier",
+   "extra": {
+    "match_id": "2396693",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "ESL Challenger League Season 52 Europe Cup 3",
+   "date": "2026-08-14",
+   "team1": {
+    "name": "Misa"
+   },
+   "team2": {
+    "name": "Leo"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396813/misa-vs-leo-esl-challenger-league-season-52-europe-cup-3",
+   "extra": {
+    "match_id": "2396813",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "ESL Challenger League Season 52 Europe Cup 3",
+   "date": "2026-08-14",
+   "team1": {
+    "name": "Fire Flux"
+   },
+   "team2": {
+    "name": "BAKS"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396815/fire-flux-vs-baks-esl-challenger-league-season-52-europe-cup-3",
+   "extra": {
+    "match_id": "2396815",
+    "score_text": "1 : 2",
+    "format": "bo3"
+   }
+  },
+  {
+   "series": "CS2",
+   "event": "Exort Fiesta Series 1 Closed Qualifier",
+   "date": "2026-08-14",
+   "team1": {
+    "name": "eternal premium"
+   },
+   "team2": {
+    "name": "Privateer"
+   },
+   "map_scores": [],
+   "best_of": 0,
+   "status": "finished",
+   "url": "https://www.hltv.org/matches/2396876/eternal-premium-vs-privateer-exort-fiesta-series-1-closed-qualifier",
+   "extra": {
+    "match_id": "2396876",
+    "score_text": "0 : 2",
+    "format": "bo3"
+   }
+  }
+ ],
+ "extra": {}
+}

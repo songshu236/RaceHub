@@ -1,0 +1,280 @@
+﻿"""RaceHub 主应用。"""
+from __future__ import annotations
+
+import tkinter as tk
+from datetime import datetime
+from tkinter import messagebox, ttk
+
+from . import __app_name__, __version__
+from .cache import clear_cache
+from .config import ensure_dirs, load_config, save_config
+from .store import SERIES_CN, DataStore
+from .ui import theme
+from .ui.cs2_panel import CS2Panel
+from .ui.f1_panel import F1Panel
+from .ui.mini_window import MiniWindow
+from .ui.wec_panel import WECPanel
+
+
+class RaceHubApp(tk.Tk):
+    def __init__(self, offline: bool = False):
+        super().__init__()
+        self.config = load_config()
+        if offline:
+            self.config["offline_mode"] = True
+        ensure_dirs()
+        theme.setup(self)
+        self.store = DataStore(self.config)
+        self._mini = None
+        self._build_window()
+        self._build_menubar()
+        self._build_topbar()
+        self._build_tabs()
+        self._build_statusbar()
+        self.protocol("WM_DELETE_WINDOW", self.on_close)
+        # 迷你窗
+        self.after(600, self._init_mini)
+        # 自动刷新
+        self.after(1500, self._initial_refresh)
+        self._schedule_auto_refresh()
+
+    # ------------------------------------------------------------------
+    def _build_window(self):
+        self.title(f"{__app_name__}  v{__version__}")
+        self.geometry("1340x880")
+        self.minsize(1080, 680)
+        self.configure(bg=theme.BG)
+
+    def _build_menubar(self):
+        bar = tk.Menu(self)
+        m_file = tk.Menu(bar, tearoff=0)
+        m_file.add_command(label="退出", command=self.on_close)
+        bar.add_cascade(label="文件", menu=m_file)
+
+        m_data = tk.Menu(bar, tearoff=0)
+        m_data.add_command(label="全部刷新", command=self.refresh_all)
+        m_data.add_command(label="清空本地缓存", command=self.clear_cache)
+        m_data.add_separator()
+        m_data.add_command(label="设置…", command=self.open_settings)
+        bar.add_cascade(label="数据", menu=m_data)
+
+        m_view = tk.Menu(bar, tearoff=0)
+        m_view.add_command(label="显示/隐藏迷你窗", command=self.toggle_mini)
+        bar.add_cascade(label="视图", menu=m_view)
+
+        m_help = tk.Menu(bar, tearoff=0)
+        m_help.add_command(label="关于", command=self.show_about)
+        bar.add_cascade(label="帮助", menu=m_help)
+        self.configure(menu=bar)
+
+    def _build_topbar(self):
+        bar = tk.Frame(self, bg=theme.BG)
+        bar.pack(side="top", fill="x", padx=14, pady=(12, 6))
+        bar.columnconfigure(2, weight=1)
+        tk.Label(bar, text="🏁 RaceHub", bg=theme.BG, fg=theme.TEXT,
+                 font=(theme.FONT_FAMILY, 20, "bold")).grid(row=0, column=0, sticky="w")
+        tk.Label(bar, text="F1 · WEC · CS2  赛事日历 / 赛果 / 积分聚合", bg=theme.BG, fg=theme.MUTED,
+                 font=(theme.FONT_FAMILY, 10)).grid(row=0, column=1, sticky="w", padx=(12, 0), pady=(6, 0))
+        self.online_badge = tk.Label(bar, text="", bg=theme.BG, fg=theme.OK,
+                                     font=(theme.FONT_FAMILY, 9))
+        self.online_badge.grid(row=0, column=2, sticky="e")
+        self.mini_btn = ttk.Button(bar, text="🗔 迷你窗", command=self.toggle_mini)
+        self.mini_btn.grid(row=0, column=3, padx=(6, 4))
+        self.settings_btn = ttk.Button(bar, text="⚙ 设置", command=self.open_settings)
+        self.settings_btn.grid(row=0, column=4, padx=(0, 4))
+        self.refresh_all_btn = ttk.Button(bar, text="🔄 全部刷新", style="Accent.TButton",
+                                          command=self.refresh_all)
+        self.refresh_all_btn.grid(row=0, column=5, padx=(4, 0))
+        self._update_online_badge()
+
+    def _build_tabs(self):
+        nb = ttk.Notebook(self)
+        nb.pack(side="top", fill="both", expand=True, padx=10, pady=4)
+        self.f1 = F1Panel(nb, self.store)
+        self.wec = WECPanel(nb, self.store)
+        self.cs2 = CS2Panel(nb, self.store)
+        nb.add(self.f1, text="  F1 赛车  ")
+        nb.add(self.wec, text="  WEC 耐力赛  ")
+        nb.add(self.cs2, text="  CS2 电竞  ")
+        self.notebook = nb
+
+    def _build_statusbar(self):
+        bar = tk.Frame(self, bg=theme.PANEL2, height=26)
+        bar.pack(side="bottom", fill="x")
+        bar.columnconfigure(1, weight=1)
+        self.status_lbl = tk.Label(bar, text="", bg=theme.PANEL2, fg=theme.MUTED,
+                                   font=(theme.FONT_FAMILY, 9), anchor="w")
+        self.status_lbl.grid(row=0, column=0, sticky="we", padx=10)
+        self.clock_lbl = tk.Label(bar, text="", bg=theme.PANEL2, fg=theme.MUTED,
+                                  font=(theme.FONT_FAMILY, 9), anchor="e")
+        self.clock_lbl.grid(row=0, column=1, sticky="e", padx=10)
+        self._update_status()
+        self.after(1000, self._status_tick)
+
+    # ------------------------------------------------------------------
+    def _init_mini(self):
+        self._mini = MiniWindow(self)
+        if self.config.get("mini_window_show", True):
+            self._mini.show()
+
+    @property
+    def mini(self):
+        return self._mini
+
+    def toggle_mini(self):
+        if self._mini is None:
+            self._init_mini()
+        if self._mini:
+            if self._mini.state() == "withdrawn":
+                self._mini.show()
+                self.config["mini_window_show"] = True
+            else:
+                self._mini.hide()
+                self.config["mini_window_show"] = False
+
+    # ------------------------------------------------------------------
+    def refresh_all(self):
+        if self.refresh_all_btn is not None:
+            self.refresh_all_btn.config(state="disabled", text="刷新中…")
+        self.store.refresh_all(callback=self._on_refresh_done)
+
+    def _on_refresh_done(self, series, kind, ok, msg):
+        try:
+            self.after(0, lambda: self._apply_refresh_done(series, kind, ok, msg))
+        except Exception:
+            pass
+
+    def _apply_refresh_done(self, series, kind, ok, msg):
+        self._update_online_badge()
+        self._update_status()
+        self.refresh_all_btn.config(state="normal", text="🔄 全部刷新")
+        if self._mini is not None and self._mini.winfo_exists():
+            self._mini.refresh()
+
+    def _initial_refresh(self):
+        if not self.config.get("offline_mode"):
+            self.refresh_all()
+
+    def _schedule_auto_refresh(self):
+        minutes = int(self.config.get("auto_refresh_minutes", 60) or 60)
+        self.after(minutes * 60000, self._auto_tick)
+
+    def _auto_tick(self):
+        if not self.config.get("offline_mode"):
+            self.refresh_all()
+        self._schedule_auto_refresh()
+
+    # ------------------------------------------------------------------
+    def _update_online_badge(self):
+        offline = self.config.get("offline_mode")
+        using_demo = False
+        for series in ("F1", "WEC", "CS2"):
+            for m in self.store.all_meta(series).values():
+                if m.get("using_demo"):
+                    using_demo = True
+        if offline:
+            self.online_badge.config(text="● 离线模式（示例数据）", fg=theme.WARN)
+        elif using_demo:
+            self.online_badge.config(text="● 部分数据为示例", fg=theme.WARN)
+        else:
+            self.online_badge.config(text="● 在线", fg=theme.OK)
+
+    def _update_status(self):
+        self.status_lbl.config(text=self.store.status_summary())
+
+    def _status_tick(self):
+        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        self.clock_lbl.config(text=now)
+        self.after(1000, self._status_tick)
+
+    # ------------------------------------------------------------------
+    def clear_cache(self):
+        if messagebox.askyesno("清空缓存", "确定清空所有本地缓存数据吗？下次刷新会重新抓取。"):
+            n = clear_cache()
+            messagebox.showinfo("完成", f"已清空 {n} 个缓存文件。")
+
+    def open_settings(self):
+        SettingsDialog(self)
+
+    def show_about(self):
+        messagebox.showinfo(
+            "关于",
+            f"{__app_name__} v{__version__}\n\n"
+            "数据来源：\n"
+            "· F1 — Ergast API (api.jolpi.ca)\n"
+            "· WEC — FIA WEC 官网与官方计时系统\n"
+            "· CS2 — HLTV (hltv.org)\n\n"
+            "说明：HLTV 有 Cloudflare 防护，如抓取失败请在设置中配置代理。",
+        )
+
+    def on_close(self):
+        save_config(self.config)
+        self.destroy()
+
+
+class SettingsDialog(tk.Toplevel):
+    """代理 / 离线 / 刷新间隔设置。"""
+
+    def __init__(self, app):
+        super().__init__(app)
+        self.app = app
+        self.title("设置")
+        self.geometry("460x300")
+        self.resizable(False, False)
+        self.configure(bg=theme.BG)
+        self.transient(app)
+        self.grab_set()
+        self._build()
+
+    def _build(self):
+        cfg = self.app.config
+        pad = {"padx": 14, "pady": 8}
+        ttk.Label(self, text="数据设置", style="Section.TLabel").pack(anchor="w", **pad)
+
+        row = ttk.Frame(self)
+        row.pack(fill="x", **pad)
+        ttk.Label(row, text="代理 (http/socks5):", width=20).pack(side="left")
+        self.proxy_var = tk.StringVar(value=cfg.get("proxy", ""))
+        ttk.Entry(row, textvariable=self.proxy_var, width=34).pack(side="left")
+
+        self.offline_var = tk.BooleanVar(value=bool(cfg.get("offline_mode")))
+        ttk.Checkbutton(self, text="离线模式（不联网，仅使用缓存/示例数据）",
+                        variable=self.offline_var).pack(anchor="w", **pad)
+
+        row2 = ttk.Frame(self)
+        row2.pack(fill="x", **pad)
+        ttk.Label(row2, text="缓存有效期(小时):", width=20).pack(side="left")
+        self.ttl_var = tk.StringVar(value=str(cfg.get("ttl_hours", 6)))
+        ttk.Spinbox(row2, from_=1, to=72, textvariable=self.ttl_var, width=8).pack(side="left")
+
+        row3 = ttk.Frame(self)
+        row3.pack(fill="x", **pad)
+        ttk.Label(row3, text="自动刷新间隔(分钟):", width=20).pack(side="left")
+        self.auto_var = tk.StringVar(value=str(cfg.get("auto_refresh_minutes", 60)))
+        ttk.Spinbox(row3, from_=5, to=1440, textvariable=self.auto_var, width=8).pack(side="left")
+
+        ttk.Label(self, text="提示：HLTV 抓取失败时，可配置本地代理（如 Clash 的 http://127.0.0.1:7890）后点击“全部刷新”。",
+                  style="Muted.TLabel", wraplength=420).pack(anchor="w", **pad)
+
+        btns = ttk.Frame(self)
+        btns.pack(fill="x", **pad)
+        ttk.Button(btns, text="保存", style="Accent.TButton", command=self._save).pack(side="right", padx=4)
+        ttk.Button(btns, text="取消", command=self.destroy).pack(side="right")
+
+    def _save(self):
+        cfg = self.app.config
+        cfg["proxy"] = self.proxy_var.get().strip()
+        cfg["offline_mode"] = self.offline_var.get()
+        try:
+            cfg["ttl_hours"] = int(self.ttl_var.get())
+        except ValueError:
+            pass
+        try:
+            cfg["auto_refresh_minutes"] = int(self.auto_var.get())
+        except ValueError:
+            pass
+        save_config(cfg)
+        self.app.store.config = cfg
+        self.app._update_online_badge()
+        self.destroy()
+

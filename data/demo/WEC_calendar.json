@@ -1,0 +1,308 @@
+[
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "Official Prologue IMOLA 14 April 2026",
+  "short_name": "Official Prologue IMOLA 14 April 2026",
+  "venue": "Official Prologue IMOLA 14 April 2026",
+  "country": "意大利",
+  "flag": "🇮🇹",
+  "start": "2026-04-14",
+  "end": "2026-04-14",
+  "status": "completed",
+  "url": "https://www.fiawec.com/en/race/official-prologue-imola-2026",
+  "extra": {
+   "country_code": "ITA",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "6 Hours of Imola",
+  "short_name": "6 Hours of Imola",
+  "venue": "6 Hours of Imola",
+  "country": "意大利",
+  "flag": "🇮🇹",
+  "start": "2026-04-17",
+  "end": "2026-04-19",
+  "status": "completed",
+  "url": "https://www.fiawec.com/en/race/6-hours-of-imola-2026",
+  "extra": {
+   "country_code": "ITA",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "TotalEnergies 6 Hours of Spa-Francorchamps",
+  "short_name": "TotalEnergies 6 Hours of Spa-Francorchamps",
+  "venue": "TotalEnergies 6 Hours of Spa-Francorchamps",
+  "country": "比利时",
+  "flag": "🇧🇪",
+  "start": "2026-05-07",
+  "end": "2026-05-09",
+  "status": "completed",
+  "url": "https://www.fiawec.com/en/race/totalenergies-6-hours-of-spa-francorchamps-2026",
+  "extra": {
+   "country_code": "BEL",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "24 Hours of Le Mans",
+  "short_name": "24 Hours of Le Mans",
+  "venue": "24 Hours of Le Mans",
+  "country": "法国",
+  "flag": "🇫🇷",
+  "start": "2026-06-10",
+  "end": "2026-06-14",
+  "status": "completed",
+  "url": "https://www.fiawec.com/en/race/24-hours-of-le-mans-2026",
+  "extra": {
+   "country_code": "FRA",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "ROLEX 6 Hours of São Paulo",
+  "short_name": "ROLEX 6 Hours of São Paulo",
+  "venue": "ROLEX 6 Hours of São Paulo",
+  "country": "巴西",
+  "flag": "🇧🇷",
+  "start": "2026-07-10",
+  "end": "2026-07-12",
+  "status": "completed",
+  "url": "https://www.fiawec.com/en/race/rolex-6-hours-of-sao-paulo-2026",
+  "extra": {
+   "country_code": "BRA",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "Lone Star Le Mans",
+  "short_name": "Lone Star Le Mans",
+  "venue": "Lone Star Le Mans",
+  "country": "美国",
+  "flag": "🇺🇸",
+  "start": "2026-09-04",
+  "end": "2026-09-06",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/lone-star-le-mans-2026",
+  "extra": {
+   "country_code": "USA",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "6 Hours of Fuji",
+  "short_name": "6 Hours of Fuji",
+  "venue": "6 Hours of Fuji",
+  "country": "日本",
+  "flag": "🇯🇵",
+  "start": "2026-09-25",
+  "end": "2026-09-27",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/6-hours-of-fuji-2026",
+  "extra": {
+   "country_code": "JPN",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "6 Hours of Barcelona",
+  "short_name": "6 Hours of Barcelona",
+  "venue": "6 Hours of Barcelona",
+  "country": "西班牙",
+  "flag": "🇪🇸",
+  "start": "2026-10-16",
+  "end": "2026-10-18",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/6-hours-of-barcelona-2026",
+  "extra": {
+   "country_code": "ESP",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "6 Hours of Monza",
+  "short_name": "6 Hours of Monza",
+  "venue": "6 Hours of Monza",
+  "country": "意大利",
+  "flag": "🇮🇹",
+  "start": "2026-11-06",
+  "end": "2026-11-08",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/6-hours-of-monza-2026",
+  "extra": {
+   "country_code": "ITA",
+   "year": 2026
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "Qatar 1812km",
+  "short_name": "Qatar 1812km",
+  "venue": "Qatar 1812km",
+  "country": "卡塔尔",
+  "flag": "🇶🇦",
+  "start": "2027-03-25",
+  "end": "2027-03-27",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/qatar-1812km-2027",
+  "extra": {
+   "country_code": "QAT",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "6 Hours of Imola",
+  "short_name": "6 Hours of Imola",
+  "venue": "6 Hours of Imola",
+  "country": "意大利",
+  "flag": "🇮🇹",
+  "start": "2027-04-09",
+  "end": "2027-04-11",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/6-hours-of-imola-2027",
+  "extra": {
+   "country_code": "ITA",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "6 Hours of Silverstone",
+  "short_name": "6 Hours of Silverstone",
+  "venue": "6 Hours of Silverstone",
+  "country": "英国",
+  "flag": "🇬🇧",
+  "start": "2027-04-23",
+  "end": "2027-04-25",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/6-hours-of-silverstone-2027",
+  "extra": {
+   "country_code": "GBR",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "TotalEnergies 6 Hours of Spa-Francorchamps",
+  "short_name": "TotalEnergies 6 Hours of Spa-Francorchamps",
+  "venue": "TotalEnergies 6 Hours of Spa-Francorchamps",
+  "country": "比利时",
+  "flag": "🇧🇪",
+  "start": "2027-05-13",
+  "end": "2027-05-15",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/totalenergies-6-hours-of-spa-francorchamps-2027",
+  "extra": {
+   "country_code": "BEL",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "24 Hours of Le Mans",
+  "short_name": "24 Hours of Le Mans",
+  "venue": "24 Hours of Le Mans",
+  "country": "法国",
+  "flag": "🇫🇷",
+  "start": "2027-06-06",
+  "end": "2027-06-13",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/24-hours-of-le-mans-2027",
+  "extra": {
+   "country_code": "FRA",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "ROLEX 6 Hours of São Paulo",
+  "short_name": "ROLEX 6 Hours of São Paulo",
+  "venue": "ROLEX 6 Hours of São Paulo",
+  "country": "巴西",
+  "flag": "🇧🇷",
+  "start": "2027-07-09",
+  "end": "2027-07-11",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/rolex-6-hours-of-sao-paulo-2027",
+  "extra": {
+   "country_code": "BRA",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "Lone Star Le Mans",
+  "short_name": "Lone Star Le Mans",
+  "venue": "Lone Star Le Mans",
+  "country": "美国",
+  "flag": "🇺🇸",
+  "start": "2027-09-10",
+  "end": "2027-09-12",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/lone-star-le-mans-2027",
+  "extra": {
+   "country_code": "USA",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "6 Hours of Fuji",
+  "short_name": "6 Hours of Fuji",
+  "venue": "6 Hours of Fuji",
+  "country": "日本",
+  "flag": "🇯🇵",
+  "start": "2027-09-24",
+  "end": "2027-09-26",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/6-hours-of-fuji-2027",
+  "extra": {
+   "country_code": "JPN",
+   "year": 2027
+  }
+ },
+ {
+  "series": "WEC",
+  "round": null,
+  "name": "Bapco Energies 8 Hours of Bahrain",
+  "short_name": "Bapco Energies 8 Hours of Bahrain",
+  "venue": "Bapco Energies 8 Hours of Bahrain",
+  "country": "巴林",
+  "flag": "🇧🇭",
+  "start": "2027-11-04",
+  "end": "2027-11-06",
+  "status": "upcoming",
+  "url": "https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2027",
+  "extra": {
+   "country_code": "BHR",
+   "year": 2027
+  }
+ }
+]

@@ -1,0 +1,1452 @@
+{
+ "series": "WEC",
+ "title": "2026 赛季积分榜",
+ "season": "2026",
+ "tables": [
+  {
+   "title": "FIA Hypercar World Endurance Manufacturers’ Championship",
+   "rows": [
+    {
+     "pos": "1",
+     "name": "TOYOTA",
+     "points": "132",
+     "race_pts": [
+      "40",
+      "12",
+      "80",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "TOYOTA"
+     }
+    },
+    {
+     "pos": "2",
+     "name": "BMW",
+     "points": "127",
+     "race_pts": [
+      "16",
+      "43",
+      "36 +1",
+      "31",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "BMW"
+     }
+    },
+    {
+     "pos": "3",
+     "name": "FERRARI",
+     "points": "88",
+     "race_pts": [
+      "26 +1",
+      "15",
+      "20",
+      "26",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "FERRARI"
+     }
+    },
+    {
+     "pos": "4",
+     "name": "CADILLAC",
+     "points": "60",
+     "race_pts": [
+      "4",
+      "4",
+      "24",
+      "27 +1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "CADILLAC"
+     }
+    },
+    {
+     "pos": "5",
+     "name": "ALPINE",
+     "points": "41",
+     "race_pts": [
+      "13",
+      "1",
+      "24",
+      "3",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "ALPINE"
+     }
+    },
+    {
+     "pos": "6",
+     "name": "ASTON MARTIN",
+     "points": "40",
+     "race_pts": [
+      "2",
+      "12",
+      "12",
+      "14",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "ASTON MARTIN"
+     }
+    },
+    {
+     "pos": "7",
+     "name": "PEUGEOT",
+     "points": "15",
+     "race_pts": [
+      "0",
+      "8 +1",
+      "6",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "PEUGEOT"
+     }
+    },
+    {
+     "pos": "8",
+     "name": "GENESIS",
+     "points": "6",
+     "race_pts": [
+      "0",
+      "6",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "",
+      "team": "GENESIS"
+     }
+    }
+   ]
+  },
+  {
+   "title": "FIA Hypercar World Endurance Drivers Championship",
+   "rows": [
+    {
+     "pos": "1",
+     "name": "RENÉ RAST , ROBIN FRIJNS",
+     "points": "75",
+     "race_pts": [
+      "10",
+      "25",
+      "36",
+      "4",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#20",
+      "team": "RENÉ RAST , ROBIN FRIJNS"
+     }
+    },
+    {
+     "pos": "2",
+     "name": "KAMUI KOBAYASHI , MIKE CONWAY , NYCK DE VRIES",
+     "points": "75",
+     "race_pts": [
+      "15",
+      "10",
+      "50",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#7",
+      "team": "KAMUI KOBAYASHI , MIKE CONWAY , NYCK DE VRIES"
+     }
+    },
+    {
+     "pos": "3",
+     "name": "SHELDON VAN DER LINDE",
+     "points": "65",
+     "race_pts": [
+      "0",
+      "25",
+      "36",
+      "4",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#20",
+      "team": "SHELDON VAN DER LINDE"
+     }
+    },
+    {
+     "pos": "4",
+     "name": "ALESSANDRO PIER GUIDI , ANTONIO GIOVINAZZI , JAMES CALADO",
+     "points": "57",
+     "race_pts": [
+      "18 +1",
+      "0",
+      "20",
+      "18",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#51",
+      "team": "ALESSANDRO PIER GUIDI , ANTONIO GIOVINAZZI , JAMES CALADO"
+     }
+    },
+    {
+     "pos": "5",
+     "name": "BRENDON HARTLEY , RYŌ HIRAKAWA , SÉBASTIEN BUEMI",
+     "points": "56",
+     "race_pts": [
+      "25",
+      "1",
+      "30",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#8",
+      "team": "BRENDON HARTLEY , RYŌ HIRAKAWA , SÉBASTIEN BUEMI"
+     }
+    },
+    {
+     "pos": "6",
+     "name": "KEVIN MAGNUSSEN , RAFFAELE MARCIELLO",
+     "points": "50",
+     "race_pts": [
+      "6",
+      "18",
+      "0 +1",
+      "25",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#15",
+      "team": "KEVIN MAGNUSSEN , RAFFAELE MARCIELLO"
+     }
+    },
+    {
+     "pos": "7",
+     "name": "DRIES VANTHOOR",
+     "points": "44",
+     "race_pts": [
+      "0",
+      "18",
+      "0 +1",
+      "25",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#15",
+      "team": "DRIES VANTHOOR"
+     }
+    },
+    {
+     "pos": "8",
+     "name": "NORMAN NATO , WILL STEVENS",
+     "points": "42",
+     "race_pts": [
+      "0",
+      "2",
+      "24",
+      "15 +1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#12",
+      "team": "NORMAN NATO , WILL STEVENS"
+     }
+    },
+    {
+     "pos": "9",
+     "name": "PHILIP HANSON , ROBERT KUBICA , YIFEI YE",
+     "points": "31",
+     "race_pts": [
+      "1",
+      "8",
+      "12",
+      "10",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#83",
+      "team": "PHILIP HANSON , ROBERT KUBICA , YIFEI YE"
+     }
+    },
+    {
+     "pos": "10",
+     "name": "HARRY TINCKNELL , TOM GAMBLE",
+     "points": "30",
+     "race_pts": [
+      "2",
+      "12",
+      "8",
+      "8",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#007",
+      "team": "HARRY TINCKNELL , TOM GAMBLE"
+     }
+    },
+    {
+     "pos": "11",
+     "name": "ANTONIO FUOCO , MIGUEL MOLINA , NICKLAS NIELSEN",
+     "points": "29",
+     "race_pts": [
+      "8",
+      "15",
+      "0",
+      "6",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#50",
+      "team": "ANTONIO FUOCO , MIGUEL MOLINA , NICKLAS NIELSEN"
+     }
+    },
+    {
+     "pos": "12",
+     "name": "ANTÓNIO FÉLIX DA COSTA , CHARLES MILESI , FERDINAND HABSBURG",
+     "points": "29",
+     "race_pts": [
+      "12",
+      "0",
+      "16",
+      "1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#35",
+      "team": "ANTÓNIO FÉLIX DA COSTA , CHARLES MILESI , FERDINAND HABSBURG"
+     }
+    },
+    {
+     "pos": "13",
+     "name": "LOUIS DELÉTRAZ",
+     "points": "26",
+     "race_pts": [
+      "0",
+      "2",
+      "24",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#12",
+      "team": "LOUIS DELÉTRAZ"
+     }
+    },
+    {
+     "pos": "14",
+     "name": "EARL BAMBER , SÉBASTIEN BOURDAIS",
+     "points": "16",
+     "race_pts": [
+      "4",
+      "0",
+      "0",
+      "12",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#38",
+      "team": "EARL BAMBER , SÉBASTIEN BOURDAIS"
+     }
+    },
+    {
+     "pos": "15",
+     "name": "JACK AITKEN",
+     "points": "12",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "12",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#38",
+      "team": "JACK AITKEN"
+     }
+    },
+    {
+     "pos": "16",
+     "name": "ROSS GUNN",
+     "points": "8",
+     "race_pts": [
+      "0",
+      "0",
+      "8",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#007",
+      "team": "ROSS GUNN"
+     }
+    },
+    {
+     "pos": "17",
+     "name": "NICK CASSIDY , PAUL DI RESTA , STOFFEL VANDOORNE",
+     "points": "6",
+     "race_pts": [
+      "0",
+      "6",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#93",
+      "team": "NICK CASSIDY , PAUL DI RESTA , STOFFEL VANDOORNE"
+     }
+    },
+    {
+     "pos": "18",
+     "name": "ANDRÉ LOTTERER , LUIS FELIPE DERANI , MATHYS JAUBERT",
+     "points": "4",
+     "race_pts": [
+      "0",
+      "4",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#17",
+      "team": "ANDRÉ LOTTERER , LUIS FELIPE DERANI , MATHYS JAUBERT"
+     }
+    },
+    {
+     "pos": "19",
+     "name": "FRÉDÉRIC MAKOWIECKI , JULES GOUNON , VICTOR MARTINS",
+     "points": "4",
+     "race_pts": [
+      "0",
+      "0",
+      "4",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#36",
+      "team": "FRÉDÉRIC MAKOWIECKI , JULES GOUNON , VICTOR MARTINS"
+     }
+    },
+    {
+     "pos": "20",
+     "name": "LOÏC DUVAL , MALTHE JAKOBSEN , THÉO POURCHAIRE",
+     "points": "3",
+     "race_pts": [
+      "0",
+      "0 +1",
+      "2",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#94",
+      "team": "LOÏC DUVAL , MALTHE JAKOBSEN , THÉO POURCHAIRE"
+     }
+    },
+    {
+     "pos": "21",
+     "name": "ALEX RIBERAS , MARCO SØRENSEN",
+     "points": "2",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "2",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#009",
+      "team": "ALEX RIBERAS , MARCO SØRENSEN"
+     }
+    },
+    {
+     "pos": "22",
+     "name": "DANIEL JUNCADELLA , MATHIEU JAMINET , PAUL-LOUP CHATIN",
+     "points": "0",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#19",
+      "team": "DANIEL JUNCADELLA , MATHIEU JAMINET , PAUL-LOUP CHATIN"
+     }
+    },
+    {
+     "pos": "23",
+     "name": "ROMAN DE ANGELIS",
+     "points": "0",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#009",
+      "team": "ROMAN DE ANGELIS"
+     }
+    }
+   ]
+  },
+  {
+   "title": "FIA Endurance Trophy for LMGT3 Teams",
+   "rows": [
+    {
+     "pos": "1",
+     "name": "TF SPORT",
+     "points": "76",
+     "race_pts": [
+      "18",
+      "4",
+      "50",
+      "4",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#33",
+      "team": "TF SPORT"
+     }
+    },
+    {
+     "pos": "2",
+     "name": "THE BEND MANTHEY",
+     "points": "49",
+     "race_pts": [
+      "15",
+      "15",
+      "4",
+      "15",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#92",
+      "team": "THE BEND MANTHEY"
+     }
+    },
+    {
+     "pos": "3",
+     "name": "TEAM WRT",
+     "points": "43",
+     "race_pts": [
+      "25",
+      "0",
+      "0",
+      "18",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#69",
+      "team": "TEAM WRT"
+     }
+    },
+    {
+     "pos": "4",
+     "name": "RACING TEAM TURKEY BY TF",
+     "points": "43",
+     "race_pts": [
+      "0",
+      "2",
+      "16",
+      "25",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#34",
+      "team": "RACING TEAM TURKEY BY TF"
+     }
+    },
+    {
+     "pos": "5",
+     "name": "VISTA AF CORSE",
+     "points": "42",
+     "race_pts": [
+      "8",
+      "12",
+      "20",
+      "2",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#21",
+      "team": "VISTA AF CORSE"
+     }
+    },
+    {
+     "pos": "6",
+     "name": "AKKODIS ASP TEAM",
+     "points": "38",
+     "race_pts": [
+      "0",
+      "8",
+      "24",
+      "6",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#87",
+      "team": "AKKODIS ASP TEAM"
+     }
+    },
+    {
+     "pos": "7",
+     "name": "AKKODIS ASP TEAM",
+     "points": "37",
+     "race_pts": [
+      "0",
+      "0 +1",
+      "36",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#78",
+      "team": "AKKODIS ASP TEAM"
+     }
+    },
+    {
+     "pos": "8",
+     "name": "GARAGE 59",
+     "points": "34",
+     "race_pts": [
+      "0 +1",
+      "25",
+      "8",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#10",
+      "team": "GARAGE 59"
+     }
+    },
+    {
+     "pos": "9",
+     "name": "HEART OF RACING TEAM",
+     "points": "33",
+     "race_pts": [
+      "2",
+      "0",
+      "30",
+      "0 +1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#23",
+      "team": "HEART OF RACING TEAM"
+     }
+    },
+    {
+     "pos": "10",
+     "name": "MANTHEY DK ENGINEERING",
+     "points": "30",
+     "race_pts": [
+      "12",
+      "6",
+      "0",
+      "12",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#91",
+      "team": "MANTHEY DK ENGINEERING"
+     }
+    },
+    {
+     "pos": "11",
+     "name": "TEAM WRT",
+     "points": "22",
+     "race_pts": [
+      "10",
+      "0",
+      "12",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#32",
+      "team": "TEAM WRT"
+     }
+    },
+    {
+     "pos": "12",
+     "name": "HEART OF RACING TEAM",
+     "points": "19",
+     "race_pts": [
+      "0",
+      "18",
+      "0 +1",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#27",
+      "team": "HEART OF RACING TEAM"
+     }
+    },
+    {
+     "pos": "13",
+     "name": "GARAGE 59",
+     "points": "18",
+     "race_pts": [
+      "6",
+      "10",
+      "2",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#58",
+      "team": "GARAGE 59"
+     }
+    },
+    {
+     "pos": "14",
+     "name": "PROTON COMPETITION",
+     "points": "14",
+     "race_pts": [
+      "4",
+      "0",
+      "0",
+      "10",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#88",
+      "team": "PROTON COMPETITION"
+     }
+    },
+    {
+     "pos": "15",
+     "name": "IRON LYNX",
+     "points": "9",
+     "race_pts": [
+      "0",
+      "1",
+      "0",
+      "8",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#61",
+      "team": "IRON LYNX"
+     }
+    },
+    {
+     "pos": "16",
+     "name": "PROTON COMPETITION",
+     "points": "2",
+     "race_pts": [
+      "1",
+      "0",
+      "0",
+      "1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#77",
+      "team": "PROTON COMPETITION"
+     }
+    },
+    {
+     "pos": "17",
+     "name": "VISTA AF CORSE",
+     "points": "0",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#54",
+      "team": "VISTA AF CORSE"
+     }
+    },
+    {
+     "pos": "18",
+     "name": "IRON LYNX",
+     "points": "0",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#79",
+      "team": "IRON LYNX"
+     }
+    }
+   ]
+  },
+  {
+   "title": "FIA Endurance Trophy for LMGT3 Drivers",
+   "rows": [
+    {
+     "pos": "1",
+     "name": "JONNY EDGAR",
+     "points": "76",
+     "race_pts": [
+      "18",
+      "4",
+      "50",
+      "4",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#33",
+      "team": "JONNY EDGAR"
+     }
+    },
+    {
+     "pos": "2",
+     "name": "NICKY CATSBURG",
+     "points": "72",
+     "race_pts": [
+      "18",
+      "4",
+      "50",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#33",
+      "team": "NICKY CATSBURG"
+     }
+    },
+    {
+     "pos": "3",
+     "name": "BEN KEATING",
+     "points": "54",
+     "race_pts": [
+      "0",
+      "0",
+      "50",
+      "4",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#33",
+      "team": "BEN KEATING"
+     }
+    },
+    {
+     "pos": "4",
+     "name": "RICCARDO PERA , RICHARD LIETZ , YASSER SHAHIN",
+     "points": "49",
+     "race_pts": [
+      "15",
+      "15",
+      "4",
+      "15",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#92",
+      "team": "RICCARDO PERA , RICHARD LIETZ , YASSER SHAHIN"
+     }
+    },
+    {
+     "pos": "5",
+     "name": "ANTHONY MCINTOSH , DANIEL HARPER , PARKER THOMPSON",
+     "points": "43",
+     "race_pts": [
+      "25",
+      "0",
+      "0",
+      "18",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#69",
+      "team": "ANTHONY MCINTOSH , DANIEL HARPER , PARKER THOMPSON"
+     }
+    },
+    {
+     "pos": "6",
+     "name": "CHARLIE EASTWOOD , PETER DEMPSEY , SALIH YOLUÇ",
+     "points": "43",
+     "race_pts": [
+      "0",
+      "2",
+      "16",
+      "25",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#34",
+      "team": "CHARLIE EASTWOOD , PETER DEMPSEY , SALIH YOLUÇ"
+     }
+    },
+    {
+     "pos": "7",
+     "name": "ALESSIO ROVERA , FRANÇOIS HÉRIAU , SIMON MANN",
+     "points": "42",
+     "race_pts": [
+      "8",
+      "12",
+      "20",
+      "2",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#21",
+      "team": "ALESSIO ROVERA , FRANÇOIS HÉRIAU , SIMON MANN"
+     }
+    },
+    {
+     "pos": "8",
+     "name": "CLEMENS SCHMID , JOSÉ MARÍA LÓPEZ , PETRU UMBRĂRESCU",
+     "points": "38",
+     "race_pts": [
+      "0",
+      "8",
+      "24",
+      "6",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#87",
+      "team": "CLEMENS SCHMID , JOSÉ MARÍA LÓPEZ , PETRU UMBRĂRESCU"
+     }
+    },
+    {
+     "pos": "9",
+     "name": "HADRIEN DAVID , TOM VAN ROMPUY",
+     "points": "37",
+     "race_pts": [
+      "0",
+      "0 +1",
+      "36",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#78",
+      "team": "HADRIEN DAVID , TOM VAN ROMPUY"
+     }
+    },
+    {
+     "pos": "10",
+     "name": "JACK HAWKSWORTH",
+     "points": "36",
+     "race_pts": [
+      "0",
+      "0",
+      "36",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#78",
+      "team": "JACK HAWKSWORTH"
+     }
+    },
+    {
+     "pos": "11",
+     "name": "ANTARES AU , MARVIN KIRCHHÖFER , THOMAS FLEMING",
+     "points": "34",
+     "race_pts": [
+      "0 +1",
+      "25",
+      "8",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#10",
+      "team": "ANTARES AU , MARVIN KIRCHHÖFER , THOMAS FLEMING"
+     }
+    },
+    {
+     "pos": "12",
+     "name": "GRAY NEWELL , JONNY ADAM",
+     "points": "33",
+     "race_pts": [
+      "2",
+      "0",
+      "30",
+      "0 +1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#23",
+      "team": "GRAY NEWELL , JONNY ADAM"
+     }
+    },
+    {
+     "pos": "13",
+     "name": "EDUARDO BARRICHELLO",
+     "points": "30",
+     "race_pts": [
+      "0",
+      "0",
+      "30",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#23",
+      "team": "EDUARDO BARRICHELLO"
+     }
+    },
+    {
+     "pos": "14",
+     "name": "AYHANCAN GÜVEN , JAMES COTTINGHAM , TIMUR BOGUSLAVSKIY",
+     "points": "30",
+     "race_pts": [
+      "12",
+      "6",
+      "0",
+      "12",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#91",
+      "team": "AYHANCAN GÜVEN , JAMES COTTINGHAM , TIMUR BOGUSLAVSKIY"
+     }
+    },
+    {
+     "pos": "15",
+     "name": "BLAKE MCDONALD",
+     "points": "22",
+     "race_pts": [
+      "18",
+      "4",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#33",
+      "team": "BLAKE MCDONALD"
+     }
+    },
+    {
+     "pos": "16",
+     "name": "AUGUSTO FARFUS , DARREN LEUNG , SEAN GELAEL",
+     "points": "22",
+     "race_pts": [
+      "10",
+      "0",
+      "12",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#32",
+      "team": "AUGUSTO FARFUS , DARREN LEUNG , SEAN GELAEL"
+     }
+    },
+    {
+     "pos": "17",
+     "name": "IAN JAMES , MATTIA DRUDI , ZACHARIE ROBICHON",
+     "points": "19",
+     "race_pts": [
+      "0",
+      "18",
+      "0 +1",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#27",
+      "team": "IAN JAMES , MATTIA DRUDI , ZACHARIE ROBICHON"
+     }
+    },
+    {
+     "pos": "18",
+     "name": "ALEXANDER WEST , BENJAMIN GOETHE , FINN GEHRSITZ",
+     "points": "18",
+     "race_pts": [
+      "6",
+      "10",
+      "2",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#58",
+      "team": "ALEXANDER WEST , BENJAMIN GOETHE , FINN GEHRSITZ"
+     }
+    },
+    {
+     "pos": "19",
+     "name": "GIAMMARCO LEVORATO , LOGAN SARGEANT , STEFANO GATTUSO",
+     "points": "14",
+     "race_pts": [
+      "4",
+      "0",
+      "0",
+      "10",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#88",
+      "team": "GIAMMARCO LEVORATO , LOGAN SARGEANT , STEFANO GATTUSO"
+     }
+    },
+    {
+     "pos": "20",
+     "name": "MARTIN BERRY , MAXIME MARTIN , RUI ANDRADE",
+     "points": "9",
+     "race_pts": [
+      "0",
+      "1",
+      "0",
+      "8",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#61",
+      "team": "MARTIN BERRY , MAXIME MARTIN , RUI ANDRADE"
+     }
+    },
+    {
+     "pos": "21",
+     "name": "NICOLÁS VARRONE",
+     "points": "4",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "4",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#33",
+      "team": "NICOLÁS VARRONE"
+     }
+    },
+    {
+     "pos": "22",
+     "name": "KOBE PAUWELS",
+     "points": "3",
+     "race_pts": [
+      "2",
+      "0",
+      "0",
+      "0 +1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#23",
+      "team": "KOBE PAUWELS"
+     }
+    },
+    {
+     "pos": "23",
+     "name": "BEN TUCK , ERIC POWELL , SEBASTIAN PRIAULX",
+     "points": "2",
+     "race_pts": [
+      "1",
+      "0",
+      "0",
+      "1",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#77",
+      "team": "BEN TUCK , ERIC POWELL , SEBASTIAN PRIAULX"
+     }
+    },
+    {
+     "pos": "24",
+     "name": "ESTEBAN MASSON",
+     "points": "1",
+     "race_pts": [
+      "0",
+      "0 +1",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#78",
+      "team": "ESTEBAN MASSON"
+     }
+    },
+    {
+     "pos": "25",
+     "name": "DAVIDE RIGON , FRANCESCO CASTELLACCI , THOMAS FLOHR",
+     "points": "0",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#54",
+      "team": "DAVIDE RIGON , FRANCESCO CASTELLACCI , THOMAS FLOHR"
+     }
+    },
+    {
+     "pos": "26",
+     "name": "JOHANNES ZELGER , LIN HODENIUS , MATTEO CRESSONI",
+     "points": "0",
+     "race_pts": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "extra": {
+      "no": "#79",
+      "team": "JOHANNES ZELGER , LIN HODENIUS , MATTEO CRESSONI"
+     }
+    }
+   ]
+  }
+ ]
+}
