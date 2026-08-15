@@ -29,8 +29,20 @@ class SeriesPanel(ttk.Frame):
         self.notebook.add(self.cal_page, text="  赛程  ")
         self.notebook.add(self.res_page, text="  赛果  ")
         self.notebook.add(self.sta_page, text="  积分  ")
-        self._build_pages()
-        self._apply_initial()
+        try:
+            self._build_pages()
+        except Exception:
+            import logging
+            import traceback
+            logging.exception("面板 %s 构建失败", self.series)
+            traceback.print_exc()
+        try:
+            self._apply_initial()
+        except Exception:
+            import logging
+            import traceback
+            logging.exception("面板 %s 首次渲染失败", self.series)
+            traceback.print_exc()
 
     # ------------------------------------------------------------------
     def _build_header(self):

@@ -92,6 +92,9 @@ class RaceHubApp(tk.Tk):
         self.online_badge = tk.Label(bar, text="", bg=theme.BG, fg=theme.OK,
                                      font=(theme.FONT_FAMILY, 9))
         self.online_badge.grid(row=0, column=2, sticky="e")
+        self.data_badge = tk.Label(bar, text="", bg=theme.BG, fg=theme.MUTED,
+                                   font=(theme.FONT_FAMILY, 9))
+        self.data_badge.grid(row=0, column=6, sticky="e", padx=8)
         self.mini_btn = ttk.Button(bar, text="🗔 迷你窗", command=self.toggle_mini)
         self.mini_btn.grid(row=0, column=3, padx=(6, 4))
         self.settings_btn = ttk.Button(bar, text="⚙ 设置", command=self.open_settings)
@@ -231,6 +234,23 @@ class RaceHubApp(tk.Tk):
                     continue
                 total += len(p) if isinstance(p, list) else (len(p.get("rows", [])) or len(p.get("tables", [])))
         logging.info("启动时数据总条数: %d", total)
+        self.data_badge.config(text=f"已加载 {total} 条数据")
+        # 记录每个面板实际渲染行数（排查“空窗口”）
+        for name, panel in (("F1", getattr(self, "f1", None)),
+                            ("WEC", getattr(self, "wec", None)),
+                            ("CS2", getattr(self, "cs2", None))):
+            if panel is None:
+                logging.warning("面板 %s 未创建", name)
+                continue
+            try:
+                counts = []
+                for attr in ("cal_tree", "res_tree", "stand_tree", "match_tree", "rank_tree"):
+                    t = getattr(panel, attr, None)
+                    if t is not None:
+                        counts.append(f"{attr}={len(t.get_children())}")
+                logging.info("面板 %s 渲染: %s", name, " ".join(counts))
+            except Exception as e:
+                logging.warning("面板 %s 行数统计失败: %s", name, e)
         if total == 0:
             logging.warning("启动时没有任何数据！请运行: python scripts\\gen_demo.py 重新生成示例数据")
             banner = tk.Label(self, text="⚠ 未加载到任何数据：请点击右上角「🔄 全部刷新」，"
@@ -362,6 +382,23 @@ class DiagnosticsDialog(tk.Toplevel):
                 src = m.get("source", "")
                 err = m.get("error", "")
                 lines.append(f"  {series}/{kind}: {n} 条  [{src}]" + (f"  错误:{err}" if err else ""))
+        lines.append("")
+        lines.append("面板渲染行数:")
+        for name, panel in (("F1", getattr(self.app, "f1", None)),
+                            ("WEC", getattr(self.app, "wec", None)),
+                            ("CS2", getattr(self.app, "cs2", None))):
+            if panel is None:
+                lines.append(f"  {name}: 未创建")
+                continue
+            try:
+                counts = []
+                for attr in ("cal_tree", "res_tree", "stand_tree", "match_tree", "rank_tree"):
+                    t = getattr(panel, attr, None)
+                    if t is not None:
+                        counts.append(f"{attr}={len(t.get_children())}")
+                lines.append(f"  {name}: " + (" ".join(counts) if counts else "无表格"))
+            except Exception as e:
+                lines.append(f"  {name}: 读取失败 {e}")
         lines.append("")
         lines.append("日志文件: logs/app.log")
         lines.append("数据目录: data/")
