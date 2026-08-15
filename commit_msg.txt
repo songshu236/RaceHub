@@ -1,9 +1,0 @@
-﻿fix: 补齐 6 个 SVG 队标为真实 PNG + 白底本地化
-
-- HLTV 对 MOUZ/TYLOO/paiN/SINNERS/fnatic/The Last Resort 返回 SVG 内容
-  （之前存成 .png 导致无法显示，显示为彩色徽章回退）
-- 用 svglib+reportlab+PyMuPDF 纯 Python 管线把 SVG 渲染成真实 PNG 并入库，
-  现在 40/40 队标全部为真实队标、无透明背景
-- team_logos._svg_to_png 集成该管线（cairosvg 优先，失败走 svglib 管线）
-- 已存在但无法加载的队标记录尝试状态，不再反复下载
-- requirements 增加 svglib/reportlab/pymupdf
