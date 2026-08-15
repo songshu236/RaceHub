@@ -7,7 +7,8 @@ from tkinter import ttk
 from ..utils import countdown_days, fmt_countdown, fmt_date
 from . import theme
 from .base_panel import SeriesPanel
-from .widgets import SectionHeader, KeyValueRow, fill_tree, make_tree, set_odd_even, status_tag
+from .widgets import SectionHeader, KeyValueRow, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
+from .badges import get_badge
 
 
 class WECPanel(SeriesPanel):
@@ -79,7 +80,8 @@ class WECPanel(SeriesPanel):
                               r.get("drivers", ""), r.get("car", ""), r.get("cls", ""),
                               r.get("laps", ""), r.get("total_time", ""), r.get("gap", ""),
                               r.get("fl_time", ""))),
-                          tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else ())
+                          tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
+                          image_fn=lambda r: get_badge(r.get("team", "")))
                 set_odd_even(self.res_tree)
                 return
         self.res_info.set("该分站暂无最终成绩")
@@ -114,7 +116,8 @@ class WECPanel(SeriesPanel):
                               r.get("pos", ""), r.get("name", ""),
                               ", ".join(str(x) for x in r.get("race_pts", [])),
                               r.get("points", ""))),
-                          tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else ())
+                          tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
+                          image_fn=lambda r: get_badge(r.get("name", "")))
                 set_odd_even(self.stand_tree)
                 return
 

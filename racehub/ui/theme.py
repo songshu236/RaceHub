@@ -80,36 +80,36 @@ def setup(root: tk.Tk) -> None:
                 break
             except Exception:
                 continue
-    style.configure(".", background=BG, foreground=TEXT, font=(FONT_FAMILY, 10))
+    style.configure(".", background=BG, foreground=TEXT, font=(FONT_FAMILY, 11))
     style.configure("TFrame", background=BG)
     style.configure("Panel.TFrame", background=PANEL)
     style.configure("Panel2.TFrame", background=PANEL2)
-    style.configure("TLabel", background=BG, foreground=TEXT, font=(FONT_FAMILY, 10))
+    style.configure("TLabel", background=BG, foreground=TEXT, font=(FONT_FAMILY, 11))
     style.configure("Panel.TLabel", background=PANEL, foreground=TEXT)
     style.configure("Muted.TLabel", background=BG, foreground=MUTED)
     style.configure("Panel.Muted.TLabel", background=PANEL, foreground=MUTED)
-    style.configure("Title.TLabel", background=BG, foreground=TEXT, font=(FONT_FAMILY, 16, "bold"))
-    style.configure("Section.TLabel", background=PANEL, foreground="#c9d7e8", font=(FONT_FAMILY, 11, "bold"))
+    style.configure("Title.TLabel", background=BG, foreground=TEXT, font=(FONT_FAMILY, 18, "bold"))
+    style.configure("Section.TLabel", background=PANEL, foreground="#c9d7e8", font=(FONT_FAMILY, 13, "bold"))
 
     style.configure("TButton", background=INPUT, foreground=TEXT, bordercolor=BORDER,
-                    focusthickness=0, padding=(10, 4))
+                    focusthickness=0, padding=(12, 6), font=(FONT_FAMILY, 11))
     style.map("TButton", background=[("active", "#26303d"), ("pressed", "#1b2531")])
     style.configure("Accent.TButton", background=SERIES_ACCENT["F1"], foreground="#ffffff")
-    style.configure("Small.TButton", padding=(6, 2), font=(FONT_FAMILY, 9))
+    style.configure("Small.TButton", padding=(8, 4), font=(FONT_FAMILY, 10))
 
     style.configure("TNotebook", background=BG, borderwidth=0)
-    style.configure("TNotebook.Tab", background=PANEL2, foreground=MUTED, padding=(16, 7),
-                    font=(FONT_FAMILY, 10))
+    style.configure("TNotebook.Tab", background=PANEL2, foreground=MUTED, padding=(20, 9),
+                    font=(FONT_FAMILY, 12))
     style.map("TNotebook.Tab", background=[("selected", PANEL)], foreground=[("selected", TEXT)])
     style.configure("Sub.TNotebook", background=BG, borderwidth=0)
-    style.configure("Sub.TNotebook.Tab", background=BG, foreground=MUTED, padding=(12, 5),
-                    font=(FONT_FAMILY, 9))
+    style.configure("Sub.TNotebook.Tab", background=BG, foreground=MUTED, padding=(14, 6),
+                    font=(FONT_FAMILY, 11))
     style.map("Sub.TNotebook.Tab", background=[("selected", PANEL)], foreground=[("selected", TEXT)])
 
     style.configure("Treeview", background=PANEL, fieldbackground=PANEL, foreground=TEXT,
-                    bordercolor=BORDER, rowheight=26, font=(FONT_FAMILY, 9))
+                    bordercolor=BORDER, rowheight=34, font=(FONT_FAMILY, 11))
     style.configure("Treeview.Heading", background=PANEL2, foreground="#c9d7e8",
-                    bordercolor=BORDER, font=(FONT_FAMILY, 9, "bold"), relief="flat")
+                    bordercolor=BORDER, font=(FONT_FAMILY, 11, "bold"), relief="flat")
     style.map("Treeview", background=[("selected", "#26435f")], foreground=[("selected", "#ffffff")])
     style.map("Treeview.Heading", background=[("active", "#223042")])
 
@@ -119,12 +119,12 @@ def setup(root: tk.Tk) -> None:
     style.configure("Vertical.TScrollbar", background=PANEL2, troughcolor=BG, bordercolor=BG, arrowcolor=TEXT)
     style.configure("Horizontal.TScrollbar", background=PANEL2, troughcolor=BG, bordercolor=BG, arrowcolor=TEXT)
 
-    style.configure("Status.TLabel", background=BG, foreground=MUTED, font=(FONT_FAMILY, 9))
-    style.configure("Badge.TLabel", background=PANEL2, foreground="#ffd75e", font=(FONT_FAMILY, 9, "bold"),
-                    padding=(6, 2))
-    style.configure("OkBadge.TLabel", background="#12301c", foreground=OK, font=(FONT_FAMILY, 9, "bold"),
-                    padding=(6, 2))
-    style.configure("ErrBadge.TLabel", background="#35171a", foreground=ERR, font=(FONT_FAMILY, 9, "bold"),
-                    padding=(6, 2))
-    style.configure("Countdown.TLabel", background=PANEL, foreground=ACCENT, font=(FONT_FAMILY, 10, "bold"))
+    style.configure("Status.TLabel", background=BG, foreground=MUTED, font=(FONT_FAMILY, 10))
+    style.configure("Badge.TLabel", background=PANEL2, foreground="#ffd75e", font=(FONT_FAMILY, 10, "bold"),
+                    padding=(8, 3))
+    style.configure("OkBadge.TLabel", background="#12301c", foreground=OK, font=(FONT_FAMILY, 10, "bold"),
+                    padding=(8, 3))
+    style.configure("ErrBadge.TLabel", background="#35171a", foreground=ERR, font=(FONT_FAMILY, 10, "bold"),
+                    padding=(8, 3))
+    style.configure("Countdown.TLabel", background=PANEL, foreground=ACCENT, font=(FONT_FAMILY, 11, "bold"))
     style.configure("Card.TFrame", background=PANEL2, relief="flat")

@@ -105,7 +105,12 @@ class SeriesPanel(ttk.Frame):
 
     def refresh(self):
         if self.refresh_btn is not None:
-            self.refresh_btn.config(state="disabled", text="刷新中…")
+            self.refresh_btn.config(state="disabled", text="在线更新中…")
+        if hasattr(self, "badge"):
+            try:
+                self.badge.config(text="⏳ 在线更新中…", style="Badge.TLabel")
+            except Exception:
+                pass
         self.store.refresh(self.series, callback=self._on_refresh_done)
 
     def _on_refresh_done(self, series, kind, ok, msg):

@@ -29,15 +29,19 @@ def make_tree(parent, columns, widths=None, stretch=None, height=10, style=None)
     return tree, frame
 
 
-def fill_tree(tree: ttk.Treeview, rows: list, fn, tags=None, empty_text="（暂无数据，请点击右上角「🔄 刷新」）"):
-    """清空并填充 tree。fn(row) -> (iid, values)。tags(row) 可选。空列表时插入提示行。"""
+def fill_tree(tree: ttk.Treeview, rows: list, fn, tags=None, empty_text="（暂无数据，请点击右上角「🔄 刷新」）", image_fn=None):
+    """清空并填充 tree。fn(row) -> (iid, values)。tags(row) 可选；image_fn(row) 可选返回 PhotoImage。"""
     tree.delete(*tree.get_children())
     for row in rows:
         iid, values = fn(row)
         tag = tags(row) if tags else ()
         if isinstance(tag, str):
             tag = (tag,)
-        tree.insert("", "end", iid=iid, values=values, tags=tag)
+        img = image_fn(row) if image_fn else None
+        if img is not None:
+            tree.insert("", "end", iid=iid, values=values, tags=tag, image=img)
+        else:
+            tree.insert("", "end", iid=iid, values=values, tags=tag)
     if not rows:
         cols = len(tree["columns"]) if tree["columns"] else 1
         vals = [""] * cols
@@ -57,7 +61,7 @@ def apply_tree_tags(tree: ttk.Treeview):
     tree.tag_configure("st_empty", foreground=theme.MUTED, background=theme.PANEL)
     tree.tag_configure("row_odd", background=theme.PANEL)
     tree.tag_configure("row_even", background=theme.PANEL2)
-    tree.tag_configure("leader", foreground=theme.OK, font=(theme.FONT_FAMILY, 9, "bold"))
+    tree.tag_configure("leader", foreground=theme.OK, font=(theme.FONT_FAMILY, 11, "bold"))
 
 
 def set_odd_even(tree: ttk.Treeview):
@@ -101,3 +105,10 @@ class KeyValueRow(ttk.Frame):
 
     def set(self, value):
         self.value_lbl.config(text=value)
+
+
+def add_badge_column(tree: ttk.Treeview, width: int = 44, text: str = "队标"):
+    """启用 #0 树列作为队标图片列（配合 fill_tree 的 image_fn 使用）。"""
+    tree.configure(show="tree headings")
+    tree.heading("#0", text=text)
+    tree.column("#0", width=width, minwidth=36, anchor="center", stretch=False)

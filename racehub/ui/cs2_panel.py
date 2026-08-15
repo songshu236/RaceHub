@@ -8,7 +8,8 @@ from tkinter import ttk
 from ..utils import countdown_days, fmt_countdown, fmt_date
 from . import theme
 from .base_panel import SeriesPanel
-from .widgets import SectionHeader, KeyValueRow, fill_tree, make_tree, set_odd_even, status_tag
+from .widgets import SectionHeader, KeyValueRow, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
+from .badges import get_badge
 
 
 def _map_summary(match: dict) -> str:
@@ -188,7 +189,8 @@ class CS2Panel(SeriesPanel):
             return iid, (fmt_date(m.get("date")), m.get("status", ""), m.get("event", ""),
                          f"{t1} vs {t2}", _score_text(m), _map_summary(m))
         fill_tree(self.match_tree, rows, fn,
-                  tags=lambda m: status_tag(m.get("status")))
+                  tags=lambda m: status_tag(m.get("status")),
+                  image_fn=lambda m: get_badge((m.get("team1") or {}).get("name", "")))
         set_odd_even(self.match_tree)
 
     def _render_ranking(self):
@@ -196,7 +198,8 @@ class CS2Panel(SeriesPanel):
         fill_tree(self.rank_tree, payload.get("rows", []),
                   lambda r: (str(id(r)), (r.get("pos", ""), r.get("name", ""),
                                            r.get("points", ""), r.get("change", ""))),
-                  tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else ())
+                  tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
+                  image_fn=lambda r: get_badge(r.get("name", "")))
         set_odd_even(self.rank_tree)
 
     def _apply_initial(self):

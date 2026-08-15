@@ -7,7 +7,8 @@ from tkinter import ttk
 from ..utils import countdown_days, fmt_countdown, fmt_date
 from . import theme
 from .base_panel import SeriesPanel
-from .widgets import SectionHeader, KeyValueRow, fill_tree, make_tree, set_odd_even, status_tag
+from .widgets import SectionHeader, KeyValueRow, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
+from .badges import get_badge
 
 
 class F1Panel(SeriesPanel):
@@ -26,7 +27,7 @@ class F1Panel(SeriesPanel):
         self.cal_tree, self.cal_tree_frame = make_tree(p, [
             ("round", "轮次"), ("date", "日期"), ("status", "状态"),
             ("name", "大奖赛"), ("venue", "赛道"), ("countdown", "倒计时"),
-        ], widths={"round": 50, "date": 90, "status": 70, "name": 180, "venue": 200, "countdown": 80})
+        ], widths={"round": 55, "date": 100, "status": 80, "name": 220, "venue": 230, "countdown": 90})
         self.cal_tree_frame.grid(row=1, column=0, sticky="nsew")
         self.cal_tree.bind("<<TreeviewSelect>>", self._on_cal_select)
 
@@ -77,7 +78,8 @@ class F1Panel(SeriesPanel):
                               r.get("pos", ""), r.get("driver", ""), r.get("team", ""),
                               r.get("laps", ""), r.get("time", ""), r.get("points", ""),
                               r.get("fastest_lap", ""))),
-                          tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else ())
+                          tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
+                          image_fn=lambda r: get_badge(r.get("team", "")))
                 set_odd_even(self.res_tree)
                 return
         self.res_info.set("该分站暂无比赛结果")
@@ -112,12 +114,14 @@ class F1Panel(SeriesPanel):
                     fill_tree(self.stand_tree, t.get("rows", []),
                               lambda r: (str(id(r)), (r.get("pos", ""), r.get("name", ""), "",
                                                        r.get("points", ""), r.get("wins", ""))),
-                              tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else ())
+                              tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
+                              image_fn=lambda r: get_badge(r.get("name", "")))
                 else:
                     fill_tree(self.stand_tree, t.get("rows", []),
                               lambda r: (str(id(r)), (r.get("pos", ""), r.get("name", ""),
                                                        r.get("team", ""), r.get("points", ""), r.get("wins", ""))),
-                              tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else ())
+                              tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
+                              image_fn=lambda r: get_badge(r.get("team", "")))
                 set_odd_even(self.stand_tree)
                 return
 

@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
 from .cache import read_cache, write_cache
@@ -140,35 +141,43 @@ class DataStore:
 
     def _refresh_worker(self, series, kinds, force, callback):
         scraper = _scraper_for(series)
-        for kind in kinds:
-            if self.config.get("offline_mode"):
-                self._notify(callback, series, kind, False, "离线模式，未联网")
-                continue
-            try:
-                payload, source = self._fetch_kind(scraper, kind)
-                if payload is None:
-                    raise SourceError("数据源无返回")
-                existing = self.get(series, kind)
-                if _payload_empty(payload) and not _payload_empty(existing):
-                    # 抓取到空数据时保留原有数据，避免覆盖
-                    self.mark_error(series, kind, "本次抓取返回空数据，已保留原有数据")
-                    self._notify(callback, series, kind, False, "返回空数据，保留原数据")
-                    continue
-                if not _payload_plausible(payload, existing):
-                    # 抓取结果偏少，疑似页面不完整，保留原有数据
-                    self.mark_error(series, kind, "本次抓取结果偏少，疑似页面不完整，已保留原数据")
-                    self._notify(callback, series, kind, False, "结果偏少，保留原数据")
-                    continue
-                self.set_payload(series, kind, payload, source)
+        # 同项目内各数据种类并行抓取（WEC 尤其受益：日历/赛果/积分同时跑）
+        with ThreadPoolExecutor(max_workers=min(4, len(kinds))) as pool:
+            futures = [pool.submit(self._refresh_one_kind, scraper, series, kind, callback)
+                       for kind in kinds]
+            for f in futures:
                 try:
-                    write_cache(series, kind, "", {"payload": payload, "source": source})
+                    f.result()
                 except Exception:
                     pass
-                self._notify(callback, series, kind, True, "")
-            except Exception as e:
-                msg = str(e)[:300]
-                self.mark_error(series, kind, msg)
-                self._notify(callback, series, kind, False, msg)
+
+    def _refresh_one_kind(self, scraper, series, kind, callback):
+        if self.config.get("offline_mode"):
+            self._notify(callback, series, kind, False, "离线模式，未联网")
+            return
+        try:
+            payload, source = self._fetch_kind(scraper, kind)
+            if payload is None:
+                raise SourceError("数据源无返回")
+            existing = self.get(series, kind)
+            if _payload_empty(payload) and not _payload_empty(existing):
+                self.mark_error(series, kind, "本次抓取返回空数据，已保留原有数据")
+                self._notify(callback, series, kind, False, "返回空数据，保留原数据")
+                return
+            if not _payload_plausible(payload, existing):
+                self.mark_error(series, kind, "本次抓取结果偏少，疑似页面不完整，已保留原数据")
+                self._notify(callback, series, kind, False, "结果偏少，保留原数据")
+                return
+            self.set_payload(series, kind, payload, source)
+            try:
+                write_cache(series, kind, "", {"payload": payload, "source": source})
+            except Exception:
+                pass
+            self._notify(callback, series, kind, True, "")
+        except Exception as e:
+            msg = str(e)[:300]
+            self.mark_error(series, kind, msg)
+            self._notify(callback, series, kind, False, msg)
 
     @staticmethod
     def _fetch_kind(scraper, kind):

@@ -5,6 +5,7 @@
 """
 from __future__ import annotations
 
+import datetime as _dt
 import re
 import urllib.parse
 
@@ -41,13 +42,16 @@ class WECScraper(Scraper):
     def __init__(self, year: int | None = None):
         super().__init__()
         self.year = year
+        self._cal_cache = None
 
     # ------------------------------------------------------------------
     # 赛程（首页日历滑块）
     # ------------------------------------------------------------------
     def fetch_calendar(self) -> list:
+        if self._cal_cache is not None:
+            return self._cal_cache
         try:
-            html, _ = fetch_text(WEC_HOME, timeout=25)
+            html = self._fetch_html_retry(WEC_HOME)
         except Exception as e:
             raise SourceError(f"WEC 官网请求失败: {e}") from e
         soup = BeautifulSoup(html, "html.parser")
@@ -115,21 +119,36 @@ class WECScraper(Scraper):
                 "extra": {"country_code": country, "year": year_hint},
             })
         events.sort(key=lambda e: (e["start"] or "9999", e["name"]))
+        self._cal_cache = events
         return events
+
+    # ------------------------------------------------------------------
+    # 赛季年份自动判断
+    # ------------------------------------------------------------------
+    def _detect_season_year(self) -> int | None:
+        """从日历推断“当前赛季”年份（优先选有已结束/进行中赛事的最近年份）。"""
+        cal = self.fetch_calendar()
+        years = [e["extra"].get("year") for e in cal if e["extra"].get("year")]
+        if not years:
+            return None
+        active = [y for y in years if any(
+            e["extra"].get("year") == y and e.get("status") in ("completed", "ongoing")
+            for e in cal)]
+        if active:
+            return max(active)
+        current = _dt.date.today().year
+        past = [y for y in years if y <= current]
+        return max(past) if past else max(years)
 
     # ------------------------------------------------------------------
     # 积分榜（赛季页 4 张表）
     # ------------------------------------------------------------------
     def fetch_standings(self, year: int | None = None) -> dict:
-        y = year or self.year
-        if y is None:
-            cal = self.fetch_calendar()
-            years = [e["extra"].get("year") for e in cal if e["extra"].get("year")]
-            y = max(years) if years else None
+        y = year or self.year or self._detect_season_year()
         if y is None:
             raise SourceError("无法确定 WEC 赛季年份")
         try:
-            html, _ = fetch_text(WEC_SEASON_URL.format(year=y), timeout=25)
+            html = self._fetch_html_retry(WEC_SEASON_URL.format(year=y))
         except Exception as e:
             raise SourceError(f"WEC 赛季页请求失败: {e}") from e
         soup = BeautifulSoup(html, "html.parser")
@@ -177,6 +196,23 @@ class WECScraper(Scraper):
                 })
             out["tables"].append({"title": title, "rows": rows})
         return out
+
+    # ------------------------------------------------------------------
+    # 带重试的页面抓取（fiawec 偶发返回错误页）
+    # ------------------------------------------------------------------
+    def _fetch_html_retry(self, url: str, tries: int = 3) -> str:
+        import time as _time
+        last = ""
+        for i in range(tries):
+            try:
+                html, _ = fetch_text(url, timeout=25)
+                if html and len(html) > 50000:
+                    return html
+                last = f"页面过小({len(html)}字节)"
+            except Exception as e:
+                last = str(e)[:120]
+            _time.sleep(1.2 * (i + 1))
+        raise SourceError(f"WEC 页面抓取失败: {last}")
 
     # ------------------------------------------------------------------
     # 官方计时：赛季 / 分站 / 结果
@@ -272,11 +308,7 @@ class WECScraper(Scraper):
         if not seasons:
             raise SourceError("无法获取 WEC 官方计时赛季列表")
         # 选当前年份对应的赛季
-        y = year or self.year
-        if y is None:
-            cal = self.fetch_calendar()
-            ys = [e["extra"].get("year") for e in cal if e["extra"].get("year")]
-            y = max(ys) if ys else None
+        y = year or self.year or self._detect_season_year()
         season = None
         for s in seasons:
             if y is not None and str(y) in s["label"]:
@@ -290,31 +322,39 @@ class WECScraper(Scraper):
         cal_by_norm = {_norm(c["name"]): c for c in cal}
 
         out = {"series": "WEC", "title": f"{season['label']} 比赛结果", "season": season["label"], "rows": []}
-        for ev in events:
+
+        def _fetch_one(ev: dict) -> dict | None:
             code = ev["code"]
             try:
                 csv_url = self._race_csv_url(season["code"], code)
             except Exception:
-                continue
+                return None
             if not csv_url:
-                continue
+                return None
             try:
                 text = self._fetch_csv_text(csv_url)
             except Exception:
-                continue
+                return None
             rows = self._parse_wec_csv(text)
             if not rows:
-                continue
+                return None
             ev_name = ev["label"]
             cal_match = cal_by_norm.get(_norm(ev_name))
-            out["rows"].append({
+            return {
                 "round": None,
                 "event_name": (cal_match or {}).get("name", ev_name.title()),
                 "short_name": ev_name.title(),
                 "date": (cal_match or {}).get("start", ""),
                 "title": "正赛最终成绩",
                 "rows": rows,
-            })
+            }
+
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            results = list(pool.map(_fetch_one, events))
+        for r in results:
+            if r:
+                out["rows"].append(r)
         return out
 
 
