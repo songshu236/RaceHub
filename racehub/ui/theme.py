@@ -71,10 +71,15 @@ def setup(root: tk.Tk) -> None:
     except Exception:
         pass
     style = ttk.Style(root)
-    try:
-        style.theme_use("clam")
-    except Exception:
-        pass
+    # 主题回退：clam -> alt -> default -> vista（某些 Tk 构建可能缺少某主题）
+    available = set(style.theme_names())
+    for cand in ("clam", "alt", "default", "vista", "winnative"):
+        if cand in available:
+            try:
+                style.theme_use(cand)
+                break
+            except Exception:
+                continue
     style.configure(".", background=BG, foreground=TEXT, font=(FONT_FAMILY, 10))
     style.configure("TFrame", background=BG)
     style.configure("Panel.TFrame", background=PANEL)

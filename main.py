@@ -4,20 +4,7 @@ from __future__ import annotations
 import argparse
 
 
-def enable_dpi_awareness():
-    """让 Tk 在 Windows 高 DPI 缩放下正确渲染（部分系统默认会导致窗口内容异常）。"""
-    try:
-        import ctypes
-        try:
-            ctypes.windll.shcore.SetProcessDpiAwareness(1)  # PROCESS_SYSTEM_DPI_AWARE
-        except Exception:
-            ctypes.windll.user32.SetProcessDPIAware()
-    except Exception:
-        pass
-
-
 def main():
-    enable_dpi_awareness()
     parser = argparse.ArgumentParser(description="RaceHub 赛事日历聚合应用")
     parser.add_argument("--offline", action="store_true", help="离线模式（不联网，使用缓存/示例数据）")
     parser.add_argument("--selftest", action="store_true", help="仅打印数据加载诊断信息后退出（不打开窗口）")

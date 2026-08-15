@@ -50,13 +50,29 @@ class RaceHubApp(tk.Tk):
         # 自动刷新
         self.after(1500, self._initial_refresh)
         self._schedule_auto_refresh()
+        # 强制重绘（部分 Windows/Tk 环境下 ttk 控件首次不绘制）
+        try:
+            self.update_idletasks()
+        except Exception:
+            pass
+        self.after(300, self._force_repaint)
+        self.after(1200, self._force_repaint)
+        self.after(400, self._log_layout)
+        self.after(3000, self._log_layout)
 
     # ------------------------------------------------------------------
     def _build_window(self):
         self.title(f"{__app_name__}  v{__version__}")
-        self.geometry("1340x880")
-        self.minsize(1080, 680)
         self.configure(bg=theme.BG)
+        try:
+            sw = self.winfo_screenwidth()
+            sh = self.winfo_screenheight()
+        except Exception:
+            sw = sh = 0
+        w = min(1340, max(1080, sw - 80)) if sw else 1340
+        h = min(880, max(680, sh - 120)) if sh else 880
+        self.geometry(f"{w}x{h}")
+        self.minsize(1000, 620)
 
     def _build_menubar(self):
         bar = tk.Menu(self)
@@ -77,6 +93,7 @@ class RaceHubApp(tk.Tk):
 
         m_help = tk.Menu(bar, tearoff=0)
         m_help.add_command(label="生成界面截图", command=self.save_screenshot)
+        m_help.add_command(label="修复显示（强制重绘）", command=self.repair_display)
         m_help.add_command(label="诊断信息", command=self.show_diagnostics)
         m_help.add_command(label="关于", command=self.show_about)
         bar.add_cascade(label="帮助", menu=m_help)
@@ -225,6 +242,46 @@ class RaceHubApp(tk.Tk):
             "说明：HLTV 有 Cloudflare 防护，如抓取失败请在设置中配置代理。",
         )
 
+    def _force_repaint(self):
+        """通过 1px 缩放切换强制 Tk 重绘（修复部分系统 ttk 不绘制的问题）。"""
+        try:
+            w = self.winfo_width()
+            h = self.winfo_height()
+            if w > 10 and h > 10:
+                self.geometry(f"{w + 1}x{h}")
+                self.update_idletasks()
+                self.geometry(f"{w}x{h}")
+        except Exception:
+            pass
+
+    def _log_layout(self):
+        """记录屏幕/窗口/各表格的几何与映射状态，用于排查“空窗口”。"""
+        try:
+            logging.info(
+                "屏幕=%sx%s 缩放=%.2f 窗口=%sx%s@(%s,%s) 状态=%s 主题=%s",
+                self.winfo_screenwidth(), self.winfo_screenheight(),
+                self.winfo_fpixels("1i"), self.winfo_width(), self.winfo_height(),
+                self.winfo_x(), self.winfo_y(), self.state(),
+                self.tk.call("ttk::style", "theme", "use"),
+            )
+            for name, panel in (("F1", getattr(self, "f1", None)),
+                                ("WEC", getattr(self, "wec", None)),
+                                ("CS2", getattr(self, "cs2", None))):
+                if panel is None:
+                    continue
+                for attr in ("cal_tree", "res_tree", "stand_tree", "match_tree", "rank_tree"):
+                    t = getattr(panel, attr, None)
+                    if t is None:
+                        continue
+                    logging.info(
+                        "  %s/%s rows=%d mapped=%s viewable=%s size=%sx%s",
+                        name, attr, len(t.get_children()),
+                        t.winfo_ismapped(), t.winfo_viewable(),
+                        t.winfo_width(), t.winfo_height(),
+                    )
+        except Exception as e:
+            logging.warning("布局日志失败: %s", e)
+
     def _check_startup_data(self):
         """启动时校验数据是否为空；为空则显示醒目提示并写日志，便于排查。"""
         total = 0
@@ -281,6 +338,16 @@ class RaceHubApp(tk.Tk):
 
     def show_diagnostics(self):
         DiagnosticsDialog(self)
+
+    def repair_display(self):
+        """手动强制重绘 + 窗口尺寸恢复。"""
+        self._force_repaint()
+        self._force_repaint()
+        try:
+            self.update()
+        except Exception:
+            pass
+        messagebox.showinfo("修复显示", "已触发强制重绘。如果仍然空白，请用「生成界面截图」把画面发我。")
 
     def save_screenshot(self):
         """生成界面截图并打开所在文件夹。"""
