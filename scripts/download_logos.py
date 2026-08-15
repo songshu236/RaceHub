@@ -46,7 +46,7 @@ def main():
     print("-" * 50)
     print(f"完成：成功 {ok_cnt} / {len(missing)}，用时 {time.time()-t0:.0f} 秒")
     print("失败的队伍 24 小时内会自动跳过；之后可再次运行本脚本重试。")
-    print("提示：CS2 页也有「🖼 下载全部队标」按钮可直接补全。")
+    print("提示：应用内 帮助 → 🖼 下载全部 CS2 队标 也可直接补全。")
 
 
 if __name__ == "__main__":

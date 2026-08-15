@@ -336,7 +336,8 @@ def collect_team_logos(store=None) -> dict:
     teams: dict = {}
     payloads = []
     if store is not None:
-        payloads = [store.get("CS2", "ranking"), store.get("CS2", "matches")]
+        payloads = [store.get("CS2", "ranking"), store.get("CS2", "matches"),
+                    store.get("CS2", "vrs")]
     if not any(payloads):
         import json
         for f in (DATA_DIR / "demo").glob("CS2_*.json"):

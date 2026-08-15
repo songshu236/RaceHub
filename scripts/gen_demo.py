@@ -55,6 +55,9 @@ def gen_cs2():
         rk = s.fetch_ranking()
         if rk.get("rows"):
             save("CS2_ranking.json", rk)
+        vrs = s.fetch_valve_ranking()
+        if vrs.get("rows"):
+            save("CS2_vrs.json", vrs)
         print("CS2 demo generated from HLTV live data")
         return
     except Exception as e:
@@ -184,6 +187,41 @@ def gen_cs2():
         {"pos": "30", "name": "The Huns", "points": "41", "change": "-1", "extra": {}},
     ]
     save("CS2_ranking.json", {"series": "CS2", "title": "HLTV 世界排名", "rows": ranking})
+
+    # ---------------- CS2 V社 VRS 积分排行（示例，仿 HLTV /valve-ranking/teams） ----------------
+    vrs = [
+        {"pos": "1", "name": "Spirit", "points": "2000", "region": "EU", "extra": {}},
+        {"pos": "2", "name": "Falcons", "points": "1988", "region": "EU", "extra": {}},
+        {"pos": "3", "name": "9z", "points": "1903", "region": "AM", "extra": {}},
+        {"pos": "4", "name": "MOUZ", "points": "1889", "region": "EU", "extra": {}},
+        {"pos": "5", "name": "Natus Vincere", "points": "1859", "region": "EU", "extra": {}},
+        {"pos": "6", "name": "Vitality", "points": "1831", "region": "EU", "extra": {}},
+        {"pos": "7", "name": "G2", "points": "1766", "region": "EU", "extra": {}},
+        {"pos": "8", "name": "FaZe", "points": "1690", "region": "EU", "extra": {}},
+        {"pos": "9", "name": "M80", "points": "1663", "region": "AM", "extra": {}},
+        {"pos": "10", "name": "The MongolZ", "points": "1622", "region": "AS", "extra": {}},
+        {"pos": "11", "name": "FURIA", "points": "1581", "region": "AM", "extra": {}},
+        {"pos": "12", "name": "Eternal Fire", "points": "1530", "region": "EU", "extra": {}},
+        {"pos": "13", "name": "Astralis", "points": "1497", "region": "EU", "extra": {}},
+        {"pos": "14", "name": "Liquid", "points": "1468", "region": "AM", "extra": {}},
+        {"pos": "15", "name": "NAVI", "points": "1415", "region": "EU", "extra": {}},
+        {"pos": "16", "name": "Complexity", "points": "1377", "region": "AM", "extra": {}},
+        {"pos": "17", "name": "3DMAX", "points": "1321", "region": "EU", "extra": {}},
+        {"pos": "18", "name": "BIG", "points": "1289", "region": "EU", "extra": {}},
+        {"pos": "19", "name": "paiN", "points": "1240", "region": "AM", "extra": {}},
+        {"pos": "20", "name": "Virtus.pro", "points": "1205", "region": "EU", "extra": {}},
+        {"pos": "21", "name": "HEROIC", "points": "1171", "region": "EU", "extra": {}},
+        {"pos": "22", "name": "BetBoom", "points": "1122", "region": "EU", "extra": {}},
+        {"pos": "23", "name": "Wildcard", "points": "1089", "region": "AM", "extra": {}},
+        {"pos": "24", "name": "Sashi", "points": "1053", "region": "EU", "extra": {}},
+        {"pos": "25", "name": "TYLOO", "points": "1001", "region": "AS", "extra": {}},
+        {"pos": "26", "name": "Rare Atom", "points": "966", "region": "AS", "extra": {}},
+        {"pos": "27", "name": "Lynn Vision", "points": "922", "region": "AS", "extra": {}},
+        {"pos": "28", "name": "The Huns", "points": "880", "region": "AS", "extra": {}},
+        {"pos": "29", "name": "JiJieHao", "points": "845", "region": "AS", "extra": {}},
+        {"pos": "30", "name": "GamerLegion", "points": "810", "region": "EU", "extra": {}},
+    ]
+    save("CS2_vrs.json", {"series": "CS2", "title": "V社积分排行 (VRS)", "rows": vrs})
 
 
 if __name__ == "__main__":

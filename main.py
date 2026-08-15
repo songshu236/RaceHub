@@ -67,7 +67,7 @@ def run_selftest():
     store = DataStore(cfg)
     total = 0
     for series in SERIES_LIST:
-        for kind in ("calendar", "results", "standings", "matches", "ranking"):
+        for kind in ("calendar", "results", "standings", "matches", "ranking", "vrs"):
             p = store.get(series, kind)
             if p is None:
                 continue

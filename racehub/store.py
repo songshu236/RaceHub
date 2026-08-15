@@ -18,7 +18,7 @@ SERIES_LIST = ["F1", "WEC", "CS2"]
 KINDS_BY_SERIES = {
     "F1": ["calendar", "results", "standings"],
     "WEC": ["calendar", "results", "standings"],
-    "CS2": ["calendar", "matches", "ranking"],
+    "CS2": ["calendar", "matches", "ranking", "vrs"],
 }
 
 SERIES_CN = {"F1": "F1 赛车", "WEC": "WEC 耐力赛", "CS2": "CS2 电竞"}
@@ -193,6 +193,8 @@ class DataStore:
             return scraper.fetch_matches(), scraper.source_label
         if kind == "ranking":
             return scraper.fetch_ranking(), scraper.source_label
+        if kind == "vrs":
+            return scraper.fetch_valve_ranking(), scraper.source_label
         raise ValueError(f"unknown kind {kind}")
 
     @staticmethod

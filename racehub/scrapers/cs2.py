@@ -448,7 +448,7 @@ class CS2Scraper(Scraper):
         return out
 
     # ------------------------------------------------------------------
-    # 队伍世界排名
+    # 队伍世界排名 (HLTV)
     # ------------------------------------------------------------------
     def fetch_ranking(self) -> dict:
         html = self._get("/ranking/teams")
@@ -475,4 +475,35 @@ class CS2Scraper(Scraper):
             })
         if not out["rows"]:
             raise SourceError("HLTV 排名页解析为空")
+        return out
+
+    # ------------------------------------------------------------------
+    # V社积分排行 (Valve Regional Standing, VRS) - /valve-ranking/teams
+    # ------------------------------------------------------------------
+    def fetch_valve_ranking(self) -> dict:
+        """抓取 HLTV 的 V社（Valve）积分排行页，结构与 /ranking 类似但带地区。"""
+        html = self._get("/valve-ranking/teams")
+        soup = self._soup(html)
+        out = {"series": "CS2", "title": "V社积分排行 (VRS)", "rows": []}
+        for team in soup.select(".ranked-team"):
+            rank = team.select_one(".rank, .rank-number, .position, .wide-position")
+            name = team.select_one(".team-name, .teamName, .name, .team .team-name")
+            points = team.select_one(".points")
+            region = team.select_one(".region")
+            name_txt = _norm_name(name.get_text(" ", strip=True)) if name else ""
+            if not name_txt:
+                continue
+            logo = ""
+            logo_el = team.select_one(".team-logo img")
+            if logo_el is not None:
+                logo = _best_logo_url(logo_el)
+            out["rows"].append({
+                "pos": _clean_rank_pos(rank.get_text(" ", strip=True) if rank else ""),
+                "name": name_txt,
+                "points": _clean_points(points.get_text(" ", strip=True) if points else ""),
+                "region": _norm_name(region.get_text(" ", strip=True) if region else ""),
+                "extra": {"logo": logo},
+            })
+        if not out["rows"]:
+            raise SourceError("HLTV VRS 排行页解析为空")
         return out

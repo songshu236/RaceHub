@@ -1,0 +1,3642 @@
+{
+ "series": "CS2",
+ "title": "V社积分排行 (VRS)",
+ "rows": [
+  {
+   "pos": "1",
+   "name": "Spirit",
+   "points": "2000",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/syrtYYKR7sBRw3ZHy1YFX7.png?ixlib=java-2.1.0&w=100&s=8d98ab33e1c8139633132cb9eccda0af"
+   }
+  },
+  {
+   "pos": "2",
+   "name": "Falcons",
+   "points": "1988",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4eJSkDQINNM6Tbs4WvLzkN.png?ixlib=java-2.1.0&w=100&s=01e7f9dd30b34e66f429f43627c2e005"
+   }
+  },
+  {
+   "pos": "3",
+   "name": "9z",
+   "points": "1903",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/COZDFWOIm41AT0srqOHFhM.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=002bc4bec253f97296484dc3986a233a"
+   }
+  },
+  {
+   "pos": "4",
+   "name": "MOUZ",
+   "points": "1889",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/IejtXpquZnE8KqYPB1LNKw.svg?ixlib=java-2.1.0&s=7fd33b8def053fbfd8fdbb58e3bdcd3c"
+   }
+  },
+  {
+   "pos": "5",
+   "name": "Natus Vincere",
+   "points": "1859",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c"
+   }
+  },
+  {
+   "pos": "6",
+   "name": "Vitality",
+   "points": "1839",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ogcHrcCdzRvxbYvAz04KAN.png?ixlib=java-2.1.0&w=100&s=c7577435f1641f0802c586934e6a4b6a"
+   }
+  },
+  {
+   "pos": "7",
+   "name": "FaZe",
+   "points": "1807",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/OKLwq88GXjl5GQ48Y5SrvW.png?ixlib=java-2.1.0&w=100&s=1ea8eedae6fedc8272e3f1aa91d1efed"
+   }
+  },
+  {
+   "pos": "8",
+   "name": "FURIA",
+   "points": "1795",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c"
+   }
+  },
+  {
+   "pos": "9",
+   "name": "Legacy",
+   "points": "1788",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/RWbHH6RA8uGwJurGeLFvSr.png?ixlib=java-2.1.0&w=100&s=10ff29ff632e0bd82922f4fcd83f930f"
+   }
+  },
+  {
+   "pos": "10",
+   "name": "FUT",
+   "points": "1777",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Os71GAOy8KDuQFc0M8HE6O.png?ixlib=java-2.1.0&w=100&s=828ea5ad48c3f170daf3ab9d983c8048"
+   }
+  },
+  {
+   "pos": "11",
+   "name": "G2",
+   "points": "1768",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=100&s=88aeba1564bc27de69fb2302e47e1a7c"
+   }
+  },
+  {
+   "pos": "12",
+   "name": "PARIVISION",
+   "points": "1728",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/MFcDe-M8wfGOUU6x4sRELR.png?ixlib=java-2.1.0&w=100&s=dccd3a3351064dd1ab9afebbed8443a9"
+   }
+  },
+  {
+   "pos": "13",
+   "name": "BetBoom",
+   "points": "1727",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/G4ZrdB0-q41USPd_z27IQA.png?ixlib=java-2.1.0&w=100&s=cb2c8c3b65e034368ff60f1c6a8d04ef"
+   }
+  },
+  {
+   "pos": "14",
+   "name": "Aurora",
+   "points": "1702",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yJzPNOeXlyiniNxanYJCrv.png?ixlib=java-2.1.0&w=100&s=f23524510b9d49ea59166e6e2efee1ac"
+   }
+  },
+  {
+   "pos": "15",
+   "name": "The MongolZ",
+   "points": "1676",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/bRk2sh_tSTO6fq1GLhgcal.png?ixlib=java-2.1.0&w=100&s=1bd99148a19e1e706b543500206901d4"
+   }
+  },
+  {
+   "pos": "16",
+   "name": "B8",
+   "points": "1671",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/O6nRWTCjUzBAR4pcOcrpSG.png?ixlib=java-2.1.0&w=100&s=e5dd0702ea2c42631fef0b0389f1abf4"
+   }
+  },
+  {
+   "pos": "17",
+   "name": "MIBR",
+   "points": "1668",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/sVnH-oAf1J5TnMwoY4cxUC.png?ixlib=java-2.1.0&w=100&s=8ace09ef5b2fac0eb7cd65213ad3cc85"
+   }
+  },
+  {
+   "pos": "18",
+   "name": "BIG",
+   "points": "1663",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7"
+   }
+  },
+  {
+   "pos": "19",
+   "name": "Astralis",
+   "points": "1635",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+   }
+  },
+  {
+   "pos": "20",
+   "name": "Alliance",
+   "points": "1632",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xsWK0BtR26rN776qdnWFC1.png?ixlib=java-2.1.0&w=100&s=8a8620433b87679e532367e2c90a3248"
+   }
+  },
+  {
+   "pos": "21",
+   "name": "GamerLegion",
+   "points": "1611",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vN7O46QoQ346WIRZ8D3spC.png?ixlib=java-2.1.0&w=100&s=914cff157a698a30714da80f8cfa5d33"
+   }
+  },
+  {
+   "pos": "22",
+   "name": "Liquid",
+   "points": "1611",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62"
+   }
+  },
+  {
+   "pos": "23",
+   "name": "TYLOO",
+   "points": "1563",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a"
+   }
+  },
+  {
+   "pos": "24",
+   "name": "Inner Circle",
+   "points": "1547",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/nzJhoae6HI3i1UORM-DBFD.png?ixlib=java-2.1.0&w=100&s=94c66676b38be4eff71807007b0c4bfe"
+   }
+  },
+  {
+   "pos": "25",
+   "name": "magic",
+   "points": "1545",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/KYi27Dm-DVyEUj0WIG5Bdx.png?ixlib=java-2.1.0&w=100&s=f7cf1cad7d6fa08278c0ac29e29ae085"
+   }
+  },
+  {
+   "pos": "26",
+   "name": "Ninjas in Pyjamas",
+   "points": "1543",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-ttGATBV_P_HcZazxNNtIb.png?ixlib=java-2.1.0&w=100&s=8553ef1ff134f4171868cbfaf234836d"
+   }
+  },
+  {
+   "pos": "27",
+   "name": "HEROIC",
+   "points": "1512",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4S22uk_gnZTiQiI-hhH4yp.png?ixlib=java-2.1.0&w=100&s=a5d9fdc008d14ed3b126835304871d49"
+   }
+  },
+  {
+   "pos": "28",
+   "name": "Lynn Vision",
+   "points": "1511",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DPcHT21uWwK1hDD_3txlL9.png?ixlib=java-2.1.0&w=100&s=1529ee0026d4e588254fbcd85037eeff"
+   }
+  },
+  {
+   "pos": "29",
+   "name": "paiN",
+   "points": "1504",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4"
+   }
+  },
+  {
+   "pos": "30",
+   "name": "HOTU",
+   "points": "1495",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/UH5TD1Lyutr_JwKu2ldl-A.png?ixlib=java-2.1.0&w=100&s=7df76731b68485049a9c7f7b710df7f3"
+   }
+  },
+  {
+   "pos": "31",
+   "name": "DENDELE",
+   "points": "1492",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xKB2zOMgkFKoD-MLU484IV.png?ixlib=java-2.1.0&w=100&s=fb3f313816624214a6a9295c9a4e46f5"
+   }
+  },
+  {
+   "pos": "32",
+   "name": "EYEBALLERS",
+   "points": "1481",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/3-Mfc-yWBTls8MPSEFhma5.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=161f662083d7e31a565c35bbc2d9d4c6"
+   }
+  },
+  {
+   "pos": "33",
+   "name": "100 Thieves",
+   "points": "1478",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/QdpX-_6C2wHMgv98VAE6il.png?ixlib=java-2.1.0&w=100&s=de550a602c2c8b0e64519746c00d0541"
+   }
+  },
+  {
+   "pos": "34",
+   "name": "JiJieHao",
+   "points": "1469",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/OmcJcjX0obWnKkP7ChpuFA.png?ixlib=java-2.1.0&w=100&s=2ecaeefb87ed63bcb5a0133eeac76abf"
+   }
+  },
+  {
+   "pos": "35",
+   "name": "Luminosity",
+   "points": "1464",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HRSwDY9X42P2TiJqy1oeEJ.png?ixlib=java-2.1.0&w=100&s=909690cad11adc86b3e1df3f818e493d"
+   }
+  },
+  {
+   "pos": "36",
+   "name": "K27",
+   "points": "1460",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7LmOZHYhlq-fIAm23aM2q1.png?ixlib=java-2.1.0&w=100&s=82b90af71ac4d98799a465aeb5328e79"
+   }
+  },
+  {
+   "pos": "37",
+   "name": "3DMAX",
+   "points": "1442",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/QGPDS3Z2-aMXwCYVgA4RWH.png?ixlib=java-2.1.0&w=100&s=6fdbbfe67b4dd4aecfc2554825d72eea"
+   }
+  },
+  {
+   "pos": "38",
+   "name": "Virtus.pro",
+   "points": "1425",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+   }
+  },
+  {
+   "pos": "39",
+   "name": "Nemesis",
+   "points": "1411",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/elLVHPbX3OkW4t8CHjKnoY.png?ixlib=java-2.1.0&w=100&s=4b4e4bd630c54d54d615ffb0c69275ee"
+   }
+  },
+  {
+   "pos": "40",
+   "name": "fnatic",
+   "points": "1411",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e"
+   }
+  },
+  {
+   "pos": "41",
+   "name": "1win",
+   "points": "1399",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zbmzI2IMFNwHUvTO4EHaTZ.png?ixlib=java-2.1.0&w=100&s=4386b1cf14aad08da4fa872894c4c44f"
+   }
+  },
+  {
+   "pos": "42",
+   "name": "Sashi",
+   "points": "1380",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xa5M31PECYUvHs6wlM9nzM.png?ixlib=java-2.1.0&w=100&s=914188438203c6fa2ac408fadbf7bacf"
+   }
+  },
+  {
+   "pos": "43",
+   "name": "Acend",
+   "points": "1363",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TslndPhDvsn1bLMdm1j2i6.png?ixlib=java-2.1.0&w=100&s=59913cb4781074edfb7628a074afea79"
+   }
+  },
+  {
+   "pos": "44",
+   "name": "Betclic",
+   "points": "1363",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iX5wi-ZLkdHTARnXcMEvZF.png?ixlib=java-2.1.0&w=100&s=c5b65db7ff10680486e1e8890015b62f"
+   }
+  },
+  {
+   "pos": "45",
+   "name": "Echo",
+   "points": "1361",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=E"
+   }
+  },
+  {
+   "pos": "46",
+   "name": "FOKUS",
+   "points": "1358",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VFmCLfAOw0WUmb_2fDDX3o.png?ixlib=java-2.1.0&w=100&s=3b75ec5687a9e4a656134ddd1011a80c"
+   }
+  },
+  {
+   "pos": "47",
+   "name": "M80",
+   "points": "1354",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/YsaWwP_VrkbHzuhszuANEK.png?ixlib=java-2.1.0&w=100&s=50048fc17b31841da92a6ec6b6dc37c6"
+   }
+  },
+  {
+   "pos": "48",
+   "name": "Nuclear TigeRES",
+   "points": "1349",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GcO3SLh1j8cgiNGoEXNUVS.png?ixlib=java-2.1.0&w=100&s=689d9fb00114a0cfb9f656ec1dae0492"
+   }
+  },
+  {
+   "pos": "49",
+   "name": "Wildcard",
+   "points": "1346",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-46lJ-DcmPL_j_5R2WvLiS.png?ixlib=java-2.1.0&w=100&s=a0ec0866e698643ee7359eaee646b8fd"
+   }
+  },
+  {
+   "pos": "50",
+   "name": "BC.Game",
+   "points": "1333",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Hwf-Y5nN-3qSvd0FZXOCh5.png?ixlib=java-2.1.0&w=100&s=24b01d7ccc6d3d4c920a93745f671f7c"
+   }
+  },
+  {
+   "pos": "51",
+   "name": "INFINITE",
+   "points": "1330",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bq4oCmwPwqkpV5XvHqmVhI.png?ixlib=java-2.1.0&w=100&s=48b97c34aebfca518a30b4bdaf1edcad"
+   }
+  },
+  {
+   "pos": "52",
+   "name": "Iberian Soul",
+   "points": "1317",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HD2YseMU5u5fOtLMzN4o2i.png?ixlib=java-2.1.0&w=100&s=03a31f05e7ca25e4f4c9c8dbe13bbe8b"
+   }
+  },
+  {
+   "pos": "53",
+   "name": "FlyQuest",
+   "points": "1314",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/fmqTgF6Ziw0uied7MO3_ri.png?ixlib=java-2.1.0&w=100&s=171deb954176f25d79fcec7dd528f4d1"
+   }
+  },
+  {
+   "pos": "54",
+   "name": "NRG",
+   "points": "1297",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/SJZaPBCyZssru-pUDS3aZe.png?ixlib=java-2.1.0&w=100&s=f3e3a6ac422d8be2d7b8ad03786a35ae"
+   }
+  },
+  {
+   "pos": "55",
+   "name": "SINNERS",
+   "points": "1247",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed"
+   }
+  },
+  {
+   "pos": "56",
+   "name": "ex-RUBY",
+   "points": "1234",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "57",
+   "name": "Walczaki",
+   "points": "1211",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7J1EJEnAG7-_sekQrIc_8E.png?ixlib=java-2.1.0&w=100&s=d8b3b896b615992cc3ae6ce9d20df1a9"
+   }
+  },
+  {
+   "pos": "58",
+   "name": "WW",
+   "points": "1211",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/eCREd3vUcWijSsxUZ7GEoW.png?ixlib=java-2.1.0&w=100&s=6cd76e55ccbc1636599897503a4b2057"
+   }
+  },
+  {
+   "pos": "59",
+   "name": "Nemiga",
+   "points": "1209",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=100&s=ec51c91e709bd6a892d27978e83115d5"
+   }
+  },
+  {
+   "pos": "60",
+   "name": "GenOne",
+   "points": "1207",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DlMJrDmPA7qofO3HhP7Tbe.png?ixlib=java-2.1.0&w=100&s=76fce5eaae55c00a8a5884eaa4999df6"
+   }
+  },
+  {
+   "pos": "61",
+   "name": "CYBERSHOKE",
+   "points": "1207",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/gzn14uIQ6ENslja9hMqnkj.png?ixlib=java-2.1.0&w=100&s=b1764e1b4763b1f62c7af31ffb729082"
+   }
+  },
+  {
+   "pos": "62",
+   "name": "Omega",
+   "points": "1205",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Q9UB4lO8MMt_CQmtRkOKxQ.png?ixlib=java-2.1.0&w=100&s=8d38d14432bf2c44185a638853b36668"
+   }
+  },
+  {
+   "pos": "63",
+   "name": "Phantom",
+   "points": "1204",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DzhUnKXRRy9yV2MILp29YH.png?ixlib=java-2.1.0&w=100&s=3fb2aad69e48b6fe5ab3bb37ad37c471"
+   }
+  },
+  {
+   "pos": "64",
+   "name": "Fluxo",
+   "points": "1200",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zGveLNj821BCJGMu93qnj-.png?ixlib=java-2.1.0&w=100&s=9831f542e589efa665f7805750677d80"
+   }
+  },
+  {
+   "pos": "65",
+   "name": "Butterfly",
+   "points": "1191",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/hgDb3HGkIozP3l72DbEtpp.png?ixlib=java-2.1.0&w=100&s=666fd72ceb75701a460a31ce49e8c1ea"
+   }
+  },
+  {
+   "pos": "66",
+   "name": "INOX Division",
+   "points": "1179",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5jcprHN8P8ylGZJxkC3ZHj.png?ixlib=java-2.1.0&w=100&s=381cbf4753c9aee3aec655bbe051c1ee"
+   }
+  },
+  {
+   "pos": "67",
+   "name": "9INE",
+   "points": "1177",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/BGC4LXlC8s4W0xWyelk2BI.png?ixlib=java-2.1.0&w=100&s=d7c215c893f546cf02505252ba744698"
+   }
+  },
+  {
+   "pos": "68",
+   "name": "Jam",
+   "points": "1174",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=J"
+   }
+  },
+  {
+   "pos": "69",
+   "name": "Imperial",
+   "points": "1174",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/bBDk6-rND06sAzn67b5RdP.png?ixlib=java-2.1.0&w=100&s=c9a241092d2878cd5742a4322b65a691"
+   }
+  },
+  {
+   "pos": "70",
+   "name": "BESTIA",
+   "points": "1161",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Z_R5K__qrvHmPjF66iCay-.png?ixlib=java-2.1.0&w=100&s=95ccee1ade2717fec70cdda1c1815fd5"
+   }
+  },
+  {
+   "pos": "71",
+   "name": "ex-1win",
+   "points": "1148",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "72",
+   "name": "THUNDER dOWNUNDER",
+   "points": "1147",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=100&s=f10b93580ed7cedd75bb09298d76f6ff"
+   }
+  },
+  {
+   "pos": "73",
+   "name": "CYBERSHOKE Prospects",
+   "points": "1141",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/SMf-lhuD18aFmRZBBcmkQp.png?ixlib=java-2.1.0&w=100&s=ae53be669b5edcf40aeaa4438c2083cf"
+   }
+  },
+  {
+   "pos": "74",
+   "name": "BRUTE",
+   "points": "1134",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bh8oZnAYofBgma_vPu55I7.svg?ixlib=java-2.1.0&s=98154a0be5a53ccadf51c17bdcd57536"
+   }
+  },
+  {
+   "pos": "75",
+   "name": "NOVAQ",
+   "points": "1126",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ex06IkeUFuqX30u_SJLSgX.png?ixlib=java-2.1.0&w=100&s=c73aef21d30960e11c66383e0e47ba9c"
+   }
+  },
+  {
+   "pos": "76",
+   "name": "DEPO",
+   "points": "1124",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/kQXnifxzhtreinKml3c2T4.png?ixlib=java-2.1.0&w=100&s=82bb560b520b37586691b25420018d8f"
+   }
+  },
+  {
+   "pos": "77",
+   "name": "ARCRED",
+   "points": "1116",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/FkqmKLoI7VzD95HuCu36rp.png?ixlib=java-2.1.0&w=100&s=1b11269cfcee4498f2518a49244a8d01"
+   }
+  },
+  {
+   "pos": "78",
+   "name": "EAC",
+   "points": "1113",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/V8KU6EhQyVGQatWSgmYj0V.png?ixlib=java-2.1.0&w=100&s=2fbf3d70433b8fcbb74211bcf6f78ef6"
+   }
+  },
+  {
+   "pos": "79",
+   "name": "Rune Eaters",
+   "points": "1096",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/sAUU1xlaHaJ7WtXCi7SOOi.png?ixlib=java-2.1.0&w=100&s=f7cb6667ff7143fcabb55142bcee3617"
+   }
+  },
+  {
+   "pos": "80",
+   "name": "OG",
+   "points": "1095",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DfvLcyBWZPzMcRRqzxUfqL.png?ixlib=java-2.1.0&w=100&s=d80a62930953a0598e4ff9f75f7201f8"
+   }
+  },
+  {
+   "pos": "81",
+   "name": "Metizport",
+   "points": "1093",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/L6vT42LZaQh88EXiZ5FpHK.png?ixlib=java-2.1.0&w=100&s=62a41190638a8af55f8f2f0e8decc006"
+   }
+  },
+  {
+   "pos": "82",
+   "name": "Nexus",
+   "points": "1082",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TsvwZ9z4tVRO9Ry1jYxs_n.png?ixlib=java-2.1.0&w=100&s=b6839c00228a5e68e25ae63cdbe1f90a"
+   }
+  },
+  {
+   "pos": "83",
+   "name": "LP",
+   "points": "1080",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/KBb30Dkm5nlsRT24ptDbYv.png?ixlib=java-2.1.0&w=100&s=cdeabb8e8968d8c8892e6d1a1e6455ea"
+   }
+  },
+  {
+   "pos": "84",
+   "name": "BASEMENT BOYS",
+   "points": "1077",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/IAgnK7oXGijw4nomIKEVIw.png?ixlib=java-2.1.0&w=100&s=f1f975f193b4f3d497690cfdcc895fc2"
+   }
+  },
+  {
+   "pos": "85",
+   "name": "STATE",
+   "points": "1077",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/LS8KGRWQbtUTfn8nMk5UUT.png?ixlib=java-2.1.0&w=100&s=f5cc754f594b634e9fcf5636f8d1871f"
+   }
+  },
+  {
+   "pos": "86",
+   "name": "Eternal Fire",
+   "points": "1075",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Tafdq71X3B_-73b73bAixr.png?ixlib=java-2.1.0&w=100&s=acf07fab5478f7dda7201085fc55e467"
+   }
+  },
+  {
+   "pos": "87",
+   "name": "ASTRAL",
+   "points": "1069",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/cep1rsT1ueXzsovbqAxK76.png?ixlib=java-2.1.0&w=100&s=0ec5611a6169127f573350184a2303e8"
+   }
+  },
+  {
+   "pos": "88",
+   "name": "Black Phoenix",
+   "points": "1068",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/SE3Ks_UvWSfZHc6iR4mTjA.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=5dd7aa003bb60a43548201ee178dcc0d"
+   }
+  },
+  {
+   "pos": "89",
+   "name": "BAKS",
+   "points": "1064",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/addrkF7msTiD-HdGMcCXbZ.png?ixlib=java-2.1.0&w=100&s=ca75eca719218c3b92097d5bba6e426f"
+   }
+  },
+  {
+   "pos": "90",
+   "name": "ShindeN",
+   "points": "1060",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5tfhYrPKeLDzFW8X-vFExJ.png?ixlib=java-2.1.0&w=100&s=83c3f765855b47e552cd1b44423291d7"
+   }
+  },
+  {
+   "pos": "91",
+   "name": "Voca",
+   "points": "1046",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/1Z_CvAJE9Qb5h9WyIi1PoP.png?ixlib=java-2.1.0&w=100&s=7153ba147e5c9e49225f274945ff4c90"
+   }
+  },
+  {
+   "pos": "92",
+   "name": "QUAZAR",
+   "points": "1044",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/YiIFGuv43P9_fALVOSLJHh.png?ixlib=java-2.1.0&w=100&s=7bc01b4a7e27269f78deaa223e5a1ab7"
+   }
+  },
+  {
+   "pos": "93",
+   "name": "G2 Ares",
+   "points": "1043",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7s-UIVdwo4C6iV1zYq20Ou.png?ixlib=java-2.1.0&w=100&s=b780c5399120ed4a6aec0d99c0995a5f"
+   }
+  },
+  {
+   "pos": "94",
+   "name": "Johnny Speeds",
+   "points": "1037",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Qmj_vOYob6-N4w0-MkiQhT.png?ixlib=java-2.1.0&w=100&s=9e618ee8cadd440b277890d0ad79edf2"
+   }
+  },
+  {
+   "pos": "95",
+   "name": "ex-RUSTEC",
+   "points": "1022",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "96",
+   "name": "Lavked",
+   "points": "1019",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=L"
+   }
+  },
+  {
+   "pos": "97",
+   "name": "Galorys",
+   "points": "1018",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GljsUhNlV1YdE2Z1ge-HzK.png?ixlib=java-2.1.0&w=100&s=a4cb4a294d684d53ae03bbb627f7a5e6"
+   }
+  },
+  {
+   "pos": "98",
+   "name": "BET-M",
+   "points": "1013",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/V7kOhjpI4AiRCPnthLVvL6.png?ixlib=java-2.1.0&w=100&s=37c73bf089b5f4599145b0f66a18ad9b"
+   }
+  },
+  {
+   "pos": "99",
+   "name": "Ground Zero",
+   "points": "1010",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=100&s=a2c7ed46c97f94a8cdd32b2f390d82e0"
+   }
+  },
+  {
+   "pos": "100",
+   "name": "Just Players",
+   "points": "1008",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=J"
+   }
+  },
+  {
+   "pos": "101",
+   "name": "SPARTA",
+   "points": "1005",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4S4uiHHvhV2IFrEap8xG1H.png?ixlib=java-2.1.0&w=100&s=672e864eff3419920f0e0681d7de1400"
+   }
+  },
+  {
+   "pos": "102",
+   "name": "Phantom",
+   "points": "999",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DzhUnKXRRy9yV2MILp29YH.png?ixlib=java-2.1.0&w=100&s=3fb2aad69e48b6fe5ab3bb37ad37c471"
+   }
+  },
+  {
+   "pos": "103",
+   "name": "Bounty Hunters",
+   "points": "998",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/wJ38S9ZUb82rj8deT4_jqT.png?ixlib=java-2.1.0&w=100&s=8c05f4e60ee4140ce11061f2d9636cf4"
+   }
+  },
+  {
+   "pos": "104",
+   "name": "The Huns",
+   "points": "993",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VgVw2z9BmJJ2knbbyXeDfc.png?ixlib=java-2.1.0&w=100&s=8fae2fe537a7067752cf1e093e2f5846"
+   }
+  },
+  {
+   "pos": "105",
+   "name": "Bushido Wildcats",
+   "points": "990",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TZknfdU8-79rJ1gw-_6qy5.png?ixlib=java-2.1.0&w=100&s=1640961dce068378d721b3528106710e"
+   }
+  },
+  {
+   "pos": "106",
+   "name": "5star",
+   "points": "988",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DxfB_DH6Hhb1l1okhNQxxu.png?ixlib=java-2.1.0&w=100&s=b2ee1d2374cce6f4d2a3301888a76f6a"
+   }
+  },
+  {
+   "pos": "107",
+   "name": "The Last Resort",
+   "points": "985",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/AI65hTB4kG_d6jJ8DiS4nZ.svg?ixlib=java-2.1.0&s=1bb2618494315b819daaf94547cca525"
+   }
+  },
+  {
+   "pos": "108",
+   "name": "Betclic",
+   "points": "982",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iX5wi-ZLkdHTARnXcMEvZF.png?ixlib=java-2.1.0&w=100&s=c5b65db7ff10680486e1e8890015b62f"
+   }
+  },
+  {
+   "pos": "109",
+   "name": "PsychoFace",
+   "points": "979",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=P"
+   }
+  },
+  {
+   "pos": "110",
+   "name": "Passion UA",
+   "points": "976",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/N2r90H86RES7-yGZeqREoX.png?ixlib=java-2.1.0&w=100&s=a6986f4290ea7095d0d856fa2e4e712d"
+   }
+  },
+  {
+   "pos": "111",
+   "name": "Rebels",
+   "points": "976",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vfupmnriFumqC8u48wFIdm.png?ixlib=java-2.1.0&w=100&s=2ff8b2264de9a198450fe4ba845dd1e9"
+   }
+  },
+  {
+   "pos": "112",
+   "name": "SportsBetExpert",
+   "points": "974",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/gk75xUsUSOXNvyT0A4UBS2.png?ixlib=java-2.1.0&w=100&s=4e4345f6c2e7732f700a7930bc6ed055"
+   }
+  },
+  {
+   "pos": "113",
+   "name": "MASONIC",
+   "points": "968",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/LXy16DLCLqmbZWSr4RxeQu.svg?ixlib=java-2.1.0&s=dcd79250b3b5e2e757a89b7c27c6770d"
+   }
+  },
+  {
+   "pos": "114",
+   "name": "Atreides",
+   "points": "968",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/aUsDbFRUB5bFm9DLQh3Uhd.png?ixlib=java-2.1.0&w=100&s=14acc940c14a952a75208a80b8b8920b"
+   }
+  },
+  {
+   "pos": "115",
+   "name": "Johnny Speeds",
+   "points": "960",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Qmj_vOYob6-N4w0-MkiQhT.png?ixlib=java-2.1.0&w=100&s=9e618ee8cadd440b277890d0ad79edf2"
+   }
+  },
+  {
+   "pos": "116",
+   "name": "Chicken Coop",
+   "points": "957",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/b4BdjAEO0sntamT0gjZFx1.png?ixlib=java-2.1.0&w=100&s=d950a8ebd9a118f0402451f9f900f04b"
+   }
+  },
+  {
+   "pos": "117",
+   "name": "PCIFIC",
+   "points": "956",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ucoaKK-PQ_3K_dboEuYnto.png?ixlib=java-2.1.0&w=100&s=b3aaa60805aca79f127534fe058977cd"
+   }
+  },
+  {
+   "pos": "118",
+   "name": "UNiTY",
+   "points": "952",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/coucDlsynd0Ujutb5o2SC-.png?ixlib=java-2.1.0&w=100&s=c04a17f394f33cc7bdee8d4889492157"
+   }
+  },
+  {
+   "pos": "119",
+   "name": "Marsborne",
+   "points": "942",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/s1nvkP0GnHTlIHagb0vOOB.png?ixlib=java-2.1.0&w=100&s=09d26cb17a7889d9e3b466b650750224"
+   }
+  },
+  {
+   "pos": "120",
+   "name": "Isurus",
+   "points": "942",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VjHKZDxfmmvDKnlRMmxiNY.png?ixlib=java-2.1.0&w=100&s=ed1cc99fb4716a243a5784acb650cd73"
+   }
+  },
+  {
+   "pos": "121",
+   "name": "NEXVOID",
+   "points": "941",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zyy3eHTeRqdTqLKRIUJ9P-.png?ixlib=java-2.1.0&w=100&s=b47bf4b637d501c24a702b46608ed9e8"
+   }
+  },
+  {
+   "pos": "122",
+   "name": "AM",
+   "points": "939",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/WqSceeErZORFGoG8gJ4nLT.png?ixlib=java-2.1.0&w=100&s=b3e6deb520d7be5112856701ae21a64f"
+   }
+  },
+  {
+   "pos": "123",
+   "name": "Nordic Partners",
+   "points": "938",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ThJ-T9QS6Wy5JjNstspK4x.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=cacc78af4c98a6af1b328cd0e7b104c4"
+   }
+  },
+  {
+   "pos": "124",
+   "name": "Enjoy",
+   "points": "935",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/FXtaA3TkcW1-BMD3B-p1E7.png?ixlib=java-2.1.0&w=100&s=68b13bb2a7ce78fd2542037856091f20"
+   }
+  },
+  {
+   "pos": "125",
+   "name": "Fisher College",
+   "points": "933",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4zwNM5cY9YTtWQVH6JPCik.png?ixlib=java-2.1.0&w=100&s=50baf5d44eefab33ba44c0ada287f120"
+   }
+  },
+  {
+   "pos": "126",
+   "name": "Gaimin Gladiators",
+   "points": "929",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HrY6zn_9ibpsasa9cv1PQk.png?ixlib=java-2.1.0&w=100&s=5bac00d9690f4fe0cb9fc791963eb182"
+   }
+  },
+  {
+   "pos": "127",
+   "name": "Turma do Pagode",
+   "points": "928",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/pl_iLOTm1KzDRG3AAc2PZf.png?ixlib=java-2.1.0&w=100&s=85eebfe5a51238e1e0b6d6aa70cf2251"
+   }
+  },
+  {
+   "pos": "128",
+   "name": "Keyd Stars",
+   "points": "927",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/m-SA9fWSyBqRgsrDCDXCId.png?ixlib=java-2.1.0&w=100&s=28e6b04f5c05dd98e0e3d1a038235811"
+   }
+  },
+  {
+   "pos": "129",
+   "name": "MOUZ NXT",
+   "points": "925",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=100&s=b1bf115f05eacdf004c193d48338ff11"
+   }
+  },
+  {
+   "pos": "130",
+   "name": "Lazer Cats",
+   "points": "924",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/WldQs3KiJJFmGzdeOdibuw.png?ixlib=java-2.1.0&w=100&s=fa991d754d181bdaef3250947605e924"
+   }
+  },
+  {
+   "pos": "131",
+   "name": "PURE",
+   "points": "923",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Djq1hZ4t4zziK0Wij3PvHM.png?ixlib=java-2.1.0&w=100&s=a69f5d9938ffa0bc63b0a0253cb3f088"
+   }
+  },
+  {
+   "pos": "132",
+   "name": "ReThink",
+   "points": "920",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vJ73zN-81gNjTs8g36Sfjl.png?ixlib=java-2.1.0&w=100&s=c1e2f747744f289f7e730f1bd3f6c5c2"
+   }
+  },
+  {
+   "pos": "133",
+   "name": "ENCE",
+   "points": "919",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
+   }
+  },
+  {
+   "pos": "134",
+   "name": "Yawara",
+   "points": "916",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JwKJz_nvCUbB5kvZGK6Ho5.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=4da5406756c1153908853387ad4ad854"
+   }
+  },
+  {
+   "pos": "135",
+   "name": "DragonClaw",
+   "points": "910",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=D"
+   }
+  },
+  {
+   "pos": "136",
+   "name": "Washed",
+   "points": "907",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=W"
+   }
+  },
+  {
+   "pos": "137",
+   "name": "NAVI Junior",
+   "points": "897",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/v6HtbTihf7xoHF1YlAkJ87.svg?ixlib=java-2.1.0&s=42241b88f4ecffaba7cf57c937236809"
+   }
+  },
+  {
+   "pos": "138",
+   "name": "Noir Verse",
+   "points": "896",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/b-Io2gTRPLWPGCh3ZV8a_I.png?ixlib=java-2.1.0&w=100&s=1ba2a08c93a1284310f2357a65022059"
+   }
+  },
+  {
+   "pos": "139",
+   "name": "ex-Young Ninjas",
+   "points": "891",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "140",
+   "name": "Permitta",
+   "points": "891",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vHZtmGu5T9miL5KLF_1S1e.png?ixlib=java-2.1.0&w=100&s=2b59a7cda3ecf23fa36a1bf6a79a85ed"
+   }
+  },
+  {
+   "pos": "141",
+   "name": "illwill",
+   "points": "885",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/WICkIpeOyXweG2ozrui4bi.png?ixlib=java-2.1.0&w=100&s=b651749e220f41bdda78bc8157716a75"
+   }
+  },
+  {
+   "pos": "142",
+   "name": "Entropy",
+   "points": "875",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5eaT8WHS6_lCrT8R5pthQg.png?ixlib=java-2.1.0&w=100&s=60ffd743b83eee7df27f721f0d5c3843"
+   }
+  },
+  {
+   "pos": "143",
+   "name": "RED Canids",
+   "points": "873",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Lyr7VJ-litGOwnRBu_8K5q.png?ixlib=java-2.1.0&w=100&s=f01854d9dcfcd0eba43fa2cb41818bbc"
+   }
+  },
+  {
+   "pos": "144",
+   "name": "SemperFi",
+   "points": "871",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=100&s=7e17a650f7f0ef41bfbcc656eadfe0ae"
+   }
+  },
+  {
+   "pos": "145",
+   "name": "HAVU",
+   "points": "871",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_bpWybCQhDRnPq8Z2ZYO5h.png?ixlib=java-2.1.0&w=100&s=99c36548c4e088177485c8920c2770f0"
+   }
+  },
+  {
+   "pos": "146",
+   "name": "HYPERSPIRIT",
+   "points": "870",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/MdMPxRh2SX6Y3tOWO3Ok3M.png?ixlib=java-2.1.0&w=100&s=9d8d48ef181c69d8bd05ae3c111b074d"
+   }
+  },
+  {
+   "pos": "147",
+   "name": "Leo",
+   "points": "870",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/8W-UeGbtwFEzEz0RiPxxLS.png?ixlib=java-2.1.0&w=100&s=2a415abb768acbdf158c3a63b86adc89"
+   }
+  },
+  {
+   "pos": "148",
+   "name": "Bebop",
+   "points": "868",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
+  },
+  {
+   "pos": "149",
+   "name": "Strael Bora",
+   "points": "866",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/frn4po-Z_SdCokSyT2C-Xr.png?ixlib=java-2.1.0&w=100&s=738db0cfde80ee33894f3d08b4cae936"
+   }
+  },
+  {
+   "pos": "150",
+   "name": "ex-Zero Tenacity",
+   "points": "866",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "151",
+   "name": "Sangal",
+   "points": "866",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zPv_FeMF8CANC10Jz32P9l.png?ixlib=java-2.1.0&w=100&s=6838116e048192c48c32b0321e597e3a"
+   }
+  },
+  {
+   "pos": "152",
+   "name": "Fake do Biru",
+   "points": "866",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=F"
+   }
+  },
+  {
+   "pos": "153",
+   "name": "WBT",
+   "points": "865",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_coqH_U02fBToVR-m_CKsU.png?ixlib=java-2.1.0&w=100&s=290cf53650b9b44c756d48be318deea1"
+   }
+  },
+  {
+   "pos": "154",
+   "name": "BERG",
+   "points": "864",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/90lCXlzTp513yANJ_DR30l.png?ixlib=java-2.1.0&w=100&s=11afa2bd28f3bd7ddf988bef4a67e854"
+   }
+  },
+  {
+   "pos": "155",
+   "name": "TDK",
+   "points": "861",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/6wH8gXfEHnpsR_VufJ2Egb.png?ixlib=java-2.1.0&w=100&s=c47c4eb27556d1ff15dce412da00d6b7"
+   }
+  },
+  {
+   "pos": "156",
+   "name": "Honvéd",
+   "points": "854",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GRDCTjbpIWDj6cS-k5j69x.png?ixlib=java-2.1.0&w=100&s=0db84bf9089b00e0c1860d9f60b1e185"
+   }
+  },
+  {
+   "pos": "157",
+   "name": "SINQU",
+   "points": "841",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HCDj_182RlDUnkq7I4w5pv.png?ixlib=java-2.1.0&w=100&s=e5cea4b67b53930ad0288167b73cbbac"
+   }
+  },
+  {
+   "pos": "158",
+   "name": "6666",
+   "points": "839",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/dt87uFqACOFRSzmDKsHh_N.png?ixlib=java-2.1.0&w=100&s=18671a5aef4e6e17b659a4e3eccca21b"
+   }
+  },
+  {
+   "pos": "159",
+   "name": "Eternal Fire",
+   "points": "839",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Tafdq71X3B_-73b73bAixr.png?ixlib=java-2.1.0&w=100&s=acf07fab5478f7dda7201085fc55e467"
+   }
+  },
+  {
+   "pos": "160",
+   "name": "LAG",
+   "points": "838",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/W30xfG1IVIUuOJnlsxtHMG.png?ixlib=java-2.1.0&w=100&s=f4236edbfee12b5deff4d9e52cb18988"
+   }
+  },
+  {
+   "pos": "161",
+   "name": "ex-RUBY",
+   "points": "834",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "162",
+   "name": "Misa",
+   "points": "834",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/NZDgFz0RzIniP7zbNUoHuU.png?ixlib=java-2.1.0&w=100&s=3d58a70f9a8c9a5570a983ac31f3ffa0"
+   }
+  },
+  {
+   "pos": "163",
+   "name": "ODDIK",
+   "points": "832",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vpWs2bh24DJ8mqXotmXCJM.png?ixlib=java-2.1.0&w=100&s=fd42a9a028f19a125be48026b5efdf0c"
+   }
+  },
+  {
+   "pos": "164",
+   "name": "UNO MILLE",
+   "points": "831",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=U"
+   }
+  },
+  {
+   "pos": "165",
+   "name": "regain",
+   "points": "830",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-bjzyIYz1cnZSmS-8FE2fJ.png?ixlib=java-2.1.0&w=100&s=f1fdedb0fbfb294e06e8acc1f9a424e3"
+   }
+  },
+  {
+   "pos": "166",
+   "name": "roamsfiest",
+   "points": "826",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=r"
+   }
+  },
+  {
+   "pos": "167",
+   "name": "Atreides",
+   "points": "824",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/aUsDbFRUB5bFm9DLQh3Uhd.png?ixlib=java-2.1.0&w=100&s=14acc940c14a952a75208a80b8b8920b"
+   }
+  },
+  {
+   "pos": "168",
+   "name": "Rare Atom",
+   "points": "820",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/CH9I3Xh0tW94uEN1BMe9Pu.png?ixlib=java-2.1.0&w=100&s=52a4ee478bb5565e6834eb5304ae1463"
+   }
+  },
+  {
+   "pos": "169",
+   "name": "ex-MANA",
+   "points": "819",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "170",
+   "name": "ECSTATIC",
+   "points": "816",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yx_pWjWbW-2F5oF5nLHXc8.png?ixlib=java-2.1.0&w=100&s=781b80786c817f77c579350c50fb05bd"
+   }
+  },
+  {
+   "pos": "171",
+   "name": "Chinggis Warriors",
+   "points": "816",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/esvV905BqvAKUUPLq8e89T.png?ixlib=java-2.1.0&w=100&s=c47dbf230b6791457cb1f2a84b24467f"
+   }
+  },
+  {
+   "pos": "172",
+   "name": "Inner Circle Academy",
+   "points": "816",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/OSTRarXkAV-3YTtk0Thf5N.png?ixlib=java-2.1.0&w=100&s=dd13bd90de596e213b99d40421da6948"
+   }
+  },
+  {
+   "pos": "173",
+   "name": "ALGO",
+   "points": "815",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/CuxdvjW3vWmW0NxP2OKiWd.png?ixlib=java-2.1.0&w=100&s=3f789b4bb43cb0eee883d36574ef0e44"
+   }
+  },
+  {
+   "pos": "174",
+   "name": "Chinggis Warriors",
+   "points": "813",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/esvV905BqvAKUUPLq8e89T.png?ixlib=java-2.1.0&w=100&s=c47dbf230b6791457cb1f2a84b24467f"
+   }
+  },
+  {
+   "pos": "175",
+   "name": "MIBR fe",
+   "points": "811",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/m_JQ624LNFHWiUY-25uuaE.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=bdad0f0e86d5991ff45685baed0892f3"
+   }
+  },
+  {
+   "pos": "176",
+   "name": "Kaleido",
+   "points": "811",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7CqKzJ3jTU826IibHi_a5z.png?ixlib=java-2.1.0&w=100&s=16a68dee6efa1b52cf5912acdde4eaae"
+   }
+  },
+  {
+   "pos": "177",
+   "name": "MIBR Academy",
+   "points": "811",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/gFQKd48pLOvrtEDXhcHxkZ.png?ixlib=java-2.1.0&w=100&s=9031f121d19ef7f3014d1231eaebc451"
+   }
+  },
+  {
+   "pos": "178",
+   "name": "LPH",
+   "points": "810",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/J0cvf2_BNvKf1f9c6NAY1v.png?ixlib=java-2.1.0&w=100&s=b982b92f63d4f1b18be8d2345300471f"
+   }
+  },
+  {
+   "pos": "179",
+   "name": "SAW Youngsters",
+   "points": "807",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/jYQ4aML6vXnDCKEQ04ano1.png?ixlib=java-2.1.0&w=100&s=7ccbcbe50ea8a13cb55442bac6f24d22"
+   }
+  },
+  {
+   "pos": "180",
+   "name": "BORRACHEIROS",
+   "points": "805",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
+  },
+  {
+   "pos": "181",
+   "name": "Spirit Academy",
+   "points": "804",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/txUq00aBKY7O4fLVJegmi_.png?ixlib=java-2.1.0&w=100&s=8692615890f549a9119c8614ea6af5f9"
+   }
+  },
+  {
+   "pos": "182",
+   "name": "Alter Ego",
+   "points": "800",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/rcVrbr1QiFUoakiO5jGExR.png?ixlib=java-2.1.0&w=100&s=5a1e05758b1f63efa6b373b0a06600f6"
+   }
+  },
+  {
+   "pos": "183",
+   "name": "Hashiras",
+   "points": "798",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=H"
+   }
+  },
+  {
+   "pos": "184",
+   "name": "Falcons Force",
+   "points": "798",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/YfOBM0ri-zSsx9Cc8q6nz-.png?ixlib=java-2.1.0&w=100&s=7240e466a287897b5ff3ff6c1862f3ad"
+   }
+  },
+  {
+   "pos": "185",
+   "name": "Rooster",
+   "points": "797",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/LPjU8AAPrha2zdFvetTTMp.png?ixlib=java-2.1.0&w=100&s=a3208146935f00ba2b713e55c36f8eb1"
+   }
+  },
+  {
+   "pos": "186",
+   "name": "Mai Tai",
+   "points": "797",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=M"
+   }
+  },
+  {
+   "pos": "187",
+   "name": "FAVBET",
+   "points": "797",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4on2ywp0wcfk7vjUN3OjZk.png?ixlib=java-2.1.0&w=100&s=04f7ce41b1548c51a7b07d8b7d40dbfe"
+   }
+  },
+  {
+   "pos": "188",
+   "name": "WAZABI",
+   "points": "794",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/oyDs3D92dmt93GFNZzrHAk.png?ixlib=java-2.1.0&w=100&s=d69f2dd5528b4a272f9eed008b253cac"
+   }
+  },
+  {
+   "pos": "189",
+   "name": "Fire Flux",
+   "points": "793",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/dEkPG3QFLGo6xl9DtGPsm2.png?ixlib=java-2.1.0&w=100&s=2a4e781b6fc076f90d6c824f3e0ef756"
+   }
+  },
+  {
+   "pos": "190",
+   "name": "NEW VISION",
+   "points": "793",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/J33BcCn86e2diwg8tA77SZ.png?ixlib=java-2.1.0&w=100&s=ded9b1ca6c3c3f0d084921d54e0dcb39"
+   }
+  },
+  {
+   "pos": "191",
+   "name": "Marsborne",
+   "points": "793",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/s1nvkP0GnHTlIHagb0vOOB.png?ixlib=java-2.1.0&w=100&s=09d26cb17a7889d9e3b466b650750224"
+   }
+  },
+  {
+   "pos": "192",
+   "name": "Endless Journey",
+   "points": "793",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-VGJ9TgalwRy5escWx2rL2.png?ixlib=java-2.1.0&w=100&s=c5d11be39e151b61072e2937a9bab573"
+   }
+  },
+  {
+   "pos": "193",
+   "name": "Mindfreak",
+   "points": "792",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=100&s=b477b25f514da32227004106643a7605"
+   }
+  },
+  {
+   "pos": "194",
+   "name": "Vexar",
+   "points": "790",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/v7u9v3JqwGreMtM-WiGXxt.png?ixlib=java-2.1.0&w=100&s=ad6beb1209743115708e908bf9092fe9"
+   }
+  },
+  {
+   "pos": "195",
+   "name": "ALKA",
+   "points": "788",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ZVjnHx9996Pt7TIeUzyD_9.png?ixlib=java-2.1.0&w=100&s=026d7925520783b74ba6702951341303"
+   }
+  },
+  {
+   "pos": "196",
+   "name": "Endless Journey",
+   "points": "780",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-VGJ9TgalwRy5escWx2rL2.png?ixlib=java-2.1.0&w=100&s=c5d11be39e151b61072e2937a9bab573"
+   }
+  },
+  {
+   "pos": "197",
+   "name": "aAa",
+   "points": "777",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HGmdk2iXUb3YresiJR1U6Q.svg?ixlib=java-2.1.0&s=b2be151eb6f1087ea1dff0e0b40dc269"
+   }
+  },
+  {
+   "pos": "198",
+   "name": "Villainous",
+   "points": "777",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/fuFdDXw1AVpezZ_udti5xf.png?ixlib=java-2.1.0&w=100&s=762d2dee298d51dd03276207f2f4440c"
+   }
+  },
+  {
+   "pos": "199",
+   "name": "megoshort",
+   "points": "774",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/KZxIFGye1KNVn7Q6Zt6hiV.png?ixlib=java-2.1.0&w=100&s=6663cac28dee7ae1d812843f1794310a"
+   }
+  },
+  {
+   "pos": "200",
+   "name": "brazylijski luz",
+   "points": "772",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/p0fUtgmP2iEqj1E2MdAlR-.png?ixlib=java-2.1.0&w=100&s=9a7131767b641c25f3f7a8734c8af654"
+   }
+  },
+  {
+   "pos": "201",
+   "name": "aimclub",
+   "points": "769",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PhNn8XgEQgZbp6ti-_IfFT.png?ixlib=java-2.1.0&w=100&s=79efe594f2039f3558077a8e7519b1a2"
+   }
+  },
+  {
+   "pos": "202",
+   "name": "Leo",
+   "points": "769",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/8W-UeGbtwFEzEz0RiPxxLS.png?ixlib=java-2.1.0&w=100&s=2a415abb768acbdf158c3a63b86adc89"
+   }
+  },
+  {
+   "pos": "203",
+   "name": "NuTorious",
+   "points": "768",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iR0NNyulDkSuYiGj26Q3ma.png?ixlib=java-2.1.0&w=100&s=b01b46de1ad178703e6ded8bdae36c82"
+   }
+  },
+  {
+   "pos": "204",
+   "name": "BMZ",
+   "points": "767",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/N_b1KJ9xbJH0DCAaGWsgqD.png?ixlib=java-2.1.0&w=100&s=96b225da84371c387dae7128be32e3a0"
+   }
+  },
+  {
+   "pos": "205",
+   "name": "Liquid",
+   "points": "767",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62"
+   }
+  },
+  {
+   "pos": "206",
+   "name": "Fortress",
+   "points": "766",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/CGKbvBaJmkIqMdb89VM5fX.png?ixlib=java-2.1.0&w=100&s=df2f078302fb99715444c57493eb8834"
+   }
+  },
+  {
+   "pos": "207",
+   "name": "Abyssal",
+   "points": "765",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=3d7f028b71228ede83a48b7b9e01eb42"
+   }
+  },
+  {
+   "pos": "208",
+   "name": "THE UNIT",
+   "points": "763",
+   "region": "AS",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=T"
+   }
+  },
+  {
+   "pos": "209",
+   "name": "UNO MILLE",
+   "points": "756",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=U"
+   }
+  },
+  {
+   "pos": "210",
+   "name": "Haunted House",
+   "points": "756",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=100&s=56f4a2953fefa698efeac8db4fed2c6d"
+   }
+  },
+  {
+   "pos": "211",
+   "name": "Last Bullet",
+   "points": "754",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/qBZTMpXgCA-WYv51peaFEP.png?ixlib=java-2.1.0&w=100&s=e6c6be6609cf062122f26b90b3a284e0"
+   }
+  },
+  {
+   "pos": "212",
+   "name": "DONSTU",
+   "points": "754",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9ueb9xIjZJND19aXJ-02H-.png?ixlib=java-2.1.0&w=100&s=e71fe7991c575389c6c7bdb935c0d74c"
+   }
+  },
+  {
+   "pos": "213",
+   "name": "BC.Game",
+   "points": "752",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Hwf-Y5nN-3qSvd0FZXOCh5.png?ixlib=java-2.1.0&w=100&s=24b01d7ccc6d3d4c920a93745f671f7c"
+   }
+  },
+  {
+   "pos": "214",
+   "name": "BESTIA Academy",
+   "points": "750",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Z_R5K__qrvHmPjF66iCay-.png?ixlib=java-2.1.0&w=100&s=95ccee1ade2717fec70cdda1c1815fd5"
+   }
+  },
+  {
+   "pos": "215",
+   "name": "TNC",
+   "points": "749",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zj3NEnh2h29i_CvVAakQxn.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=7a595b6767ecac740d1b4eaad059d2c6"
+   }
+  },
+  {
+   "pos": "216",
+   "name": "OLDBOYS PL",
+   "points": "747",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/3eljdVm8xt4Yq61vY0P4A9.png?ixlib=java-2.1.0&w=100&s=2a3c771edbdbced89c463652dfcb1eee"
+   }
+  },
+  {
+   "pos": "217",
+   "name": "Iowa Stormboar",
+   "points": "744",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GqURbCKlAA99-cwuL01-dV.png?ixlib=java-2.1.0&w=100&s=95127e1b1e54af9bc25879114ee939ec"
+   }
+  },
+  {
+   "pos": "218",
+   "name": "HEROIC Academy",
+   "points": "743",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/p-dHwSqwe_QYpES6Y3Qrj0.svg?ixlib=java-2.1.0&s=21075a8ce9a3aca28da018cb8cf72792"
+   }
+  },
+  {
+   "pos": "219",
+   "name": "HOTU",
+   "points": "743",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/UH5TD1Lyutr_JwKu2ldl-A.png?ixlib=java-2.1.0&w=100&s=7df76731b68485049a9c7f7b710df7f3"
+   }
+  },
+  {
+   "pos": "220",
+   "name": "Club 333",
+   "points": "741",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/n2rEqBYWVN6fArZgqweDLi.png?ixlib=java-2.1.0&w=100&s=192bd9a4f763ad48fd8aa7cdea848e3b"
+   }
+  },
+  {
+   "pos": "221",
+   "name": "Zomblers",
+   "points": "740",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/dzs1Ru_r0dAPURqi9Hldhj.png?ixlib=java-2.1.0&w=100&s=2ad86d6a40285b05a20ae8af72628f7a"
+   }
+  },
+  {
+   "pos": "222",
+   "name": "BOSS",
+   "points": "731",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/T2F4lhjlOmbrxd7VUHaK-_.png?ixlib=java-2.1.0&w=100&s=20665e34cda058abf5a337d9cc4f321d"
+   }
+  },
+  {
+   "pos": "223",
+   "name": "KOLESIE",
+   "points": "728",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-7-6akNJ0_2bI2GrRGd6EW.png?ixlib=java-2.1.0&w=100&s=7d70613ca5308b080d5092850e133af2"
+   }
+  },
+  {
+   "pos": "224",
+   "name": "FengDa",
+   "points": "727",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_Q3iz2MJXmpJp9QGv9jWnc.png?ixlib=java-2.1.0&w=100&s=31c9aca304ae890ee4a0c415eb0b5180"
+   }
+  },
+  {
+   "pos": "225",
+   "name": "Phantom Academy",
+   "points": "726",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/1-ndJrd3Y-vYo3AYM1HywD.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=5a206c9e81b20203d17d5efddae45332"
+   }
+  },
+  {
+   "pos": "226",
+   "name": "MEIA NOITE",
+   "points": "725",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=M"
+   }
+  },
+  {
+   "pos": "227",
+   "name": "Change The Game",
+   "points": "723",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/jhWUEqa0RW-EmcsND2lk2H.png?ixlib=java-2.1.0&w=100&s=88692ee2ee894a55a58e24242455babb"
+   }
+  },
+  {
+   "pos": "228",
+   "name": "Lilmix",
+   "points": "721",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PivV1r_I1_8u2BoxMyd4zH.svg?ixlib=java-2.1.0&s=b11d58720f2279be14920d45887bb9dd"
+   }
+  },
+  {
+   "pos": "229",
+   "name": "Privateer",
+   "points": "720",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5rEEQEdpho_TulFdTJyglr.png?ixlib=java-2.1.0&w=100&s=f8a5fb3fd35fb53a5279da6ca6813c18"
+   }
+  },
+  {
+   "pos": "230",
+   "name": "ex-Sashi Academy",
+   "points": "720",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "231",
+   "name": "BIG Academy",
+   "points": "718",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/jn7TgPjiSMAbYk0jeHNMqq.png?ixlib=java-2.1.0&w=100&s=dd65193a32bb4802f4c0fdfafe585152"
+   }
+  },
+  {
+   "pos": "232",
+   "name": "UNiTY",
+   "points": "716",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/coucDlsynd0Ujutb5o2SC-.png?ixlib=java-2.1.0&w=100&s=c04a17f394f33cc7bdee8d4889492157"
+   }
+  },
+  {
+   "pos": "233",
+   "name": "struggletony",
+   "points": "715",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=s"
+   }
+  },
+  {
+   "pos": "234",
+   "name": "illwill",
+   "points": "715",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/WICkIpeOyXweG2ozrui4bi.png?ixlib=java-2.1.0&w=100&s=b651749e220f41bdda78bc8157716a75"
+   }
+  },
+  {
+   "pos": "235",
+   "name": "FarmVille",
+   "points": "714",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=F"
+   }
+  },
+  {
+   "pos": "236",
+   "name": "Just Swing",
+   "points": "710",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/QRyGrQj3EGLYIAjqiMGvFn.png?ixlib=java-2.1.0&w=100&s=424dc2468689bc25e0fec7303026870c"
+   }
+  },
+  {
+   "pos": "237",
+   "name": "Ground Zero",
+   "points": "706",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=100&s=a2c7ed46c97f94a8cdd32b2f390d82e0"
+   }
+  },
+  {
+   "pos": "238",
+   "name": "The QUBE",
+   "points": "705",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5jrof5mV8eGaTkb_RgkwMy.png?ixlib=java-2.1.0&w=100&s=b1d0abe0ca473d81fb574907ae60bf33"
+   }
+  },
+  {
+   "pos": "239",
+   "name": "ex-Aether",
+   "points": "704",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "240",
+   "name": "eternal premium",
+   "points": "703",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4r6jgwV8ATIbwgyxjRtibq.png?ixlib=java-2.1.0&w=100&s=7d922496f9f4f1f7e0e44a753f88ac09"
+   }
+  },
+  {
+   "pos": "241",
+   "name": "train launcher",
+   "points": "703",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=t"
+   }
+  },
+  {
+   "pos": "242",
+   "name": "LAG",
+   "points": "701",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/W30xfG1IVIUuOJnlsxtHMG.png?ixlib=java-2.1.0&w=100&s=f4236edbfee12b5deff4d9e52cb18988"
+   }
+  },
+  {
+   "pos": "243",
+   "name": "Sashi Academy",
+   "points": "701",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/234QQOOtJe55NrBQNEgIMC.png?ixlib=java-2.1.0&w=100&s=f39473f3cbbaf2ad0c99a81d73109b0c"
+   }
+  },
+  {
+   "pos": "244",
+   "name": "mellren",
+   "points": "698",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/XoPLNSnX1gDDBGnI5BKYK2.png?ixlib=java-2.1.0&w=100&s=9212a0705c2d3156105386ebc4712934"
+   }
+  },
+  {
+   "pos": "245",
+   "name": "insane players",
+   "points": "696",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=i"
+   }
+  },
+  {
+   "pos": "246",
+   "name": "SHISHKA",
+   "points": "696",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=S"
+   }
+  },
+  {
+   "pos": "247",
+   "name": "Patins da Ferrari",
+   "points": "693",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9gAYGi5CFQK033YMngchMw.png?ixlib=java-2.1.0&w=100&s=e04c53463f5e0a8c9c001e7e89443140"
+   }
+  },
+  {
+   "pos": "248",
+   "name": "Shimmer",
+   "points": "690",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5xPVZyurht_nZeokKOJoLt.png?ixlib=java-2.1.0&w=100&s=6d406af63dc49c3a19add68fc2cdcd98"
+   }
+  },
+  {
+   "pos": "249",
+   "name": "Metizport",
+   "points": "687",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/L6vT42LZaQh88EXiZ5FpHK.png?ixlib=java-2.1.0&w=100&s=62a41190638a8af55f8f2f0e8decc006"
+   }
+  },
+  {
+   "pos": "250",
+   "name": "Aether",
+   "points": "687",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PwqtnH1XjoyqDFwh37YuYE.png?ixlib=java-2.1.0&w=100&s=464c4e133c3d1e89cf7076dbf95da70f"
+   }
+  },
+  {
+   "pos": "251",
+   "name": "Keyd Stars",
+   "points": "686",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/m-SA9fWSyBqRgsrDCDXCId.png?ixlib=java-2.1.0&w=100&s=28e6b04f5c05dd98e0e3d1a038235811"
+   }
+  },
+  {
+   "pos": "252",
+   "name": "BORING PLAYERS",
+   "points": "685",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/o2z4oVTgRnF3UpoGlwIVgj.png?ixlib=java-2.1.0&w=100&s=4b82f321f02d5cbfe683dc1fb17f4aeb"
+   }
+  },
+  {
+   "pos": "253",
+   "name": "paiN Academy",
+   "points": "684",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DJqL2qlXf6Fi01v-8QxQP1.png?ixlib=java-2.1.0&w=100&s=ec2c9c95fb392a0e5c98af05e233189a"
+   }
+  },
+  {
+   "pos": "254",
+   "name": "Arcade",
+   "points": "682",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/c267mZKKYbmx4zJQoc1ds2.png?ixlib=java-2.1.0&w=100&s=e72e6385eeedf585229f2b0b2c6e5e4c"
+   }
+  },
+  {
+   "pos": "255",
+   "name": "ALTAY",
+   "points": "679",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/AhOLG6_tKyQCLrEUaO9YxV.png?ixlib=java-2.1.0&w=100&s=a2b5781ae8292408aaa55fd261374614"
+   }
+  },
+  {
+   "pos": "256",
+   "name": "cirahvi",
+   "points": "678",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=c"
+   }
+  },
+  {
+   "pos": "257",
+   "name": "Back to Back",
+   "points": "677",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
+  },
+  {
+   "pos": "258",
+   "name": "Subtop De France",
+   "points": "676",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=S"
+   }
+  },
+  {
+   "pos": "259",
+   "name": "EMPIRE",
+   "points": "674",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/sfoAswoJQ1ZYrdrHn8L7pk.png?ixlib=java-2.1.0&w=100&s=e75409da525b40363b18b382ff5576d4"
+   }
+  },
+  {
+   "pos": "260",
+   "name": "Clutchain fe",
+   "points": "674",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/2z1Fq-9FrrthKoTthrmhlO.png?ixlib=java-2.1.0&w=100&s=aa51f877b333c2327ee4c0da377f8a6a"
+   }
+  },
+  {
+   "pos": "261",
+   "name": "benched gods",
+   "points": "670",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/21Prrt-KTMD5OcIIsvEkTk.png?ixlib=java-2.1.0&w=100&s=f93c1687a88a31dca824b2864881e9eb"
+   }
+  },
+  {
+   "pos": "262",
+   "name": "ROUNDS",
+   "points": "667",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/cPadDH7e0PYB9lswGtg-kW.png?ixlib=java-2.1.0&w=100&s=ea60e890a61eba91af1a852efd371059"
+   }
+  },
+  {
+   "pos": "263",
+   "name": "Club 333",
+   "points": "667",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/n2rEqBYWVN6fArZgqweDLi.png?ixlib=java-2.1.0&w=100&s=192bd9a4f763ad48fd8aa7cdea848e3b"
+   }
+  },
+  {
+   "pos": "264",
+   "name": "KUUSAMO",
+   "points": "666",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/X0Pk9NTPK0ashhsvRFIfMN.png?ixlib=java-2.1.0&w=100&s=44a925e5e63d7061d8a0cdf8f47805ae"
+   }
+  },
+  {
+   "pos": "265",
+   "name": "benched gods",
+   "points": "665",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/21Prrt-KTMD5OcIIsvEkTk.png?ixlib=java-2.1.0&w=100&s=f93c1687a88a31dca824b2864881e9eb"
+   }
+  },
+  {
+   "pos": "266",
+   "name": "B8 Academy",
+   "points": "665",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/2zjxUjZjyWOPcWuMRXi5Vf.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=4ef3226bd346f39c808a75bc907b5534"
+   }
+  },
+  {
+   "pos": "267",
+   "name": "yngods",
+   "points": "664",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=y"
+   }
+  },
+  {
+   "pos": "268",
+   "name": "Reign Above",
+   "points": "663",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Vg3aWIrfY6ixZXYG2ShLpB.png?ixlib=java-2.1.0&w=100&s=33a9b69c31676587b5f8ea4da02a76ec"
+   }
+  },
+  {
+   "pos": "269",
+   "name": "METANOIA Wolves",
+   "points": "663",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7FOPKOQYNOwBLiPAMHa0MK.png?ixlib=java-2.1.0&w=100&s=7c7e45d694fafbd5c6adf60764de49cf"
+   }
+  },
+  {
+   "pos": "270",
+   "name": "megoshort",
+   "points": "663",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/KZxIFGye1KNVn7Q6Zt6hiV.png?ixlib=java-2.1.0&w=100&s=6663cac28dee7ae1d812843f1794310a"
+   }
+  },
+  {
+   "pos": "271",
+   "name": "Dark Moon",
+   "points": "661",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=D"
+   }
+  },
+  {
+   "pos": "272",
+   "name": "Famalicão",
+   "points": "660",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/nik7FOYWN7wLBcHyGlGqp5.png?ixlib=java-2.1.0&w=100&s=70bcf1bb7f343ee18c8fc9341bc94bc1"
+   }
+  },
+  {
+   "pos": "273",
+   "name": "paiN Academy",
+   "points": "659",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DJqL2qlXf6Fi01v-8QxQP1.png?ixlib=java-2.1.0&w=100&s=ec2c9c95fb392a0e5c98af05e233189a"
+   }
+  },
+  {
+   "pos": "274",
+   "name": "bankaPEPSI",
+   "points": "659",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9S2HT0_Ktdv8mJPn0KG0Pe.png?ixlib=java-2.1.0&w=100&s=3a3a63f4205d8d8fd4ca9ba625e27390"
+   }
+  },
+  {
+   "pos": "275",
+   "name": "Overtake Sector",
+   "points": "658",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VdRzYYxYU4tQuLTPJXud9C.png?ixlib=java-2.1.0&w=100&s=01456d41e81569b7abcb30ee4da64b50"
+   }
+  },
+  {
+   "pos": "276",
+   "name": "Mindfreak",
+   "points": "658",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=100&s=b477b25f514da32227004106643a7605"
+   }
+  },
+  {
+   "pos": "277",
+   "name": "Invicta",
+   "points": "656",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/On0mGEaROQ7m_IWpQpwFDy.png?ixlib=java-2.1.0&w=100&s=c0d318a79dc68843bb48a934b7218dd7"
+   }
+  },
+  {
+   "pos": "278",
+   "name": "DETONATE",
+   "points": "652",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/lKDE1OG2CWukqAbhDtQD7k.png?ixlib=java-2.1.0&w=100&s=cab6a6fe808017aca7c3af669fb4742a"
+   }
+  },
+  {
+   "pos": "279",
+   "name": "Voracity",
+   "points": "651",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=V"
+   }
+  },
+  {
+   "pos": "280",
+   "name": "Mai Tai",
+   "points": "650",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=M"
+   }
+  },
+  {
+   "pos": "281",
+   "name": "aimclub",
+   "points": "648",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PhNn8XgEQgZbp6ti-_IfFT.png?ixlib=java-2.1.0&w=100&s=79efe594f2039f3558077a8e7519b1a2"
+   }
+  },
+  {
+   "pos": "282",
+   "name": "XI",
+   "points": "645",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ZLDnAZt-6zqU0mk0R2TK97.png?ixlib=java-2.1.0&w=100&s=866478bf52c83e9d576a500511d16244"
+   }
+  },
+  {
+   "pos": "283",
+   "name": "Wanted Goons",
+   "points": "645",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/jgXPDKxRWNP3a5qGXUSRAT.png?ixlib=java-2.1.0&w=100&s=5a4b216a75186696fbe8afad982e5443"
+   }
+  },
+  {
+   "pos": "284",
+   "name": "Lilmix",
+   "points": "644",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PivV1r_I1_8u2BoxMyd4zH.svg?ixlib=java-2.1.0&s=b11d58720f2279be14920d45887bb9dd"
+   }
+  },
+  {
+   "pos": "285",
+   "name": "Tricksters",
+   "points": "642",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/elwSCYcTwExBPR9ckgztpu.png?ixlib=java-2.1.0&w=100&s=4aec18b16686fdc06f2041154f0d08ca"
+   }
+  },
+  {
+   "pos": "286",
+   "name": "OlyBet",
+   "points": "640",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/FvnOaG5ilZPKNcxaCxUPme.png?ixlib=java-2.1.0&w=100&s=ad08dff890b9e5807d02088c2adb7445"
+   }
+  },
+  {
+   "pos": "287",
+   "name": "A Great Chaos",
+   "points": "638",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yPbBRdk4f42TrxJc5c2_9w.png?ixlib=java-2.1.0&w=100&s=e3144f9efdbfc8575a1974c64651cace"
+   }
+  },
+  {
+   "pos": "288",
+   "name": "DNK",
+   "points": "637",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=D"
+   }
+  },
+  {
+   "pos": "289",
+   "name": "MARKandLARRY",
+   "points": "637",
+   "region": "AS",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=M"
+   }
+  },
+  {
+   "pos": "290",
+   "name": "R2",
+   "points": "637",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/fmCxWhySmGYH_51wRmTtal.png?ixlib=java-2.1.0&w=100&s=761fa4032f724413013670fdb7f3c6d1"
+   }
+  },
+  {
+   "pos": "291",
+   "name": "Julie&Cie",
+   "points": "636",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=J"
+   }
+  },
+  {
+   "pos": "292",
+   "name": "Ding Cuts",
+   "points": "635",
+   "region": "AS",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=D"
+   }
+  },
+  {
+   "pos": "293",
+   "name": "Arch",
+   "points": "631",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/aO1AV_igLhCe0nfBoAGLex.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=baa09fe86d1e98bc8e020ae2f43a2cc7"
+   }
+  },
+  {
+   "pos": "294",
+   "name": "ZOTIX",
+   "points": "631",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5_ylw7ZOs7c_SAyEg3Qp7V.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=193964201bbeed245b820ae203166009"
+   }
+  },
+  {
+   "pos": "295",
+   "name": "ZEVS",
+   "points": "630",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/SHPzfsVMOCZSONK8vAYy8F.png?ixlib=java-2.1.0&w=100&s=9c5a31b333497df9042fe0d7452b6b0c"
+   }
+  },
+  {
+   "pos": "296",
+   "name": "Atrix",
+   "points": "629",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/K2VILjWtsdCwtW4NLwhmFA.png?ixlib=java-2.1.0&w=100&s=808f80ee0db731b0b2d25974295fda21"
+   }
+  },
+  {
+   "pos": "297",
+   "name": "Endless Journey",
+   "points": "628",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-VGJ9TgalwRy5escWx2rL2.png?ixlib=java-2.1.0&w=100&s=c5d11be39e151b61072e2937a9bab573"
+   }
+  },
+  {
+   "pos": "298",
+   "name": "eSuba",
+   "points": "627",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PgWX23wbk91XOMICbUWzoO.png?ixlib=java-2.1.0&w=100&s=336186423a471d86aab1de3572b98add"
+   }
+  },
+  {
+   "pos": "299",
+   "name": "Partizan",
+   "points": "624",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/y59RRaQNbpspDdGJoR1Xfr.png?ixlib=java-2.1.0&w=100&s=8b4c4ffa3425bc7888198f3174442b32"
+   }
+  },
+  {
+   "pos": "300",
+   "name": "DXA",
+   "points": "622",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iSnsGZx7NmjYY0GS-5xzLV.png?ixlib=java-2.1.0&w=100&s=c759b6a4b2bce2b41f179db010933bcf"
+   }
+  },
+  {
+   "pos": "301",
+   "name": "Procyon",
+   "points": "622",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/j3cZThec5Smnc2QLlkMZjX.png?ixlib=java-2.1.0&w=100&s=01bb936eecd9137f0310403c5f9eba8d"
+   }
+  },
+  {
+   "pos": "302",
+   "name": "Crashers",
+   "points": "621",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VGJqPW_JcdN1vFXx-C3CU_.png?ixlib=java-2.1.0&w=100&s=582cc1edd26f5436563d2858bca2e19f"
+   }
+  },
+  {
+   "pos": "303",
+   "name": "900FPSvsECO",
+   "points": "620",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=9"
+   }
+  },
+  {
+   "pos": "304",
+   "name": "Sensation",
+   "points": "619",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/e8wRB8g5B9kr77JcfAlmLu.png?ixlib=java-2.1.0&w=100&s=02fdee2351ceb2a446d5fe2984130707"
+   }
+  },
+  {
+   "pos": "305",
+   "name": "Pugdesonesto",
+   "points": "619",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=P"
+   }
+  },
+  {
+   "pos": "306",
+   "name": "Festina Lente",
+   "points": "619",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/0lcHBUJvUKhsh7vPWbmcpZ.png?ixlib=java-2.1.0&w=100&s=f47f70d9ba7c08a4da81e75feb471e18"
+   }
+  },
+  {
+   "pos": "307",
+   "name": "Jumprava",
+   "points": "619",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=J"
+   }
+  },
+  {
+   "pos": "308",
+   "name": "Wingman",
+   "points": "618",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=W"
+   }
+  },
+  {
+   "pos": "309",
+   "name": "ex-KRÜ",
+   "points": "617",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
+  },
+  {
+   "pos": "310",
+   "name": "Fuzos",
+   "points": "616",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/agbcc0nwR17bJNStSGF6xw.png?ixlib=java-2.1.0&w=100&s=1a65ec3c6411b2de64337b9deb323a82"
+   }
+  },
+  {
+   "pos": "311",
+   "name": "FOLHA AMARELA",
+   "points": "614",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=F"
+   }
+  },
+  {
+   "pos": "312",
+   "name": "Voca",
+   "points": "614",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/1Z_CvAJE9Qb5h9WyIi1PoP.png?ixlib=java-2.1.0&w=100&s=7153ba147e5c9e49225f274945ff4c90"
+   }
+  },
+  {
+   "pos": "313",
+   "name": "Coalesce",
+   "points": "613",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/kA0AMMtkRtiDp8WCw_U0s0.png?ixlib=java-2.1.0&w=100&s=ef9009a3a580814a7eea51e52aab5f4a"
+   }
+  },
+  {
+   "pos": "314",
+   "name": "Wave",
+   "points": "603",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xOYKGcKkRlcw1_fN1mF9Ap.png?ixlib=java-2.1.0&w=100&s=1a7579ba27a6e13f60f06805bb3167e2"
+   }
+  },
+  {
+   "pos": "315",
+   "name": "Wampirki",
+   "points": "602",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=W"
+   }
+  },
+  {
+   "pos": "316",
+   "name": "brazylijski luz",
+   "points": "602",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/p0fUtgmP2iEqj1E2MdAlR-.png?ixlib=java-2.1.0&w=100&s=9a7131767b641c25f3f7a8734c8af654"
+   }
+  },
+  {
+   "pos": "317",
+   "name": "Grêmio",
+   "points": "599",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_X9jYYKByFuVx9o4KveYnB.svg?ixlib=java-2.1.0&s=b0354212f03962da301e922ebd9401cd"
+   }
+  },
+  {
+   "pos": "318",
+   "name": "EC BANGA",
+   "points": "597",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/A-JW3udBuoh3qFSVb4yc00.png?ixlib=java-2.1.0&w=100&s=090fc6c5820b196b3670ca64af7be3d2"
+   }
+  },
+  {
+   "pos": "319",
+   "name": "Rune Eaters",
+   "points": "596",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/sAUU1xlaHaJ7WtXCi7SOOi.png?ixlib=java-2.1.0&w=100&s=f7cb6667ff7143fcabb55142bcee3617"
+   }
+  },
+  {
+   "pos": "320",
+   "name": "CTRL",
+   "points": "595",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DAEPwFYckiXCKhfjHOG2QO.png?ixlib=java-2.1.0&w=100&s=9d6cecf9f0dd441ee00fcf0629ef0a2e"
+   }
+  },
+  {
+   "pos": "321",
+   "name": "Players",
+   "points": "595",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=P"
+   }
+  },
+  {
+   "pos": "322",
+   "name": "Romania",
+   "points": "593",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/cOaSqUY8H6XYsp-_0_f3cC.png?ixlib=java-2.1.0&w=100&s=6ea378cfd64b536c1220e0f52c71defe"
+   }
+  },
+  {
+   "pos": "323",
+   "name": "Vasco",
+   "points": "588",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/8rWGnIe-BMnLbEEVsh0un5.png?ixlib=java-2.1.0&w=100&s=eece657bf15b36ac8f37d90d79a76cbe"
+   }
+  },
+  {
+   "pos": "324",
+   "name": "Rave",
+   "points": "585",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PK8iv9GaWRTgogrTsbAncQ.png?ixlib=java-2.1.0&w=100&s=d5c30fe6e0bc1215a80245ed4255b118"
+   }
+  },
+  {
+   "pos": "325",
+   "name": "FURIA fe",
+   "points": "584",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/cZaGsN8yj6I2dEMfPsibLx.png?ixlib=java-2.1.0&w=100&s=9524a67f7651fefee6cbf31d576de056"
+   }
+  },
+  {
+   "pos": "326",
+   "name": "Aurora Young Blud",
+   "points": "583",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/lOg10XKxqTQlWWABIIGTEk.png?ixlib=java-2.1.0&w=100&s=b366d2c20aa91112795d36bdb4621ea6"
+   }
+  },
+  {
+   "pos": "327",
+   "name": "playersclub",
+   "points": "575",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=p"
+   }
+  },
+  {
+   "pos": "328",
+   "name": "M1X KS",
+   "points": "574",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=M"
+   }
+  },
+  {
+   "pos": "329",
+   "name": "MTX",
+   "points": "573",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/j9ebI3ISGxSjFsXgPIgqHP.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=82a6fbfb119c254a22b0e0db7c40521e"
+   }
+  },
+  {
+   "pos": "330",
+   "name": "Persona Grata",
+   "points": "573",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=P"
+   }
+  },
+  {
+   "pos": "331",
+   "name": "MAGICOS",
+   "points": "572",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JYYR9M9lXYXhLY5nkj3Wk-.png?ixlib=java-2.1.0&w=100&s=e642a3f105fbe1bf856c42c922554ecf"
+   }
+  },
+  {
+   "pos": "332",
+   "name": "ACROBATS",
+   "points": "572",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=A"
+   }
+  },
+  {
+   "pos": "333",
+   "name": "atputies",
+   "points": "571",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/UiiqtzxMru0kBZhwjXzvgM.png?ixlib=java-2.1.0&w=100&s=d727fd4b78d87f9c7b4a7da71d2577c4"
+   }
+  },
+  {
+   "pos": "334",
+   "name": "Phantom Academy",
+   "points": "568",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/1-ndJrd3Y-vYo3AYM1HywD.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=5a206c9e81b20203d17d5efddae45332"
+   }
+  },
+  {
+   "pos": "335",
+   "name": "Red Feet",
+   "points": "568",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/nE5Jukx4oXL4mKL5mXF_E6.png?ixlib=java-2.1.0&w=100&s=2b5b204b52ac5492e4e63e48cf6b33ba"
+   }
+  },
+  {
+   "pos": "336",
+   "name": "Trainwrecks",
+   "points": "567",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Pe-2MfOr-uKZOnE_fhldpq.png?ixlib=java-2.1.0&w=100&s=679f5873e1aeceff40c3e289d3bacd92"
+   }
+  },
+  {
+   "pos": "337",
+   "name": "rottweilers",
+   "points": "558",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=r"
+   }
+  },
+  {
+   "pos": "338",
+   "name": "Basement Bobs",
+   "points": "556",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TLKMqZvObTBZryz36UIENt.png?ixlib=java-2.1.0&w=100&s=005f80df924905438283c61deef2dfa4"
+   }
+  },
+  {
+   "pos": "339",
+   "name": "GUARA",
+   "points": "551",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/t8771VdCMRk_FGmrmgBaZN.svg?ixlib=java-2.1.0&s=c9440f55a05c5e361cc3cedd656bffed"
+   }
+  },
+  {
+   "pos": "340",
+   "name": "Olympus",
+   "points": "548",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TZ-At5GBk5ckm6wmkjsAgQ.png?ixlib=java-2.1.0&w=100&s=85ae1a4e00474129adc6e490049cc851"
+   }
+  },
+  {
+   "pos": "341",
+   "name": "Incognito",
+   "points": "546",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=I"
+   }
+  },
+  {
+   "pos": "342",
+   "name": "NuTorious",
+   "points": "544",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iR0NNyulDkSuYiGj26Q3ma.png?ixlib=java-2.1.0&w=100&s=b01b46de1ad178703e6ded8bdae36c82"
+   }
+  },
+  {
+   "pos": "343",
+   "name": "Clutchain",
+   "points": "541",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/2z1Fq-9FrrthKoTthrmhlO.png?ixlib=java-2.1.0&w=100&s=aa51f877b333c2327ee4c0da377f8a6a"
+   }
+  },
+  {
+   "pos": "344",
+   "name": "Phantom",
+   "points": "540",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DzhUnKXRRy9yV2MILp29YH.png?ixlib=java-2.1.0&w=100&s=3fb2aad69e48b6fe5ab3bb37ad37c471"
+   }
+  },
+  {
+   "pos": "345",
+   "name": "ENCE",
+   "points": "539",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
+   }
+  },
+  {
+   "pos": "346",
+   "name": "FURY",
+   "points": "533",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ylIa0X44fFfLBECJKuOF9p.png?ixlib=java-2.1.0&w=100&s=2e0fecd4f1398d5a2040e4295979da33"
+   }
+  },
+  {
+   "pos": "347",
+   "name": "Bebop",
+   "points": "530",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
+  },
+  {
+   "pos": "348",
+   "name": "Drama",
+   "points": "530",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/J0n3Qe1dF_JXSikg6Wu7Vd.png?ixlib=java-2.1.0&w=100&s=37afb0eaf130202c93530b863965c9ee"
+   }
+  },
+  {
+   "pos": "349",
+   "name": "bond1e",
+   "points": "529",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=b"
+   }
+  },
+  {
+   "pos": "350",
+   "name": "9INE",
+   "points": "526",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/BGC4LXlC8s4W0xWyelk2BI.png?ixlib=java-2.1.0&w=100&s=d7c215c893f546cf02505252ba744698"
+   }
+  },
+  {
+   "pos": "351",
+   "name": "QUINTESSÊNCIA",
+   "points": "526",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=Q"
+   }
+  },
+  {
+   "pos": "352",
+   "name": "Young TigeRES",
+   "points": "525",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/t-6ilVXdfIZyTDY9v0Rdwt.png?ixlib=java-2.1.0&w=100&s=e5375bc0c9cec78831eada60a70909e9"
+   }
+  },
+  {
+   "pos": "353",
+   "name": "SINQU",
+   "points": "525",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HCDj_182RlDUnkq7I4w5pv.png?ixlib=java-2.1.0&w=100&s=e5cea4b67b53930ad0288167b73cbbac"
+   }
+  },
+  {
+   "pos": "354",
+   "name": "NSN",
+   "points": "524",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/qazH2BZVRDTUafLAxKqmmm.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=c2c66637d3e29aea9e2b7dc3ca8dd8c0"
+   }
+  },
+  {
+   "pos": "355",
+   "name": "Imperial Academy",
+   "points": "521",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/sNeTZnLAJubDVd_J06bjG9.png?ixlib=java-2.1.0&w=100&s=5dd74fe9b8718bc38b24afbba12e9060"
+   }
+  },
+  {
+   "pos": "356",
+   "name": "Subtop De France",
+   "points": "520",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=S"
+   }
+  },
+  {
+   "pos": "357",
+   "name": "ODDIK Academy",
+   "points": "515",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/cHA_jK3PIkl2FyUZA9BsE_.png?ixlib=java-2.1.0&w=100&s=c828210915b41d7490460b1eca6233a4"
+   }
+  },
+  {
+   "pos": "358",
+   "name": "IDoPieca",
+   "points": "513",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=I"
+   }
+  },
+  {
+   "pos": "359",
+   "name": "Aimhaus",
+   "points": "511",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Ob144z2mshmVsvLpo_fqge.png?ixlib=java-2.1.0&w=100&s=7d619e742c7b59bcbe51186e7e67e4d1"
+   }
+  },
+  {
+   "pos": "360",
+   "name": "Blitzkrieg",
+   "points": "511",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
+  },
+  {
+   "pos": "361",
+   "name": "Surge",
+   "points": "509",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=S"
+   }
+  },
+  {
+   "pos": "362",
+   "name": "FORZE Reload",
+   "points": "507",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/YJnWBDwmRDJ9o2uOUrhNeQ.png?ixlib=java-2.1.0&w=100&s=69220873b2f3556fd7c872f0096ed4c2"
+   }
+  },
+  {
+   "pos": "363",
+   "name": "Legion",
+   "points": "504",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/E1Mbu8dLgT84ihEYQDnwGI.png?ixlib=java-2.1.0&w=100&s=37d39c68058524e04cc8bec7ef4f74cc"
+   }
+  },
+  {
+   "pos": "364",
+   "name": "girl kissers",
+   "points": "502",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=g"
+   }
+  },
+  {
+   "pos": "365",
+   "name": "home",
+   "points": "498",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=h"
+   }
+  },
+  {
+   "pos": "366",
+   "name": "SPARTA",
+   "points": "498",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4S4uiHHvhV2IFrEap8xG1H.png?ixlib=java-2.1.0&w=100&s=672e864eff3419920f0e0681d7de1400"
+   }
+  },
+  {
+   "pos": "367",
+   "name": "VP.Prodigy",
+   "points": "497",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/XeVFqoxRuwHgJKTL-BJfzH.png?ixlib=java-2.1.0&w=100&s=98acb3823fa8cc764a9dde98826543e6"
+   }
+  },
+  {
+   "pos": "368",
+   "name": "DAMAJUANA",
+   "points": "497",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/UkUKmLXnhRYsDg4q_q-BKJ.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=5c1df5ae386b4d6eb45952c6cac53016"
+   }
+  },
+  {
+   "pos": "369",
+   "name": "INFINITE",
+   "points": "494",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bq4oCmwPwqkpV5XvHqmVhI.png?ixlib=java-2.1.0&w=100&s=48b97c34aebfca518a30b4bdaf1edcad"
+   }
+  },
+  {
+   "pos": "370",
+   "name": "XDM",
+   "points": "491",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/XDEZRO9QocdmNNAvlu6hxo.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=6ec9ddf779d82f53c83f390205fe37f2"
+   }
+  },
+  {
+   "pos": "371",
+   "name": "Skele",
+   "points": "488",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/I_btLKX1OoO4OAbWErdX_B.png?ixlib=java-2.1.0&w=100&s=ada1731f4f61e519b25d4e35e526ba15"
+   }
+  },
+  {
+   "pos": "372",
+   "name": "GAMEHARMONY",
+   "points": "488",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/oJ-v6jTDaZ97QUo89THPSC.png?ixlib=java-2.1.0&w=100&s=244a871c08f36e66a5cca2aa013ec2a0"
+   }
+  },
+  {
+   "pos": "373",
+   "name": "ELITES",
+   "points": "487",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=E"
+   }
+  },
+  {
+   "pos": "374",
+   "name": "raisedbypixels",
+   "points": "480",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=r"
+   }
+  },
+  {
+   "pos": "375",
+   "name": "HereWeGoAgain",
+   "points": "478",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=H"
+   }
+  },
+  {
+   "pos": "376",
+   "name": "Charrados",
+   "points": "477",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=C"
+   }
+  },
+  {
+   "pos": "377",
+   "name": "Arise",
+   "points": "476",
+   "region": "AS",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=A"
+   }
+  },
+  {
+   "pos": "378",
+   "name": "Mythic",
+   "points": "474",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/giKWRtCUgQzLqqfLUgwPvv.png?ixlib=java-2.1.0&w=100&s=1aeef64bf7a1e82fce1e815e5a9d6c2b"
+   }
+  },
+  {
+   "pos": "379",
+   "name": "Pugdesonesto",
+   "points": "473",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=P"
+   }
+  },
+  {
+   "pos": "380",
+   "name": "BBBMBCBS",
+   "points": "472",
+   "region": "AS",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
+  },
+  {
+   "pos": "381",
+   "name": "HereWeGoAgain",
+   "points": "468",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=H"
+   }
+  },
+  {
+   "pos": "382",
+   "name": "FRZ",
+   "points": "457",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=F"
+   }
+  },
+  {
+   "pos": "383",
+   "name": "GamersLab",
+   "points": "456",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/v4RIUg6hFVRKg5HaKyRpim.png?ixlib=java-2.1.0&w=100&s=f92e36026e862a7af5e84fb7fb3dfca2"
+   }
+  },
+  {
+   "pos": "384",
+   "name": "Spirit HU",
+   "points": "445",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_qRcx47Fjl9YZ9SfzHIwrx.png?ixlib=java-2.1.0&w=100&s=ef2236cab27b38f0049dc2736b2fa6ae"
+   }
+  },
+  {
+   "pos": "385",
+   "name": "6666",
+   "points": "444",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/dt87uFqACOFRSzmDKsHh_N.png?ixlib=java-2.1.0&w=100&s=18671a5aef4e6e17b659a4e3eccca21b"
+   }
+  },
+  {
+   "pos": "386",
+   "name": "5Actors",
+   "points": "430",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=5"
+   }
+  },
+  {
+   "pos": "387",
+   "name": "Nas",
+   "points": "430",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PRXpr-RndjjZdEPVYyDhzi.png?ixlib=java-2.1.0&w=100&s=5e81ab6c9e06db94f85cba6f03d07b58"
+   }
+  },
+  {
+   "pos": "388",
+   "name": "Unitronics",
+   "points": "428",
+   "region": "AS",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=U"
+   }
+  },
+  {
+   "pos": "389",
+   "name": "LAGUNA",
+   "points": "423",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=L"
+   }
+  },
+  {
+   "pos": "390",
+   "name": "Sashi Academy",
+   "points": "420",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/234QQOOtJe55NrBQNEgIMC.png?ixlib=java-2.1.0&w=100&s=f39473f3cbbaf2ad0c99a81d73109b0c"
+   }
+  },
+  {
+   "pos": "391",
+   "name": "Z7",
+   "points": "418",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/6uEwrn9hkia5q54xnl2fZH.png?ixlib=java-2.1.0&w=100&s=35715d1d09b1ac9c9af62486ab4e875d"
+   }
+  },
+  {
+   "pos": "392",
+   "name": "Grindas",
+   "points": "414",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=G"
+   }
+  },
+  {
+   "pos": "393",
+   "name": "Younglings",
+   "points": "407",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/hf3-x87iazvEt0NLgf2kEZ.png?ixlib=java-2.1.0&w=100&s=4ec64479ae689ca2dbf1b92def7843dd"
+   }
+  },
+  {
+   "pos": "394",
+   "name": "UR",
+   "points": "405",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/trUMCjKhUkBk8OQb1jucIH.png?ixlib=java-2.1.0&w=100&s=e4bd3175f2654c51fd9f538a74c7bfb8"
+   }
+  },
+  {
+   "pos": "395",
+   "name": "BRUTE",
+   "points": "405",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bh8oZnAYofBgma_vPu55I7.svg?ixlib=java-2.1.0&s=98154a0be5a53ccadf51c17bdcd57536"
+   }
+  },
+  {
+   "pos": "396",
+   "name": "Bad Luck",
+   "points": "401",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
+  },
+  {
+   "pos": "397",
+   "name": "Players",
+   "points": "401",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=P"
+   }
+  },
+  {
+   "pos": "398",
+   "name": "AKA HERO KAJO",
+   "points": "400",
+   "region": "EU",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=A"
+   }
+  },
+  {
+   "pos": "399",
+   "name": "Diamant",
+   "points": "399",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_fM3le_bN4mqN68tp7LV7j.png?ixlib=java-2.1.0&w=100&s=5c8624901039d2cc0909a45d3475de8b"
+   }
+  },
+  {
+   "pos": "400",
+   "name": "ALZON",
+   "points": "398",
+   "region": "AM",
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=A"
+   }
+  },
+  {
+   "pos": "401",
+   "name": "Time Waves",
+   "points": "397",
+   "region": "AS",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/NVUaetiqY0v9tZ1-MdLGi3.png?ixlib=java-2.1.0&w=100&s=f61f3be1c9945c16b8353117df3edbf3"
+   }
+  },
+  {
+   "pos": "402",
+   "name": "BIG EQUIPA",
+   "points": "396",
+   "region": "EU",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/6UagLkzIYk5UVlCFmEYXt1.png?ixlib=java-2.1.0&w=100&s=9ee8b2353cf4417ce7bc0d16d3bafc6f"
+   }
+  },
+  {
+   "pos": "403",
+   "name": "FlyQuest RED",
+   "points": "395",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/bqRjihc2rY4j6Er94k9vaB.png?ixlib=java-2.1.0&w=100&s=c3a58e0424be606af260d4c9059645b7"
+   }
+  },
+  {
+   "pos": "404",
+   "name": "OverKnight",
+   "points": "395",
+   "region": "AM",
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/IF2i2Jbw9ajqJJ6DjotpNB.png?ixlib=java-2.1.0&w=100&s=9751851317bf8985b3025b6cbd1e75d2"
+   }
+  }
+ ]
+}

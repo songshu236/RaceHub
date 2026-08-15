@@ -92,6 +92,8 @@ class RaceHubApp(tk.Tk):
         bar.add_cascade(label="视图", menu=m_view)
 
         m_help = tk.Menu(bar, tearoff=0)
+        m_help.add_command(label="🖼 下载全部 CS2 队标", command=self.download_all_cs2_logos)
+        m_help.add_separator()
         m_help.add_command(label="生成界面截图", command=self.save_screenshot)
         m_help.add_command(label="修复显示（强制重绘）", command=self.repair_display)
         m_help.add_command(label="诊断信息", command=self.show_diagnostics)
@@ -231,6 +233,14 @@ class RaceHubApp(tk.Tk):
     def open_settings(self):
         SettingsDialog(self)
 
+    def download_all_cs2_logos(self):
+        """帮助菜单：批量下载 CS2 全部真实队标（白底、本地保存）。"""
+        cs2 = getattr(self, "cs2", None)
+        if cs2 is None or not hasattr(cs2, "download_all_logos"):
+            messagebox.showinfo("下载队标", "CS2 面板尚未创建，请稍后重试。")
+            return
+        cs2.download_all_logos(notify=True)
+
     def show_about(self):
         messagebox.showinfo(
             "关于",
@@ -286,7 +296,7 @@ class RaceHubApp(tk.Tk):
         """启动时校验数据是否为空；为空则显示醒目提示并写日志，便于排查。"""
         total = 0
         for series in ("F1", "WEC", "CS2"):
-            for kind in ("calendar", "results", "standings", "matches", "ranking"):
+            for kind in ("calendar", "results", "standings", "matches", "ranking", "vrs"):
                 p = self.store.get(series, kind)
                 if p is None:
                     continue

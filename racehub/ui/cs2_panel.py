@@ -8,7 +8,7 @@ from tkinter import ttk
 from ..utils import countdown_days, fmt_countdown, fmt_date
 from . import theme
 from .base_panel import SeriesPanel
-from .widgets import SectionHeader, KeyValueRow, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
+from .widgets import SectionHeader, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
 from .badges import get_badge
 from .team_logos import collect_team_logos, logo_manager
 import threading
@@ -168,13 +168,16 @@ class CS2Panel(SeriesPanel):
         img = logo_manager.get(name, url)
         return img or get_badge(name)
 
-    def _download_all_logos(self):
-        """批量下载所有缺失队标（后台线程 + 进度）。"""
+    def download_all_logos(self, notify: bool = False):
+        """批量下载所有缺失 CS2 队标（后台线程 + 进度），供帮助菜单调用。"""
         if getattr(self, "_dl_all", False):
             return
         self._dl_all = True
-        self.logo_btn.config(state="disabled", text="下载中…")
-        self.logo_progress.config(text="正在下载缺失队标…")
+        self._dl_notify = notify
+        try:
+            self.logo_progress.config(text="正在下载缺失队标…")
+        except Exception:
+            pass
         teams = collect_team_logos(self.store)
 
         def worker():
@@ -193,10 +196,17 @@ class CS2Panel(SeriesPanel):
     def _finish_logo_download(self):
         self._dl_all = False
         try:
-            self.logo_btn.config(state="normal", text="🖼 下载全部队标")
             self.logo_progress.config(text="队标下载完成 ✓")
         except Exception:
             pass
+        notify = getattr(self, "_dl_notify", False)
+        self._dl_notify = False
+        if notify:
+            try:
+                from tkinter import messagebox
+                messagebox.showinfo("下载完成", "CS2 全部队标已下载完成 ✓")
+            except Exception:
+                pass
         self._render_matches()
         self._render_ranking()
 
@@ -204,30 +214,62 @@ class CS2Panel(SeriesPanel):
         p = self.sta_page
         p.columnconfigure(0, weight=1)
         p.rowconfigure(2, weight=1)
-        SectionHeader(p, "HLTV 世界排名", subtitle="队伍积分排名（示例/实抓）", accent=self.accent).grid(
+        SectionHeader(p, "CS2 队伍积分排名", subtitle="HLTV 世界排名 / V社 VRS 积分", accent=self.accent).grid(
             row=0, column=0, sticky="ew")
-        self.sta_info = KeyValueRow(p, "说明", "排名基于 HLTV 世界排名页", key_width=10)
-        self.sta_info.grid(row=1, column=0, sticky="ew")
-        row = ttk.Frame(p, style="TFrame")
-        row.grid(row=2, column=0, sticky="ew", pady=4)
-        self.logo_btn = ttk.Button(row, text="🖼 下载全部队标", style="Small.TButton",
-                                   command=self._download_all_logos)
-        self.logo_btn.pack(side="left")
-        self.logo_progress = tk.Label(row, text="", bg=theme.BG, fg=theme.MUTED,
+        bar = ttk.Frame(p, style="TFrame")
+        bar.grid(row=1, column=0, sticky="ew", pady=(4, 2))
+        bar.columnconfigure(3, weight=1)
+        ttk.Label(bar, text="榜单:", style="Muted.TLabel").grid(row=0, column=0, sticky="w")
+        self.rank_choice = ttk.Combobox(bar, state="readonly", width=22,
+                                        values=["HLTV 世界排名", "V社 VRS 积分排行"])
+        self.rank_choice.current(0)
+        self.rank_choice.grid(row=0, column=1, sticky="w", padx=(8, 0))
+        self.rank_choice.bind("<<ComboboxSelected>>", lambda _e: self._render_ranking())
+        self.logo_progress = tk.Label(bar, text="", bg=theme.BG, fg=theme.MUTED,
                                       font=(theme.FONT_FAMILY, 9))
-        self.logo_progress.pack(side="left", padx=10)
+        self.logo_progress.grid(row=0, column=3, sticky="e", padx=8)
         self.rank_tree, self.rank_tree_frame = make_tree(p, [
             ("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("change", "变化"),
         ], widths={"pos": 60, "name": 300, "points": 90, "change": 80})
-        self.rank_tree_frame.grid(row=3, column=0, sticky="nsew")
+        self.rank_tree_frame.grid(row=2, column=0, sticky="nsew")
         add_badge_column(self.rank_tree)
+
+    def _rank_columns_for(self, mode: str):
+        """返回 (columns, widths, value_fn)。mode: ranking / vrs。"""
+        if mode == "vrs":
+            cols = [("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("region", "地区")]
+            widths = {"pos": 60, "name": 300, "points": 90, "region": 90}
+            def val(r):
+                return r.get("pos", ""), r.get("name", ""), r.get("points", ""), r.get("region", "")
+        else:
+            cols = [("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("change", "变化")]
+            widths = {"pos": 60, "name": 300, "points": 90, "change": 80}
+            def val(r):
+                return r.get("pos", ""), r.get("name", ""), r.get("points", ""), r.get("change", "")
+        return cols, widths, val
+
+    def _set_rank_columns(self, cols, widths):
+        keys = [k for k, _ in cols]
+        self.rank_tree.configure(columns=keys, show="tree headings")
+        for key, title in cols:
+            self.rank_tree.heading(key, text=title)
+            self.rank_tree.column(key, width=widths.get(key, 100), minwidth=40, anchor="w",
+                                  stretch=(key == "name"))
+        self.rank_tree.heading("#0", text="队标")
+        self.rank_tree.column("#0", width=44, minwidth=40, anchor="center", stretch=False)
+
+    def _current_rank_mode(self) -> str:
+        try:
+            return "vrs" if self.rank_choice.get() == "V社 VRS 积分排行" else "ranking"
+        except Exception:
+            return "ranking"
 
     def _on_kind_updated(self, kind):
         if kind == "calendar":
             self._render_calendar()
         elif kind == "matches":
             self._render_matches()
-        elif kind == "ranking":
+        elif kind in ("ranking", "vrs"):
             self._render_ranking()
 
     def _render_calendar(self):
@@ -258,10 +300,13 @@ class CS2Panel(SeriesPanel):
         set_odd_even(self.match_tree)
 
     def _render_ranking(self):
-        payload = self.store.get("CS2", "ranking") or {"rows": []}
-        fill_tree(self.rank_tree, payload.get("rows", []),
-                  lambda r: (str(id(r)), (r.get("pos", ""), r.get("name", ""),
-                                           r.get("points", ""), r.get("change", ""))),
+        mode = self._current_rank_mode()
+        payload = self.store.get("CS2", mode) or {"rows": []}
+        rows = payload.get("rows", [])
+        cols, widths, val = self._rank_columns_for(mode)
+        self._set_rank_columns(cols, widths)
+        fill_tree(self.rank_tree, rows,
+                  lambda r: (str(id(r)), val(r)),
                   tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
                   image_fn=self._rank_image)
         set_odd_even(self.rank_tree)
