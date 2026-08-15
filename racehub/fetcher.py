@@ -1,4 +1,4 @@
-﻿"""HTTP 抓取器：UA 轮换、代理、cloudscraper 可选用作 Cloudflare 绕过。"""
+"""HTTP 抓取器：UA 轮换、代理、cloudscraper 可选用作 Cloudflare 绕过。"""
 from __future__ import annotations
 
 import random
@@ -67,7 +67,17 @@ def fetch_text(url: str, timeout: int = 20, headers: dict | None = None, use_clo
     return r.text, r.status_code
 
 
-def fetch_bytes(url: str, timeout: int = 20):
+def fetch_bytes(url: str, timeout: int = 20, use_cloudscraper: bool = False):
+    """抓取二进制内容（图片等）。use_cloudscraper 尝试绕过 Cloudflare。"""
+    if use_cloudscraper:
+        cs = _get_cloudscraper()
+        if cs:
+            try:
+                r = cs.get(url, timeout=timeout)
+                if r.status_code == 200 and len(r.content) > 100:
+                    return r.content
+            except Exception:
+                pass
     s = get_session()
     r = s.get(url, timeout=timeout, headers={"User-Agent": random.choice(USER_AGENTS)})
     r.raise_for_status()

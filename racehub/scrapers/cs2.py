@@ -41,6 +41,32 @@ def _norm_name(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "")).strip()
 
 
+def _best_logo_url(img) -> str:
+    """从 <img> 标签提取最大尺寸的 teamlogo URL（优先 srcset 2x）。"""
+    import html as _h
+    srcset = img.get("srcset") or ""
+    if srcset:
+        parts = [p.strip().split(" ")[0] for p in srcset.split(",") if p.strip()]
+        def _w(u):
+            m = re.search(r"[?&]w=(\d+)", u)
+            return int(m.group(1)) if m else 50
+        parts.sort(key=_w, reverse=True)
+        if parts:
+            return _h.unescape(parts[0])
+    src = img.get("src") or ""
+    return _h.unescape(src) if src else ""
+
+
+def _team_logo_url(con, selector: str) -> str:
+    cell = con.select_one(selector)
+    if cell is None:
+        return ""
+    img = cell.select_one("img.team-logo.night-only") or cell.select_one("img.team-logo") or cell.select_one("img[alt]")
+    if img is None:
+        return ""
+    return _best_logo_url(img)
+
+
 def _unix_to_date(ms_or_s: str) -> str:
     """把 HLTV 的 data-unix 毫秒时间戳转成 YYYY-MM-DD。"""
     try:
@@ -314,12 +340,16 @@ class CS2Scraper(Scraper):
         score = ""
         if lost is not None and won is not None:
             score = f"{lost.get_text(strip=True)} : {won.get_text(strip=True)}"
+        logo1 = _team_logo_url(con, ".line-align.team1")
+        logo2 = _team_logo_url(con, ".line-align.team2")
         return {
             "series": "CS2",
             "event": _norm_name(ev.get_text(" ", strip=True)) if ev else "",
             "date": date,
-            "team1": {"name": _norm_name(t1.get_text(" ", strip=True)) if t1 else ""},
-            "team2": {"name": _norm_name(t2.get_text(" ", strip=True)) if t2 else ""},
+            "team1": {"name": _norm_name(t1.get_text(" ", strip=True)) if t1 else "",
+                      "logo": logo1},
+            "team2": {"name": _norm_name(t2.get_text(" ", strip=True)) if t2 else "",
+                      "logo": logo2},
             "map_scores": [],
             "best_of": 0,
             "status": "finished",
@@ -425,19 +455,23 @@ class CS2Scraper(Scraper):
         soup = self._soup(html)
         out = {"series": "CS2", "title": "HLTV 世界排名", "rows": []}
         for team in soup.select(".ranked-team"):
-            rank = team.select_one(".rank, .rank-number, .position")
+            rank = team.select_one(".rank, .rank-number, .position, .wide-position")
             name = team.select_one(".team-name, .teamName, .name, .team .team-name")
             points = team.select_one(".points")
             change = team.select_one(".change, .rank-change")
             name_txt = _norm_name(name.get_text(" ", strip=True)) if name else ""
             if not name_txt:
                 continue
+            logo = ""
+            logo_el = team.select_one(".team-logo img")
+            if logo_el is not None:
+                logo = _best_logo_url(logo_el)
             out["rows"].append({
                 "pos": _clean_rank_pos(rank.get_text(" ", strip=True) if rank else ""),
                 "name": name_txt,
                 "points": _clean_points(points.get_text(" ", strip=True) if points else ""),
                 "change": _norm_name(change.get_text(" ", strip=True) if change else ""),
-                "extra": {},
+                "extra": {"logo": logo},
             })
         if not out["rows"]:
             raise SourceError("HLTV 排名页解析为空")

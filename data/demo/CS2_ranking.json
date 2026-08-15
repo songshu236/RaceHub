@@ -7,1505 +7,1935 @@
    "name": "Falcons",
    "points": "907",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4eJSkDQINNM6Tbs4WvLzkN.png?ixlib=java-2.1.0&w=50&s=d8c857ea47046f61eca695beab0d12ef"
+   }
   },
   {
    "pos": "2",
    "name": "Spirit",
    "points": "752",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ywdn4tmAvXfllLeV2SkkvF.png?ixlib=java-2.1.0&w=50&s=9c70c7fbb048348f70f686acd2369c58"
+   }
   },
   {
    "pos": "3",
    "name": "FURIA",
    "points": "646",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c"
+   }
   },
   {
    "pos": "4",
    "name": "Vitality",
    "points": "626",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
+   }
   },
   {
    "pos": "5",
    "name": "MOUZ",
    "points": "574",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/IejtXpquZnE8KqYPB1LNKw.svg?ixlib=java-2.1.0&s=7fd33b8def053fbfd8fdbb58e3bdcd3c"
+   }
   },
   {
    "pos": "6",
    "name": "Natus Vincere",
    "points": "459",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c"
+   }
   },
   {
    "pos": "7",
    "name": "9z",
    "points": "363",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/COZDFWOIm41AT0srqOHFhM.png?ixlib=java-2.1.0&w=50&s=81c70f301dfc75e014336aa0ccb440f9"
+   }
   },
   {
    "pos": "8",
    "name": "Aurora",
    "points": "330",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yJzPNOeXlyiniNxanYJCrv.png?ixlib=java-2.1.0&w=50&s=2c08f70c2f2f8c2024a438ddcf19bbf1"
+   }
   },
   {
    "pos": "9",
    "name": "FaZe",
    "points": "328",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Wo9goa1eRNUtd6NLvrmwW8.png?ixlib=java-2.1.0&w=50&s=76961474d23680012b25722a8253c7dc"
+   }
   },
   {
    "pos": "10",
    "name": "G2",
    "points": "308",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
+   }
   },
   {
    "pos": "11",
    "name": "Astralis",
    "points": "276",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+   }
   },
   {
    "pos": "12",
    "name": "BetBoom",
    "points": "267",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/G4ZrdB0-q41USPd_z27IQA.png?ixlib=java-2.1.0&w=50&s=9c15ddf70f9c66399d4a47e0d8e93511"
+   }
   },
   {
    "pos": "13",
    "name": "The MongolZ",
    "points": "236",
    "change": "+1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/bRk2sh_tSTO6fq1GLhgcal.png?ixlib=java-2.1.0&w=50&s=8b08e53858eb817852ae74b30a30151d"
+   }
   },
   {
    "pos": "14",
    "name": "PARIVISION",
    "points": "234",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/MFcDe-M8wfGOUU6x4sRELR.png?ixlib=java-2.1.0&w=50&s=1d91076a58b354d8c3eaeda3162c292e"
+   }
   },
   {
    "pos": "15",
    "name": "Legacy",
    "points": "186",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/RWbHH6RA8uGwJurGeLFvSr.png?ixlib=java-2.1.0&w=50&s=3d251032e156cab2f6df8c630ca29745"
+   }
   },
   {
    "pos": "16",
    "name": "paiN",
    "points": "169",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
+   }
   },
   {
    "pos": "17",
    "name": "FUT",
    "points": "168",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Os71GAOy8KDuQFc0M8HE6O.png?ixlib=java-2.1.0&w=50&s=86f2bded6bcb7c690a42a62250ed69e7"
+   }
   },
   {
    "pos": "18",
    "name": "BIG",
    "points": "161",
    "change": "+10",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yQB6cm3KZ_BcyrgppBQMjc.svg?ixlib=java-2.1.0&s=06825290bfb61c9f8467f5c323f51974"
+   }
   },
   {
    "pos": "19",
    "name": "B8",
    "points": "160",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/rUIL5D299QDtRjXR2rxqV_.png?ixlib=java-2.1.0&w=50&s=3c6cf22f3a3c85a5fb69af20395bebfc"
+   }
   },
   {
    "pos": "20",
    "name": "Liquid",
    "points": "158",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62"
+   }
   },
   {
    "pos": "21",
    "name": "3DMAX",
    "points": "149",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/QGPDS3Z2-aMXwCYVgA4RWH.png?ixlib=java-2.1.0&w=50&s=ec528d7e9d0f9b6b4bac227901fb1590"
+   }
   },
   {
    "pos": "22",
    "name": "magic",
    "points": "126",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/KYi27Dm-DVyEUj0WIG5Bdx.png?ixlib=java-2.1.0&w=50&s=d490c0b14e24cbc6ddd70f0534ff3651"
+   }
   },
   {
    "pos": "23",
    "name": "TYLOO",
    "points": "125",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a"
+   }
   },
   {
    "pos": "24",
    "name": "GamerLegion",
    "points": "124",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vN7O46QoQ346WIRZ8D3spC.png?ixlib=java-2.1.0&w=50&s=f139433d31902eea5898c3a63fcc643a"
+   }
   },
   {
    "pos": "25",
    "name": "MIBR",
    "points": "122",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/m_JQ624LNFHWiUY-25uuaE.png?ixlib=java-2.1.0&w=50&s=80a1e479dd1b15b974d3e2d5588763af"
+   }
   },
   {
    "pos": "26",
    "name": "Alliance",
    "points": "121",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xsWK0BtR26rN776qdnWFC1.png?ixlib=java-2.1.0&w=100&s=8a8620433b87679e532367e2c90a3248"
+   }
   },
   {
    "pos": "27",
    "name": "Inner Circle",
    "points": "115",
    "change": "+4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/nzJhoae6HI3i1UORM-DBFD.png?ixlib=java-2.1.0&w=100&s=94c66676b38be4eff71807007b0c4bfe"
+   }
   },
   {
    "pos": "28",
    "name": "Ninjas in Pyjamas",
    "points": "112",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/mbY2YeFKUAbL9NyO6ab7-c.png?ixlib=java-2.1.0&w=50&s=33901dc1e88dc81e479574095806fcb9"
+   }
   },
   {
    "pos": "29",
    "name": "HEROIC",
    "points": "110",
    "change": "+1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4S22uk_gnZTiQiI-hhH4yp.png?ixlib=java-2.1.0&w=100&s=a5d9fdc008d14ed3b126835304871d49"
+   }
   },
   {
    "pos": "30",
    "name": "DENDELE",
    "points": "104",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xKB2zOMgkFKoD-MLU484IV.png?ixlib=java-2.1.0&w=100&s=fb3f313816624214a6a9295c9a4e46f5"
+   }
   },
   {
    "pos": "31",
    "name": "HOTU",
    "points": "98",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/UH5TD1Lyutr_JwKu2ldl-A.png?ixlib=java-2.1.0&w=100&s=7df76731b68485049a9c7f7b710df7f3"
+   }
   },
   {
    "pos": "32",
    "name": "100 Thieves",
    "points": "95",
    "change": "+5",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/8ypjXDe-cyvtUGWqzqhjce.png?ixlib=java-2.1.0&w=50&s=05f0b2eb2afcdcf1f28f819091cb10b2"
+   }
   },
   {
    "pos": "33",
    "name": "K27",
    "points": "92",
    "change": "+7",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7LmOZHYhlq-fIAm23aM2q1.png?ixlib=java-2.1.0&w=50&s=e194cf9c20b306723ae899eac0e8a356"
+   }
   },
   {
    "pos": "34",
    "name": "Luminosity",
    "points": "86",
    "change": "-11",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HRSwDY9X42P2TiJqy1oeEJ.png?ixlib=java-2.1.0&w=50&s=987bcf053f274f928cf18f57f50076a6"
+   }
   },
   {
    "pos": "35",
    "name": "fnatic",
    "points": "84",
    "change": "+16",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e"
+   }
   },
   {
    "pos": "36",
    "name": "EYEBALLERS",
    "points": "79",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/3-Mfc-yWBTls8MPSEFhma5.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=161f662083d7e31a565c35bbc2d9d4c6"
+   }
   },
   {
    "pos": "37",
    "name": "Nemesis",
    "points": "78",
    "change": "-5",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/elLVHPbX3OkW4t8CHjKnoY.png?ixlib=java-2.1.0&w=100&s=4b4e4bd630c54d54d615ffb0c69275ee"
+   }
   },
   {
    "pos": "38",
    "name": "Acend",
    "points": "78",
    "change": "+1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TslndPhDvsn1bLMdm1j2i6.png?ixlib=java-2.1.0&w=100&s=59913cb4781074edfb7628a074afea79"
+   }
   },
   {
    "pos": "39",
    "name": "Betclic",
    "points": "75",
    "change": "+8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iX5wi-ZLkdHTARnXcMEvZF.png?ixlib=java-2.1.0&w=100&s=c5b65db7ff10680486e1e8890015b62f"
+   }
   },
   {
    "pos": "40",
    "name": "Lynn Vision",
    "points": "67",
    "change": "-5",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DPcHT21uWwK1hDD_3txlL9.png?ixlib=java-2.1.0&w=50&s=4b5d5a187f00caf9bbae2d0fcbca6ff6"
+   }
   },
   {
    "pos": "41",
    "name": "Echo",
    "points": "66",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=E"
+   }
   },
   {
    "pos": "42",
    "name": "1win",
    "points": "66",
    "change": "+21",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zbmzI2IMFNwHUvTO4EHaTZ.png?ixlib=java-2.1.0&w=100&s=4386b1cf14aad08da4fa872894c4c44f"
+   }
   },
   {
    "pos": "43",
    "name": "M80",
    "points": "65",
    "change": "-9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/YsaWwP_VrkbHzuhszuANEK.png?ixlib=java-2.1.0&w=50&s=47a8cff375da8242af9137a2a592b97d"
+   }
   },
   {
    "pos": "44",
    "name": "JiJieHao",
    "points": "63",
    "change": "+118",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/OmcJcjX0obWnKkP7ChpuFA.png?ixlib=java-2.1.0&w=50&s=8e3bd16625d6f62c95285c98080ded66"
+   }
   },
   {
    "pos": "45",
    "name": "Sashi",
    "points": "60",
    "change": "+7",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xa5M31PECYUvHs6wlM9nzM.png?ixlib=java-2.1.0&w=100&s=914188438203c6fa2ac408fadbf7bacf"
+   }
   },
   {
    "pos": "46",
    "name": "BC.Game",
    "points": "59",
    "change": "+16",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Hwf-Y5nN-3qSvd0FZXOCh5.png?ixlib=java-2.1.0&w=100&s=24b01d7ccc6d3d4c920a93745f671f7c"
+   }
   },
   {
    "pos": "47",
    "name": "FOKUS",
    "points": "59",
    "change": "-6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VFmCLfAOw0WUmb_2fDDX3o.png?ixlib=java-2.1.0&w=100&s=3b75ec5687a9e4a656134ddd1011a80c"
+   }
   },
   {
    "pos": "48",
    "name": "NRG",
    "points": "56",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/SJZaPBCyZssru-pUDS3aZe.png?ixlib=java-2.1.0&w=100&s=f3e3a6ac422d8be2d7b8ad03786a35ae"
+   }
   },
   {
    "pos": "49",
    "name": "SINNERS",
    "points": "55",
    "change": "-5",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed"
+   }
   },
   {
    "pos": "50",
    "name": "Iberian Soul",
    "points": "52",
    "change": "-7",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HD2YseMU5u5fOtLMzN4o2i.png?ixlib=java-2.1.0&w=100&s=03a31f05e7ca25e4f4c9c8dbe13bbe8b"
+   }
   },
   {
    "pos": "51",
    "name": "Virtus.pro",
    "points": "51",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+   }
   },
   {
    "pos": "52",
    "name": "Wildcard",
    "points": "49",
    "change": "-10",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/G1K6vvihgsmN98BxRF8uJ7.png?ixlib=java-2.1.0&w=50&s=3c1bc46a84d52790aa12e89f9887c5bf"
+   }
   },
   {
    "pos": "53",
    "name": "FlyQuest",
    "points": "48",
    "change": "-8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/fmqTgF6Ziw0uied7MO3_ri.png?ixlib=java-2.1.0&w=100&s=171deb954176f25d79fcec7dd528f4d1"
+   }
   },
   {
    "pos": "54",
    "name": "GenOne",
    "points": "48",
    "change": "+13",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DlMJrDmPA7qofO3HhP7Tbe.png?ixlib=java-2.1.0&w=100&s=76fce5eaae55c00a8a5884eaa4999df6"
+   }
   },
   {
    "pos": "55",
    "name": "Nuclear TigeRES",
    "points": "43",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GcO3SLh1j8cgiNGoEXNUVS.png?ixlib=java-2.1.0&w=100&s=689d9fb00114a0cfb9f656ec1dae0492"
+   }
   },
   {
    "pos": "56",
    "name": "Phantom",
    "points": "43",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DzhUnKXRRy9yV2MILp29YH.png?ixlib=java-2.1.0&w=100&s=3fb2aad69e48b6fe5ab3bb37ad37c471"
+   }
   },
   {
    "pos": "57",
    "name": "INFINITE",
    "points": "39",
    "change": "-8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bq4oCmwPwqkpV5XvHqmVhI.png?ixlib=java-2.1.0&w=100&s=48b97c34aebfca518a30b4bdaf1edcad"
+   }
   },
   {
    "pos": "58",
    "name": "Fluxo",
    "points": "38",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zGveLNj821BCJGMu93qnj-.png?ixlib=java-2.1.0&w=100&s=9831f542e589efa665f7805750677d80"
+   }
   },
   {
    "pos": "59",
    "name": "Imperial",
    "points": "37",
    "change": "-4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/bBDk6-rND06sAzn67b5RdP.png?ixlib=java-2.1.0&w=50&s=467e31ba123f509130d647fbf1e04ef2"
+   }
   },
   {
    "pos": "60",
    "name": "9INE",
    "points": "36",
    "change": "-10",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/BGC4LXlC8s4W0xWyelk2BI.png?ixlib=java-2.1.0&w=100&s=d7c215c893f546cf02505252ba744698"
+   }
   },
   {
    "pos": "61",
    "name": "SAW",
    "points": "34",
    "change": "+158",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9vOlYp2U_z0vXPb9aLK-4r.png?ixlib=java-2.1.0&w=100&s=0df3515052a2a4353022cc9d9e9b8d87"
+   }
   },
   {
    "pos": "62",
    "name": "BESTIA",
    "points": "32",
    "change": "-4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Z_R5K__qrvHmPjF66iCay-.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=88d03008f96f67d8913fd593a883e813"
+   }
   },
   {
    "pos": "63",
    "name": "OG",
    "points": "31",
    "change": "+13",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DfvLcyBWZPzMcRRqzxUfqL.png?ixlib=java-2.1.0&w=50&s=91d21a528d5bd893fb659abfe7077d40"
+   }
   },
   {
    "pos": "64",
    "name": "ASTRAL",
    "points": "31",
    "change": "+4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/cep1rsT1ueXzsovbqAxK76.png?ixlib=java-2.1.0&w=100&s=0ec5611a6169127f573350184a2303e8"
+   }
   },
   {
    "pos": "65",
    "name": "EAC",
    "points": "30",
    "change": "-9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/V8KU6EhQyVGQatWSgmYj0V.png?ixlib=java-2.1.0&w=50&s=2c6d80d65e0de648c25217065446c2f9"
+   }
   },
   {
    "pos": "66",
    "name": "ex-RUBY",
    "points": "28",
    "change": "-6",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
   },
   {
    "pos": "67",
    "name": "BRUTE",
    "points": "28",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bh8oZnAYofBgma_vPu55I7.svg?ixlib=java-2.1.0&s=98154a0be5a53ccadf51c17bdcd57536"
+   }
   },
   {
    "pos": "68",
    "name": "Nemiga",
    "points": "27",
    "change": "-11",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=100&s=ec51c91e709bd6a892d27978e83115d5"
+   }
   },
   {
    "pos": "69",
    "name": "CYBERSHOKE",
    "points": "26",
    "change": "+12",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/gzn14uIQ6ENslja9hMqnkj.png?ixlib=java-2.1.0&w=100&s=b1764e1b4763b1f62c7af31ffb729082"
+   }
   },
   {
    "pos": "70",
    "name": "Walczaki",
    "points": "26",
    "change": "-6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7J1EJEnAG7-_sekQrIc_8E.png?ixlib=java-2.1.0&w=100&s=d8b3b896b615992cc3ae6ce9d20df1a9"
+   }
   },
   {
    "pos": "71",
    "name": "Prestige",
    "points": "26",
    "change": "NEW TEAM",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/LsfU1sYlLVaPls3d21lLuU.png?ixlib=java-2.1.0&w=100&s=495495f9ba6b24284c81180e30b5f16d"
+   }
   },
   {
    "pos": "72",
    "name": "The Huns",
    "points": "24",
    "change": "-6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VgVw2z9BmJJ2knbbyXeDfc.png?ixlib=java-2.1.0&w=100&s=8fae2fe537a7067752cf1e093e2f5846"
+   }
   },
   {
    "pos": "73",
    "name": "ShindeN",
    "points": "24",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5tfhYrPKeLDzFW8X-vFExJ.png?ixlib=java-2.1.0&w=100&s=83c3f765855b47e552cd1b44423291d7"
+   }
   },
   {
    "pos": "74",
    "name": "Butterfly",
    "points": "24",
    "change": "+21",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/hgDb3HGkIozP3l72DbEtpp.png?ixlib=java-2.1.0&w=100&s=666fd72ceb75701a460a31ce49e8c1ea"
+   }
   },
   {
    "pos": "75",
    "name": "THUNDER dOWNUNDER",
    "points": "23",
    "change": "-4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=100&s=f10b93580ed7cedd75bb09298d76f6ff"
+   }
   },
   {
    "pos": "76",
    "name": "Eternal Fire",
    "points": "23",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Tafdq71X3B_-73b73bAixr.png?ixlib=java-2.1.0&w=100&s=acf07fab5478f7dda7201085fc55e467"
+   }
   },
   {
    "pos": "77",
    "name": "Voca",
    "points": "23",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/1Z_CvAJE9Qb5h9WyIi1PoP.png?ixlib=java-2.1.0&w=100&s=7153ba147e5c9e49225f274945ff4c90"
+   }
   },
   {
    "pos": "78",
    "name": "INOX Division",
    "points": "23",
    "change": "+1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5jcprHN8P8ylGZJxkC3ZHj.png?ixlib=java-2.1.0&w=50&s=69743986c06bd0249fb39aab058ecf88"
+   }
   },
   {
    "pos": "79",
    "name": "CYBERSHOKE Prospects",
    "points": "22",
    "change": "-5",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/SMf-lhuD18aFmRZBBcmkQp.png?ixlib=java-2.1.0&w=100&s=ae53be669b5edcf40aeaa4438c2083cf"
+   }
   },
   {
    "pos": "80",
    "name": "SPARTA",
    "points": "22",
    "change": "-11",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4S4uiHHvhV2IFrEap8xG1H.png?ixlib=java-2.1.0&w=100&s=672e864eff3419920f0e0681d7de1400"
+   }
   },
   {
    "pos": "81",
    "name": "WW",
    "points": "22",
    "change": "-11",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/eCREd3vUcWijSsxUZ7GEoW.png?ixlib=java-2.1.0&w=100&s=6cd76e55ccbc1636599897503a4b2057"
+   }
   },
   {
    "pos": "82",
    "name": "Omega",
    "points": "21",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Q9UB4lO8MMt_CQmtRkOKxQ.png?ixlib=java-2.1.0&w=100&s=8d38d14432bf2c44185a638853b36668"
+   }
   },
   {
    "pos": "83",
    "name": "Ground Zero",
    "points": "21",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=50&s=09d53655350132af167d0b5471525cd0"
+   }
   },
   {
    "pos": "84",
    "name": "LP",
    "points": "21",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/KBb30Dkm5nlsRT24ptDbYv.png?ixlib=java-2.1.0&w=100&s=cdeabb8e8968d8c8892e6d1a1e6455ea"
+   }
   },
   {
    "pos": "85",
    "name": "BAKS",
    "points": "21",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bc-ZLyWM7AJ2Im6UWsVKMp.png?ixlib=java-2.1.0&w=50&s=3ca1758670c790daa97b23648f01756f"
+   }
   },
   {
    "pos": "86",
    "name": "G2 Ares",
    "points": "20",
    "change": "-8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7s-UIVdwo4C6iV1zYq20Ou.png?ixlib=java-2.1.0&w=100&s=b780c5399120ed4a6aec0d99c0995a5f"
+   }
   },
   {
    "pos": "87",
    "name": "SportsBetExpert",
    "points": "20",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/gk75xUsUSOXNvyT0A4UBS2.png?ixlib=java-2.1.0&w=100&s=4e4345f6c2e7732f700a7930bc6ed055"
+   }
   },
   {
    "pos": "88",
    "name": "NOVAQ",
    "points": "20",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ex06IkeUFuqX30u_SJLSgX.png?ixlib=java-2.1.0&w=100&s=c73aef21d30960e11c66383e0e47ba9c"
+   }
   },
   {
    "pos": "89",
    "name": "PCIFIC",
    "points": "20",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ucoaKK-PQ_3K_dboEuYnto.png?ixlib=java-2.1.0&w=100&s=b3aaa60805aca79f127534fe058977cd"
+   }
   },
   {
    "pos": "90",
    "name": "Metizport",
    "points": "19",
    "change": "-31",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/L6vT42LZaQh88EXiZ5FpHK.png?ixlib=java-2.1.0&w=100&s=62a41190638a8af55f8f2f0e8decc006"
+   }
   },
   {
    "pos": "91",
    "name": "QUAZAR",
    "points": "19",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/YiIFGuv43P9_fALVOSLJHh.png?ixlib=java-2.1.0&w=100&s=7bc01b4a7e27269f78deaa223e5a1ab7"
+   }
   },
   {
    "pos": "92",
    "name": "DEPO",
    "points": "19",
    "change": "+6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/kQXnifxzhtreinKml3c2T4.png?ixlib=java-2.1.0&w=100&s=82bb560b520b37586691b25420018d8f"
+   }
   },
   {
    "pos": "93",
    "name": "The Last Resort",
    "points": "18",
    "change": "-4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/AI65hTB4kG_d6jJ8DiS4nZ.svg?ixlib=java-2.1.0&s=1bb2618494315b819daaf94547cca525"
+   }
   },
   {
    "pos": "94",
    "name": "Rune Eaters",
    "points": "18",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/sAUU1xlaHaJ7WtXCi7SOOi.png?ixlib=java-2.1.0&w=100&s=f7cb6667ff7143fcabb55142bcee3617"
+   }
   },
   {
    "pos": "95",
    "name": "Just Players",
    "points": "18",
    "change": "+4",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=J"
+   }
   },
   {
    "pos": "96",
    "name": "Black Phoenix",
    "points": "17",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/0uM6D4I2nIqVvjLuKQ0Too.png?ixlib=java-2.1.0&w=100&s=040c3a35d324d9d538d44da4e7afcde5"
+   }
   },
   {
    "pos": "97",
    "name": "regain",
    "points": "17",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-bjzyIYz1cnZSmS-8FE2fJ.png?ixlib=java-2.1.0&w=100&s=f1fdedb0fbfb294e06e8acc1f9a424e3"
+   }
   },
   {
    "pos": "98",
    "name": "Bushido Wildcats",
    "points": "17",
    "change": "+23",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TZknfdU8-79rJ1gw-_6qy5.png?ixlib=java-2.1.0&w=50&s=a0dc291e786acba7de26684befd56800"
+   }
   },
   {
    "pos": "99",
    "name": "BASEMENT BOYS",
    "points": "16",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/IAgnK7oXGijw4nomIKEVIw.png?ixlib=java-2.1.0&w=50&s=b4de8c1c642e9e648d878215fc8ac9ba"
+   }
   },
   {
    "pos": "100",
    "name": "Nexus",
    "points": "16",
    "change": "-23",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/TsvwZ9z4tVRO9Ry1jYxs_n.png?ixlib=java-2.1.0&w=100&s=b6839c00228a5e68e25ae63cdbe1f90a"
+   }
   },
   {
    "pos": "101",
    "name": "Marsborne",
    "points": "15",
    "change": "-11",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/s1nvkP0GnHTlIHagb0vOOB.png?ixlib=java-2.1.0&w=100&s=09d26cb17a7889d9e3b466b650750224"
+   }
   },
   {
    "pos": "102",
    "name": "Nordic Partners",
    "points": "15",
    "change": "+4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ThJ-T9QS6Wy5JjNstspK4x.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=cacc78af4c98a6af1b328cd0e7b104c4"
+   }
   },
   {
    "pos": "103",
    "name": "Sangal",
    "points": "15",
    "change": "NEW TEAM",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zPv_FeMF8CANC10Jz32P9l.png?ixlib=java-2.1.0&w=100&s=6838116e048192c48c32b0321e597e3a"
+   }
   },
   {
    "pos": "104",
    "name": "Bounty Hunters",
    "points": "15",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/wJ38S9ZUb82rj8deT4_jqT.png?ixlib=java-2.1.0&w=100&s=8c05f4e60ee4140ce11061f2d9636cf4"
+   }
   },
   {
    "pos": "105",
    "name": "SAW Youngsters",
    "points": "14",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ha_Jwp6pwRdtJQFkCKE8iD.png?ixlib=java-2.1.0&w=50&s=564627e885fde5a2ff8190d7f9315cca"
+   }
   },
   {
    "pos": "106",
    "name": "Mindfreak",
    "points": "14",
    "change": "+16",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=50&s=24a2d2849779f23196e546a6ab58c933"
+   }
   },
   {
    "pos": "107",
    "name": "ReThink",
    "points": "14",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vJ73zN-81gNjTs8g36Sfjl.png?ixlib=java-2.1.0&w=100&s=c1e2f747744f289f7e730f1bd3f6c5c2"
+   }
   },
   {
    "pos": "108",
    "name": "LAG",
    "points": "14",
    "change": "+30",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/W30xfG1IVIUuOJnlsxtHMG.png?ixlib=java-2.1.0&w=100&s=f4236edbfee12b5deff4d9e52cb18988"
+   }
   },
   {
    "pos": "109",
    "name": "Spirit Academy",
    "points": "14",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/txUq00aBKY7O4fLVJegmi_.png?ixlib=java-2.1.0&w=100&s=8692615890f549a9119c8614ea6af5f9"
+   }
   },
   {
    "pos": "110",
    "name": "ODDIK",
    "points": "14",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/vpWs2bh24DJ8mqXotmXCJM.png?ixlib=java-2.1.0&w=100&s=fd42a9a028f19a125be48026b5efdf0c"
+   }
   },
   {
    "pos": "111",
    "name": "Isurus",
    "points": "14",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VjHKZDxfmmvDKnlRMmxiNY.png?ixlib=java-2.1.0&w=50&s=80581e5cabf96feca782959829a3039f"
+   }
   },
   {
    "pos": "112",
    "name": "Lazer Cats",
    "points": "13",
    "change": "+12",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/WldQs3KiJJFmGzdeOdibuw.png?ixlib=java-2.1.0&w=50&s=995bcbd5b240788cce88d211d26a47b1"
+   }
   },
   {
    "pos": "113",
    "name": "ENCE",
    "points": "13",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
+   }
   },
   {
    "pos": "114",
    "name": "ARCRED",
    "points": "13",
    "change": "-21",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/FkqmKLoI7VzD95HuCu36rp.png?ixlib=java-2.1.0&w=100&s=1b11269cfcee4498f2518a49244a8d01"
+   }
   },
   {
    "pos": "115",
    "name": "NAVI Junior",
    "points": "13",
    "change": "+32",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/v6HtbTihf7xoHF1YlAkJ87.svg?ixlib=java-2.1.0&s=42241b88f4ecffaba7cf57c937236809"
+   }
   },
   {
    "pos": "116",
    "name": "Chicken Coop",
    "points": "13",
    "change": "-12",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/b4BdjAEO0sntamT0gjZFx1.png?ixlib=java-2.1.0&w=100&s=d950a8ebd9a118f0402451f9f900f04b"
+   }
   },
   {
    "pos": "117",
    "name": "HAVU",
    "points": "13",
    "change": "+1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_bpWybCQhDRnPq8Z2ZYO5h.png?ixlib=java-2.1.0&w=50&s=2e3c9e1a0a833d4d92ce10ec8adddf00"
+   }
   },
   {
    "pos": "118",
    "name": "Keyd Stars",
    "points": "13",
    "change": "-10",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/m-SA9fWSyBqRgsrDCDXCId.png?ixlib=java-2.1.0&w=50&s=5e9b55327740978fb8f425c27d2ba70a"
+   }
   },
   {
    "pos": "119",
    "name": "Yawara",
    "points": "13",
    "change": "+24",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/JwKJz_nvCUbB5kvZGK6Ho5.png?ixlib=java-2.1.0&w=50&s=e099463ab8fb00a944ed779de231946b"
+   }
   },
   {
    "pos": "120",
    "name": "BERG",
    "points": "13",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/90lCXlzTp513yANJ_DR30l.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=db20a19579c1b106f78cdf237f9816e3"
+   }
   },
   {
    "pos": "121",
    "name": "WBT",
    "points": "13",
    "change": "-8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_coqH_U02fBToVR-m_CKsU.png?ixlib=java-2.1.0&w=100&s=290cf53650b9b44c756d48be318deea1"
+   }
   },
   {
    "pos": "122",
    "name": "Partizan",
    "points": "12",
    "change": "NEW TEAM",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/y59RRaQNbpspDdGJoR1Xfr.png?ixlib=java-2.1.0&w=100&s=8b4c4ffa3425bc7888198f3174442b32"
+   }
   },
   {
    "pos": "123",
    "name": "Galorys",
    "points": "12",
    "change": "+56",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GljsUhNlV1YdE2Z1ge-HzK.png?ixlib=java-2.1.0&w=50&s=fd7e8570af28b29e7dfa34eab2c506b1"
+   }
   },
   {
    "pos": "124",
    "name": "Leo",
    "points": "12",
    "change": "-12",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/8W-UeGbtwFEzEz0RiPxxLS.png?ixlib=java-2.1.0&w=50&s=8e4a2a65e1aed01c87c1f317a81366ce"
+   }
   },
   {
    "pos": "125",
    "name": "Patins da Ferrari",
    "points": "12",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/9gAYGi5CFQK033YMngchMw.png?ixlib=java-2.1.0&w=100&s=e04c53463f5e0a8c9c001e7e89443140"
+   }
   },
   {
    "pos": "126",
    "name": "PURE",
    "points": "12",
    "change": "-9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Djq1hZ4t4zziK0Wij3PvHM.png?ixlib=java-2.1.0&w=100&s=a69f5d9938ffa0bc63b0a0253cb3f088"
+   }
   },
   {
    "pos": "127",
    "name": "Honvéd",
    "points": "12",
    "change": "+1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GRDCTjbpIWDj6cS-k5j69x.png?ixlib=java-2.1.0&w=50&s=9eeb2cd0832ec343547466896a0b8f89"
+   }
   },
   {
    "pos": "128",
    "name": "ALKA",
    "points": "12",
    "change": "+31",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ZVjnHx9996Pt7TIeUzyD_9.png?ixlib=java-2.1.0&w=50&s=4f480a3245f489efeac12fd660d4e520"
+   }
   },
   {
    "pos": "129",
    "name": "Entropy",
    "points": "12",
    "change": "-9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/8eUzAy_plQ9pGLW9UUQQLs.png?ixlib=java-2.1.0&w=50&s=8b66d18b6e32b02097adac1fe98a5033"
+   }
   },
   {
    "pos": "130",
    "name": "LPH",
    "points": "12",
    "change": "+39",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/J0cvf2_BNvKf1f9c6NAY1v.png?ixlib=java-2.1.0&w=50&s=0ca957f59f3a8aa7e3404d3e5c9a76ef"
+   }
   },
   {
    "pos": "131",
    "name": "UNiTY",
    "points": "12",
    "change": "+51",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/coucDlsynd0Ujutb5o2SC-.png?ixlib=java-2.1.0&w=50&s=a5d9a7be6bddda8b8c01ab037786a465"
+   }
   },
   {
    "pos": "132",
    "name": "THE UNIT",
    "points": "12",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=T"
+   }
   },
   {
    "pos": "133",
    "name": "BET-M",
    "points": "12",
    "change": "+18",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/V7kOhjpI4AiRCPnthLVvL6.png?ixlib=java-2.1.0&w=100&s=37c73bf089b5f4599145b0f66a18ad9b"
+   }
   },
   {
    "pos": "134",
    "name": "los kogutos",
    "points": "12",
    "change": "-8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/lU3AVL4eRjRWWfBX06AgHv.png?ixlib=java-2.1.0&w=50&s=6ac6fde0a5152b43acc096c2d87db2f9"
+   }
   },
   {
    "pos": "135",
    "name": "Inner Circle Academy",
    "points": "11",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/OSTRarXkAV-3YTtk0Thf5N.png?ixlib=java-2.1.0&w=50&s=236205a4f2cafd4fd8943e36d037ab21"
+   }
   },
   {
    "pos": "136",
    "name": "Enjoy",
    "points": "11",
    "change": "-4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/FXtaA3TkcW1-BMD3B-p1E7.png?ixlib=java-2.1.0&w=50&s=4cfdf5a6feba3bc93db929052dabb544"
+   }
   },
   {
    "pos": "137",
    "name": "BESTIA Academy",
    "points": "11",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Z_R5K__qrvHmPjF66iCay-.png?ixlib=java-2.1.0&w=100&s=95ccee1ade2717fec70cdda1c1815fd5"
+   }
   },
   {
    "pos": "138",
    "name": "NEXVOID",
    "points": "11",
    "change": "+2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/zyy3eHTeRqdTqLKRIUJ9P-.png?ixlib=java-2.1.0&w=100&s=b47bf4b637d501c24a702b46608ed9e8"
+   }
   },
   {
    "pos": "139",
    "name": "ex-MANA",
    "points": "11",
    "change": "+25",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
+   }
   },
   {
    "pos": "140",
    "name": "MOUZ NXT",
    "points": "11",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23"
+   }
   },
   {
    "pos": "141",
    "name": "Coalesce",
    "points": "10",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/kA0AMMtkRtiDp8WCw_U0s0.png?ixlib=java-2.1.0&w=100&s=ef9009a3a580814a7eea51e52aab5f4a"
+   }
   },
   {
    "pos": "142",
    "name": "Villainous",
    "points": "10",
    "change": "-9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/fuFdDXw1AVpezZ_udti5xf.png?ixlib=java-2.1.0&w=100&s=762d2dee298d51dd03276207f2f4440c"
+   }
   },
   {
    "pos": "143",
    "name": "BIG Academy",
    "points": "10",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/jn7TgPjiSMAbYk0jeHNMqq.png?ixlib=java-2.1.0&w=100&s=dd65193a32bb4802f4c0fdfafe585152"
+   }
   },
   {
    "pos": "144",
    "name": "SINQU",
    "points": "10",
    "change": "+4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/HCDj_182RlDUnkq7I4w5pv.png?ixlib=java-2.1.0&w=50&s=12ab1a7214643f8b4cdb053b5bb5e263"
+   }
   },
   {
    "pos": "145",
    "name": "Rooster",
    "points": "10",
    "change": "-20",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/LPjU8AAPrha2zdFvetTTMp.png?ixlib=java-2.1.0&w=50&s=e3db90a303823ddd00ad39fa7b963a8d"
+   }
   },
   {
    "pos": "146",
    "name": "Abyssal",
    "points": "10",
    "change": "+52",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?ixlib=java-2.1.0&w=50&s=f0a0344c53af44f00dd7f1de67ed1303"
+   }
   },
   {
    "pos": "147",
    "name": "UNO MILLE",
    "points": "10",
    "change": "-11",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=U"
+   }
   },
   {
    "pos": "148",
    "name": "Falcons Force",
    "points": "10",
    "change": "+26",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/YfOBM0ri-zSsx9Cc8q6nz-.png?ixlib=java-2.1.0&w=100&s=7240e466a287897b5ff3ff6c1862f3ad"
+   }
   },
   {
    "pos": "149",
    "name": "Atreides",
    "points": "10",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/aUsDbFRUB5bFm9DLQh3Uhd.png?ixlib=java-2.1.0&w=50&s=7a95f912852547cb6ff354f9fc3a7767"
+   }
   },
   {
    "pos": "150",
    "name": "DONSTU",
    "points": "10",
    "change": "-9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7goQmGj_xa7hoDQqoiMXub.png?ixlib=java-2.1.0&w=50&s=448af6cac60a64fa6534bb92e3f6adc4"
+   }
   },
   {
    "pos": "151",
    "name": "KUUSAMO",
    "points": "10",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/X0Pk9NTPK0ashhsvRFIfMN.png?ixlib=java-2.1.0&w=100&s=44a925e5e63d7061d8a0cdf8f47805ae"
+   }
   },
   {
    "pos": "152",
    "name": "PsychoFace",
    "points": "10",
    "change": "-23",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=P"
+   }
   },
   {
    "pos": "153",
    "name": "5star",
    "points": "10",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DxfB_DH6Hhb1l1okhNQxxu.png?ixlib=java-2.1.0&w=100&s=b2ee1d2374cce6f4d2a3301888a76f6a"
+   }
   },
   {
    "pos": "154",
    "name": "Privateer",
    "points": "10",
    "change": "+1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5rEEQEdpho_TulFdTJyglr.png?ixlib=java-2.1.0&w=50&s=a9f60d7a0724722f46c641d984ded5f6"
+   }
   },
   {
    "pos": "155",
    "name": "Arcade",
    "points": "10",
    "change": "-53",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/c267mZKKYbmx4zJQoc1ds2.png?ixlib=java-2.1.0&w=100&s=e72e6385eeedf585229f2b0b2c6e5e4c"
+   }
   },
   {
    "pos": "156",
    "name": "Phantom Academy",
    "points": "9",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/1-ndJrd3Y-vYo3AYM1HywD.png?ixlib=java-2.1.0&w=50&s=26cc58034a38ef26c06a9fd0b67bc0c4"
+   }
   },
   {
    "pos": "157",
    "name": "mellren",
    "points": "9",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/XoPLNSnX1gDDBGnI5BKYK2.png?ixlib=java-2.1.0&w=100&s=9212a0705c2d3156105386ebc4712934"
+   }
   },
   {
    "pos": "158",
    "name": "Trainwrecks",
    "points": "9",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/Pe-2MfOr-uKZOnE_fhldpq.png?ixlib=java-2.1.0&w=100&s=679f5873e1aeceff40c3e289d3bacd92"
+   }
   },
   {
    "pos": "159",
    "name": "MAYBE",
    "points": "9",
    "change": "NEW TEAM",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/gvXj4AGwCvP_6KEUFypEsW.png?ixlib=java-2.1.0&w=100&s=f2f363f74abcf42da5e4cff5574a9a19"
+   }
   },
   {
    "pos": "160",
    "name": "Misa",
    "points": "9",
    "change": "+11",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/NZDgFz0RzIniP7zbNUoHuU.png?ixlib=java-2.1.0&w=50&s=f04ee2b4b27a2aa62a3aca91566e92f4"
+   }
   },
   {
    "pos": "161",
    "name": "Orda",
    "points": "9",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=O"
+   }
   },
   {
    "pos": "162",
    "name": "Wingman",
    "points": "9",
    "change": "-28",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=W"
+   }
   },
   {
    "pos": "163",
    "name": "Fire Flux",
    "points": "9",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/dEkPG3QFLGo6xl9DtGPsm2.png?ixlib=java-2.1.0&w=50&s=9a9c4eeb77fd921baa804a425d4e2825"
+   }
   },
   {
    "pos": "164",
    "name": "Overtake Sector",
    "points": "9",
    "change": "+6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/VdRzYYxYU4tQuLTPJXud9C.png?ixlib=java-2.1.0&w=100&s=01456d41e81569b7abcb30ee4da64b50"
+   }
   },
   {
    "pos": "165",
    "name": "train launcher",
    "points": "9",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=t"
+   }
   },
   {
    "pos": "166",
    "name": "benched gods",
    "points": "8",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/21Prrt-KTMD5OcIIsvEkTk.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=2385f70d6583223ef884314822a19112"
+   }
   },
   {
    "pos": "167",
    "name": "Endless Journey",
    "points": "8",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/-VGJ9TgalwRy5escWx2rL2.png?ixlib=java-2.1.0&w=50&s=be4064de8c96bea264797616b0701aec"
+   }
   },
   {
    "pos": "168",
    "name": "Strael Bora",
    "points": "8",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/frn4po-Z_SdCokSyT2C-Xr.png?ixlib=java-2.1.0&w=100&s=738db0cfde80ee33894f3d08b4cae936"
+   }
   },
   {
    "pos": "169",
    "name": "MIBR fe",
    "points": "8",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/m_JQ624LNFHWiUY-25uuaE.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=bdad0f0e86d5991ff45685baed0892f3"
+   }
   },
   {
    "pos": "170",
    "name": "Lavked",
    "points": "8",
    "change": "-17",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=L"
+   }
   },
   {
    "pos": "171",
    "name": "Club 333",
    "points": "8",
    "change": "+17",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/n2rEqBYWVN6fArZgqweDLi.png?ixlib=java-2.1.0&w=100&s=192bd9a4f763ad48fd8aa7cdea848e3b"
+   }
   },
   {
    "pos": "172",
    "name": "B8 Academy",
    "points": "8",
    "change": "+40",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/2zjxUjZjyWOPcWuMRXi5Vf.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=4ef3226bd346f39c808a75bc907b5534"
+   }
   },
   {
    "pos": "173",
    "name": "eternal premium",
    "points": "8",
    "change": "-",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4r6jgwV8ATIbwgyxjRtibq.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=5779782b03bae3322323f51b624429be"
+   }
   },
   {
    "pos": "174",
    "name": "aimclub",
    "points": "8",
    "change": "-60",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PhNn8XgEQgZbp6ti-_IfFT.png?ixlib=java-2.1.0&w=100&s=79efe594f2039f3558077a8e7519b1a2"
+   }
   },
   {
    "pos": "175",
    "name": "NuTorious",
    "points": "8",
    "change": "+16",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iR0NNyulDkSuYiGj26Q3ma.png?ixlib=java-2.1.0&w=100&s=b01b46de1ad178703e6ded8bdae36c82"
+   }
   },
   {
    "pos": "176",
    "name": "NEW VISION",
    "points": "8",
    "change": "-1",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/J33BcCn86e2diwg8tA77SZ.png?ixlib=java-2.1.0&w=50&s=269294b65422cd0c0e1333ca55e30005"
+   }
   },
   {
    "pos": "177",
    "name": "STATE",
    "points": "7",
    "change": "-70",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/LS8KGRWQbtUTfn8nMk5UUT.png?ixlib=java-2.1.0&w=100&s=f5cc754f594b634e9fcf5636f8d1871f"
+   }
   },
   {
    "pos": "178",
    "name": "roamsfiest",
    "points": "7",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=r"
+   }
   },
   {
    "pos": "179",
    "name": "Spirit HU",
    "points": "7",
    "change": "+42",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_qRcx47Fjl9YZ9SfzHIwrx.png?ixlib=java-2.1.0&w=100&s=ef2236cab27b38f0049dc2736b2fa6ae"
+   }
   },
   {
    "pos": "180",
    "name": "paiN Academy",
    "points": "7",
    "change": "+6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/ymsKjfiW_u4huzUJ4OBde8.png?ixlib=java-2.1.0&w=50&s=f531fcf67ace6bcd313007abf4d68d12"
+   }
   },
   {
    "pos": "181",
    "name": "BORRACHEIROS",
    "points": "7",
    "change": "+6",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
   },
   {
    "pos": "182",
    "name": "Bebop",
    "points": "7",
    "change": "-28",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
   },
   {
    "pos": "183",
    "name": "Tricksters",
    "points": "7",
    "change": "-3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/elwSCYcTwExBPR9ckgztpu.png?ixlib=java-2.1.0&w=100&s=4aec18b16686fdc06f2041154f0d08ca"
+   }
   },
   {
    "pos": "184",
    "name": "Grêmio",
    "points": "6",
    "change": "+20",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_X9jYYKByFuVx9o4KveYnB.svg?ixlib=java-2.1.0&s=b0354212f03962da301e922ebd9401cd"
+   }
   },
   {
    "pos": "185",
    "name": "DXA",
    "points": "6",
    "change": "-8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/iSnsGZx7NmjYY0GS-5xzLV.png?ixlib=java-2.1.0&w=100&s=c759b6a4b2bce2b41f179db010933bcf"
+   }
   },
   {
    "pos": "186",
    "name": "ALTAY",
    "points": "6",
    "change": "-2",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/AhOLG6_tKyQCLrEUaO9YxV.png?ixlib=java-2.1.0&w=100&s=a2b5781ae8292408aaa55fd261374614"
+   }
   },
   {
    "pos": "187",
    "name": "HYPERSPIRIT",
    "points": "6",
    "change": "-42",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/MdMPxRh2SX6Y3tOWO3Ok3M.png?ixlib=java-2.1.0&w=50&s=7ab5b1a592da8b9b944a10cff37b7a99"
+   }
   },
   {
    "pos": "188",
    "name": "Noir Verse",
    "points": "5",
    "change": "-69",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/b-Io2gTRPLWPGCh3ZV8a_I.png?ixlib=java-2.1.0&w=50&s=0a149d61923d0b6f11979dddc4bdffb3"
+   }
   },
   {
    "pos": "189",
    "name": "Young TigeRES",
    "points": "5",
    "change": "+4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/t-6ilVXdfIZyTDY9v0Rdwt.png?ixlib=java-2.1.0&w=100&s=e5375bc0c9cec78831eada60a70909e9"
+   }
   },
   {
    "pos": "190",
    "name": "Lilmix",
    "points": "5",
    "change": "+5",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/PivV1r_I1_8u2BoxMyd4zH.svg?ixlib=java-2.1.0&s=b11d58720f2279be14920d45887bb9dd"
+   }
   },
   {
    "pos": "191",
    "name": "Kaleido",
    "points": "5",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7CqKzJ3jTU826IibHi_a5z.png?ixlib=java-2.1.0&w=100&s=16a68dee6efa1b52cf5912acdde4eaae"
+   }
   },
   {
    "pos": "192",
    "name": "Procyon",
    "points": "5",
    "change": "+13",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/j3cZThec5Smnc2QLlkMZjX.png?ixlib=java-2.1.0&w=100&s=01bb936eecd9137f0310403c5f9eba8d"
+   }
   },
   {
    "pos": "193",
    "name": "CTRL",
    "points": "5",
    "change": "+4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/DAEPwFYckiXCKhfjHOG2QO.png?ixlib=java-2.1.0&w=100&s=9d6cecf9f0dd441ee00fcf0629ef0a2e"
+   }
   },
   {
    "pos": "194",
    "name": "Red Feet",
    "points": "4",
    "change": "+7",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/nE5Jukx4oXL4mKL5mXF_E6.png?ixlib=java-2.1.0&w=100&s=2b5b204b52ac5492e4e63e48cf6b33ba"
+   }
   },
   {
    "pos": "195",
    "name": "Clutchain fe",
    "points": "4",
    "change": "+8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/2z1Fq-9FrrthKoTthrmhlO.png?ixlib=java-2.1.0&w=100&s=aa51f877b333c2327ee4c0da377f8a6a"
+   }
   },
   {
    "pos": "196",
    "name": "ODDIK Academy",
    "points": "4",
    "change": "NEW TEAM",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/cHA_jK3PIkl2FyUZA9BsE_.png?ixlib=java-2.1.0&w=100&s=c828210915b41d7490460b1eca6233a4"
+   }
   },
   {
    "pos": "197",
    "name": "CarritoSpain",
    "points": "4",
    "change": "+9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/CtzJHR3UMtp783lfEYNMsB.png?ixlib=java-2.1.0&w=100&s=5314296ee2cb703f06c1eb3d8876c090"
+   }
   },
   {
    "pos": "198",
    "name": "Game Point",
    "points": "4",
    "change": "-9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/go-CIC5HAB8a42N981yi9m.png?ixlib=java-2.1.0&w=100&s=d66122f8e59a9c7aacb986d2d6936999"
+   }
   },
   {
    "pos": "199",
    "name": "ROUNDS",
    "points": "4",
    "change": "+11",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/xEoSJFnC0lB0FGN3t3DFna.png?ixlib=java-2.1.0&w=50&s=0e926a39e6a9be0759bfbe86e10e2966"
+   }
   },
   {
    "pos": "200",
    "name": "METANOIA Wolves",
    "points": "4",
    "change": "+9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/7FOPKOQYNOwBLiPAMHa0MK.png?ixlib=java-2.1.0&w=50&s=7198c881eaa4f76a7f7c5a5bda1bb284"
+   }
   },
   {
    "pos": "201",
    "name": "RUSH",
    "points": "4",
    "change": "+6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/O4NwBNvVDL2qSzhEDD1Uvt.png?ixlib=java-2.1.0&w=100&s=eca407d9c009584f4c2854b814349ee8"
+   }
   },
   {
    "pos": "202",
    "name": "Shimmer",
    "points": "4",
    "change": "+6",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/5xPVZyurht_nZeokKOJoLt.png?ixlib=java-2.1.0&w=100&s=6d406af63dc49c3a19add68fc2cdcd98"
+   }
   },
   {
    "pos": "203",
    "name": "Fortress",
    "points": "3",
    "change": "+10",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/CGKbvBaJmkIqMdb89VM5fX.png?ixlib=java-2.1.0&w=100&s=df2f078302fb99715444c57493eb8834"
+   }
   },
   {
    "pos": "204",
    "name": "Iowa Stormboar",
    "points": "3",
    "change": "-26",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/GqURbCKlAA99-cwuL01-dV.png?ixlib=java-2.1.0&w=100&s=95127e1b1e54af9bc25879114ee939ec"
+   }
   },
   {
    "pos": "205",
    "name": "Beyond Limits",
    "points": "3",
    "change": "+9",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/OsvBiDr6Plt-_PlwyJO_mc.png?ixlib=java-2.1.0&w=100&s=37ee8a6d7a893814b64a478ef68014c4"
+   }
   },
   {
    "pos": "206",
    "name": "Wanted Goons",
    "points": "3",
    "change": "-4",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/jgXPDKxRWNP3a5qGXUSRAT.png?ixlib=java-2.1.0&w=100&s=5a4b216a75186696fbe8afad982e5443"
+   }
   },
   {
    "pos": "207",
    "name": "OlyBet",
    "points": "3",
    "change": "+8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/FvnOaG5ilZPKNcxaCxUPme.png?ixlib=java-2.1.0&w=100&s=ad08dff890b9e5807d02088c2adb7445"
+   }
   },
   {
    "pos": "208",
    "name": "Fisher College",
    "points": "3",
    "change": "+3",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/4zwNM5cY9YTtWQVH6JPCik.png?ixlib=java-2.1.0&w=100&s=50baf5d44eefab33ba44c0ada287f120"
+   }
   },
   {
    "pos": "209",
    "name": "Chinggis Warriors",
    "points": "2",
    "change": "+8",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/esvV905BqvAKUUPLq8e89T.png?ixlib=java-2.1.0&w=100&s=c47dbf230b6791457cb1f2a84b24467f"
+   }
   },
   {
    "pos": "210",
    "name": "Finishers",
    "points": "2",
    "change": "NEW TEAM",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/0Pj43w2P8bI_ORtxh1Pxea.png?ixlib=java-2.1.0&w=100&s=7621ce7663f3e3cd7e7412a9f9616c76"
+   }
   },
   {
    "pos": "211",
    "name": "Atrix",
    "points": "2",
    "change": "+7",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/K2VILjWtsdCwtW4NLwhmFA.png?ixlib=java-2.1.0&w=100&s=808f80ee0db731b0b2d25974295fda21"
+   }
   },
   {
    "pos": "212",
    "name": "Arch",
    "points": "2",
    "change": "-27",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/aO1AV_igLhCe0nfBoAGLex.png?ixlib=java-2.1.0&w=50&s=0505d605d815138f8bd0b1d312fe4bc4"
+   }
   },
   {
    "pos": "213",
    "name": "Diamant",
    "points": "1",
    "change": "+7",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/_fM3le_bN4mqN68tp7LV7j.png?ixlib=java-2.1.0&w=100&s=5c8624901039d2cc0909a45d3475de8b"
+   }
   },
   {
    "pos": "214",
    "name": "DETONATE",
    "points": "1",
    "change": "-24",
-   "extra": {}
+   "extra": {
+    "logo": "https://img-cdn.hltv.org/teamlogo/lKDE1OG2CWukqAbhDtQD7k.png?ixlib=java-2.1.0&w=100&s=cab6a6fe808017aca7c3af669fb4742a"
+   }
   },
   {
    "pos": "215",
    "name": "Blitzkrieg",
    "points": "1",
    "change": "+7",
-   "extra": {}
+   "extra": {
+    "logo": "/dynamic-svg/teamplaceholder?letter=B"
+   }
   }
  ]
 }

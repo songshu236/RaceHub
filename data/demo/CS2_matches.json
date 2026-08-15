@@ -7,10 +7,12 @@
    "event": "DFRAG Open Series 6",
    "date": "2026-08-11",
    "team1": {
-    "name": "Rooster"
+    "name": "Rooster",
+    "logo": "https://img-cdn.hltv.org/teamlogo/LPjU8AAPrha2zdFvetTTMp.png?ixlib=java-2.1.0&w=50&s=e3db90a303823ddd00ad39fa7b963a8d"
    },
    "team2": {
-    "name": "Mindfreak"
+    "name": "Mindfreak",
+    "logo": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=50&s=24a2d2849779f23196e546a6ab58c933"
    },
    "map_scores": [],
    "best_of": 0,
@@ -27,10 +29,12 @@
    "event": "DFRAG Open Series 6",
    "date": "2026-08-11",
    "team1": {
-    "name": "Abyssal"
+    "name": "Abyssal",
+    "logo": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?ixlib=java-2.1.0&w=50&s=f0a0344c53af44f00dd7f1de67ed1303"
    },
    "team2": {
-    "name": "Ground Zero"
+    "name": "Ground Zero",
+    "logo": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=50&s=09d53655350132af167d0b5471525cd0"
    },
    "map_scores": [],
    "best_of": 0,
@@ -47,10 +51,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "BetBoom"
+    "name": "BetBoom",
+    "logo": "https://img-cdn.hltv.org/teamlogo/G4ZrdB0-q41USPd_z27IQA.png?ixlib=java-2.1.0&w=50&s=9c15ddf70f9c66399d4a47e0d8e93511"
    },
    "team2": {
-    "name": "FaZe"
+    "name": "FaZe",
+    "logo": "https://img-cdn.hltv.org/teamlogo/Wo9goa1eRNUtd6NLvrmwW8.png?ixlib=java-2.1.0&w=50&s=76961474d23680012b25722a8253c7dc"
    },
    "map_scores": [],
    "best_of": 0,
@@ -67,10 +73,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "PARIVISION"
+    "name": "PARIVISION",
+    "logo": "https://img-cdn.hltv.org/teamlogo/MFcDe-M8wfGOUU6x4sRELR.png?ixlib=java-2.1.0&w=50&s=1d91076a58b354d8c3eaeda3162c292e"
    },
    "team2": {
-    "name": "B8"
+    "name": "B8",
+    "logo": "https://img-cdn.hltv.org/teamlogo/rUIL5D299QDtRjXR2rxqV_.png?ixlib=java-2.1.0&w=50&s=3c6cf22f3a3c85a5fb69af20395bebfc"
    },
    "map_scores": [],
    "best_of": 0,
@@ -87,10 +95,12 @@
    "event": "CCT 2026 Europe Series 7 Closed Qualifier",
    "date": "2026-08-12",
    "team1": {
-    "name": "ex-RUSTEC"
+    "name": "ex-RUSTEC",
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
    },
    "team2": {
-    "name": "SAW Youngsters"
+    "name": "SAW Youngsters",
+    "logo": "https://img-cdn.hltv.org/teamlogo/ha_Jwp6pwRdtJQFkCKE8iD.png?ixlib=java-2.1.0&w=50&s=564627e885fde5a2ff8190d7f9315cca"
    },
    "map_scores": [],
    "best_of": 0,
@@ -107,10 +117,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "Falcons"
+    "name": "Falcons",
+    "logo": "https://img-cdn.hltv.org/teamlogo/4eJSkDQINNM6Tbs4WvLzkN.png?ixlib=java-2.1.0&w=50&s=d8c857ea47046f61eca695beab0d12ef"
    },
    "team2": {
-    "name": "K27"
+    "name": "K27",
+    "logo": "https://img-cdn.hltv.org/teamlogo/7LmOZHYhlq-fIAm23aM2q1.png?ixlib=java-2.1.0&w=50&s=e194cf9c20b306723ae899eac0e8a356"
    },
    "map_scores": [],
    "best_of": 0,
@@ -127,10 +139,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "Ninjas in Pyjamas"
+    "name": "Ninjas in Pyjamas",
+    "logo": "https://img-cdn.hltv.org/teamlogo/mbY2YeFKUAbL9NyO6ab7-c.png?ixlib=java-2.1.0&w=50&s=33901dc1e88dc81e479574095806fcb9"
    },
    "team2": {
-    "name": "Legacy"
+    "name": "Legacy",
+    "logo": "https://img-cdn.hltv.org/teamlogo/RWbHH6RA8uGwJurGeLFvSr.png?ixlib=java-2.1.0&w=50&s=3d251032e156cab2f6df8c630ca29745"
    },
    "map_scores": [],
    "best_of": 0,
@@ -147,10 +161,12 @@
    "event": "Exort Fiesta Series 1 Closed Qualifier",
    "date": "2026-08-12",
    "team1": {
-    "name": "ROUNDS"
+    "name": "ROUNDS",
+    "logo": "https://img-cdn.hltv.org/teamlogo/xEoSJFnC0lB0FGN3t3DFna.png?ixlib=java-2.1.0&w=50&s=0e926a39e6a9be0759bfbe86e10e2966"
    },
    "team2": {
-    "name": "Subtop De France"
+    "name": "Subtop De France",
+    "logo": "/dynamic-svg/teamplaceholder?letter=S"
    },
    "map_scores": [],
    "best_of": 0,
@@ -167,10 +183,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "G2"
+    "name": "G2",
+    "logo": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b"
    },
    "team2": {
-    "name": "M80"
+    "name": "M80",
+    "logo": "https://img-cdn.hltv.org/teamlogo/YsaWwP_VrkbHzuhszuANEK.png?ixlib=java-2.1.0&w=50&s=47a8cff375da8242af9137a2a592b97d"
    },
    "map_scores": [],
    "best_of": 0,
@@ -187,10 +205,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "magic"
+    "name": "magic",
+    "logo": "https://img-cdn.hltv.org/teamlogo/KYi27Dm-DVyEUj0WIG5Bdx.png?ixlib=java-2.1.0&w=50&s=d490c0b14e24cbc6ddd70f0534ff3651"
    },
    "team2": {
-    "name": "The MongolZ"
+    "name": "The MongolZ",
+    "logo": "https://img-cdn.hltv.org/teamlogo/bRk2sh_tSTO6fq1GLhgcal.png?ixlib=java-2.1.0&w=50&s=8b08e53858eb817852ae74b30a30151d"
    },
    "map_scores": [],
    "best_of": 0,
@@ -207,10 +227,12 @@
    "event": "DFRAG Open Series 6",
    "date": "2026-08-12",
    "team1": {
-    "name": "Ground Zero"
+    "name": "Ground Zero",
+    "logo": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=50&s=09d53655350132af167d0b5471525cd0"
    },
    "team2": {
-    "name": "Mindfreak"
+    "name": "Mindfreak",
+    "logo": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=50&s=24a2d2849779f23196e546a6ab58c933"
    },
    "map_scores": [],
    "best_of": 0,
@@ -227,10 +249,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "Spirit"
+    "name": "Spirit",
+    "logo": "https://img-cdn.hltv.org/teamlogo/ywdn4tmAvXfllLeV2SkkvF.png?ixlib=java-2.1.0&w=50&s=9c70c7fbb048348f70f686acd2369c58"
    },
    "team2": {
-    "name": "JiJieHao"
+    "name": "JiJieHao",
+    "logo": "https://img-cdn.hltv.org/teamlogo/OmcJcjX0obWnKkP7ChpuFA.png?ixlib=java-2.1.0&w=50&s=8e3bd16625d6f62c95285c98080ded66"
    },
    "map_scores": [],
    "best_of": 0,
@@ -247,10 +271,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "FUT"
+    "name": "FUT",
+    "logo": "https://img-cdn.hltv.org/teamlogo/Os71GAOy8KDuQFc0M8HE6O.png?ixlib=java-2.1.0&w=50&s=86f2bded6bcb7c690a42a62250ed69e7"
    },
    "team2": {
-    "name": "TYLOO"
+    "name": "TYLOO",
+    "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a"
    },
    "map_scores": [],
    "best_of": 0,
@@ -267,10 +293,12 @@
    "event": "CCT 2026 Europe Series 7 Closed Qualifier",
    "date": "2026-08-12",
    "team1": {
-    "name": "Bushido Wildcats"
+    "name": "Bushido Wildcats",
+    "logo": "https://img-cdn.hltv.org/teamlogo/TZknfdU8-79rJ1gw-_6qy5.png?ixlib=java-2.1.0&w=50&s=a0dc291e786acba7de26684befd56800"
    },
    "team2": {
-    "name": "ex-MANA"
+    "name": "ex-MANA",
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
    },
    "map_scores": [],
    "best_of": 0,
@@ -287,10 +315,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "BIG"
+    "name": "BIG",
+    "logo": "https://img-cdn.hltv.org/teamlogo/yQB6cm3KZ_BcyrgppBQMjc.svg?ixlib=java-2.1.0&s=06825290bfb61c9f8467f5c323f51974"
    },
    "team2": {
-    "name": "Aurora"
+    "name": "Aurora",
+    "logo": "https://img-cdn.hltv.org/teamlogo/yJzPNOeXlyiniNxanYJCrv.png?ixlib=java-2.1.0&w=50&s=2c08f70c2f2f8c2024a438ddcf19bbf1"
    },
    "map_scores": [],
    "best_of": 0,
@@ -307,10 +337,12 @@
    "event": "Exort Fiesta Series 1 Closed Qualifier",
    "date": "2026-08-12",
    "team1": {
-    "name": "DONSTU"
+    "name": "DONSTU",
+    "logo": "https://img-cdn.hltv.org/teamlogo/7goQmGj_xa7hoDQqoiMXub.png?ixlib=java-2.1.0&w=50&s=448af6cac60a64fa6534bb92e3f6adc4"
    },
    "team2": {
-    "name": "FORZE Reload"
+    "name": "FORZE Reload",
+    "logo": "https://img-cdn.hltv.org/teamlogo/YJnWBDwmRDJ9o2uOUrhNeQ.png?ixlib=java-2.1.0&w=50&s=83f5ce35b3f98833671987bc637c74b7"
    },
    "map_scores": [],
    "best_of": 0,
@@ -327,10 +359,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-12",
    "team1": {
-    "name": "Luminosity"
+    "name": "Luminosity",
+    "logo": "https://img-cdn.hltv.org/teamlogo/HRSwDY9X42P2TiJqy1oeEJ.png?ixlib=java-2.1.0&w=50&s=987bcf053f274f928cf18f57f50076a6"
    },
    "team2": {
-    "name": "GamerLegion"
+    "name": "GamerLegion",
+    "logo": "https://img-cdn.hltv.org/teamlogo/vN7O46QoQ346WIRZ8D3spC.png?ixlib=java-2.1.0&w=50&s=f139433d31902eea5898c3a63fcc643a"
    },
    "map_scores": [],
    "best_of": 0,
@@ -347,10 +381,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "Aurora"
+    "name": "Aurora",
+    "logo": "https://img-cdn.hltv.org/teamlogo/yJzPNOeXlyiniNxanYJCrv.png?ixlib=java-2.1.0&w=50&s=2c08f70c2f2f8c2024a438ddcf19bbf1"
    },
    "team2": {
-    "name": "M80"
+    "name": "M80",
+    "logo": "https://img-cdn.hltv.org/teamlogo/YsaWwP_VrkbHzuhszuANEK.png?ixlib=java-2.1.0&w=50&s=47a8cff375da8242af9137a2a592b97d"
    },
    "map_scores": [],
    "best_of": 0,
@@ -367,10 +403,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "Luminosity"
+    "name": "Luminosity",
+    "logo": "https://img-cdn.hltv.org/teamlogo/HRSwDY9X42P2TiJqy1oeEJ.png?ixlib=java-2.1.0&w=50&s=987bcf053f274f928cf18f57f50076a6"
    },
    "team2": {
-    "name": "Spirit"
+    "name": "Spirit",
+    "logo": "https://img-cdn.hltv.org/teamlogo/ywdn4tmAvXfllLeV2SkkvF.png?ixlib=java-2.1.0&w=50&s=9c70c7fbb048348f70f686acd2369c58"
    },
    "map_scores": [],
    "best_of": 0,
@@ -387,10 +425,12 @@
    "event": "NODWIN Clutch Series 11 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "The Last Resort"
+    "name": "The Last Resort",
+    "logo": "https://img-cdn.hltv.org/teamlogo/AI65hTB4kG_d6jJ8DiS4nZ.svg?ixlib=java-2.1.0&s=1bb2618494315b819daaf94547cca525"
    },
    "team2": {
-    "name": "HYPERSPIRIT"
+    "name": "HYPERSPIRIT",
+    "logo": "https://img-cdn.hltv.org/teamlogo/MdMPxRh2SX6Y3tOWO3Ok3M.png?ixlib=java-2.1.0&w=50&s=7ab5b1a592da8b9b944a10cff37b7a99"
    },
    "map_scores": [],
    "best_of": 0,
@@ -407,10 +447,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "GamerLegion"
+    "name": "GamerLegion",
+    "logo": "https://img-cdn.hltv.org/teamlogo/vN7O46QoQ346WIRZ8D3spC.png?ixlib=java-2.1.0&w=50&s=f139433d31902eea5898c3a63fcc643a"
    },
    "team2": {
-    "name": "JiJieHao"
+    "name": "JiJieHao",
+    "logo": "https://img-cdn.hltv.org/teamlogo/OmcJcjX0obWnKkP7ChpuFA.png?ixlib=java-2.1.0&w=50&s=8e3bd16625d6f62c95285c98080ded66"
    },
    "map_scores": [],
    "best_of": 0,
@@ -427,10 +469,12 @@
    "event": "DFRAG Open Series 6",
    "date": "2026-08-13",
    "team1": {
-    "name": "Abyssal"
+    "name": "Abyssal",
+    "logo": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?ixlib=java-2.1.0&w=50&s=f0a0344c53af44f00dd7f1de67ed1303"
    },
    "team2": {
-    "name": "Ground Zero"
+    "name": "Ground Zero",
+    "logo": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=50&s=09d53655350132af167d0b5471525cd0"
    },
    "map_scores": [],
    "best_of": 0,
@@ -447,10 +491,12 @@
    "event": "CCT 2026 Europe Series 7 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "BERG"
+    "name": "BERG",
+    "logo": "https://img-cdn.hltv.org/teamlogo/90lCXlzTp513yANJ_DR30l.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=db20a19579c1b106f78cdf237f9816e3"
    },
    "team2": {
-    "name": "Endless Journey"
+    "name": "Endless Journey",
+    "logo": "https://img-cdn.hltv.org/teamlogo/-VGJ9TgalwRy5escWx2rL2.png?ixlib=java-2.1.0&w=50&s=be4064de8c96bea264797616b0701aec"
    },
    "map_scores": [],
    "best_of": 0,
@@ -467,10 +513,12 @@
    "event": "Exort Fiesta Series 1 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "DONSTU"
+    "name": "DONSTU",
+    "logo": "https://img-cdn.hltv.org/teamlogo/7goQmGj_xa7hoDQqoiMXub.png?ixlib=java-2.1.0&w=50&s=448af6cac60a64fa6534bb92e3f6adc4"
    },
    "team2": {
-    "name": "train launcher"
+    "name": "train launcher",
+    "logo": "/dynamic-svg/teamplaceholder?letter=t"
    },
    "map_scores": [],
    "best_of": 0,
@@ -487,10 +535,12 @@
    "event": "CCT 2026 Europe Series 7 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "ex-MANA"
+    "name": "ex-MANA",
+    "logo": "/dynamic-svg/teamplaceholder?letter=e"
    },
    "team2": {
-    "name": "SAW Youngsters"
+    "name": "SAW Youngsters",
+    "logo": "https://img-cdn.hltv.org/teamlogo/ha_Jwp6pwRdtJQFkCKE8iD.png?ixlib=java-2.1.0&w=50&s=564627e885fde5a2ff8190d7f9315cca"
    },
    "map_scores": [],
    "best_of": 0,
@@ -507,10 +557,12 @@
    "event": "NODWIN Clutch Series 11 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "Just Players"
+    "name": "Just Players",
+    "logo": "/dynamic-svg/teamplaceholder?letter=J"
    },
    "team2": {
-    "name": "MOUZ NXT"
+    "name": "MOUZ NXT",
+    "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23"
    },
    "map_scores": [],
    "best_of": 0,
@@ -527,10 +579,12 @@
    "event": "Exort Fiesta Series 1 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "FORZE Reload"
+    "name": "FORZE Reload",
+    "logo": "https://img-cdn.hltv.org/teamlogo/YJnWBDwmRDJ9o2uOUrhNeQ.png?ixlib=java-2.1.0&w=50&s=83f5ce35b3f98833671987bc637c74b7"
    },
    "team2": {
-    "name": "benched gods"
+    "name": "benched gods",
+    "logo": "https://img-cdn.hltv.org/teamlogo/21Prrt-KTMD5OcIIsvEkTk.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=2385f70d6583223ef884314822a19112"
    },
    "map_scores": [],
    "best_of": 0,
@@ -547,10 +601,12 @@
    "event": "CCT 2026 Europe Series 7 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "Endless Journey"
+    "name": "Endless Journey",
+    "logo": "https://img-cdn.hltv.org/teamlogo/-VGJ9TgalwRy5escWx2rL2.png?ixlib=java-2.1.0&w=50&s=be4064de8c96bea264797616b0701aec"
    },
    "team2": {
-    "name": "HAVU"
+    "name": "HAVU",
+    "logo": "https://img-cdn.hltv.org/teamlogo/_bpWybCQhDRnPq8Z2ZYO5h.png?ixlib=java-2.1.0&w=50&s=2e3c9e1a0a833d4d92ce10ec8adddf00"
    },
    "map_scores": [],
    "best_of": 0,
@@ -567,10 +623,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "9z"
+    "name": "9z",
+    "logo": "https://img-cdn.hltv.org/teamlogo/COZDFWOIm41AT0srqOHFhM.png?ixlib=java-2.1.0&w=50&s=81c70f301dfc75e014336aa0ccb440f9"
    },
    "team2": {
-    "name": "paiN"
+    "name": "paiN",
+    "logo": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795"
    },
    "map_scores": [],
    "best_of": 0,
@@ -587,10 +645,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "Lynn Vision"
+    "name": "Lynn Vision",
+    "logo": "https://img-cdn.hltv.org/teamlogo/DPcHT21uWwK1hDD_3txlL9.png?ixlib=java-2.1.0&w=50&s=4b5d5a187f00caf9bbae2d0fcbca6ff6"
    },
    "team2": {
-    "name": "MOUZ"
+    "name": "MOUZ",
+    "logo": "https://img-cdn.hltv.org/teamlogo/IejtXpquZnE8KqYPB1LNKw.svg?ixlib=java-2.1.0&s=7fd33b8def053fbfd8fdbb58e3bdcd3c"
    },
    "map_scores": [],
    "best_of": 0,
@@ -607,10 +667,12 @@
    "event": "Exort Fiesta Series 1 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "train launcher"
+    "name": "train launcher",
+    "logo": "/dynamic-svg/teamplaceholder?letter=t"
    },
    "team2": {
-    "name": "benched gods"
+    "name": "benched gods",
+    "logo": "https://img-cdn.hltv.org/teamlogo/21Prrt-KTMD5OcIIsvEkTk.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=2385f70d6583223ef884314822a19112"
    },
    "map_scores": [],
    "best_of": 0,
@@ -627,10 +689,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "Vitality"
+    "name": "Vitality",
+    "logo": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=50&s=15eaba0b75250065d20162d2cb05e3e6"
    },
    "team2": {
-    "name": "100 Thieves"
+    "name": "100 Thieves",
+    "logo": "https://img-cdn.hltv.org/teamlogo/8ypjXDe-cyvtUGWqzqhjce.png?ixlib=java-2.1.0&w=50&s=05f0b2eb2afcdcf1f28f819091cb10b2"
    },
    "map_scores": [],
    "best_of": 0,
@@ -647,10 +711,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "Wildcard"
+    "name": "Wildcard",
+    "logo": "https://img-cdn.hltv.org/teamlogo/G1K6vvihgsmN98BxRF8uJ7.png?ixlib=java-2.1.0&w=50&s=3c1bc46a84d52790aa12e89f9887c5bf"
    },
    "team2": {
-    "name": "FURIA"
+    "name": "FURIA",
+    "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c"
    },
    "map_scores": [],
    "best_of": 0,
@@ -667,10 +733,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "Natus Vincere"
+    "name": "Natus Vincere",
+    "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c"
    },
    "team2": {
-    "name": "3DMAX"
+    "name": "3DMAX",
+    "logo": "https://img-cdn.hltv.org/teamlogo/QGPDS3Z2-aMXwCYVgA4RWH.png?ixlib=java-2.1.0&w=50&s=ec528d7e9d0f9b6b4bac227901fb1590"
    },
    "map_scores": [],
    "best_of": 0,
@@ -687,10 +755,12 @@
    "event": "CCT 2026 Europe Series 7 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "los kogutos"
+    "name": "los kogutos",
+    "logo": "https://img-cdn.hltv.org/teamlogo/lU3AVL4eRjRWWfBX06AgHv.png?ixlib=java-2.1.0&w=50&s=6ac6fde0a5152b43acc096c2d87db2f9"
    },
    "team2": {
-    "name": "BERG"
+    "name": "BERG",
+    "logo": "https://img-cdn.hltv.org/teamlogo/90lCXlzTp513yANJ_DR30l.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=db20a19579c1b106f78cdf237f9816e3"
    },
    "map_scores": [],
    "best_of": 0,
@@ -707,10 +777,12 @@
    "event": "Esports World Cup 2026",
    "date": "2026-08-13",
    "team1": {
-    "name": "MIBR"
+    "name": "MIBR",
+    "logo": "https://img-cdn.hltv.org/teamlogo/m_JQ624LNFHWiUY-25uuaE.png?ixlib=java-2.1.0&w=50&s=80a1e479dd1b15b974d3e2d5588763af"
    },
    "team2": {
-    "name": "Astralis"
+    "name": "Astralis",
+    "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
    },
    "map_scores": [],
    "best_of": 0,
@@ -727,10 +799,12 @@
    "event": "Exort Fiesta Series 1 Closed Qualifier",
    "date": "2026-08-13",
    "team1": {
-    "name": "Vexar"
+    "name": "Vexar",
+    "logo": "https://img-cdn.hltv.org/teamlogo/v7u9v3JqwGreMtM-WiGXxt.png?ixlib=java-2.1.0&w=50&s=3acf468d7ce482bf121eac5912c5864c"
    },
    "team2": {
-    "name": "Raccoons"
+    "name": "Raccoons",
+    "logo": "/dynamic-svg/teamplaceholder?letter=R"
    },
    "map_scores": [],
    "best_of": 0,
@@ -747,10 +821,12 @@
    "event": "ESL Challenger League Season 52 Europe Cup 3",
    "date": "2026-08-14",
    "team1": {
-    "name": "Misa"
+    "name": "Misa",
+    "logo": "https://img-cdn.hltv.org/teamlogo/NZDgFz0RzIniP7zbNUoHuU.png?ixlib=java-2.1.0&w=50&s=f04ee2b4b27a2aa62a3aca91566e92f4"
    },
    "team2": {
-    "name": "Leo"
+    "name": "Leo",
+    "logo": "https://img-cdn.hltv.org/teamlogo/8W-UeGbtwFEzEz0RiPxxLS.png?ixlib=java-2.1.0&w=50&s=8e4a2a65e1aed01c87c1f317a81366ce"
    },
    "map_scores": [],
    "best_of": 0,
@@ -767,10 +843,12 @@
    "event": "ESL Challenger League Season 52 Europe Cup 3",
    "date": "2026-08-14",
    "team1": {
-    "name": "Fire Flux"
+    "name": "Fire Flux",
+    "logo": "https://img-cdn.hltv.org/teamlogo/dEkPG3QFLGo6xl9DtGPsm2.png?ixlib=java-2.1.0&w=50&s=9a9c4eeb77fd921baa804a425d4e2825"
    },
    "team2": {
-    "name": "BAKS"
+    "name": "BAKS",
+    "logo": "https://img-cdn.hltv.org/teamlogo/Bc-ZLyWM7AJ2Im6UWsVKMp.png?ixlib=java-2.1.0&w=50&s=3ca1758670c790daa97b23648f01756f"
    },
    "map_scores": [],
    "best_of": 0,
@@ -787,10 +865,12 @@
    "event": "Exort Fiesta Series 1 Closed Qualifier",
    "date": "2026-08-14",
    "team1": {
-    "name": "eternal premium"
+    "name": "eternal premium",
+    "logo": "https://img-cdn.hltv.org/teamlogo/4r6jgwV8ATIbwgyxjRtibq.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=5779782b03bae3322323f51b624429be"
    },
    "team2": {
-    "name": "Privateer"
+    "name": "Privateer",
+    "logo": "https://img-cdn.hltv.org/teamlogo/5rEEQEdpho_TulFdTJyglr.png?ixlib=java-2.1.0&w=50&s=a9f60d7a0724722f46c641d984ded5f6"
    },
    "map_scores": [],
    "best_of": 0,

@@ -10,6 +10,7 @@ from . import theme
 from .base_panel import SeriesPanel
 from .widgets import SectionHeader, KeyValueRow, add_badge_column, fill_tree, make_tree, set_odd_even, status_tag
 from .badges import get_badge
+from .team_logos import logo_manager
 
 
 def _map_summary(match: dict) -> str:
@@ -146,6 +147,26 @@ class CS2Panel(SeriesPanel):
         if url:
             webbrowser.open(url)
 
+    def _on_logos_ready(self):
+        """队标下载完成后刷新当前列表。"""
+        try:
+            self._render_matches()
+            self._render_ranking()
+        except Exception:
+            pass
+
+    def _match_image(self, m):
+        t1 = m.get("team1") or {}
+        name = t1.get("name", "")
+        img = logo_manager.get(name, t1.get("logo", ""))
+        return img or get_badge(name)
+
+    def _rank_image(self, r):
+        name = r.get("name", "")
+        url = (r.get("extra") or {}).get("logo", "")
+        img = logo_manager.get(name, url)
+        return img or get_badge(name)
+
     def _build_standings_page(self):
         p = self.sta_page
         p.columnconfigure(0, weight=1)
@@ -192,7 +213,7 @@ class CS2Panel(SeriesPanel):
                          f"{t1} vs {t2}", _score_text(m), _map_summary(m))
         fill_tree(self.match_tree, rows, fn,
                   tags=lambda m: status_tag(m.get("status")),
-                  image_fn=lambda m: get_badge((m.get("team1") or {}).get("name", "")))
+                  image_fn=self._match_image)
         set_odd_even(self.match_tree)
 
     def _render_ranking(self):
@@ -201,10 +222,11 @@ class CS2Panel(SeriesPanel):
                   lambda r: (str(id(r)), (r.get("pos", ""), r.get("name", ""),
                                            r.get("points", ""), r.get("change", ""))),
                   tags=lambda r: ("leader",) if str(r.get("pos")) == "1" else (),
-                  image_fn=lambda r: get_badge(r.get("name", "")))
+                  image_fn=self._rank_image)
         set_odd_even(self.rank_tree)
 
     def _apply_initial(self):
+        logo_manager.set_ui_callback(lambda: self.after(0, self._on_logos_ready))
         self._render_calendar()
         self._render_matches()
         self._render_ranking()
