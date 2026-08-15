@@ -57,7 +57,7 @@ _PALETTE = [
 ]
 
 _cache: dict[tuple, tk.PhotoImage] = {}
-_size = 28
+_size = 30
 _font_size = 10
 _has_pil = None
 
@@ -116,11 +116,15 @@ def get_badge(name: str, size: int = 28) -> tk.PhotoImage | None:
     if _pil_available():
         try:
             from PIL import Image, ImageDraw, ImageFont  # type: ignore
-            img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+            # 用面板底色做背景（RGB 无透明通道，避免某些 Tk 版本透明渲染异常）
+            from . import theme as _theme
+            bg = getattr(_theme, "PANEL", "#151d27")
+            img = Image.new("RGB", (size, size), bg)
             d = ImageDraw.Draw(img)
             r = max(4, size // 6)
-            d.rounded_rectangle((0, 0, size - 1, size - 1), radius=r, fill=color)
-            fs = max(8, size // 3)
+            d.rounded_rectangle((1, 1, size - 2, size - 2), radius=r, fill=color,
+                                outline="#3a4657", width=1)
+            fs = max(9, size // 3)
             try:
                 font = ImageFont.truetype("msyh.ttc", fs)
             except Exception:
@@ -137,6 +141,6 @@ def get_badge(name: str, size: int = 28) -> tk.PhotoImage | None:
     if photo is None:
         # 回退：纯色方块
         photo = tk.PhotoImage(width=size, height=size)
-        photo.put(color, to=(0, 0, size, size))
+        photo.put(color)
     _cache[key] = photo
     return photo

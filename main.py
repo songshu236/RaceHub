@@ -4,7 +4,34 @@ from __future__ import annotations
 import argparse
 
 
+def enable_dpi_awareness():
+    """启用 DPI 感知：让 Tk 按系统物理像素渲染，文字清晰、与系统界面像素对齐。
+    必须在创建 Tk 窗口之前调用。"""
+    try:
+        import ctypes
+        try:
+            # PROCESS_PER_MONITOR_DPI_AWARE 若失败则退回 SYSTEM_DPI_AWARE
+            if hasattr(ctypes.windll.shcore, "SetProcessDpiAwareness"):
+                # Tk 对 SYSTEM_DPI_AWARE(1) 支持最稳，优先使用
+                for mode in (1, 2):
+                    try:
+                        ctypes.windll.shcore.SetProcessDpiAwareness(mode)
+                        break
+                    except Exception:
+                        continue
+            else:
+                ctypes.windll.user32.SetProcessDPIAware()
+        except Exception:
+            try:
+                ctypes.windll.user32.SetProcessDPIAware()
+            except Exception:
+                pass
+    except Exception:
+        pass
+
+
 def main():
+    enable_dpi_awareness()
     parser = argparse.ArgumentParser(description="RaceHub 赛事日历聚合应用")
     parser.add_argument("--offline", action="store_true", help="离线模式（不联网，使用缓存/示例数据）")
     parser.add_argument("--selftest", action="store_true", help="仅打印数据加载诊断信息后退出（不打开窗口）")

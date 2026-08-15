@@ -65,8 +65,9 @@ class F1Panel(SeriesPanel):
         self.res_tree, self.res_tree_frame = make_tree(p, [
             ("pos", "名次"), ("driver", "车手"), ("team", "车队"), ("laps", "圈数"),
             ("time", "用时"), ("points", "积分"), ("fl", "最快圈"),
-        ], widths={"pos": 45, "driver": 170, "team": 130, "laps": 50, "time": 110, "points": 55, "fl": 90})
+        ], widths={"pos": 50, "driver": 210, "team": 170, "laps": 55, "time": 125, "points": 60, "fl": 100})
         self.res_tree_frame.grid(row=2, column=0, sticky="nsew")
+        add_badge_column(self.res_tree)
 
     def _render_results_for_round(self, rnd):
         payload = self.store.get("F1", "results") or {"rows": []}
@@ -102,8 +103,9 @@ class F1Panel(SeriesPanel):
         self.stand_tree, self.stand_tree_frame = make_tree(p, [
             ("pos", "名次"), ("name", "车手 / 车队"), ("team", "车队"),
             ("points", "积分"), ("wins", "胜场"),
-        ], widths={"pos": 50, "name": 200, "team": 140, "points": 70, "wins": 55})
+        ], widths={"pos": 55, "name": 250, "team": 180, "points": 80, "wins": 60})
         self.stand_tree_frame.grid(row=2, column=0, sticky="nsew")
+        add_badge_column(self.stand_tree)
 
     def _render_standings(self, title):
         payload = self.store.get("F1", "standings") or {"tables": []}

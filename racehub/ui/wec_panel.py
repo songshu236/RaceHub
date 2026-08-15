@@ -26,7 +26,7 @@ class WECPanel(SeriesPanel):
         self.cal_tree, self.cal_tree_frame = make_tree(p, [
             ("date", "日期"), ("status", "状态"), ("name", "赛事"),
             ("country", "国家"), ("countdown", "倒计时"),
-        ], widths={"date": 105, "status": 70, "name": 260, "country": 90, "countdown": 80})
+        ], widths={"date": 115, "status": 80, "name": 300, "country": 100, "countdown": 90})
         self.cal_tree_frame.grid(row=1, column=0, sticky="nsew")
         self.cal_tree.bind("<<TreeviewSelect>>", self._on_cal_select)
 
@@ -65,9 +65,10 @@ class WECPanel(SeriesPanel):
             ("pos", "名次"), ("no", "车号"), ("team", "车队"), ("drivers", "车手"),
             ("car", "赛车"), ("cls", "组别"), ("laps", "圈数"), ("time", "用时"),
             ("gap", "差距"), ("fl", "最快圈"),
-        ], widths={"pos": 42, "no": 45, "team": 170, "drivers": 230, "car": 150,
-                   "cls": 70, "laps": 45, "time": 105, "gap": 85, "fl": 90})
+        ], widths={"pos": 48, "no": 50, "team": 210, "drivers": 280, "car": 180,
+                   "cls": 80, "laps": 50, "time": 115, "gap": 95, "fl": 100})
         self.res_tree_frame.grid(row=2, column=0, sticky="nsew")
+        add_badge_column(self.res_tree)
 
     def _render_results_for_event(self, ev):
         payload = self.store.get("WEC", "results") or {"rows": []}
@@ -103,8 +104,9 @@ class WECPanel(SeriesPanel):
         self.sta_info.grid(row=3, column=0, sticky="ew")
         self.stand_tree, self.stand_tree_frame = make_tree(p, [
             ("pos", "名次"), ("name", "车队 / 车手"), ("race_pts", "各站积分"), ("points", "总分"),
-        ], widths={"pos": 48, "name": 250, "race_pts": 260, "points": 65})
+        ], widths={"pos": 55, "name": 300, "race_pts": 300, "points": 75})
         self.stand_tree_frame.grid(row=2, column=0, sticky="nsew")
+        add_badge_column(self.stand_tree)
 
     def _render_standings(self, title):
         payload = self.store.get("WEC", "standings") or {"tables": []}

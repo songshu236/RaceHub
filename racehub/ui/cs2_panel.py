@@ -46,8 +46,8 @@ class CS2Panel(SeriesPanel):
         self.cal_tree, self.cal_tree_frame = make_tree(p, [
             ("start", "开始"), ("end", "结束"), ("status", "状态"), ("name", "赛事"),
             ("venue", "地点"), ("prize", "奖金"), ("countdown", "倒计时"),
-        ], widths={"start": 90, "end": 90, "status": 70, "name": 230, "venue": 150,
-                   "prize": 110, "countdown": 80})
+        ], widths={"start": 100, "end": 100, "status": 80, "name": 280, "venue": 180,
+                   "prize": 120, "countdown": 90})
         self.cal_tree_frame.grid(row=1, column=0, sticky="nsew")
 
     def _build_results_page(self):
@@ -59,9 +59,10 @@ class CS2Panel(SeriesPanel):
         self.match_tree, self.match_tree_frame = make_tree(p, [
             ("date", "日期"), ("status", "状态"), ("event", "赛事"), ("match", "对阵"),
             ("score", "比分"), ("maps", "各局比分"),
-        ], widths={"date": 90, "status": 65, "event": 210, "match": 210, "score": 60, "maps": 300},
+        ], widths={"date": 100, "status": 75, "event": 250, "match": 260, "score": 70, "maps": 340},
             stretch=("maps",))
         self.match_tree_frame.grid(row=1, column=0, sticky="nsew")
+        add_badge_column(self.match_tree)
         self.match_tree.bind("<<TreeviewSelect>>", self._on_match_select)
 
         detail = ttk.Frame(p, style="Panel.TFrame")
@@ -155,8 +156,9 @@ class CS2Panel(SeriesPanel):
         self.sta_info.grid(row=1, column=0, sticky="ew")
         self.rank_tree, self.rank_tree_frame = make_tree(p, [
             ("pos", "排名"), ("name", "队伍"), ("points", "积分"), ("change", "变化"),
-        ], widths={"pos": 55, "name": 240, "points": 80, "change": 70})
+        ], widths={"pos": 60, "name": 300, "points": 90, "change": 80})
         self.rank_tree_frame.grid(row=2, column=0, sticky="nsew")
+        add_badge_column(self.rank_tree)
 
     def _on_kind_updated(self, kind):
         if kind == "calendar":

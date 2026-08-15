@@ -111,4 +111,4 @@ def add_badge_column(tree: ttk.Treeview, width: int = 44, text: str = "队标"):
     """启用 #0 树列作为队标图片列（配合 fill_tree 的 image_fn 使用）。"""
     tree.configure(show="tree headings")
     tree.heading("#0", text=text)
-    tree.column("#0", width=width, minwidth=36, anchor="center", stretch=False)
+    tree.column("#0", width=width, minwidth=40, anchor="center", stretch=False)
