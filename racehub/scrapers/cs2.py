@@ -315,14 +315,22 @@ class CS2Scraper(Scraper):
                     time.sleep(2.5)
                 else:
                     pass
-        # 即将进行排前面（按时间先后），近期赛果按最新在前跟在后面
+        # 即将进行/直播在前（按时间先后），近期赛果最新在前跟在后面；
+        # 各占一半额度，保证赛果不会被即将进行的比赛全部挤掉
         upcoming = [r for r in out["rows"] if r.get("status") != "finished"]
         finished = [r for r in out["rows"] if r.get("status") == "finished"]
         upcoming.sort(key=lambda m: m.get("date") or "9999")
         finished.sort(key=lambda m: m.get("date") or "0000", reverse=True)
-        out["rows"] = upcoming + finished
         if limit and limit > 0:
-            out["rows"] = out["rows"][:limit]
+            half = max(6, limit // 2)
+            up_count = min(len(upcoming), half)
+            fin_count = min(len(finished), limit - up_count)
+            if len(upcoming) < up_count:
+                # 即将进行很少时，把空位让给赛果
+                fin_count = min(len(finished), limit - len(upcoming))
+            out["rows"] = upcoming[:up_count] + finished[:fin_count]
+        else:
+            out["rows"] = upcoming + finished
         if not out["rows"] and sections_ok == 0:
             raise SourceError("HLTV 对阵/赛果页均不可用")
         return out
