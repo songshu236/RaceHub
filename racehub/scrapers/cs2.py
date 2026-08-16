@@ -297,18 +297,24 @@ class CS2Scraper(Scraper):
             sections_ok += 1
         except Exception:
             pass
-        # 即将进行的比赛（结构可能随站点更新，容错解析）
-        try:
-            html = self._get("/matches")
-            for row in self._parse_upcoming_page(html):
-                key = row.get("url", "")
-                if key in seen:
-                    continue
-                seen.add(key)
-                out["rows"].append(row)
-            sections_ok += 1
-        except Exception:
-            pass
+        # 即将进行的比赛（结构可能随站点更新，容错解析；403 时重试几次）
+        for _attempt in range(3):
+            try:
+                html = self._get("/matches")
+                up_rows = self._parse_upcoming_page(html)
+                for row in up_rows:
+                    key = row.get("url", "")
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    out["rows"].append(row)
+                sections_ok += 1
+                break
+            except Exception:
+                if _attempt < 2:
+                    time.sleep(2.5)
+                else:
+                    pass
         # 即将进行排前面（按时间先后），近期赛果按最新在前跟在后面
         upcoming = [r for r in out["rows"] if r.get("status") != "finished"]
         finished = [r for r in out["rows"] if r.get("status") == "finished"]
@@ -411,6 +417,8 @@ class CS2Scraper(Scraper):
             ev_name = ""
             if ev is not None:
                 ev_name = ev.get("data-event-headline") or ev.get_text(" ", strip=True)
+            noinfo = m.select_one(".match-no-info")
+            label = _norm_name(noinfo.get_text(" ", strip=True)) if noinfo is not None else ""
             best_of = 0
             if meta is not None:
                 bm = re.search(r"bo(\d+)", _norm_name(meta.get_text(" ", strip=True)), re.I)
@@ -429,7 +437,8 @@ class CS2Scraper(Scraper):
                 "status": "ongoing" if live else "upcoming",
                 "url": HLTV + href if href.startswith("/") else href,
                 "extra": {"match_id": mid.group(1),
-                          "event_id": ev.get("data-event-id") if ev is not None else ""},
+                          "event_id": ev.get("data-event-id") if ev is not None else "",
+                          "label": label},
             })
         return rows
 

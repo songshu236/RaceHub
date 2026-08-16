@@ -1,0 +1,7 @@
+fix: 未定队比赛不再显示 TBD vs TBD，改为「待定 · 阶段」
+
+- HLTV /matches 中大量淘汰赛位队伍未定（TBD）；旧显示为 TBD vs TBD
+- 抓取 .match-no-info 比赛标题存入 extra.label
+- 界面：双方都未定时显示「待定 · 3rd Place Decider / Swiss Round 1 #1」等；
+  一方已定仍显示如 ALKA vs TBD
+- /matches 抓取加重试（403 时最多 3 次），降低丢赛程概率

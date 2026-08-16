@@ -33,6 +33,24 @@ def _score_text(match: dict) -> str:
     return match.get("extra", {}).get("score_text") or ""
 
 
+def _match_display(match: dict) -> str:
+    """对阵列文案：两队都未定（TBD）时显示「待定 · 阶段」，避免 TBD vs TBD。"""
+    t1 = (match.get("team1") or {}).get("name", "")
+    t2 = (match.get("team2") or {}).get("name", "")
+    both_tbd = (not t1 or t1 == "TBD") and (not t2 or t2 == "TBD")
+    if not both_tbd:
+        return f"{t1 or '?'} vs {t2 or '?'}"
+    label = (match.get("extra") or {}).get("label", "")
+    ev = match.get("event", "")
+    if label:
+        rest = label
+        if ev and label.startswith(ev):
+            rest = label[len(ev):].lstrip(" -\u2013\u2014:.")
+        rest = rest.strip() or "待定"
+        return f"待定 · {rest}"
+    return "待定"
+
+
 class CS2Panel(SeriesPanel):
     series = "CS2"
     title = "CS2 反恐精英 2"
@@ -92,7 +110,7 @@ class CS2Panel(SeriesPanel):
         t1 = (match.get("team1") or {}).get("name", "?")
         t2 = (match.get("team2") or {}).get("name", "?")
         ev = match.get("event", "")
-        lines = [f"{t1}  vs  {t2}   ·   {ev}   ·   {_score_text(match) or '未开始'}"]
+        lines = [f"{_match_display(match)}   ·   {ev}   ·   {_score_text(match) or '未开始'}"]
         ms = match.get("map_scores") or []
         if ms:
             for m in ms:
@@ -309,10 +327,8 @@ class CS2Panel(SeriesPanel):
         def fn(m):
             iid = str(id(m))
             self._match_by_iid[iid] = m
-            t1 = (m.get("team1") or {}).get("name", "?")
-            t2 = (m.get("team2") or {}).get("name", "?")
             return iid, (fmt_date(m.get("date")), m.get("status", ""), m.get("event", ""),
-                         f"{t1} vs {t2}", _score_text(m), _map_summary(m))
+                         _match_display(m), _score_text(m), _map_summary(m))
         fill_tree(self.match_tree, rows, fn,
                   tags=lambda m: status_tag(m.get("status")),
                   image_fn=self._match_image)
