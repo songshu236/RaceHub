@@ -337,8 +337,7 @@ class CS2Scraper(Scraper):
 
     def _parse_results_page(self, html: str) -> list:
         soup = self._soup(html)
-        rows = []
-        seen_urls = set()
+        collected = []
         for sub in soup.select(".results-sublist"):
             date = ""
             head = sub.select_one("span.standard-headline, div.standard-headline")
@@ -346,18 +345,23 @@ class CS2Scraper(Scraper):
                 date = self._parse_date_headline(head.get_text(" ", strip=True))
             for con in sub.select(".result-con"):
                 row = self._parse_result_con(con, date)
-                if row and row.get("url") not in seen_urls:
-                    seen_urls.add(row["url"])
-                    rows.append(row)
+                if row:
+                    collected.append(row)
         # 未分组 / featured
         for con in soup.select(".result-con"):
             if con.find_parent(class_="results-sublist"):
                 continue
             row = self._parse_result_con(con, "")
-            if row and row.get("url") not in seen_urls:
-                seen_urls.add(row["url"])
-                rows.append(row)
-        return rows
+            if row:
+                collected.append(row)
+        # 同一场比赛可能在 featured 与按日分组里各出现一次；
+        # 按 URL 去重时优先保留带日期的版本，避免无日期赛果被挤掉
+        best: dict[str, dict] = {}
+        for row in collected:
+            url = row.get("url", "")
+            if url not in best or (not best[url].get("date") and row.get("date")):
+                best[url] = row
+        return list(best.values())
 
     def _parse_result_con(self, con, date: str) -> dict | None:
         a = con.find("a", href=True) if con.name != "a" else con
