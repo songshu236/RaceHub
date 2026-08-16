@@ -377,29 +377,43 @@ class CS2Scraper(Scraper):
                 date = d
         t1 = con.select_one(".line-align.team1 .team")
         t2 = con.select_one(".line-align.team2 .team")
-        lost = con.select_one(".result-score .score-lost")
-        won = con.select_one(".result-score .score-won")
+        t1_name = _norm_name(t1.get_text(" ", strip=True)) if t1 else ""
+        t2_name = _norm_name(t2.get_text(" ", strip=True)) if t2 else ""
         ev = con.select_one(".event-name")
         box = con.select_one(".map.map-text, .map-text")
-        score = ""
-        if lost is not None and won is not None:
-            score = f"{lost.get_text(strip=True)} : {won.get_text(strip=True)}"
+        # 比分：左侧 span 是 team1 分数、右侧是 team2 分数（span 的 score-won 类标记胜方）
+        score_cell = con.select_one(".result-score")
+        spans = score_cell.select("span") if score_cell is not None else []
+        s1 = s2 = ""
+        won1 = won2 = False
+        if len(spans) >= 2:
+            s1 = spans[0].get_text(strip=True)
+            s2 = spans[1].get_text(strip=True)
+            won1 = "score-won" in (spans[0].get("class") or [])
+            won2 = "score-won" in (spans[1].get("class") or [])
+        else:
+            lost = con.select_one(".result-score .score-lost")
+            won = con.select_one(".result-score .score-won")
+            if lost is not None and won is not None:
+                s1, s2 = lost.get_text(strip=True), won.get_text(strip=True)
+                won2 = True
+        score = f"{s1} : {s2}" if s1 or s2 else ""
+        winner = (t1_name if won1 else t2_name) if (won1 or won2) else ""
         logo1 = _team_logo_url(con, ".line-align.team1")
         logo2 = _team_logo_url(con, ".line-align.team2")
         return {
             "series": "CS2",
             "event": _norm_name(ev.get_text(" ", strip=True)) if ev else "",
             "date": date,
-            "team1": {"name": _norm_name(t1.get_text(" ", strip=True)) if t1 else "",
-                      "logo": logo1},
-            "team2": {"name": _norm_name(t2.get_text(" ", strip=True)) if t2 else "",
-                      "logo": logo2},
+            "team1": {"name": t1_name, "logo": logo1},
+            "team2": {"name": t2_name, "logo": logo2},
             "map_scores": [],
             "best_of": 0,
             "status": "finished",
             "url": HLTV + href,
             "extra": {"match_id": mid.group(1) if mid else "",
                       "score_text": score,
+                      "winner": winner,
                       "format": _norm_name(box.get_text(" ", strip=True)) if box else ""},
         }
 

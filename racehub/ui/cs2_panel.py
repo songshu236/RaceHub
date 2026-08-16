@@ -30,7 +30,12 @@ def _map_summary(match: dict) -> str:
 def _score_text(match: dict) -> str:
     if match.get("status") != "finished":
         return "—"
-    return match.get("extra", {}).get("score_text") or ""
+    ex = match.get("extra", {}) or {}
+    score = ex.get("score_text", "")
+    winner = ex.get("winner", "")
+    if score and winner:
+        return f"{score}  {winner} 胜"
+    return score or ""
 
 
 def _match_display(match: dict) -> str:
@@ -80,7 +85,7 @@ class CS2Panel(SeriesPanel):
         self.match_tree, self.match_tree_frame = make_tree(p, [
             ("date", "日期"), ("status", "状态"), ("event", "赛事"), ("match", "对阵"),
             ("score", "比分"), ("maps", "各局比分"),
-        ], widths={"date": 100, "status": 75, "event": 250, "match": 260, "score": 70, "maps": 340},
+        ], widths={"date": 100, "status": 75, "event": 240, "match": 240, "score": 170, "maps": 320},
             stretch=("maps",))
         self.match_tree_frame.grid(row=1, column=0, sticky="nsew")
         add_badge_column(self.match_tree)
