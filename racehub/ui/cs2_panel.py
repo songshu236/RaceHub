@@ -85,7 +85,7 @@ class CS2Panel(SeriesPanel):
         self.match_tree, self.match_tree_frame = make_tree(p, [
             ("date", "日期"), ("status", "状态"), ("event", "赛事"), ("match", "对阵"),
             ("score", "比分"), ("maps", "各局比分"),
-        ], widths={"date": 100, "status": 75, "event": 240, "match": 240, "score": 170, "maps": 320},
+        ], widths={"date": 100, "status": 80, "event": 370, "match": 330, "score": 230, "maps": 220},
             stretch=("maps",))
         self.match_tree_frame.grid(row=1, column=0, sticky="nsew")
         add_badge_column(self.match_tree)
