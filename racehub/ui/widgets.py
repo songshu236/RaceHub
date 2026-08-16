@@ -7,15 +7,15 @@ from tkinter import ttk
 from . import theme
 
 
-def make_tree(parent, columns, widths=None, stretch=None, height=10, style=None) -> ttk.Treeview:
-    """创建带滚动条与表头的 Treeview。"""
+def make_tree(parent, columns, widths=None, stretch=None, height=10, style=None, anchor="w") -> ttk.Treeview:
+    """创建带滚动条与表头的 Treeview。anchor 控制单元格对齐（w=左，center=居中）。"""
     frame = ttk.Frame(parent, style=style or "TFrame")
     tree = ttk.Treeview(frame, columns=[k for k, _ in columns], show="headings", height=height)
     headings = {k: v for k, v in columns}
     for idx, (key, title) in enumerate(columns):
         tree.heading(key, text=title)
         w = (widths or {}).get(key, 100)
-        tree.column(key, width=w, minwidth=40, anchor="w",
+        tree.column(key, width=w, minwidth=40, anchor=anchor,
                     stretch=bool(stretch is None or key in stretch))
     vsb = ttk.Scrollbar(frame, orient="vertical", command=tree.yview)
     hsb = ttk.Scrollbar(frame, orient="horizontal", command=tree.xview)
