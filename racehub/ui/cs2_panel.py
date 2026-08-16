@@ -56,6 +56,13 @@ def _match_display(match: dict) -> str:
     return "待定"
 
 
+_STATUS_CN = {"upcoming": "未开始", "ongoing": "进行中", "finished": "已结束"}
+
+
+def _status_cn(status: str) -> str:
+    return _STATUS_CN.get(status, status)
+
+
 class CS2Panel(SeriesPanel):
     series = "CS2"
     title = "CS2 反恐精英 2"
@@ -80,13 +87,13 @@ class CS2Panel(SeriesPanel):
         p = self.res_page
         p.columnconfigure(0, weight=1)
         p.rowconfigure(2, weight=1)
-        SectionHeader(p, "对阵表与赛果", subtitle="包含各局比分；点击比赛查看详情", accent=self.accent).grid(
+        SectionHeader(p, "对阵表与赛果", subtitle="点击比赛查看各局详情", accent=self.accent).grid(
             row=0, column=0, sticky="ew")
         self.match_tree, self.match_tree_frame = make_tree(p, [
             ("date", "日期"), ("status", "状态"), ("event", "赛事"), ("match", "对阵"),
-            ("score", "比分"), ("maps", "各局比分"),
-        ], widths={"date": 100, "status": 80, "event": 370, "match": 330, "score": 230, "maps": 220},
-            stretch=("maps",))
+            ("score", "比分"),
+        ], widths={"date": 120, "status": 100, "event": 460, "match": 330, "score": 230},
+            stretch=("event",))
         self.match_tree_frame.grid(row=1, column=0, sticky="nsew")
         add_badge_column(self.match_tree)
         self.match_tree.bind("<<TreeviewSelect>>", self._on_match_select)
@@ -157,11 +164,9 @@ class CS2Panel(SeriesPanel):
         # 刷新列表该行
         for iid, m in (getattr(self, "_match_by_iid", {}) or {}).items():
             if m is match:
-                t1 = (m.get("team1") or {}).get("name", "?")
-                t2 = (m.get("team2") or {}).get("name", "?")
                 self.match_tree.item(iid, values=(
-                    fmt_date(m.get("date")), m.get("status", ""), m.get("event", ""),
-                    f"{t1} vs {t2}", _score_text(m), _map_summary(m)))
+                    fmt_date(m.get("date")), _status_cn(m.get("status", "")), m.get("event", ""),
+                    _match_display(m), _score_text(m)))
                 break
         # 重新显示详情
         self._on_match_select()
@@ -332,8 +337,8 @@ class CS2Panel(SeriesPanel):
         def fn(m):
             iid = str(id(m))
             self._match_by_iid[iid] = m
-            return iid, (fmt_date(m.get("date")), m.get("status", ""), m.get("event", ""),
-                         _match_display(m), _score_text(m), _map_summary(m))
+            return iid, (fmt_date(m.get("date")), _status_cn(m.get("status", "")), m.get("event", ""),
+                         _match_display(m), _score_text(m))
         fill_tree(self.match_tree, rows, fn,
                   tags=lambda m: status_tag(m.get("status")),
                   image_fn=self._match_image)
