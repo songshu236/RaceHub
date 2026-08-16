@@ -61,7 +61,11 @@ def _team_logo_url(con, selector: str) -> str:
     cell = con.select_one(selector)
     if cell is None:
         return ""
-    img = cell.select_one("img.team-logo.night-only") or cell.select_one("img.team-logo") or cell.select_one("img[alt]")
+    img = (cell.select_one("img.team-logo.night-only")
+           or cell.select_one("img.match-team-logo.night-only")
+           or cell.select_one("img.team-logo")
+           or cell.select_one("img.match-team-logo")
+           or cell.select_one("img[alt]"))
     if img is None:
         return ""
     return _best_logo_url(img)
@@ -305,7 +309,12 @@ class CS2Scraper(Scraper):
             sections_ok += 1
         except Exception:
             pass
-        out["rows"].sort(key=lambda m: m.get("date") or "9999")
+        # 即将进行排前面（按时间先后），近期赛果按最新在前跟在后面
+        upcoming = [r for r in out["rows"] if r.get("status") != "finished"]
+        finished = [r for r in out["rows"] if r.get("status") == "finished"]
+        upcoming.sort(key=lambda m: m.get("date") or "9999")
+        finished.sort(key=lambda m: m.get("date") or "0000", reverse=True)
+        out["rows"] = upcoming + finished
         if limit and limit > 0:
             out["rows"] = out["rows"][:limit]
         if not out["rows"] and sections_ok == 0:
@@ -380,37 +389,47 @@ class CS2Scraper(Scraper):
         soup = self._soup(html)
         rows = []
         seen = set()
-        candidates = soup.select("a[href*='/matches/']")
-        for a in candidates:
-            href = a["href"]
-            if href in seen:
+        # 新版页面：每个比赛是一个 div.match（含赛事名/时间/两队）
+        for m in soup.select("div.match"):
+            a = m.select_one("a[href*='/matches/']")
+            if a is None:
                 continue
+            href = a.get("href", "")
             mid = re.search(r"/matches/(\d+)", href)
             if not mid:
                 continue
-            seen.add(href)
-            # 优先在链接自身找队伍/赛事；否则在其祖先容器里找
-            container = a
-            t1 = container.select_one(".team1 .teamName, .team1 .team, .team-left .teamName")
-            t2 = container.select_one(".team2 .teamName, .team2 .team, .team-right .teamName")
-            ev = container.select_one(".matchEvent, .event-name, .event .text, .tournament")
-            tm = container.select_one(".matchTime, .match-time, .time, .matchTime")
-            if (t1 is None or t2 is None) or (ev is None and tm is None):
-                parent = a.find_parent(["div", "td"])
-                t1 = t1 or (parent.select_one(".team1 .teamName, .team1 .team") if parent else None)
-                t2 = t2 or (parent.select_one(".team2 .teamName, .team2 .team") if parent else None)
-                ev = ev or (parent.select_one(".matchEvent, .event-name") if parent else None)
+            if mid.group(1) in seen:
+                continue
+            seen.add(mid.group(1))
+            t1 = m.select_one(".match-teams .match-team.team1 .match-teamname")
+            t2 = m.select_one(".match-teams .match-team.team2 .match-teamname")
+            tm = m.select_one(".match-time")
+            ev = m.select_one(".match-event")
+            meta = m.select_one(".match-meta")
+            live = m.select_one(".match-rating.matchLive") is not None
+            date = _unix_to_date(tm.get("data-unix", "")) if tm else ""
+            ev_name = ""
+            if ev is not None:
+                ev_name = ev.get("data-event-headline") or ev.get_text(" ", strip=True)
+            best_of = 0
+            if meta is not None:
+                bm = re.search(r"bo(\d+)", _norm_name(meta.get_text(" ", strip=True)), re.I)
+                if bm:
+                    best_of = int(bm.group(1))
             rows.append({
                 "series": "CS2",
-                "event": _norm_name(ev.get_text(" ", strip=True)) if ev else "",
-                "date": self._parse_match_time(tm.get_text(" ", strip=True) if tm else ""),
-                "team1": {"name": _norm_name(t1.get_text(" ", strip=True)) if t1 else "TBD"},
-                "team2": {"name": _norm_name(t2.get_text(" ", strip=True)) if t2 else "TBD"},
+                "event": _norm_name(ev_name),
+                "date": date,
+                "team1": {"name": _norm_name(t1.get_text(" ", strip=True)) if t1 else "TBD",
+                          "logo": _team_logo_url(m, ".match-team.team1")},
+                "team2": {"name": _norm_name(t2.get_text(" ", strip=True)) if t2 else "TBD",
+                          "logo": _team_logo_url(m, ".match-team.team2")},
                 "map_scores": [],
-                "best_of": 0,
-                "status": "upcoming",
-                "url": HLTV + href,
-                "extra": {"match_id": mid.group(1)},
+                "best_of": best_of,
+                "status": "ongoing" if live else "upcoming",
+                "url": HLTV + href if href.startswith("/") else href,
+                "extra": {"match_id": mid.group(1),
+                          "event_id": ev.get("data-event-id") if ev is not None else ""},
             })
         return rows
 
