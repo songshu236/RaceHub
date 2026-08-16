@@ -1,9 +1,0 @@
-fix: 修复 HLTV /matches 新布局解析，比赛数据更新为最新
-
-- 原因：HLTV /matches 页面改版（div.match 结构），旧解析器解析失败，
-  对阵页只剩旧的近期赛果（8/13-14），看不到最新/直播/即将进行的比赛
-- 重写 _parse_upcoming_page：按 div.match 解析赛事名(data-event-headline)、
-  时间(data-unix)、两队名/队标、直播状态、bo 数
-- fetch_matches 排序改为：即将进行+直播在前（按时间），近期赛果最新在前跟在后面
-- _team_logo_url 兼容新版 match-team-logo 类名
-- 示例数据/缓存更新为最新（今天 8/16 的直播与赛程），补齐 3 个队伍队标
